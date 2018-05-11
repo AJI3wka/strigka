@@ -56,13 +56,13 @@
 				<div style="vertical-align: top; display: inline-block; margin-left: 8%; text-align: center; color: black; padding-top: 25px;" class="chose">
 					<p style="letter-spacing: 1.5px; color: rgb(86, 72, 58); font-size: 21px;">
 			выберите город:<br>
-			<span style="color: rgb(86, 72, 58); font-size: 26px; line-height: 38px;"><a style="color: rgb(86, 72, 58);" href="" class="prmbtn">Пермь</a>
+			<span style="color: rgb(86, 72, 58); font-size: 26px; line-height: 38px;"><a style="color: rgb(86, 72, 58);" href="" class="prmbtn choose_btn" data-id="1">Пермь</a></span>
 			/
-			<a style="color: rgb(86, 72, 58);" href="" class="chkbtn">чайковский</a>
+			<span style="color: rgb(86, 72, 58); font-size: 26px; line-height: 38px;"><a style="color: rgb(86, 72, 58);" href="" class="chkbtn choose_btn" data-id="2">чайковский</a></span>
             /
-			<a style="color: rgb(86, 72, 58);" href="" class="chkbtn">Санкт-Петербург</a>
+			<span style="color: rgb(86, 72, 58); font-size: 26px; line-height: 38px;"><a style="color: rgb(86, 72, 58);" href="" class="chkbtn choose_btn" data-id="3">Санкт-Петербург</a></span>
 			/
-			<a style="color: rgb(86, 72, 58);" href="" class="chkbtn">Воронеж</a>
+			<span style="color: rgb(86, 72, 58); font-size: 26px; line-height: 38px;"><a style="color: rgb(86, 72, 58);" href="" class="chkbtn choose_btn" data-id="4">Воронеж</a></span>
 		</p>
 				</div>
 				<div class="phone">
@@ -70,11 +70,17 @@
 						<img src="img1/vk.png" height="29" width="29" alt="vk"></a>
 					<a href="https://www.instagram.com/szs_perm/" target="_blank" style="margin-left: 4px; margin-right: 6px;">
 						<img src="img1/insta.png" height="29" width="29" alt="inst"></a>
-					<a class="numb prm" href="tel:+ 73422871501" style="display: block;"> <i class="fa fa-plus" style="font-size: 18px; vertical-align: middle; line-height: 0; margin-top: 5px;"></i>
+					<a class="numb prm choose_numb" data-id="1" href="tel:+ 73422871501" style="display: block;"> <i class="fa fa-plus" style="font-size: 18px; vertical-align: middle; line-height: 0; margin-top: 5px;"></i>
 						7 342 287 15 01
 					</a>
-					<a class="numb chaik" href="tel:2-30-70 ">
+					<a class="numb chaik choose_numb" data-id="2" href="tel:2-30-70 ">
 						2-30-70 
+					</a>
+					<a class="numb chaik choose_numb" data-id="3" href="tel:3-30-70 ">
+						3-30-70 
+					</a>
+					<a class="numb chaik choose_numb" data-id="4" href="tel:4-30-70 ">
+						4-30-70 
 					</a>
 					<input type="button" class="phbtn" value="Заказать звонок"></div>
 			</div>
@@ -89,7 +95,7 @@
 					<li>
 						<img src="img1/plus.png" height="19" width="18" alt="+">Материал</li>
 				</ul>
-				<div class="prices">
+				<div class="prices choose_prices" data-id="1">
 					<div>
 						<img src="img1/picon1.png" alt="">
 						<p>
@@ -115,6 +121,96 @@
 						<img src="img1/picon4.png" alt="">
 						<p>
 							1799
+							<span>р</span>
+						</p>
+					</div>
+				</div>
+				<div class="prices choose_prices" data-id="2" style="display: none;">
+					<div>
+						<img src="img1/picon1.png" alt="">
+						<p>
+							7992
+							<span>р</span>
+						</p>
+					</div>
+					<div>
+						<img src="img1/picon2.png" alt="">
+						<p>
+							10992
+							<span>р</span>
+						</p>
+					</div>
+					<div>
+						<img src="img1/picon3.png" alt="">
+						<p>
+							14992
+							<span>р</span>
+						</p>
+					</div>
+					<div>
+						<img src="img1/picon4.png" alt="">
+						<p>
+							17992
+							<span>р</span>
+						</p>
+					</div>
+				</div>
+				<div class="prices choose_prices" data-id="3" style="display: none;">
+					<div>
+						<img src="img1/picon1.png" alt="">
+						<p>
+							7993
+							<span>р</span>
+						</p>
+					</div>
+					<div>
+						<img src="img1/picon2.png" alt="">
+						<p>
+							10993
+							<span>р</span>
+						</p>
+					</div>
+					<div>
+						<img src="img1/picon3.png" alt="">
+						<p>
+							14993
+							<span>р</span>
+						</p>
+					</div>
+					<div>
+						<img src="img1/picon4.png" alt="">
+						<p>
+							17993
+							<span>р</span>
+						</p>
+					</div>
+				</div>
+				<div class="prices choose_prices" data-id="4" style="display: none;">
+					<div>
+						<img src="img1/picon1.png" alt="">
+						<p>
+							4799
+							<span>р</span>
+						</p>
+					</div>
+					<div>
+						<img src="img1/picon2.png" alt="">
+						<p>
+							10994
+							<span>р</span>
+						</p>
+					</div>
+					<div>
+						<img src="img1/picon3.png" alt="">
+						<p>
+							14994
+							<span>р</span>
+						</p>
+					</div>
+					<div>
+						<img src="img1/picon4.png" alt="">
+						<p>
+							17994
 							<span>р</span>
 						</p>
 					</div>
@@ -887,8 +983,8 @@
 				</div>
 
 			</div>
-			<div class="inctbwrap">
-				<div class="inconttable">
+			<div class="inctbwrap choose_price" data-id="1">
+				<div class="inconttable" style="text-align:center;">
 					<div class="rowtb row1">
 						<div class="coltb">
 							<h4>Ким’83</h4>
@@ -1002,12 +1098,11 @@
 						<div class="coltb">
 							<h4>Декабристов 13</h4>
 							<p>
-								ULTRATON(42x200W) 
-								<br>Q-med S 460 (46x180)</p>
+								<br>eQ-Med S 460 (46x180w)</p>
 						</div>
 						<div class="coltb">
 							<span>
-								14
+								16
 								<span>руб/мин</span>
 							</span>
 						</div>
@@ -1072,7 +1167,7 @@
 					</div>
 					<div class="rowtb row5">
 						<div class="coltb">
-							<h4>Глеба Успенского 8</h4>
+							<h4>Баумана, 16</h4>
 							<p>k-san (42x180w)</p>
 						</div>
 						<div class="coltb">
@@ -1153,6 +1248,232 @@
 					</div>
 				</div>
 			</div>
+<div class="inctbwrap choose_price" data-id="2" style="display: none;max-width: 940px;">
+				<div class="inconttable" style="text-align:center;">
+					<div class="rowtb row1">
+						<div class="coltb">
+							<h4>ул.Вокзальная 65,</h4>
+							<p>
+								Солярий MagicSun
+								<br>(48x180w)</p>
+						</div>
+						<div class="coltb">
+							<span>
+								9,50
+								<span>руб/мин</span>
+							</span>
+						</div>
+						<div class="coltb">
+							<div class="prbl">
+								<p>
+									350 руб/50 мин
+									<br>(7 руб/мин)</p>
+							</div>
+							<div class="prbl">
+								<p>
+									600 руб/100 мин
+									<br>(6 руб/мин)</p>
+							</div>
+							<div class="prbl">
+								<p>
+									1000 руб/200 мин
+									<br>(5 руб/мин)</p>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="rowtb row2">
+						<div class="coltb">
+							<h4>ул.Советская 22,</h4>
+							<p>солярий Garda Sun<br> (42штx160w)</p>
+						</div>
+						<div class="coltb">
+							<span>
+								9,50
+								<span>руб/мин</span>
+							</span>
+						</div>
+						<div class="coltb">
+							<div class="prbl">
+								<p>
+									350 руб/50 мин
+									<br>(7 руб/мин)</p>
+							</div>
+							<div class="prbl">
+								<p>
+								   600 руб/100 мин
+									<br>(6 руб/мин)</p>
+							</div>
+							<div class="prbl">
+								<p>
+									1000 руб/200 мин
+									<br>(5 руб/мин)</p>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="rowtb row3">
+						<div class="coltb">
+							<h4>ул.Вокзальная 23,</h4>
+							<p>
+								Солярий Power Tan,
+								<br>(36x180w)</p>
+						</div>
+						<div class="coltb">
+							<span>
+								10
+								<span>руб/мин</span>
+							</span>
+						</div>
+						<div class="coltb">
+							<div class="prbl">
+								<p>
+									400 руб/50 мин
+									<br>(8 руб/мин)</p>
+							</div>
+							<div class="prbl">
+								<p>
+									700 руб/100 мин
+									<br>(7 руб/мин)</p>
+							</div>
+							<div class="prbl">
+								<p>
+									1200 руб/200 мин
+									<br>(6 руб/мин)</p>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="rowtb row4">
+						<div class="coltb">
+							<h4>ул.Карла Маркса 20,</h4>
+							<p>
+								<br>Солярий Lumina V (46x180w)</p>
+						</div>
+						<div class="coltb">
+							<span>
+								10
+								<span>руб/мин</span>
+							</span>
+						</div>
+						<div class="coltb">
+							<div class="prbl">
+								<p>
+									400 руб/50 мин
+									<br>(14 руб/мин)</p>
+							</div>
+							<div class="prbl">
+								<p>
+									700 руб/100 мин
+									<br>(7 руб/мин)</p>
+							</div>
+							<div class="prbl">
+								<p>
+									1200 руб/200 мин
+									<br>(6 руб/мин)</p>
+							</div>
+							
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="incbl about3" style="cursor: pointer;">
+					<img src="img1/auto.jpg" alt="">
+					<div class="preimg">
+						<span>
+							<span>от</span>
+							600
+							<span>р</span>
+						</span>
+						<p >Автозагар</p>
+					</div>
+				</div>
+			</div>			
+<div class="inctbwrap choose_price" data-id="3" style="display: none;max-width: 748px;">
+				<div class="inconttable" style="text-align:center;">
+					<div class="rowtb row1">
+						<div class="coltb">
+							<h4>пр.Маршала Жукова, 35</h4>
+							<p>
+								Солярий
+								<br>пр-во голландия</p>
+						</div>
+						<div class="coltb">
+							<span>
+								12
+								<span>руб/мин</span>
+							</span>
+						</div>
+						<div class="coltb">
+							<div class="prbl">
+								<p>
+									550 руб/50 мин
+									<br>(11 руб/мин)</p>
+							</div>
+							<div class="prbl">
+								<p>
+									1000 руб/100 мин
+									<br>(10 руб/мин)</p>
+							</div>
+							<div class="prbl">
+								<p>
+									1800 руб/200 мин
+									<br>(9 руб/мин)</p>
+							</div>
+							<div class="prbl">
+								<p>
+									3200 руб/400 мин
+									<br>(8 руб/мин)</p>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					
+				</div>
+			</div>			
+<div class="inctbwrap choose_price" data-id="4" style="display: none;max-width: 748px;">
+				<div class="inconttable" style="text-align:center;">
+					<div class="rowtb row1">
+						<div class="coltb">
+							<h4>Ким’83</h4>
+							<p>
+								Солярий
+								<br>пр-во голландия</p>
+						</div>
+						<div class="coltb">
+							<span>
+								12
+								<span>руб/мин</span>
+							</span>
+						</div>
+						<div class="coltb">
+							<div class="prbl">
+								<p>
+									500 руб/50 мин
+									<br>(10 руб/мин)</p>
+							</div>
+							<div class="prbl">
+								<p>
+									900 руб/100 мин
+									<br>(9 руб/мин)</p>
+							</div>
+							<div class="prbl">
+								<p>
+									1600 руб/200 мин
+									<br>(8 руб/мин)</p>
+							</div>
+							<div class="prbl">
+								<p>
+									2400 руб/400 мин
+									<br>(6 руб/мин)</p>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					
+				</div>
+				
+			</div>			
 			<!-- <input type="button" class="ordbtn" value="записаться"> -->
 			<a href="#" class="ms_booking">Записаться</a></section>
 		<section class="compsect">
@@ -1488,9 +1809,13 @@
 	<section class="adrsect">
 		<p style="font-size: 23px; color: white; letter-spacing: 1.5px;">
 			выберите город:
-			<a href="" class="prmbtn">Пермь</a>
+			<a href="" class="prmbtn choose_btn bot_btn" data-id="1">Пермь</a>
 			/
-			<a href="" class="chkbtn">чайковский</a>
+			<a href="" class="chkbtn choose_btn bot_btn" data-id="2">чайковский</a>
+			/
+			<a href="" class="chkbtn choose_btn bot_btn" data-id="3">Санкт-Петербург</a>
+			/
+			<a href="" class="chkbtn choose_btn bot_btn" data-id="4">Воронеж</a>
 		</p>
 		<div class="addrwrap1 prm">
 			<div class="addrcont">

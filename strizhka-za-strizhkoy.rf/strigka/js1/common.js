@@ -113,32 +113,69 @@ function init1 () {
         }));
 }
 
-$( "a.prmbtn" ).click(function( event ) {
-  event.preventDefault();
-  $( ".prm" ).css( "display","block" );
-  $( ".chaik" ).css( "display","none" );
+// $( "a.prmbtn" ).click(function( event ) {
+//   event.preventDefault();
+//   $( ".prm" ).css( "display","block" );
+//   $( ".chaik" ).css( "display","none" );
   
-  $( "a.chkbtn" ).css( "border-bottom","1px dotted white" );
-  $( ".chose a.chkbtn" ).css( "border-bottom","1px dotted #56483a" );
-  $( "a.prmbtn" ).css( "border-bottom","1px dotted transparent" );
-});
-$( "a.chkbtn:eq(0)" ).click(function( event ) {
-  event.preventDefault();
-  $( ".chaik" ).css( "display","block" );
-  $( ".prm" ).css( "display","none" );
+//   $( "a.chkbtn" ).css( "border-bottom","1px dotted white" );
+//   $( ".chose a.chkbtn" ).css( "border-bottom","1px dotted #56483a" );
+//   $( "a.prmbtn" ).css( "border-bottom","1px dotted transparent" );
+// });
+// $( "a.chkbtn:eq(0)" ).click(function( event ) {
+//   event.preventDefault();
+//   $( ".chaik" ).css( "display","block" );
+//   $( ".prm" ).css( "display","none" );
   
-  $( "a.prmbtn" ).css( "border-bottom","1px dotted white" );
-  $( ".chose a.prmbtn" ).css( "border-bottom","1px dotted #56483a" );
-  $( "a.chkbtn" ).css( "border-bottom","1px dotted transparent" );
-});
-	$( "a.chkbtn:eq(1)" ).click(function( event ) {
-  event.preventDefault();
-  $( ".chaik" ).css( "display","block" );
-  $( ".prm" ).css( "display","none" );
+//   $( "a.prmbtn" ).css( "border-bottom","1px dotted white" );
+//   $( ".chose a.prmbtn" ).css( "border-bottom","1px dotted #56483a" );
+//   $( "a.chkbtn" ).css( "border-bottom","1px dotted transparent" );
+// });
+// 	$( "a.chkbtn:eq(1)" ).click(function( event ) {
+//   event.preventDefault();
+//   $( ".chaik" ).css( "display","block" );
+//   $( ".prm" ).css( "display","none" );
   
-  $( "a.prmbtn" ).css( "border-bottom","1px dotted white" );
-  $( ".chose a.prmbtn" ).css( "border-bottom","1px dotted #56483a" );
-  $( "a.chkbtn" ).css( "border-bottom","1px dotted transparent" );
+//   $( "a.prmbtn" ).css( "border-bottom","1px dotted white" );
+//   $( ".chose a.prmbtn" ).css( "border-bottom","1px dotted #56483a" );
+//   $( "a.chkbtn" ).css( "border-bottom","1px dotted transparent" );
+// });
+// 
+$('.choose_btn').click(function(e) {
+   
+   e.preventDefault();
+
+   var id = $(this).attr('data-id');
+
+   //визуальное выдиление кнопок старт
+   $('.choose_btn').css("border-bottom","1px dotted transparent");
+
+   $('.choose_btn').each(function(){
+        if ($(this).attr('data-id') != id) {
+            if($(this).hasClass('bot_btn')){
+                $(this).css( "border-bottom","1px dotted white" );
+            }else{
+                $(this).css( "border-bottom","1px dotted #56483a" );
+            }
+        }
+   });
+   //визуальное выдиление кнопок конец
+
+
+   //перекючение телефона старт
+   $('.choose_numb').css( "display","none" );
+   $('.choose_numb[data-id="'+id+'"]').css( "display","block" );
+   //перекючение телефона конец
+
+   //перекючение прайса старт
+   $('.choose_price').css( "display","none" );
+   $('.choose_price[data-id="'+id+'"]').css( "display","block" );
+   //перекючение прайса конец
+   //
+   //
+   $('.choose_prices').css( "display","none" );
+   $('.choose_prices[data-id="'+id+'"]').css( "display","block" );
+
 });
 
     $(document).ready(
