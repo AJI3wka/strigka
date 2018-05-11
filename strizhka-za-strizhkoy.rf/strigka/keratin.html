@@ -1,0 +1,894 @@
+<?php
+function ValidateEmail($email)
+{
+   $pattern = '/^([0-9a-z]([-.\w]*[0-9a-z])*@(([0-9a-z])+([-\w]*[0-9a-z])*\.)+[a-z]{2,6})$/i';
+   return preg_match($pattern, $email);
+}
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['formid'] == 'form1')
+{
+   $mailto = 'andreymail18@gmail.com';
+   $mailfrom = isset($_POST['email']) ? $_POST['email'] : $mailto;
+   $subject = 'запись кератин';
+   $message = 'запись кератин';
+   $success_url = './prin.php';
+   $error_url = '';
+   $error = '';
+   $eol = "\n";
+   $max_filesize = isset($_POST['filesize']) ? $_POST['filesize'] * 1024 : 1024000;
+   $boundary = md5(uniqid(time()));
+   $header  = 'From: '.$mailfrom.$eol;
+   $header .= 'Reply-To: '.$mailfrom.$eol;
+   $header .= 'MIME-Version: 1.0'.$eol;
+   $header .= 'Content-Type: multipart/mixed; boundary="'.$boundary.'"'.$eol;
+   $header .= 'X-Mailer: PHP v'.phpversion().$eol;
+   if (!ValidateEmail($mailfrom))
+   {
+      $error .= "The specified email address is invalid!\n<br>";
+   }
+   if (!empty($error))
+   {
+      $errorcode = file_get_contents($error_url);
+      $replace = "##error##";
+      $errorcode = str_replace($replace, $error, $errorcode);
+      echo $errorcode;
+      exit;
+   }
+   $internalfields = array ("submit", "reset", "send", "filesize", "formid", "captcha_code", "recaptcha_challenge_field", "recaptcha_response_field");
+   $message .= $eol;
+   $message .= "IP Address : ";
+   $message .= $_SERVER['REMOTE_ADDR'];
+   $message .= $eol;
+   foreach ($_POST as $key => $value)
+   {
+      if (!in_array(strtolower($key), $internalfields))
+      {
+         if (!is_array($value))
+         {
+            $message .= ucwords(str_replace("_", " ", $key)) . " : " . $value . $eol;
+         }
+         else
+         {
+            $message .= ucwords(str_replace("_", " ", $key)) . " : " . implode(",", $value) . $eol;
+         }
+      }
+   }
+   $body  = 'This is a multi-part message in MIME format.'.$eol.$eol;
+   $body .= '--'.$boundary.$eol;
+   $body .= 'Content-Type: text/plain; charset=UTF-8'.$eol;
+   $body .= 'Content-Transfer-Encoding: 8bit'.$eol;
+   $body .= $eol.stripslashes($message).$eol;
+   if (!empty($_FILES))
+   {
+       foreach ($_FILES as $key => $value)
+       {
+          if ($_FILES[$key]['error'] == 0 && $_FILES[$key]['size'] <= $max_filesize)
+          {
+             $body .= '--'.$boundary.$eol;
+             $body .= 'Content-Type: '.$_FILES[$key]['type'].'; name='.$_FILES[$key]['name'].$eol;
+             $body .= 'Content-Transfer-Encoding: base64'.$eol;
+             $body .= 'Content-Disposition: attachment; filename='.$_FILES[$key]['name'].$eol;
+             $body .= $eol.chunk_split(base64_encode(file_get_contents($_FILES[$key]['tmp_name']))).$eol;
+          }
+      }
+   }
+   $body .= '--'.$boundary.'--'.$eol;
+   if ($mailto != '')
+   {
+      mail($mailto, $subject, $body, $header);
+   }
+   header('Location: '.$success_url);
+   exit;
+}
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['formid'] == 'form2')
+{
+   $mailto = 'andreymail18@gmail.com';
+   $mailfrom = isset($_POST['email']) ? $_POST['email'] : $mailto;
+   $subject = 'соляр39';
+   $message = '39';
+   $success_url = './prin.php';
+   $error_url = '';
+   $error = '';
+   $eol = "\n";
+   $max_filesize = isset($_POST['filesize']) ? $_POST['filesize'] * 1024 : 1024000;
+   $boundary = md5(uniqid(time()));
+   $header  = 'From: '.$mailfrom.$eol;
+   $header .= 'Reply-To: '.$mailfrom.$eol;
+   $header .= 'MIME-Version: 1.0'.$eol;
+   $header .= 'Content-Type: multipart/mixed; boundary="'.$boundary.'"'.$eol;
+   $header .= 'X-Mailer: PHP v'.phpversion().$eol;
+   if (!ValidateEmail($mailfrom))
+   {
+      $error .= "The specified email address is invalid!\n<br>";
+   }
+   if (!empty($error))
+   {
+      $errorcode = file_get_contents($error_url);
+      $replace = "##error##";
+      $errorcode = str_replace($replace, $error, $errorcode);
+      echo $errorcode;
+      exit;
+   }
+   $internalfields = array ("submit", "reset", "send", "filesize", "formid", "captcha_code", "recaptcha_challenge_field", "recaptcha_response_field");
+   $message .= $eol;
+   $message .= "IP Address : ";
+   $message .= $_SERVER['REMOTE_ADDR'];
+   $message .= $eol;
+   foreach ($_POST as $key => $value)
+   {
+      if (!in_array(strtolower($key), $internalfields))
+      {
+         if (!is_array($value))
+         {
+            $message .= ucwords(str_replace("_", " ", $key)) . " : " . $value . $eol;
+         }
+         else
+         {
+            $message .= ucwords(str_replace("_", " ", $key)) . " : " . implode(",", $value) . $eol;
+         }
+      }
+   }
+   $body  = 'This is a multi-part message in MIME format.'.$eol.$eol;
+   $body .= '--'.$boundary.$eol;
+   $body .= 'Content-Type: text/plain; charset=UTF-8'.$eol;
+   $body .= 'Content-Transfer-Encoding: 8bit'.$eol;
+   $body .= $eol.stripslashes($message).$eol;
+   if (!empty($_FILES))
+   {
+       foreach ($_FILES as $key => $value)
+       {
+          if ($_FILES[$key]['error'] == 0 && $_FILES[$key]['size'] <= $max_filesize)
+          {
+             $body .= '--'.$boundary.$eol;
+             $body .= 'Content-Type: '.$_FILES[$key]['type'].'; name='.$_FILES[$key]['name'].$eol;
+             $body .= 'Content-Transfer-Encoding: base64'.$eol;
+             $body .= 'Content-Disposition: attachment; filename='.$_FILES[$key]['name'].$eol;
+             $body .= $eol.chunk_split(base64_encode(file_get_contents($_FILES[$key]['tmp_name']))).$eol;
+          }
+      }
+   }
+   $body .= '--'.$boundary.'--'.$eol;
+   if ($mailto != '')
+   {
+      mail($mailto, $subject, $body, $header);
+   }
+   header('Location: '.$success_url);
+   exit;
+}
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Безымянная страница</title>
+<meta name="generator" content="WYSIWYG Web Builder 9 - http://www.wysiwygwebbuilder.com">
+<style type="text/css">
+html, body
+{
+   height: 100%;
+}
+div#space
+{
+   width: 1px;
+   height: 50%;
+   margin-bottom: -1907px;
+   float:left
+}
+div#container
+{
+   width: 970px;
+   height: 3814px;
+   margin: 0 auto;
+   position: relative;
+   clear: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+}
+</style>
+<link href="2.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+#Image1
+{
+   border: 0px #FFFFFF none;
+}
+#Image2
+{
+   border: 0px #000000 solid;
+}
+#Image3
+{
+   border: 0px #000000 solid;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#Button1
+{
+   border: 1px #FFFF00 solid;
+   -moz-border-radius: 20px;
+   -webkit-border-radius: 20px;
+   border-radius: 20px;
+   background-color: #FFD700;
+   color: #FF0000;
+   font-family: Verdana;
+   font-weight: bold;
+   font-size: 13px;
+}
+#wb_Form1
+{
+   background-color: #FAFAFA;
+   border: 1px #F5F5F5 solid;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+}
+#Editbox1
+{
+   border: 1px #A9A9A9 solid;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: 'Open Sans';
+   font-size: 19px;
+   padding: 0px 0px 0px 10px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox2
+{
+   border: 1px #A9A9A9 solid;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: 'Open Sans';
+   font-size: 19px;
+   padding: 0px 0px 0px 10px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox3
+{
+   border: 1px #A9A9A9 solid;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: 'Open Sans';
+   font-size: 19px;
+   padding: 0px 0px 0px 10px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Combobox1
+{
+   border: 1px #A9A9A9 solid;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: 'Open Sans';
+   font-size: 16px;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#wb_Form2
+{
+   background-color: #FAFAFA;
+   border: 1px #F5F5F5 solid;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+}
+#Editbox4
+{
+   border: 1px #A9A9A9 solid;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: 'Open Sans';
+   font-size: 19px;
+   padding: 0px 0px 0px 10px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox5
+{
+   border: 1px #A9A9A9 solid;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: 'Open Sans';
+   font-size: 19px;
+   padding: 0px 0px 0px 10px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox6
+{
+   border: 1px #A9A9A9 solid;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: 'Open Sans';
+   font-size: 19px;
+   padding: 0px 0px 0px 10px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Combobox2
+{
+   border: 1px #A9A9A9 solid;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: 'Open Sans';
+   font-size: 16px;
+}
+#Button2
+{
+   border: 1px #FFFF00 solid;
+   -moz-border-radius: 20px;
+   -webkit-border-radius: 20px;
+   border-radius: 20px;
+   background-color: #FFD700;
+   color: #FF0000;
+   font-family: Verdana;
+   font-weight: bold;
+   font-size: 13px;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#Image5
+{
+   border-width: 0;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#Image6
+{
+   border-width: 0;
+}
+#Image7
+{
+   border: 0px #000000 solid;
+}
+#wb_uid1
+{
+   color: #2F4F4F;
+   font-family: Verdana;
+   font-size: 21px;
+}
+#Editbox1
+{
+   position: absolute;
+   left: 15px;
+   top: 21px;
+   width: 192px;
+   height: 28px;
+   line-height: 28px;
+   z-index: 0;
+}
+#wb_YouTube1
+{
+   position: absolute;
+   left: 62px;
+   top: 1757px;
+   width: 848px;
+   height: 435px;
+   z-index: 14;
+}
+#wb_uid2
+{
+   color: #2F4F4F;
+   font-family: Verdana;
+   font-size: 24px;
+}
+#Editbox2
+{
+   position: absolute;
+   left: 245px;
+   top: 22px;
+   width: 192px;
+   height: 28px;
+   line-height: 28px;
+   z-index: 1;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 45px;
+   top: 801px;
+   width: 905px;
+   height: 174px;
+   z-index: 15;
+   text-align: left;
+}
+#Shape1
+{
+   border-width: 0;
+   width: 994px;
+   height: 177px;
+}
+#wb_uid3
+{
+   color: #2F4F4F;
+   font-family: Verdana;
+   font-size: 21px;
+}
+#wb_Text2
+{
+   position: absolute;
+   left: 343px;
+   top: 1697px;
+   width: 287px;
+   height: 25px;
+   z-index: 17;
+   text-align: left;
+}
+#Editbox3
+{
+   position: absolute;
+   left: 473px;
+   top: 21px;
+   width: 192px;
+   height: 28px;
+   line-height: 28px;
+   z-index: 2;
+}
+#wb_Text3
+{
+   position: absolute;
+   left: 45px;
+   top: 2898px;
+   width: 526px;
+   height: 58px;
+   z-index: 19;
+   text-align: left;
+}
+#Editbox4
+{
+   position: absolute;
+   left: 15px;
+   top: 21px;
+   width: 192px;
+   height: 28px;
+   line-height: 28px;
+   z-index: 5;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 955px;
+   height: 595px;
+   z-index: 11;
+}
+#wb_Text4
+{
+   position: absolute;
+   left: 697px;
+   top: 2884px;
+   width: 206px;
+   height: 25px;
+   z-index: 21;
+   text-align: left;
+}
+#Editbox5
+{
+   position: absolute;
+   left: 245px;
+   top: 22px;
+   width: 192px;
+   height: 28px;
+   line-height: 28px;
+   z-index: 6;
+}
+#wb_Image2
+{
+   position: absolute;
+   left: 270px;
+   top: 1466px;
+   width: 431px;
+   height: 44px;
+   z-index: 12;
+}
+#Editbox6
+{
+   position: absolute;
+   left: 473px;
+   top: 21px;
+   width: 192px;
+   height: 28px;
+   line-height: 28px;
+   z-index: 7;
+}
+#wb_Image3
+{
+   position: absolute;
+   left: 103px;
+   top: 1040px;
+   width: 782px;
+   height: 603px;
+   z-index: 13;
+}
+#wb_Image5
+{
+   position: absolute;
+   left: 713px;
+   top: 2926px;
+   width: 185px;
+   height: 33px;
+   z-index: 20;
+}
+#Image1
+{
+   width: 955px;
+   height: 595px;
+}
+#wb_Image6
+{
+   position: absolute;
+   left: 458px;
+   top: 23px;
+   width: 185px;
+   height: 33px;
+   z-index: 22;
+}
+#Image2
+{
+   width: 431px;
+   height: 44px;
+}
+#wb_Image7
+{
+   position: absolute;
+   left: 0px;
+   top: 2404px;
+   width: 994px;
+   height: 446px;
+   z-index: 23;
+}
+#Image3
+{
+   width: 782px;
+   height: 603px;
+}
+#Image5
+{
+   width: 185px;
+   height: 33px;
+}
+#Image6
+{
+   width: 185px;
+   height: 33px;
+}
+#wb_Form1
+{
+   position: absolute;
+   left: 42px;
+   top: 636px;
+   width: 899px;
+   height: 141px;
+   z-index: 16;
+}
+#Image7
+{
+   width: 994px;
+   height: 446px;
+}
+#wb_Form2
+{
+   position: absolute;
+   left: 48px;
+   top: 2240px;
+   width: 899px;
+   height: 141px;
+   z-index: 18;
+}
+#Button1
+{
+   position: absolute;
+   left: 328px;
+   top: 83px;
+   width: 237px;
+   height: 39px;
+   z-index: 4;
+}
+#Button2
+{
+   position: absolute;
+   left: 328px;
+   top: 83px;
+   width: 237px;
+   height: 39px;
+   z-index: 9;
+}
+#wb_Shape1
+{
+   position: absolute;
+   left: 0px;
+   top: 2848px;
+   width: 994px;
+   height: 177px;
+   z-index: 10;
+}
+#Combobox1
+{
+   position: absolute;
+   left: 691px;
+   top: 21px;
+   width: 203px;
+   height: 26px;
+   z-index: 3;
+}
+#Combobox2
+{
+   position: absolute;
+   left: 691px;
+   top: 21px;
+   width: 203px;
+   height: 26px;
+   z-index: 8;
+}
+#wb_uid0
+{
+   color: #000000;
+   font-family: Verdana;
+   font-size: 24px;
+}
+</style>
+<script type="text/javascript" src="swfobject.js"></script>
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="fancybox/jquery.easing-1.3.pack.js"></script>
+<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.0.css" type="text/css">
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.0.pack.js"></script>
+<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+<script type="text/javascript" src="wwb9.min.js"></script>
+<script>
+$(document).ready(function(){
+    setInterval(function(){
+        var now = new Date();
+	// Months start from 0 !!!! (0 - january.... 8 - september) 
+//        var curd = new Date(2014,00,14,00,00,00).getTime();
+//        var totalRemains = (curd-now.getTime());
+var startdate = new Date(2014,00,14,00,00,00).getTime();
+var nowdate = now.getTime();
+var period = 36*60*60*1000;
+while(startdate < nowdate)
+{
+  startdate=startdate+period;
+}
+	var totalRemains = (startdate-nowdate);
+        if (totalRemains>1){
+            var RemainsSec=(parseInt(totalRemains/1000));
+            var RemainsFullDays=(parseInt(RemainsSec/(24*60*60)));
+            var secInLastDay=RemainsSec-RemainsFullDays*24*3600;
+	    if (RemainsFullDays<10){RemainsFullDays="0"+RemainsFullDays};
+            var RemainsFullHours=(parseInt(secInLastDay/3600));
+            if (RemainsFullHours<10){RemainsFullHours="0"+RemainsFullHours};
+            var secInLastHour=secInLastDay-RemainsFullHours*3600;
+            var RemainsMinutes=(parseInt(secInLastHour/60));
+            if (RemainsMinutes<10){RemainsMinutes="0"+RemainsMinutes};
+            var lastSec=secInLastHour-RemainsMinutes*60;
+            if (lastSec<10){lastSec="0"+lastSec};
+            //var fullHours = parseInt(RemainsFullHours,10) + RemainsFullDays * 24;
+            //$('.timer>.digits').html(fullHours+":"+RemainsMinutes+":"+lastSec);
+	    $('.timer>.digits').html(RemainsFullDays+" "+RemainsFullHours+" "+RemainsMinutes+" "+lastSec);
+        }
+        else {$(".timer").remove();}
+    },1000);
+});
+</script>
+</head>
+<body <!--="" Yandex.Metrika="" counter="" --="">
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter34061520 = new Ya.Metrika({
+                    id:34061520,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+   <noscript><div><img src="https://mc.yandex.ru/watch/34061520" style="position:absolute; left:-9999px;" alt=""/></div></noscript>
+<!-- /Yandex.Metrika counter -->>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter34061520 = new Ya.Metrika({
+                    id:34061520,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+   <noscript><div><img src="https://mc.yandex.ru/watch/34061520" style="position:absolute; left:-9999px;" alt=""/></div></noscript>
+<!-- /Yandex.Metrika counter -->
+   <div id="space"><br></div>
+   <div id="container">
+      <div id="wb_Shape1">
+         <img src="images/img0066.png" id="Shape1" alt="">
+      </div>
+      <div id="wb_Image1">
+         <img src="images/img0061.png" id="Image1" alt="">
+      </div>
+      <div id="wb_Image2">
+         <img src="images/do_i_posle.png" id="Image2" alt="">
+      </div>
+      <div id="wb_Image3">
+         <img src="images/keratinovoe_vypryamlenie_volos_habarovsk.jpg" id="Image3" alt="">
+      </div>
+      <div id="wb_YouTube1">
+         <iframe width="848" height="435" src="https://www.youtube.com/embed/JA3KMHR6s-s?rel=0&amp;version=3&amp;ap=%2526fmt%3D18&amp;autohide=0&amp;theme=dark" frameborder="0"></iframe>
+      </div>
+      <div id="wb_Text1">
+         <span id="wb_uid0">Вернуть волосам утраченную красоту, сделать их полностью здоровыми и удивительно сильными, а также менее восприимчивыми к внешнему негативу позволяет серия Estel Keratin от Estel Professional. В основе каждого продукта этой линии лежит не имеющий равных по силе воздействия на пряди компонент - натуральный высококачественный кератин.</span>
+      </div>
+      <div id="wb_Form1">
+         <form name="Form1" method="post" action="<?php echo basename(__FILE__); ?>" enctype="multipart/form-data" accept-charset="UTF-8" target="_top" id="Form1">
+            <input type="hidden" name="formid" value="form1">
+            <input type="text" id="Editbox1" name="Имя" value="" required="" placeholder="&#1048;&#1084;&#1103;">
+            <input type="text" id="Editbox2" name="Телефон" value="" required="" placeholder="&#1058;&#1077;&#1083;&#1077;&#1092;&#1086;&#1085;">
+            <input type="text" id="Editbox3" name="Почта" value="" required="" placeholder="E-mail">
+            <select name="Combobox1" size="1" id="Combobox1">
+               <option value="Выберите адрес">Выберите адрес</option>
+               <option value="Крупской.40">Крупской.40</option>
+               <option value="Екатерининская.134">Екатерининская.134</option>
+               <option value="Ким.83">Ким.83</option>
+               <option value="Революции.8">Революции.8</option>
+               <option value="Пр. Парковый. 15/6б">Пр. Парковый. 15/6б</option>
+            </select>
+            <input type="submit" id="Button1" name="ЗАПИСАТЬСЯ НА УСЛУГУ" value="ЗАПИСАТЬСЯ НА УСЛУГУ">
+         </form>
+      </div>
+      <div id="wb_Text2">
+         <span id="wb_uid1"><strong>КАК ЭТО ПРОИСХОДИТ</strong></span>
+      </div>
+      <div id="wb_Form2">
+         <form name="Form1" method="post" action="<?php echo basename(__FILE__); ?>" enctype="multipart/form-data" accept-charset="UTF-8" target="_top" id="Form2">
+            <input type="hidden" name="formid" value="form2">
+            <input type="text" id="Editbox4" name="Имя" value="" required="" placeholder="&#1048;&#1084;&#1103;">
+            <input type="text" id="Editbox5" name="Телефон" value="" required="" placeholder="&#1058;&#1077;&#1083;&#1077;&#1092;&#1086;&#1085;">
+            <input type="text" id="Editbox6" name="Почта" value="" required="" placeholder="E-mail">
+            <select name="Combobox1" size="1" id="Combobox2">
+               <option value="Выберите адрес">Выберите адрес</option>
+               <option value="Крупской.40">Крупской.40</option>
+               <option value="Екатерининская.134">Екатерининская.134</option>
+               <option value="Ким.83">Ким.83</option>
+               <option value="Революции.8">Революции.8</option>
+               <option value="Пр. Парковый. 15/6б">Пр. Парковый. 15/6б</option>
+            </select>
+            <input type="submit" id="Button2" name="ЗАПИСАТЬСЯ НА УСЛУГУ" value="ЗАПИСАТЬСЯ НА УСЛУГУ">
+         </form>
+      </div>
+      <div id="wb_Text3">
+         <span id="wb_uid2"><strong>Есть вопросы?<br>Позвоните нам или закажите звонок!</strong></span>
+      </div>
+      <div id="wb_Image5">
+         <a href="javascript:displaylightbox('./zvonok_ker.php',{})" target="_self"><img src="images/img0062.png" id="Image5" alt=""></a>
+      </div>
+      <div id="wb_Text4">
+         <span id="wb_uid3"><strong>8 922 64 64 674</strong></span>
+      </div>
+      <div id="wb_Image6">
+         <a href="javascript:displaylightbox('./zvonok_ker.php',{})" target="_self"><img src="images/img0063.png" id="Image6" alt=""></a>
+      </div>
+      <div id="wb_Image7">
+         <img src="images/karta1.png" id="Image7" alt="">
+      </div>
+   </div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter34061520 = new Ya.Metrika({
+                    id:34061520,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+   <noscript><div><img src="https://mc.yandex.ru/watch/34061520" style="position:absolute; left:-9999px;" alt=""/></div></noscript>
+<!-- /Yandex.Metrika counter --></body>
+</html>

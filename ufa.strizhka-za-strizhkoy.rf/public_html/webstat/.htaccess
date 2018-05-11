@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/webstat"
+AuthUserFile /var/www/u0002095/data/etc/12851646.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

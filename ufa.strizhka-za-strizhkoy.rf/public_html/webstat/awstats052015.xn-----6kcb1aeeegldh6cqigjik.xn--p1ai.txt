@@ -1,0 +1,2343 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201505 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2017                
+POS_TIME 2700                
+POS_VISITOR 61126               
+POS_DAY 114002              
+POS_DOMAIN 3714                
+POS_LOGIN 3952                
+POS_ROBOT 4107                
+POS_WORMS 4908                
+POS_EMAILSENDER 5039                
+POS_EMAILRECEIVER 5182                
+POS_SESSION 114996              
+POS_SIDER 115210              
+POS_FILETYPES 5317                
+POS_DOWNLOADS 5553                
+POS_OS 5601                
+POS_BROWSER 5801                
+POS_SCREENSIZE 8602                
+POS_UNKNOWNREFERER 8676                
+POS_UNKNOWNREFERERBROWSER 9929                
+POS_ORIGIN 10181               
+POS_SEREFERRALS 10332               
+POS_PAGEREFS 10546               
+POS_SEARCHWORDS 25494               
+POS_KEYWORDS 49623               
+POS_MISC 2363                
+POS_ERRORS 57919               
+POS_CLUSTER 3808                
+POS_SIDER_404 58069               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150601000055 3569 981737 11885375770135
+FirstTime 20150501004340
+LastTime 20150531235753
+LastUpdate 20150601000306 12 0 11 0 0
+TotalVisits 1408                
+TotalUnique 1191                
+MonthHostsKnown 0                   
+MonthHostsUnknown 1278                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 31 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 47 1670 165933311 119 165 3781920
+1 3 71 6816744 85 107 4474240
+2 17 399 39578040 111 129 2470550
+3 8 492 74094053 131 293 2010787
+4 8 155 27608992 81 116 3914703
+5 17 865 89006432 138 187 1622195
+6 75 2354 212247366 147 256 15689823
+7 176 7953 737678772 346 492 5574252
+8 154 7121 654837293 275 424 15487540
+9 204 9638 954160147 341 456 13479278
+10 201 9220 829091569 333 788 31827794
+11 188 9033 801699138 321 542 7162173
+12 242 9726 874480737 378 574 3477158
+13 232 10133 956004224 362 640 7572160
+14 176 8130 757124126 303 573 11002947
+15 169 8714 856719193 348 571 6793089
+16 191 8000 830346401 334 482 12326752
+17 152 6132 513301423 267 459 17209126
+18 181 6496 775753017 344 468 6208481
+19 202 9038 880404819 386 618 10015760
+20 210 8535 876886814 293 649 16676658
+21 163 6928 754651315 297 563 6672199
+22 144 4441 487396901 269 354 9143553
+23 34 1318 149413255 136 243 9339210
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 3194 136562 13305234082
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+yandex 1839 66244395 20150531231312 0
+googlebot 343 36853503 20150531225514 0
+favicon 47 3410662 20150530151528 0
+mj12bot 45 2194217 20150529224010 0
+bot[\s_+:,\.\;\/\\-] 39 1164522 20150531215946 0
+robot 18 763738 20150531180016 0
+w3c_validator 16 576766 20150521072855 0
+facebook 9 83810 20150521082251 0
+mail\.ru 8 456199 20150522225958 0
+crawl 8 777508 20150520235136 0
+core 2 20484 20150527103506 0
+no_user_agent 5 44022 20150529054901 0
+[\s_+:,\.\;\/\\-]bot 4 389137 20150510014537 0
+ng\/1\. 2 20484 20150502052806 0
+slurp 2 122908 20150517150724 0
+rambler 1 91559 20150512214018 0
+archive\.org_bot 1 10242 20150521073023 0
+msnbot\-media 5 9322 20150509211155 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 2612 3789461 0 0
+php 2277 219607990 0 0
+png 95398 9118124416 0 0
+html 890 8550406 0 0
+js 6977 52882642 0 0
+jpg 28068 3901876903 0 0
+htm 27 389536 0 0
+gif 313 12728 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 13
+linuxandroid 30651
+winlong 431
+winxp 15553
+winnt 178
+win98 1
+linux 1161
+winvista 17106
+win7 57470
+macosx 11242
+winunknown 499
+j2me 630
+win2003 303
+Unknown 1337
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 137
+chrome38.0.0.0 1
+chrome12.0.742.100 312
+chrome41.0.2272.96 983
+chrome33.0.1750.166 298
+chrome22.0.1106.241 174
+chrome31.0.1650.57 364
+chrome31.0.1650.63 597
+alcatel 64
+chrome24.0.1312.71 255
+safari5.0.2 11
+msie8.0 1135
+chrome11.0.696.34 12
+chrome39.0.2171.65 312
+msie7.0 210
+chrome537.306 174
+chrome30.0.1599.82 57
+chrome42.0.2311.152 12044
+chrome31.0.1650.59 175
+chrome41.0.2272.94 291
+chrome28.0.1500.75 175
+firefox38.0 2829
+chrome30.0.1599.69 36
+chrome35.0.1916.150 176
+chrome32.0.1700.107 230
+chrome35.0.1916.114 370
+firefox25.0 721
+chrome33.0.1750.117 86
+chrome38.0.2125.114 176
+chrome41.0.2228.0 2
+firefox36.0 175
+safari 1288
+safari7.0 1804
+android 8048
+chrome43.0.2327.5 6
+chrome28.0.1500.95 817
+chrome36.0.1985.125 75
+firefox24.0 82
+chrome17.0.963.47 42
+opera9.80 5903
+safari8.0.6 186
+chrome39.0.0.0 187
+iphone 619
+chrome33.0.0.0 384
+chrome39.0.2171.132 1
+chrome43.0.2357.81 6330
+chrome42.0.2311.107 406
+chrome15.0.861.0 1
+chrome38.0.2125.122 1243
+chrome34.0.1847.116 138
+chrome42.0.2311.109 997
+msie9.0 762
+chrome39.0.2171.139 59
+chrome43.0.2357.65 4958
+chrome39.0.2171.93 406
+firefox32.0 58
+chrome43.0.2357.45 1
+chrome18.0.1025.166 12
+samsung 177
+chrome35.0.1916.141 276
+chrome32.0.1721.110 158
+chrome28.0.1500.71 57
+chrome18.0.1025.168 58
+firefox2.0.0.11 1
+nokia 1182
+chrome35.0.1916.153 59
+chrome44.0.2403.9 116
+chrome25.0.1364.172 247
+safari4.0.4 20
+chrome39.4.2171.95 14
+firefox3.5.7 13
+msie6.0 19
+chrome27.0.1453.94 58
+chrome40.0.2214.115 11998
+chrome40.0.2214.94 175
+chrome28.0.1500.94 2230
+chrome40.0.2214.111 1
+chrome39.0.2171.95 66
+firefox18.0 12
+firefox4.0 156
+chrome38.0.2125.111 117
+firefox34.0 202
+curl 1
+chrome42.0.2311.138 191
+chrome28.0.1500.72 58
+chrome42.0.2311.90 6573
+chrome37.0.2062.120 1
+firefox23.0 12
+chrome41.0.2272.76 1
+chrome41.0.2272.74 142
+chrome28.0.1500.74 323
+chrome44.0.2403.4 175
+chrome39.0.2171.71 177
+chrome42.0.2311.108 156
+chrome34.0.1847.131 512
+chrome40.0.2214.109 609
+lg\- 328
+safari6.0 386
+firefox29.0 175
+chrome44.0.2398.0 58
+mozilla 11176
+chrome18.0.1025.142 3
+chrome40.0.2214.89 203
+chrome42.0.2311.135 12112
+chrome32.0.1700.76 247
+chrome40.0.2214.93 1
+chrome29.0.1547.72 57
+chrome37.0.2062.124 275
+firefox15.0 57
+chrome32.0.1723.105 665
+chrome43.0.2357.78 801
+chrome32.0.1700.41 132
+chrome44.0.2391.0 256
+chrome42.0.2311.111 8970
+chrome12.0.742.112 58
+chrome26.0.1410.58 7
+firefox31.0 185
+firefox16.0 11
+safari8.0 4670
+chrome33.0.1750.154 318
+Unknown 4
+chrome30.0.0.0 234
+firefox17.0 12
+chrome34.0.1847.114 806
+chrome41.0.2272.118 2866
+chrome27.0.1453.110 1
+chrome20.0.1132.57 1
+msie6.1 303
+chrome36.0.1985.135 69
+chrome32.0.1717.129 436
+firefox37.0 4205
+chrome30.0.1599.103 3
+msie10.0 1470
+safari5.1 200
+chrome35.0.1916.152 234
+chrome35.0.1916.145 607
+chrome35.0.1916.129 355
+firefox3.6.13 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 13
+Opera/9.80_(Android;_Opera_Mini/7.0.29733/36.2016;_U;_ru)_Presto/2.12.423_Version/12.16 20150514174725
+Yo-yo 20150517114249
+Opera/9.80_(iPhone;_Opera_Mini/7.0.5/36.1867;_U;_ru)_Presto/2.12.423_Version/12.16 20150507110035
+Go_1.1_package_http 20150527044049
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/36.1955;_U;_ru)_Presto/2.12.423_Version/12.16 20150511171002
+Mozilla/5.0_(Android;_Mobile;_rv:23.0)_Gecko/23.0_Firefox/23.0 20150510220544
+PycURL/7.19.3_libcurl/7.35.0_GnuTLS/2.12.23_zlib/1.2.8_libidn/1.28_librtmp/2.3 20150508031029
+Opera/9.80_(Android;_Opera_Mini/7.6.40234/36.1982;_U;_ru)_Presto/2.12.423_Version/12.16 20150512113613
+Mozilla/5.0_(SAMSUNG;_SAMSUNG-GT-S5380D/S5380FXXLF1;_U;_Bada/2.0;_ru-ru)_AppleWebKit/534.20_(KHTML,_like_Gecko)_Dolfin/3.0_Mobile_HVGA_SMM-MMS/1.2.0_OPN-B 20150525072557
+Opera/9.80_(Android;_Opera_Mini/7.6.40234/36.2084;_U;_ru)_Presto/2.12.423_Version/12.16 20150526143350
+Mozilla/4.0_(compatible;_Synapse) 20150507060925
+Opera/9.80_(Series_60;_Opera_Mini/7.1.32453/36.2084;_U;_ru)_Presto/2.12.423_Version/12.16 20150526113805
+Opera/9.80_(Android;_Opera_Mini/7.5.32200/36.2084;_U;_ru)_Presto/2.12.423_Version/12.16 20150525214609
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Yo-yo 20150517114249
+GoogleEarth/7.1.2.2041(Windows;Microsoft_Windows_(6.2.9200.0);ru;kml:2.2;client:Free;type:default) 20150513001658
+Go_1.1_package_http 20150527044049
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 548 1264
+From1 0 0
+From2 576 922
+From3 583 727
+From4 1487 133649
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+google 117 463
+search 1 1
+rambler 2 2
+bing 2 2
+yandex 453 453
+msn 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 188
+http://vk.com/away.php 80 80
+http://link.2gis.ru/15E1D551/grym/20150501/perm/f8b0a14a476a43 53 53
+http://go.mail.ru/search 31 31
+http://vk.com/ads_rotate.php 27 27
+http://link.2gis.ru/2DF3E5FB/grymmobile/20150501/perm/f8b0a14a476a43 25 25
+http://m.vk.com/away.php 23 23
+http://link.2gis.ru/70DC4D73/grym/20150401/perm/f8b0a14a476a43 19 19
+http://link.2gis.ru/48CE7DD9/grymmobile/20150401/perm/f8b0a14a476a43 17 17
+http://vk.com/szs_perm 15 15
+http://www.haircity.ru/kursy-parikmaherov/perm/shkola-strizhek.php 14 14
+http://www.uralstudent.ru/kursy/kursy-parikmaherov/2128355/ 1 1
+http://link.2gis.ru/2B43CCE7/grym/20150401/perm/f8b0a14aeaea82 1 1
+http://vk.com/id158443662 1 1
+http://link.2gis.ru/1.1/1CCAE7E8/webapi/20150501/project16/70000001017375363/kmvcity.ru/1e3gxz68GA123HHJ1227uvrh8A421338152f46231JG483GJ262174G4130238534HH04 1 1
+http://perm.dorus.ru/education/courses/ 1 1
+http://perm.uralstudent.ru/kursy/kursy-parikmaherov/ 5 5
+http://adhelper.org/dynamical/dur.php 2 2
+http://parikmaher.net.ru/index.php 1 1
+http://link.2gis.ru/8B2A5F07/grymmobile/20141001/perm/f8b0a14a476a43 1 1
+http://link.2gis.ru/1.1/6F1FE5B2/webapi/20150501/project16/70000001006660162/2gis.ru/3f82c8G44631076587A92e868hu551G4H91J45J0guvge46Jrx30203C4217g8ec31459862165H326354JH4JI7f 1 1
+http://content.adfox.ru/150422/adfox/438224/1174339_1.html 1 1
+http://chaikovskii.spravker.ru/salony-krasoty/strizhka-za-strizhkoj3.htm 3 3
+http://perm.blizko.ru/firms/13119895 1 1
+http://neutralitet.ru/%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D1%8B-%D0%BA%D1%80%D0%B0%D1%81%D0%BE%D1%82%D1%8B/14708-next-level-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%8F-%D0%BF%D0%B0%D1%80%D0%B8%D0%BA%D0%BC%D0%B0%D1%85%D0%B5%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0 1 1
+http://vk.com/login 1 1
+http://berezniki.gde.ru/uslugi/obrazovanie/kursy 1 1
+http://vk.com/club18651740 1 1
+http://m.vk.com/szs_perm 9 9
+http://link.2gis.ru/1.1/BCFD2EDC/webapi/20150501/project16/70000001017803957/2gis.ru/f9B8hu55G4H9J23J95AAuvge393203313gBA46288Jrx595Ag9A918G4130218800HH1H6JIef 1 1
+http://link.2gis.ru/1.1/2D723731/webapi/20150501/project16/70000001007395862/2gis.ru/1b3fhu55GA123HHJ1f26uvge13271328112A46325JG482GJ242118G413023A584HH8c 1 1
+http://link.2gis.ru/1.1/F5C7BA2C/webapi/20150501/project16/2252329095032822/bizspravka.su/1b38bx86G537JHH71625uvfs55610C71152746223JG44GG3222707G4362B3382GHg8 1 1
+http://perm.spravker.ru/soljarii/ 1 1
+http://link.2gis.ru/0BF15416/grymmobile/20150501/perm/f8b0a14aeaea82 3 3
+http://content.adfox.ru/150428/adfox/438224/1176747_1.html 1 1
+http://otzovik.com/review_146121.html 1 1
+http://m.vk.com/feed 1 1
+http://ok.ru 1 1
+http://link.2gis.ru/1.1/814E0F9D/webapi/20150501/project16/70000001007395862/rufirm.org/173Ahs55GA123HHJ1127uvyl856A1328122B462A2JG482GJ292d54G413023A584HH9e 1 1
+http://link.2gis.ru/5BB946AF/v4-iphone/20150501/perm/70000001006660162 1 1
+http://vk.com/feed 4 4
+http://link.2gis.ru/39F352AD/grymmobile/20150301/perm/f8b0a14aeaea82 1 1
+http://vk.com/friends 2 2
+http://vk.com/school_stizki 4 4
+http://pfo.spr.ru/perm-i-permskiy-rayon/strizhka-za-strizhkoy-4568974.html 4 4
+http://vk.com/app1968803_183463530 1 1
+http://vk.com/id19136397 1 1
+http://vk.com/album37246114_000 1 1
+http://strizhka-za-strizhkoi.pulscen.ru/contacts 1 1
+http://www.rusprofile.ru/id/2705391 1 1
+http://link.2gis.ru/1.1/5B2E559F/webapi/20150501/project16/70000001017375363/gisvid.ru/3iCg58G44631183588133ad2cky886G4H91J36J09uvly72Jrx30203C4217726ge0B39077366H326344JH4JIff 1 1
+http://link.2gis.ru/1.1/2D723731/webapi/20150501/project16/70000001007395862/2gis.ru/153ihu55GA123HHJ192Auvge339A1328152946288JG482GJ282c18G413023A584HHbA 1 1
+http://link.2gis.ru/1.1/BCFD2EDC/webapi/20150501/project16/70000001017803957/2gis.ru/24A6hu55G4H9J1H34f55uvge8598033144Af46183Jrx595Ag49418G413021880GHH4HI43 1 1
+http://link.2gis.ru/1.1/6F1FE5B2/webapi/20150501/project16/70000001006660162/2gis.ru/5dhA48G44631076587A923332hu551G4H91J81J0cuvge83Jrx30203C4217d51620976162165H326354JH4JIBe 1 1
+http://link.2gis.ru/1.1/358FD7C8/webapi/20150501/project16/70000001007312604/2gis.ru/385h48G44631083JH5HH356e2hu551G4H91JAAC98uvge54Jrx30203CI2H02de7B076A014607AA9AB3d 1 1
+http://seplace.ru/perm/address/60297 1 1
+http://us.wow.com/search 1 1
+http://perm.spravker.ru/parikmaherskie/ 2 2
+http://perm.uralstudent.ru/kursy/kursy-parikmaherov/2122322/ 1 1
+http://www.orgpage.ru/Company/siteview/ 1 1
+http://vk.com/app3509816 1 1
+http://vk.com/candy_game 1 1
+http://vk.com/dariryumina 1 1
+http://webscore.ru/report/%D1%81%D1%82%D1%80%D0%B8%D0%B6%D0%BA%D0%B0-%D0%B7%D0%B0-%D1%81%D1%82%D1%80%D0%B8%D0%B6%D0%BA%D0%BE%D0%B9.%D1%80%D1%84 0 1
+http://link.2gis.ru/CD322B54/grymmobile/20150201/perm/f8b0a14a476a43 7 7
+http://link.2gis.ru/1847F80E/grymmobile/20150201/perm/f8b0a14aeaea82 1 1
+http://www.haircity.ru/kursy-parikmaherov/perm/ 2 2
+http://other.medikateka.ru/poi/%D0%BF%D0%B0%D1%80%D0%B8%D0%BA%D0%BC%D0%B0%D1%85%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BD%D0%B4%D1%83%D1%81%D1%82%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%80%D0%B0%D0%B9%D0%BE%D0%BD-%D0%BF%D0%B5%D1%80%D0%BC%D1%81%D0%BA%D0%B8%D0%B9/pt1c12943pa105O2024/ 1 1
+http://www.hairlife.ru/videos/ 1 1
+http://link.2gis.ru/C290B553/grymmobile/20150401/perm/f8b0a14aeaea82 1 1
+http://masterclassy.ru/podelki/uchimsya-risovat/13026-kak-narisovat-rozu-poetapno-s-foto.html 1 1
+http://perm.strana-krasoty.ru/teaching.html 1 1
+http://vk.com/id193565420 1 1
+http://vk.com/id77734521 1 1
+http://vk.com/mrd910 1 1
+http://pk.all-gorod.ru/company/6495806 3 3
+http://vk.com/id41556740 1 1
+http://vk.com/playpirates 1 1
+http://link.2gis.ru/5A66B398/grym/20150101/perm/f8b0a14a476a43 2 2
+http://link.2gis.ru/41516F43/grymmobile/20141201/perm/f8b0a14a476a43 3 3
+http://link.2gis.ru/1.1/6F1FE5B2/webapi/20150501/project16/70000001006660162/2gis.ru/b8Ce3AG44631076587A9A67gfom941G4H91J48J0Auvdg70Jrx30203C42175bd7e2944062165H326354J3G7IJ4A 1 1
+http://link.2gis.ru/1.1/BCFD2EDC/webapi/20150501/project16/70000001017803957/2gis.ru/b99dhu55G4H9J1H3A2e2uvge462A0331egg346224Jrx595A85h118G413021880GHH4HIdc 1 1
+http://perm.tvoyaspravka.ru/words/obuchenie_professiyam 1 1
+http://link.2gis.ru/1.1/BCFD2EDC/webapi/20150501/project16/70000001017803957/2gis.ru/59B3om94G4H9J23J9dcAuvdg86930331g2hA46298Jrx595A49A91AG4130218800HH1H6JIgA 1 1
+http://perm.uralstudent.ru/kursy/kursy-parikmaherov/2155964/ 4 4
+http://link.2gis.ru/1.1/2D723731/webapi/20150501/project16/70000001007395862/2gis.ru/e9Beom94G4H9J4H39e4Auvdg9C9703312b6A46167Jrx7865f9A91AG413020839GHH4HIe2 1 1
+http://perm.uralstudent.ru/centers/dopolnitelnoe-obrazovanie/uchebnye-czentry/kristi-shkola-salonnogo-biznesa-1830596/ 1 1
+http://vk.com/app4840912_11068340 1 1
+http://link.2gis.ru/1.1/BCFD2EDC/webapi/20150501/project16/70000001017803957/2gis.ru/1g35hu55GA123HHJ1d2huvge8C261338162B46197JG477GJ2g2718G4130281394HH8A 1 1
+http://chaikovskii.spravker.ru/salony-krasoty/strizhka-za-strizhkoj.htm 4 4
+http://ok.ru/feed 1 1
+http://perm.uralstudent.ru/kursy/kursy-parikmaherov/2122310/ 1 1
+http://link.2gis.ru/1.1/6F1FE5B2/webapi/20150501/project16/70000001006660162/2gis.ru/gh9df61B4C69JAAC9AIG4GGdAah6811AG4460331072H2562dgom94H913026621657A248Ag1fguv2JrxG4A9ABCIA313A37 1 1
+http://perm.spravker.ru/salony-krasoty/page-7/ 1 1
+http://vk.com/id179192918 1 1
+http://neutralitet.ru/%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%B4%D0%B6%D0%B8/32185-%D0%BF%D0%B5%D1%80%D0%BC%D1%81%D0%BA%D0%B8%D0%B9-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%B4%D0%B6%2C-%D1%81%D0%BF%D0%BE 1 1
+http://www.kakprosto.ru/kak-11541-kak-poluchit-specialnost 1 1
+http://link.2gis.ru/1.1/2D723731/webapi/20150501/project16/70000001007395862/2gis.ru/14fhhu55G4H9J5H3393Auvge8A3603319489462A2Jrx7865Ae8b18G413020839GH2G5IJBg 1 1
+http://perm.zoon.ru/trainings/type/kursy_parikmaherov/ 3 3
+http://vk.com/luda_neko 1 1
+http://account.2gis.ru/dashboard/70000001006660163 1 1
+http://link.2gis.ru/1.1/2D723731/webapi/20150501/project16/70000001007395862/2gis.ru/7hh129190619JAAC9AIG4GG5b8cA441AG4460331082H2562dgom94H9130239786579BB44e64duv7JrxG4A9ABCIA313A3g 1 1
+http://www.magicwish.ru/publ/molitva_svjatoj_marte_dlja_ispolnenija_zhelanij/11-1-0-704 1 1
+http://perm.uralstudent.ru/centers/dopolnitelnoe-obrazovanie/uchebnye-czentry/permskiy-uchebnyy-kombinat-potrebitelskoy-kooperacii-nou-2122375/ 2 2
+http://www.s-shot.ru 1 1
+http://link.2gis.ru/E2222DA2/grym/20150501/perm/f8b0a14aeaea82 8 8
+http://perm.ayle.ru/v-permi/50534-salon-parikmaherskaya-strizhka-za-strizhkoy/ 2 2
+http://vk.com/id103418660 1 1
+http://vk.com/id168149297 1 1
+http://link.2gis.ru/C37E8F23/v4-iphone/20150501/perm/70000001007312604 1 1
+http://do.prm.ru/categories/services/population/hairdresser/ 2 2
+http://link.2gis.ru/A80FB376/grymmobile/20150301/perm/f8b0a14a476a43 13 13
+http://www.\xd1\x81\xd1\x82\xd1\x80\xd0\xb8\xd0\xb6\xd0\xba\xd0\xb0-\xd0\xb7\xd0\xb0-\xd1\x81\xd1\x82\xd1\x80\xd0\xb8\xd0\xb6\xd0\xba\xd0\xbe\xd0\xb9.\xd1\x80\xd1\x84/perm.php 1 1
+http://vk.com 1 1
+http://vk.com/topic-59281852_29712664 2 2
+http://alitrack.ru/track/5370716-RJ456053977CN.html 1 1
+http://vk.com/my_nanofarm 1 1
+http://link.2gis.ru/1.1/2D723731/webapi/20150501/project16/70000001007395862/2gis.ru/gdh5c9229956JAAC9AIG4GG486BeAb18G4460331082H2562gehu55H9130239786579BB449cffuv5JrxG4A9ABCIA313A38 1 1
+http://link.2gis.ru/1.1/6F1FE5B2/webapi/20150501/project16/70000001006660162/2gis.ru/35986AG44631076587A9829g6om941G4H91J45J0huvdg63Jrx30203C4217623cB0B84562165H326354JH4JI55 1 1
+http://vk.com/id132715155 1 1
+http://link.2gis.ru/1.1/6F1FE5B2/webapi/20150501/project16/70000001006660162/2gis.ru/c6Cd28G44631076587A9922e9hu551G4H91J48J06uvge29Jrx30203C4217cef572827662165H326354J3G7IJbg 1 1
+http://link.2gis.ru/1.1/2D723731/webapi/20150501/project16/70000001007395862/2gis.ru/1e3Aom94GA123HHJ182guvdg535113281g2B46199JG482GJ292e1AG413023A584HHe9 1 1
+http://perm.trud.com/search/item/item_id/295718943/site_id/428/show/job/query/%D0%A5%D1%83%D0%B4%D0%BE%D0%B6%D0%BD%D0%B8%D0%BA/region/perm.html 1 1
+http://vk.com/app1896029 1 1
+http://link.2gis.ru/1.1/91AC4CF7/webapi/20150501/project16/2252329095032822/null/59B7uxABG4H47H1J92hAuvpo039A2C2A7ffA460A6JrxA22J39A95AG438255132GH5GHhe 1 1
+http://link.2gis.ru/F5201BFE/grym/20150201/perm/f8b0a14a476a43 3 3
+http://vk.com/zelsa 1 1
+http://burger-imperia.com 1 1
+http://misswomen.ru/stile.php 1 1
+http://www.\xD1\x81\xD1\x82\xD1\x80\xD0\xB8\xD0\xB6\xD0\xBA\xD0\xB0-\xD0\xB7\xD0\xB0-\xD1\x81\xD1\x82\xD1\x80\xD0\xB8\xD0\xB6\xD0\xBA\xD0\xBE\xD0\xB9.\xD1\x80\xD1\x84/perm.php 0 1
+http://www.kakprosto.ru/kak-14804-kak-sdelat-iz-dzhins-shorty 1 1
+http://perm.spravker.ru/parikmaherskie/page-5/ 1 1
+http://pk.all-gorod.ru/company/586029 3 3
+http://www.gismeteo.ru/city/daily/4491/ 1 1
+http://link.2gis.ru/1.1/AE153D1C/webapi/20150501/project16/2252329095032822/2gis.ru/518Bhu55G4H48H1J82f8uvge952A2C2A8g56462A5JrxA22JAgB818G438255132G2H4HI44 1 1
+http://chaikovskii.spravker.ru/salony-krasoty/ 3 3
+http://834256.ru 1 1
+http://vk.com/id89582495 1 1
+http://link.2gis.ru/1.1/6F1FE5B2/webapi/20150501/project16/70000001006660162/2gis.ru/1dedf8G44631076J2H5He48g2hu551G4H91JAAC92uvgeA0Jrx30203CI2H0B37422A8B062165AA9ABH53 1 1
+http://vk.com/app4393269_264169589 1 1
+http://perm.uralstudent.ru/kursy/kursy-parikmaherov/2122376/ 1 1
+http://www.rbc.ru/rbcfreenews/5563722d9a79476815b0bb3e 1 1
+http://vk.com/video 1 1
+http://vk.com/id136134004 1 1
+http://vk.com/perrykokss 1 1
+http://link.2gis.ru/DEFE1907/v4-winphone/20150501/perm/2252329095032822 2 2
+http://vk.com/vladya97blablablalalalala 2 2
+http://www.samaragid.ru/opensite.html 1 1
+http://vk.com/id184445233 1 1
+http://perm.uralstudent.ru/kursy/kursy-parikmaherov/2122316/ 4 4
+http://vk.com/club31843471 1 1
+http://forum.rcdesign.ru/f21/thread17497.html 1 1
+http://link.2gis.ru/1.1/358FD7C8/webapi/20150501/project16/70000001007312604/2gis.ru/79Bdom94G4H9J3H39b2Auvdg04640331g65A46232Jrx4607f9A91AG413020831GHH4HIe5 1 1
+http://link.2gis.ru/1.1/358FD7C8/webapi/20150501/project16/70000001007312604/2gis.ru/d9B8hu55G4H9J3H397BAuvge3A0A0331d4BA46170Jrx460759A918G413020831GHH4HId8 1 1
+http://perm.sindom.ru/obuchenie-na-parikmahera-v-permi-v-studii-nyu-level-a2137776.html 1 1
+http://perm.uralstudent.ru/kursy/kursy-parikmaherov/2122389/ 1 1
+http://link.2gis.ru/1.1/6F1FE5B2/webapi/20150501/project16/70000001006660162/2gis.ru/15673AG44631076587A958de3om941G4H91J45J0duvdg95Jrx30203C4217e37c8136B762165H326354JH4JI40 1 1
+http://link.2gis.ru/1.1/BCFD2EDC/webapi/20150501/project16/70000001017803957/2gis.ru/719Bhu55G4H9J1H36f5cuvge570703316A4246250Jrx595Ae18918G413021880GHH4HIAB 1 1
+http://vk.com/szs_chaik 4 4
+http://www.strahyi.ru/material/kak-poluchit-novyy-medicinskiy-polis 1 1
+http://link.2gis.ru/1.1/6F1FE5B2/webapi/20150501/project16/70000001006660162/2gis.ru/bihdd8G44631076587A92c2hAhu551G4H91J45J07uvge52Jrx30203C4217d9A6d0B84262165H326354JH4JIh7 1 1
+https://touch.health.mail.ru/drug/terbinafin/ 1 70
+http://vk.com/id240213570 1 1
+http://perm.uralstudent.ru/kursy/kursy-parikmaherov/2122414/ 1 1
+http://link.2gis.ru/1.1/AE153D1C/webapi/20150501/project16/2252329095032822/2gis.ru/9g9333223337CAAC9AI4GGcf80cf8e1AG4462C2A51I3282Adgom94H4382532A22J6CA71J9Af6uv1JrxG4A9ABJ2311A58 1 1
+http://maps.2gis.ru 12 12
+http://vk.com/id105644916 1 1
+http://vk.com/id121875895 1 1
+http://link.2gis.ru/BEEEEDD4/grymmobile/20140701/perm/f8b0a14a476a43 2 2
+http://perm.uralstudent.ru/kursy/ 1 1
+http://link.2gis.ru/1.1/AE153D1C/webapi/20150501/project16/2252329095032822/2gis.ru/f9Bfhu55G4H44H1J9dfAuvge86972C2A4cfA46258JrxA22Jg9A918G438255132GH5GH8A 1 1
+http://link.2gis.ru/1.1/2D723731/webapi/20150501/project16/70000001007395862/2gis.ru/53eghu55G4H9J5H3fddhuvge8A430331f6Bf462A3Jrx78653fAg18G413020839GH2G5IJ53 1 1
+http://link.2gis.ru/901D83DC/grym/20150301/perm/f8b0a14a476a43 3 3
+http://vk.com/id237924268 1 1
+http://link.2gis.ru/1.1/6F1FE5B2/webapi/20150501/project16/70000001006660162/2gis.ru/6Bh761248397JAAC9AIG4GGdb4A8851AG4460331072H2562dgom94H9130266216579BB445AhAuv3JrxG4A9ABCIA313A31 1 1
+http://link.2gis.ru/148A6FDD/v4-winphone/20150501/perm/70000001007312604 1 1
+http://vk.com/dashechka1996 1 1
+http://fashiony.ru/page.php 1 1
+http://go.mail.ru/search_images 0 4
+http://perm.blizko.ru/firms/10870536 1 1
+http://vk.com/id145197670 1 1
+http://vk.com/im 1 1
+http://link.2gis.ru/1.1/358FD7C8/webapi/20150501/project16/70000001007312604/2gis.ru/e9Bfhu55G4H9J3H39a6Auvge16110331d1BA46244Jrx4607c9A918G413020831GHH4HICh 1 1
+http://www.gismeteo.ru/month/4476/ 1 1
+http://link.2gis.ru/62748332/grymmobile/20150101/perm/f8b0a14a476a43 6 6
+http://www.domkadrov.ru/empsearch.php 1 70
+http://strizhka-za-strizhkoj59-1.perm-gid.info 1 1
+http://vk.com/id238092124 1 1
+http://link.2gis.ru/A41C76CB/grymmobile/20140901/perm/f8b0a14a476a43 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 138
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 15
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8+%d0%bd%d0%b0+%d1%81%d0%b5%d0%b3%d0%be%d0%b4%d0%bd%d1%8f 9
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2+%d0%b4%d0%bb%d1%8f+%d0%bd%d0%b0%d1%87%d0%b8%d0%bd%d0%b0%d1%8e%d1%89%d0%b8%d1%85+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 7
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9 6
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 5
+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d1%8b%d0%b5+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 5
+%d0%be%d0%b1%d1%83%d1%87%d0%b0%d1%8e%d1%89%d0%b0%d1%8f+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%be%d0%b3%d0%be+%d0%b8%d1%81%d0%ba%d1%83%d1%81%d1%81%d1%82%d0%b2%d0%b0+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 4
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bd%d0%b0+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 3
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%b3.%d1%87%d0%b0%d0%b9%d0%ba%d0%be%d0%b2%d1%81%d0%ba%d0%b8%d0%b9 3
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2 3
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d1%86%d0%b5%d0%bd%d0%b0 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d1%84%d0%bb%d0%be%d1%80%d0%b8%d1%81%d1%82%d0%be%d0%b2+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%be+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%bf%d0%be%d1%81%d0%bb%d0%b5+9+%d0%ba%d0%bb%d0%b0%d1%81%d1%81%d0%b0 2
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2+%d1%81+%d0%bd%d1%83%d0%bb%d1%8f+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%bf%d0%b5%d0%bd%d1%81%d0%b8%d0%be%d0%bd%d0%b5%d1%80%d1%83+150%d1%80+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 2
+%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b5%d1%81%d0%bd%d0%be%d1%81%d1%82%d0%b8+%d0%9f%d0%b5%d1%80%d0%bc%d0%b8+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%be+%d0%ba%d1%83%d1%80%d1%81%d1%8b 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+15+%d0%bb%d0%b5%d1%82+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%bf%d0%be+%d1%81%d0%be%d0%b2%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d1%83+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d0%b5%d1%81%d1%82%d1%8c+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8 2
+%d0%be%d0%b1%d1%83%d1%87%d0%b0%d1%8e%d1%89%d0%b8%d0%b5+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bd%d0%b0+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%be%d1%80%d0%b4%d0%b6%d0%be%d0%b8%d0%ba%d0%b8%d0%b4%d0%b7%d0%b5%d0%b2%d1%81%d0%ba%d0%be%d0%bc+%d1%80%d0%b0%d0%b9%d0%be%d0%bd%d0%b5+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b4%d0%bb%d1%8f+%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b4%d1%80%d1%83%d0%b6%d0%b1%d1%8b+40+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+art+color+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b4%d0%bb%d1%8f+%d0%b4%d0%b5%d0%b2%d1%83%d1%88%d0%b5%d0%ba+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b8+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b7%d0%b0%d0%ba%d0%b0%d0%bc%d1%81%d0%ba+%d0%ba%d0%b8%d1%80%d0%be%d0%b2%d1%81%d0%ba%d0%b8%d0%b9+%d1%80%d0%b0%d0%b9%d0%be%d0%bd+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%ba%d1%80%d0%b5%d0%b0%d1%82%d0%b8%d0%b2%d0%bd%d1%8b%d0%b5+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b8+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%bc%d1%83%d0%b6%d1%81%d0%ba%d0%b0%d1%8f+150+%d1%80%d1%83%d0%b1%d0%bb%d0%b5%d0%b9 2
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+59+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%bf%d0%be%d1%81%d0%bb%d0%b5%d0%b4%d0%bd%d0%b8%d0%b5+%d0%b2+%d0%b4%d0%b7%d0%b5%d1%80%d0%b6%d0%b8%d0%bd%d1%81%d0%ba%d0%be%d0%bc+%d1%80%d0%b0%d0%b9%d0%be%d0%bd%d0%b5 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%b4%d0%bb%d1%8f+%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%be%d0%b2+%d0%be%d1%82+17+%d0%bb%d0%b5%d1%82+%d0%b0%d0%b2%d0%b8%d1%82%d0%be 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0+%d1%81%d1%82%d0%b8%d0%bb%d0%b8%d1%81%d1%82%d0%b0+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d1%81+%d0%b6%d0%b8%d0%bb%d1%8c%d0%b5%d0%bc 1
+%d0%ba%d1%82%d0%be+%d0%b4%d0%b8%d1%80%d0%b5%d0%ba%d1%82%d0%be%d1%80+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%be%d0%b9+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b0%d1%8e%d1%89%d0%b8%d0%b5+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80 1
+%d0%b8%d1%89%d1%83+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%83+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%bb%d0%b5%d0%bd%d0%b8%d0%bd%d1%81%d0%ba%d0%b8%d0%b9+%d1%80%d0%b0%d0%b9%d0%be%d0%bd 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+5%2f2+%d0%b4%d0%bb%d1%8f+%d0%b6%d0%b5%d0%bd%d1%87%d0%b8%d0%bd 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%be%d1%80%d0%b4%d0%b6%d0%be%d0%bd%d0%b8%d0%ba%d0%b8%d0%b4%d0%b7%d0%b5%d0%b2%d1%81%d0%ba%d0%b8%d0%b9+%d1%80%d0%b0%d0%b9%d0%be%d0%bd+%d0%bd%d0%b0+%d1%81%d0%b5%d0%b3%d0%be%d0%b4%d0%bd%d1%8f 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2%d1%81%d0%b5%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%b3%d0%b0%d0%b7%d0%b5%d1%82%d0%b0 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%be%d1%80%d0%b4%d0%b6%d0%be%d0%bd%d0%b8%d0%ba%d0%b8%d0%b4%d0%b7%d0%b5%d0%b2%d1%81%d0%ba%d0%b8%d0%b9+%d1%80%d0%b0%d0%b9%d0%be%d0%bd+%d0%b3%d0%b0%d0%b9%d0%b2%d0%b0 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bb%d0%b0%d0%bd%d0%b4%d1%88%d0%b0%d1%84%d1%82%d0%bd%d0%be%d0%b3%d0%be+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%be+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+avito+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d1%82%d0%b5%d0%bb%d0%b5%d1%84%d0%be%d0%bd 2
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d1%81%d0%b2%d0%b5%d1%80%d0%b4%d0%bb%d0%be%d0%b2%d1%81%d0%ba%d0%b8%d0%b9+%d1%80%d0%b0%d0%b9%d0%be%d0%bd 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%bd%d0%b0+%d0%bb%d0%b5%d1%82%d0%be+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%b4%d0%bb%d1%8f+%d0%b6%d0%b5%d0%bd%d1%89%d0%b8%d0%bd%d1%8b 2
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b3%d0%be%d1%80%d0%be%d0%b4+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%ba%d0%b8%d1%80%d0%be%d0%b2%d1%81%d0%ba%d0%b8%d0%b9+%d1%80%d0%b0%d0%b9%d0%be%d0%bd 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%8b 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d1%81%d0%b0%d0%b9%d1%82 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8+%d0%bd%d0%b0+%d1%81%d0%b5%d0%b3%d0%be%d0%b4%d0%bd%d1%8f+59+%d1%80%d1%83+%d0%bf%d0%be%d1%81%d0%bb%d0%b5%d0%b4%d0%bd%d0%b8%d0%b5+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8+%d0%bd%d0%b0+%d1%81%d0%b5%d0%b3%d0%be%d0%b4%d0%bd%d1%8f+%d0%ba%d1%83%d0%bd%d0%b3%d1%83%d1%80+%d1%81%d1%83%d1%82%d0%ba%d0%b8+%d0%b4%d0%bb%d1%8f+%d0%b6%d0%b5%d0%bd%d1%89%d0%b8%d0%bd 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d0%b8%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%86%d0%b5%d0%bd%d0%b0+%d1%81%d0%bf%d0%be%d1%80%d1%82%d0%b8%d0%b2%d0%bd%d0%be%d0%b9+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b8+%d0%b2+%d0%bf%d0%b0%d1%80%d0%b5%d1%85%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%be%d0%b9+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9 1
+%d0%bd%d0%b0%d0%b9%d1%82%d0%b8+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%83+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%bc+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bd%d0%b0+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0+%d1%83%d0%bd%d0%b8%d0%b2%d0%b5%d1%80%d1%81%d0%b0%d0%bb%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 3
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d1%85%d0%b5%d1%80%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5 1
+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d1%8b%d0%b5+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5 1
+%d0%b8%d1%89%d1%83+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%83+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%bd%d0%b0+%d0%b0%d0%b2%d0%b8%d1%82%d0%be 1
+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%be+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b7%d0%b0%d0%ba%d0%b0%d0%bc%d1%81%d0%ba 1
+%d0%bc%d1%83%d0%b6%d1%81%d0%ba%d0%b0%d1%8f+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b3.%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%ba%d1%83%d0%bf%d1%81%d1%8b+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0 1
+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b3%d1%80%d0%b0%d1%84%d0%b8%d0%ba+%d0%b4%d0%b2%d1%83%d1%85%d1%81%d0%bc%d0%b5%d0%bd%d0%bd%d1%8b%d0%b9+%d0%b4%2f%d0%b6%d0%b5%d0%bd%d1%89%d0%b8%d0%bd 1
+%d1%86%d0%b5%d0%bd%d0%b2+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b8+%d0%bd%d0%b0+%d1%81%d1%80%d0%b5%d0%b4%d0%bd%d0%b8%d0%b5+%d0%b2%d0%be%d0%bb%d0%be%d1%81%d1%8b+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d1%81%d0%b2%d0%b5%d1%80%d0%b4%d0%bb%d0%be%d0%b2%d1%81%d0%ba%d0%b8%d0%b9+%d1%80%d0%b0%d0%b9%d0%be%d0%bd+%d0%bf%d1%80%d0%be%d0%b8%d0%b7%d0%b2%d0%be%d0%b4%d1%81%d1%82%d0%b2%d0%be 1
+%d0%bc%d0%b0%d1%81%d1%82%d0%b5%d1%80+%d1%81%d1%82%d1%80%d0%b8%d1%88%d0%ba%d0%b0.%d1%80%d1%84 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bd%d0%b0+%d0%bf%d0%b0%d1%80%d0%b8%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0+%d1%83%d0%bd%d0%b8%d0%b2%d0%b5%d1%80%d1%81%d0%b0%d0%bb%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%b7%d0%b0%d0%be%d1%87%d0%bd%d0%be%d0%b5+%d0%bd%d0%b0+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%bd%d0%b0+%d0%b0%d0%b2%d0%b8%d1%82%d0%be+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8 2
+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%bb%d1%83%d1%87%d1%88%d0%b8%d0%b9+%d0%bc%d0%b0%d1%81%d1%82%d0%b5%d1%80+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%b5%d0%ba 1
+%d0%b2%d0%b8%d0%b4%d0%b5%d0%be+%d1%83%d1%80%d0%be%d0%ba%d0%b8+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bd%d0%b0+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0+%d0%b2+%d1%81%d0%be%d0%bb%d0%b8%d0%ba%d0%b0%d0%bc%d1%81%d0%ba%d0%b5 1
+%d0%b3%d0%b0%d1%80%d0%b0%d0%bd%d1%82%d0%b8%d1%8f+%d0%bd%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d1%83 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%bd%d0%b0+%d0%b7%d0%b0%d0%b2%d0%be%d0%b4%d0%b0%d1%85+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d1%81+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5%d0%bc 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d1%81+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5%d0%bc+%d0%b3+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%b2%d0%b0%d1%85%d1%82%d0%b0+%d0%b6%d0%b5%d0%bd%d1%89%d0%b8%d0%bd%d0%b0%d0%bc 1
+%d0%bf%d0%be%d0%b8%d1%81%d0%ba+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%b2+%d0%ba%d0%b8%d1%80%d0%be%d0%b2%d1%81%d0%ba%d0%be%d0%bc+%d1%80%d0%b0%d0%b9%d0%be%d0%bd%d0%b5 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%ba%d0%b8%d1%80%d0%be%d0%b2%d1%81%d0%ba%d0%b8%d0%b9+%d1%80%d0%b0%d0%b9%d0%be%d0%bd+%d0%b7%d0%b0%d0%ba%d0%b0%d0%bc%d1%81%d0%ba 1
+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%b4%d0%bb%d1%8f+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2+%d0%bf%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%ba%d0%be%d0%b2 2
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d1%81+%d0%b5%d0%b6%d0%b5%d0%b4%d0%bd%d0%b5%d0%b2%d0%bd%d1%8b%d0%bc%d0%b8+%d0%b2%d1%8b%d0%bf%d0%bb%d0%b0%d1%82%d0%b0%d0%bc%d0%b8 1
+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2 1
+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%b5%d0%ba+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2+%d0%b4%d0%bb%d1%8f+%d0%bd%d0%b0%d1%87%d0%b8%d0%bd%d0%b0%d1%8e%d1%89%d0%b8%d1%85+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%bf%d0%be%d0%b4%d1%81%d1%82%d1%80%d0%b8%d1%87%d1%81%d1%8f+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%be 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%b4%d0%b8%d0%b7%d0%b0%d0%b9%d0%bd%d0%b5%d1%80%d0%b0+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d1%8b%d0%b5+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 2
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%8c%d1%80 2
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%ba%d1%82%d0%be+%d0%b2+%d0%b4%d0%b5%d0%ba%d1%80%d0%b5%d1%82%d0%b5+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%b2+%d0%b4%d0%b7%d0%b5%d1%80%d0%b6%d0%b8%d0%bd%d1%81%d0%ba%d0%be%d0%bc+%d1%80%d0%b0%d0%b9%d0%be%d0%bd%d0%b5 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%b2%d0%b0%d1%85%d1%82%d0%be%d0%b9+%d0%bc%d0%b0%d0%b3%d0%b0%d0%b7%d0%b8%d0%bd 1
+%d0%b7%d0%b0%d0%be%d1%87%d0%bd%d0%be%d0%b5+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bd%d0%b0+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%bd%d0%b5%d0%bf%d0%be%d0%bb%d0%bd%d1%8b%d0%b9+%d1%80%d0%b0%d0%b1%d0%be%d1%87%d0%b8%d0%b9+%d0%b4%d0%b5%d0%bd%d1%8c 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b1%d0%b5%d0%b7+%d0%be%d0%bf%d1%8b%d1%82%d0%b0+%d1%81+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5%d0%bc 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%b7%d0%b0%d0%ba%d0%b0%d0%bc%d1%81%d0%ba%d0%b5+%d0%ba%d0%b8%d1%80%d0%be%d0%b2%d1%81%d0%ba%d0%b8%d0%b9+%d1%80%d0%b0%d0%b9%d0%be%d0%bd 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%b0%d0%b4%d1%80%d0%b5%d1%81%d0%b0 2
+%d0%be%d0%bb%d0%b5+%d1%85%d0%b0%d1%83%d1%81+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d1%81%d0%b0%d0%b9%d1%82 1
+%d0%bf%d1%80%d0%b5%d0%b4%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%b8%d1%8f+%d0%bd%d0%b0+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%83+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%bc%d1%83%d0%b6%d1%89%d0%b8%d0%bd+%d0%bd%d0%b0+%d0%b4%d0%be%d0%bc%d1%83 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d1%81+%d0%b5%d0%b6%d0%b5%d0%b4%d0%bd%d0%b5%d0%b2%d0%bd%d1%8b%d0%bc%d0%b8+%d0%b2%d1%8b%d0%bf%d0%bb%d0%b0%d1%82%d0%b0%d0%bc%d0%b8+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%b8%d0%bf 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%ba%d1%83%d1%80%d1%81%d0%b5+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%b8%d0%b7+%d1%80%d1%83%d0%ba+%d0%b2+%d1%80%d1%83%d0%ba%d0%b8+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8 2
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b0%d0%ba%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2+%d0%b4%d0%bb%d1%8f+%d0%bc%d1%83%d0%b6%d1%87%d0%b8%d0%bd 2
+%d0%b3%d0%b0%d0%b7%d0%b5%d1%82%d0%b0+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b4%d0%bb%d1%8f+%d0%b2%d0%b0%d1%81+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bd%d0%b0+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%b2+%d0%b8%d0%bd%d0%b4%d1%83%d1%81%d1%82%d1%80%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%bc+%d1%80%d0%bd 1
+%d1%81%d1%82%d1%80%d1%82%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9 2
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bd%d1%8b%d1%82%d0%b2%d0%b5%d0%bd%d1%81%d0%ba%d0%be%d0%bc+%d1%80%d0%b0%d0%b9%d0%be%d0%bd%d0%b5 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bd%d0%b0+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0+%d0%b2+%d0%bc%d0%be%d1%81%d0%ba%d0%b2%d0%b5 1
+%d0%b0%d0%b2%d0%b8%d1%82%d0%be+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8 2
+%d0%9e%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80-%d1%81%d1%82%d0%b8%d0%bb%d0%b8%d1%81%d1%82+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+59+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%b5%d0%b6%d0%b5%d0%b4%d0%bd%d0%b5%d0%b2%d0%bd%d1%8b%d0%b5+%d0%b2%d1%8b%d0%bf%d0%bb%d0%b0%d1%82%d1%8b 1
+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%be%d1%82+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%be%d0%b4%d0%b0%d1%82%d0%b5%d0%bb%d1%8f 1
+%d0%b0%d0%b2%d0%b8%d1%82%d0%be+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%be%d1%85%d1%80%d0%b0%d0%bd%d0%bd%d0%b8%d0%ba%d0%be%d0%bc+1%2f3 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d1%84%d0%bb%d0%be%d1%80%d0%b8%d1%81%d1%82%d0%be%d0%b2+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%be+%d1%81+%d1%82%d1%80%d1%83%d0%b4%d0%be%d1%83%d1%81%d1%82%d1%80%d0%be%d0%b9%d1%81%d1%82%d0%b2%d0%be%d0%bc+%d0%9f%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8+%d0%bd%d0%b0+%d1%81%d0%b5%d0%b3%d0%be%d0%b4%d0%bd%d1%8f+%d0%bd%d0%b0+%d0%b0%d0%b2%d0%b8%d1%82%d0%be+%d1%81%d0%b2%d0%b5%d0%b6%d0%b8%d0%b5+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b4%d0%bb%d1%8f+%d0%b4%d0%b5%d0%b2%d1%83%d1%88%d0%b5%d0%ba 1
+www.%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0-%d0%b7%d0%b0-%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9.%d1%80%d1%84 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+18+%d0%bb%d0%b5%d1%82 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2+%d1%81+%d0%bd%d1%83%d0%bb%d1%8f+%d0%9f%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d1%8b%d0%b5+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%be%d1%80%d0%b4%d0%b6%d0%be%d0%bd%d0%b8%d0%ba%d0%b8%d0%b4%d0%b7%d0%b5%d0%b2%d1%81%d0%ba%d0%b8%d0%b9+%d1%80%d0%b0%d0%b9%d0%be%d0%bd 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d1%8f+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d1%87%d0%b0%d0%b9%d0%ba%d0%be%d0%b2%d1%81%d0%ba%d0%b8%d0%b9 1
+%d0%9a%d0%a3%d0%a0%d0%a1%d0%ab+%d0%9d%d0%90+%d0%9f%d0%90%d0%a0%d0%98%d0%9a%d0%a5%d0%9c%d0%90%d0%a5%d0%95%d0%a0%d0%90 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bd%d0%b0+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0+%d1%83%d0%bd%d0%b8%d0%b2%d0%b5%d1%80%d1%81%d0%b0%d0%bb%d0%b0 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+59+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8+%d0%ba%d0%b8%d1%80%d0%be%d0%b2%d1%81%d0%ba%d0%b8%d0%b9+%d1%80%d0%b0%d0%b9%d0%be%d0%bd+%d0%b7%d0%b0%d0%ba%d0%b0%d0%bc%d1%81%d0%ba 2
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%b7%d0%b0%d0%ba%d0%b0%d0%bc%d1%81%d0%ba%d0%b5 1
+%d0%a0%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b4%d0%bb%d1%8f+%d0%b6%d0%b5%d0%bd%d1%89%d0%b8%d0%bd+%d1%81%d1%82%d0%b0%d1%80%d1%88%d0%b5+50+%d0%bb%d0%b5%d1%82 1
+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8+%d0%bd%d0%b0+%d0%b0%d0%b2%d0%b8%d1%82%d0%be+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8+%d0%bd%d0%b0+%d1%81%d0%b5%d0%b3%d0%be%d0%b4%d0%bd%d1%8f+%d0%b1%d0%b5%d0%b7+%d0%be%d0%bf%d1%8b%d1%82%d0%b0+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%8b+%d0%b4%d0%bb%d1%8f+%d0%b6%d0%b5%d0%bd%d1%89%d0%b8%d0%bd+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 3
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d1%87%d1%83%d1%81%d0%be%d0%b2%d0%be%d0%b9+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 2
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8+%d0%bd%d0%b0+%d1%81%d0%b5%d0%b3%d0%be%d0%b4%d0%bd%d1%8f+%d0%bd%d0%b0+%d0%b2%d0%b5%d1%87%d0%b5%d1%80+%d0%b4%d0%bb%d1%8f+%d0%b6%d0%b5%d0%bd%d1%89%d0%b8%d0%bd 1
+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%b0%d1%8f+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%b0%d1%8f+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9 1
+%d0%b2%d0%b5%d1%87%d0%b5%d1%80%d0%bd%d0%bc%d0%b5+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2+%d0%b4%d0%bb%d1%8f+%d0%bd%d0%b0%d1%87%d0%b8%d0%bd%d0%b0%d1%8e%d1%89%d0%b8%d1%85+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%be%d1%87%d0%bd%d0%be%d0%b5+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%bd%d0%b0+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 187
+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 92
+%d0%b2 87
+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 74
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0 69
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0 48
+%d0%ba%d1%83%d1%80%d1%81%d1%8b 48
+%d0%bd%d0%b0 45
+%d0%b7%d0%b0 42
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9 38
+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8 32
+%d0%b1%d0%b5%d0%b7 4
+%d0%b2%d0%b0%d1%81 1
+%d0%bc%d0%be%d1%81%d0%ba%d0%b2%d0%b5 1
+%d0%b6%d0%b8%d0%bb%d1%8c%d0%b5%d0%bc 1
+%d0%b2%d0%b0%d1%85%d1%82%d0%b0 1
+18 1
+%d0%be%d0%bf%d1%8b%d1%82%d0%b0 4
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%be%d0%b9 1
+%d1%81%d1%82%d1%80%d0%b8%d1%88%d0%ba%d0%b0.%d1%80%d1%84 1
+%d0%b4%d0%b8%d0%b7%d0%b0%d0%b9%d0%bd%d0%b5%d1%80%d0%b0 2
+%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0%d0%bc 1
+%d1%80%d1%83 1
+%d0%bf%d0%be 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5%d0%bc 3
+%d0%b3%d0%b0%d0%b7%d0%b5%d1%82%d0%b0 2
+%d0%ba%d0%b8%d1%80%d0%be%d0%b2%d1%81%d0%ba%d0%b8%d0%b9 6
+%d0%b4%d0%be%d0%bc%d1%83 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%b5%d0%ba 2
+%d0%b5%d0%b6%d0%b5%d0%b4%d0%bd%d0%b5%d0%b2%d0%bd%d1%8b%d0%bc%d0%b8 2
+%d1%81%d1%8c%d1%80 2
+%d0%bf%d0%be%d0%b8%d1%81%d0%ba 1
+%d0%b2%d1%8b%d0%bf%d0%bb%d0%b0%d1%82%d0%b0%d0%bc%d0%b8 2
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%83 4
+%d0%b2%d1%8b%d0%bf%d0%bb%d0%b0%d1%82%d1%8b 1
+color 1
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%b0%d1%8f 1
+%d0%b2%d0%b0%d1%85%d1%82%d0%be%d0%b9 1
+art 1
+%d0%ba%d1%83%d0%bd%d0%b3%d1%83%d1%80 1
+%d0%ba%d1%80%d0%b5%d0%b0%d1%82%d0%b8%d0%b2%d0%bd%d1%8b%d0%b5 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%87%d0%b8%d0%b9 1
+%d1%81%d0%bf%d0%be%d1%80%d1%82%d0%b8%d0%b2%d0%bd%d0%be%d0%b9 1
+15 1
+%d1%80%d0%b0%d0%b9%d0%be%d0%bd 12
+%d0%b8%d0%b7 2
+%d0%bb%d1%83%d1%87%d1%88%d0%b8%d0%b9 1
+%d0%be%d1%87%d0%bd%d0%be%d0%b5 1
+%d0%bd%d0%b5%d0%bf%d0%be%d0%bb%d0%bd%d1%8b%d0%b9 1
+150%d1%80 2
+%d0%bf%d0%be%d1%81%d0%bb%d0%b5%d0%b4%d0%bd%d0%b8%d0%b5 2
+%d1%86%d0%b5%d0%bd%d0%b2 1
+%d1%87%d1%83%d1%81%d0%be%d0%b2%d0%be%d0%b9 1
+%d0%9d%d0%90 1
+%d0%b3%d0%b0%d0%b9%d0%b2%d0%b0 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b8 4
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0 26
+%d1%81%d0%b8%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9 1
+%d0%bc%d0%b0%d1%81%d1%82%d0%b5%d1%80 2
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%be%d0%b3%d0%be 4
+%d0%bf%d1%80%d0%be%d0%b8%d0%b7%d0%b2%d0%be%d0%b4%d1%81%d1%82%d0%b2%d0%be 1
+%d0%9f%d0%b5%d1%80%d0%bc%d0%b8 1
+%d1%81%d0%be%d0%b2%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d1%83 1
+17 1
+%d0%bf%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%ba%d0%be%d0%b2 2
+%d0%b8%d0%bd%d0%b4%d1%83%d1%81%d1%82%d1%80%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%bc 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d1%8f 1
+avito 1
+%d1%81%d0%be%d0%bb%d0%b8%d0%ba%d0%b0%d0%bc%d1%81%d0%ba%d0%b5 1
+%d0%9f%d0%90%d0%a0%d0%98%d0%9a%d0%a5%d0%9c%d0%90%d0%a5%d0%95%d0%a0%d0%90 1
+%d1%81%d0%b5%d0%b3%d0%be%d0%b4%d0%bd%d1%8f 17
+%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b5%d1%81%d0%bd%d0%be%d1%81%d1%82%d0%b8 1
+%d1%81%d1%80%d0%b5%d0%b4%d0%bd%d0%b8%d0%b5 1
+%d1%81%d0%b2%d0%b5%d1%80%d0%b4%d0%bb%d0%be%d0%b2%d1%81%d0%ba%d0%b8%d0%b9 2
+%d0%bf%d0%b0%d0%ba%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2 2
+%d0%bb%d0%b5%d1%82%d0%be 2
+%d0%b7%d0%b0%d0%b2%d0%be%d0%b4%d0%b0%d1%85 1
+%d0%bf%d0%b0%d1%80%d0%b5%d1%85%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%be%d0%b9 1
+%d0%bc%d1%83%d0%b6%d1%81%d0%ba%d0%b0%d1%8f 3
+%d0%ba%d0%bb%d0%b0%d1%81%d1%81%d0%b0 2
+%d1%81%d1%82%d0%b8%d0%bb%d0%b8%d1%81%d1%82%d0%b0 1
+%d1%80%d0%bd 1
+%d0%b3.%d1%87%d0%b0%d0%b9%d0%ba%d0%be%d0%b2%d1%81%d0%ba%d0%b8%d0%b9 3
+%d0%bc%d1%83%d0%b6%d1%89%d0%b8%d0%bd 1
+%d0%b6%d0%b5%d0%bd%d1%89%d0%b8%d0%bd%d0%b0%d0%bc 1
+%d0%bd%d0%b0%d0%b9%d1%82%d0%b8 1
+%d0%bb%d0%b5%d0%bd%d0%b8%d0%bd%d1%81%d0%ba%d0%b8%d0%b9 1
+%d0%ba%d1%83%d1%80%d1%81%d0%b5 1
+%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%be%d0%b2 1
+%d1%80%d1%83%d0%ba 2
+%d0%be%d1%80%d0%b4%d0%b6%d0%be%d0%bd%d0%b8%d0%ba%d0%b8%d0%b4%d0%b7%d0%b5%d0%b2%d1%81%d0%ba%d0%b8%d0%b9 3
+%d1%81%d1%82%d0%b0%d1%80%d1%88%d0%b5 1
+%d0%bb%d0%b5%d1%82 4
+%d0%b2%d1%81%d0%b5%d0%b9 1
+%d1%81%d0%b0%d0%b9%d1%82 2
+%d0%b4%d1%80%d1%83%d0%b6%d0%b1%d1%8b 1
+%d0%bb%d0%b0%d0%bd%d0%b4%d1%88%d0%b0%d1%84%d1%82%d0%bd%d0%be%d0%b3%d0%be 1
+5%2f2 1
+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%b0%d1%8f 1
+%d0%ba%d1%83%d0%bf%d1%81%d1%8b 1
+%d1%80%d1%83%d0%ba%d0%b8 2
+%d0%b8%d1%81%d0%ba%d1%83%d1%81%d1%81%d1%82%d0%b2%d0%b0 4
+%d0%b0%d0%b4%d1%80%d0%b5%d1%81%d0%b0 2
+%d0%b4%d0%b5%d0%ba%d1%80%d0%b5%d1%82%d0%b5 1
+%d0%b3 1
+%d0%bf%d0%b0%d1%80%d0%b8%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%b0 1
+%d0%be%d0%bb%d0%b5 1
+%d0%be%d1%80%d0%b4%d0%b6%d0%be%d0%b8%d0%ba%d0%b8%d0%b4%d0%b7%d0%b5%d0%b2%d1%81%d0%ba%d0%be%d0%bc 1
+%d0%b6%d0%b5%d0%bd%d1%89%d0%b8%d0%bd%d1%8b 2
+%d1%81 9
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d1%85%d0%b5%d1%80%d0%b0 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d1%83 1
+%d0%bc%d0%b0%d0%b3%d0%b0%d0%b7%d0%b8%d0%bd 1
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80 1
+%d0%b4%2f%d0%b6%d0%b5%d0%bd%d1%89%d0%b8%d0%bd 1
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%bc 1
+%d0%b0%d0%b2%d0%b8%d1%82%d0%be 9
+%d1%81%d1%83%d1%82%d0%ba%d0%b8 1
+%d0%bf%d0%be%d0%b4%d1%81%d1%82%d1%80%d0%b8%d1%87%d1%81%d1%8f 1
+%d0%b4%d0%b2%d1%83%d1%85%d1%81%d0%bc%d0%b5%d0%bd%d0%bd%d1%8b%d0%b9 1
+%d1%82%d1%80%d1%83%d0%b4%d0%be%d1%83%d1%81%d1%82%d1%80%d0%be%d0%b9%d1%81%d1%82%d0%b2%d0%be%d0%bc 1
+%d1%88%d0%ba%d0%be%d0%bb%d0%b0 5
+%d0%b4%d0%b7%d0%b5%d1%80%d0%b6%d0%b8%d0%bd%d1%81%d0%ba%d0%be%d0%bc 2
+%d0%b4%d0%b8%d1%80%d0%b5%d0%ba%d1%82%d0%be%d1%80 1
+%d0%bd%d1%8b%d1%82%d0%b2%d0%b5%d0%bd%d1%81%d0%ba%d0%be%d0%bc 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5 20
+%d1%80%d0%b0%d0%b9%d0%be%d0%bd%d0%b5 5
+50 1
+%d0%ba%d0%b8%d1%80%d0%be%d0%b2%d1%81%d0%ba%d0%be%d0%bc 1
+%d0%9e%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5 1
+%d1%83%d0%bd%d0%b8%d0%b2%d0%b5%d1%80%d1%81%d0%b0%d0%bb%d0%b0 5
+%d0%b3.%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%b4%d0%b5%d0%bd%d1%8c 1
+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%be 6
+%d1%87%d0%b0%d0%b9%d0%ba%d0%be%d0%b2%d1%81%d0%ba%d0%b8%d0%b9 1
+%d0%b2%d0%be%d0%bb%d0%be%d1%81%d1%8b 1
+%d1%81%d0%b2%d0%b5%d0%b6%d0%b8%d0%b5 1
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80-%d1%81%d1%82%d0%b8%d0%bb%d0%b8%d1%81%d1%82 1
+1%2f3 1
+%d0%bf%d0%be%d1%81%d0%bb%d0%b5 2
+%d0%b5%d1%81%d1%82%d1%8c 2
+%d0%b8%d1%89%d1%83 2
+%d0%b4%d0%b5%d0%b2%d1%83%d1%88%d0%b5%d0%ba 2
+%d1%81%d1%82%d1%83%d0%b4%d0%b5%d0%bd%d1%82%d0%b0 1
+%d0%b8%d0%bf 1
+%d1%80%d1%83%d0%b1%d0%bb%d0%b5%d0%b9 2
+%d0%b7%d0%b0%d0%ba%d0%b0%d0%bc%d1%81%d0%ba%d0%b5 2
+%d0%be%d1%82 2
+%d0%bf%d1%80%d0%b5%d0%b4%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%b8%d1%8f 1
+%d1%84%d0%bb%d0%be%d1%80%d0%b8%d1%81%d1%82%d0%be%d0%b2 2
+%d0%b2%d0%b8%d0%b4%d0%b5%d0%be 1
+%d0%b3%d1%80%d0%b0%d1%84%d0%b8%d0%ba 1
+%d0%9f%d0%b5%d1%80%d0%bc%d1%8c 2
+%d0%b7%d0%b0%d0%be%d1%87%d0%bd%d0%be%d0%b5 2
+%d0%9a%d0%a3%d0%a0%d0%a1%d0%ab 1
+www.%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0-%d0%b7%d0%b0-%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9.%d1%80%d1%84 1
+40 1
+%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d1%8b%d0%b5 9
+%d0%a0%d0%b0%d0%b1%d0%be%d1%82%d0%b0 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b0%d1%8e%d1%89%d0%b8%d0%b5 2
+%d1%83%d1%80%d0%be%d0%ba%d0%b8 1
+%d0%b2%d0%b5%d1%87%d0%b5%d1%80 1
+59 5
+%d0%bd%d0%b0%d1%87%d0%b8%d0%bd%d0%b0%d1%8e%d1%89%d0%b8%d1%85 9
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%be%d0%b4%d0%b0%d1%82%d0%b5%d0%bb%d1%8f 1
+%d0%b5%d0%b6%d0%b5%d0%b4%d0%bd%d0%b5%d0%b2%d0%bd%d1%8b%d0%b5 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b0%d1%8e%d1%89%d0%b0%d1%8f 4
+%d1%82%d0%b5%d0%bb%d0%b5%d1%84%d0%be%d0%bd 2
+150 2
+%d1%81%d1%82%d1%80%d1%82%d0%b6%d0%ba%d0%b0 2
+%d0%b6%d0%b5%d0%bd%d1%87%d0%b8%d0%bd 1
+%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%8b 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%8b 3
+%d0%ba%d1%82%d0%be 2
+%d1%86%d0%b5%d0%bd%d0%b0 2
+%d0%bd%d1%83%d0%bb%d1%8f 2
+%d0%b3%d0%b0%d1%80%d0%b0%d0%bd%d1%82%d0%b8%d1%8f 1
+%d0%bf%d0%b5%d0%bd%d1%81%d0%b8%d0%be%d0%bd%d0%b5%d1%80%d1%83 2
+%d0%b6%d0%b5%d0%bd%d1%89%d0%b8%d0%bd 6
+%d0%b2%d0%b5%d1%87%d0%b5%d1%80%d0%bd%d0%bc%d0%b5 1
+%d0%b4%d0%bb%d1%8f 27
+%d0%b7%d0%b0%d0%ba%d0%b0%d0%bc%d1%81%d0%ba 5
+9 2
+%d0%b3%d0%be%d1%80%d0%be%d0%b4 1
+%d0%bc%d1%83%d0%b6%d1%87%d0%b8%d0%bd 2
+%d0%be%d1%85%d1%80%d0%b0%d0%bd%d0%bd%d0%b8%d0%ba%d0%be%d0%bc 1
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2 22
+%d1%85%d0%b0%d1%83%d1%81 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 211 942326
+503 1500 550477
+302 43 0
+206 319 93129704
+404 4411 15704277
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 62
+/bitrix/themes/.default/images/auth_pict.gif 2 -
+/sitemap.xml 2 -
+/admin/content/sitetree/ 2 -
+/robots.txt 236 -
+/%3C 6 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/akcia_39.htm
+/manager/ 2 -
+/xn-----6kcb1aeeegldh6cqigjik.xn--p1ai.zip 1 -
+/apple-touch-icon.png 40 -
+/admin.php 6 -
+/users/forget/ 2 -
+/www.tar.gz 1 -
+/imagesxt77 1 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/perm.php
+/modules/system/system.base.css 2 -
+/templates/system/css/system.css 2 -
+/xn-----6kcb1aeeegldh6cqigjik.xn--p1ai.tar.gz 1 -
+/1%201.php 2 -
+/manager/templates/default/css/login-min.css 2 -
+/OpenSans-Regular.ttf 1902 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/2.css
+/2c1br16238n712r8c3er8912rx17432r89n12.html 1 -
+/styles/actions/users/form.css 1 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/styles/actions/users/form.css
+/wp-admin/ 2 -
+/netcat/admin/skins/default/img/logo.png 2 -
+/modules/system/system.css 2 -
+/netcat/admin/ 2 -
+/manager/media/script/mootools/mootools.js 2 -
+/user/login/ 2 -
+/wp-content/ 2 -
+/www.zip 1 -
+/bitrix/themes/.default/adminstyles.css 2 -
+/%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B01.php 4 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/perm.php
+/styles/skins/mac/design/css/style.css 2 -
+/OpenSans-Regular.eot 266 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/
+/node/ 2 -
+/users/registrate/ 2 -
+/apple-touch-icon-precomposed.png 35 -
+/OpenSans-Regular.woff 1803 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/2.css
+/installed 2 -
+/public_html.tar.gz 1 -
+/wp-admin/images/wordpress-logo.png 2 -
+/manager/templates/default/images/style/modx-logo-header.png 2 -
+/apple-touch-icon-120x120.png 5 -
+////r.srvtrck.com/v1/redirect 1 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/obuchenie.php
+/manager/media/style/MODxCarbon/style.css 2 -
+/netcat/admin/skins/default/css/style.css 2 -
+/bitrix/js/main/core/core.css 2 -
+/backup.tar.gz 1 -
+/administrator/ 6 -
+/media/system/js/mootools.js 2 -
+/images/cms/admin/mac/common/butterfly.png 2 -
+/wp-admin/css/wp-admin.css 2 -
+/apple-touch-icon-120x120-precomposed.png 5 -
+/bitrix/admin/ 2 -
+/inty%EF%BF%BD%D0%9E%EF%BF%BDcd150 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/perm.php
+/manage/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 http://www.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/manage/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
+/499.html 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/perm.php
+/default.php 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/default.php
+/wp-login.php 10 -
+/netcat/admin/skins/default/css/login.css 2 -
+/user/password/ 2 -
+/manager/media/style/MODxCarbon/images/misc/logo.png 2 -
+/manager/media/style/MODxCarbon/images/misc/login-logo.png 2 -
+/manager/templates/default/images/restyle/headers.jpg 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1278
+46.146.0.61 52 1604 62870719 20150510223731
+46.146.16.14 49 1488 77361676 20150516071358
+212.33.247.194 36 976 77322119 20150527130656
+66.249.81.244 25 978 85282185 20150530130549
+31.148.145.23 24 24 995890 20150521072855
+90.151.35.32 23 284 31897807 20150505185204
+77.43.192.115 22 488 50504522 20150525141018
+46.146.4.52 21 202 13910871 20150512121807
+46.146.112.113 21 356 27029547 20150506221733
+94.50.240.78 19 295 24111356 20150526225908
+86.109.211.20 4 177 15094193 20150528122922
+95.24.195.182 2 18 387828 20150521122328
+46.73.129.177 2 154 11220257 20150525195307
+217.118.83.197 3 75 25469048 20150523161206
+195.2.88.38 1 1 61328 20150505114100
+46.146.16.109 1 57 13291428 20150524205933
+83.149.35.106 3 205 26802867 20150521191012
+5.141.232.174 1 58 13294230 20150503090529
+46.146.55.222 1 30 1257978 20150523141639
+83.149.37.30 3 57 5356454 20150523135347
+188.186.28.20 2 23 279806 20150525200753
+217.69.133.169 6 12 79776 20150525175435
+5.141.230.224 2 175 14905115 20150517194522
+87.225.42.146 2 13 151672 20150520201457
+46.146.20.204 2 2 357672 20150522205201
+188.18.90.132 3 142 187038 20150503131333
+46.146.152.251 6 180 15183244 20150513125140
+77.236.83.168 1 49 1272544 20150531163049
+213.87.249.133 1 52 1156020 20150514164231
+5.141.230.204 1 57 13291428 20150527201029
+217.118.83.149 1 52 12683979 20150526120939
+176.77.16.152 1 70 13307873 20150521202038
+128.69.142.65 2 162 13024588 20150521194826
+195.189.120.17 1 11 95571 20150508123504
+217.118.83.213 3 68 5700289 20150529133254
+46.146.108.59 2 175 14905115 20150531075518
+46.146.20.81 3 180 22938653 20150510100010
+88.205.207.203 4 289 10149180 20150508124659
+5.140.76.78 5 182 8567116 20150521172446
+176.9.136.47 2 153 9774174 20150507131132
+95.31.122.73 3 176 15083951 20150520093840
+89.179.9.89 2 175 14905115 20150525072653
+82.145.221.37 5 215 24479704 20150512113610
+178.161.138.58 0 3 145882 
+217.118.83.188 1 12 141430 20150525171730
+5.141.192.195 2 58 13353008 20150525175319
+37.79.248.18 1 160 8320066 20150505125023
+178.161.145.222 2 190 16141515 20150514083656
+88.205.207.227 0 10 542 
+46.146.4.46 1 37 7078652 20150512224343
+46.146.85.82 1 1 178838 20150514180936
+46.147.44.89 1 56 3742617 20150517170921
+46.146.66.98 1 1 10242 20150509085834
+217.118.83.191 1 58 13294482 20150528205651
+89.204.112.41 2 175 14905115 20150527074218
+176.195.243.5 1 1 10242 20150525192104
+5.141.229.198 1 42 3877873 20150522210721
+37.79.248.1 1 57 13291428 20150529222302
+46.146.3.93 2 175 14905115 20150521172003
+5.141.195.171 1 57 13291176 20150503214047
+5.166.184.92 2 2 357672 20150519132721
+46.146.40.88 2 177 14905004 20150525190728
+217.118.83.229 1 57 13291428 20150523204934
+37.79.250.120 1 71 13310675 20150512131321
+37.79.250.77 1 36 1642437 20150522223724
+46.146.255.136 2 175 14905115 20150522131415
+5.141.193.118 0 3 145882 
+178.161.142.146 3 190 17261714 20150525081410
+31.163.251.205 10 416 21380961 20150521201132
+178.75.81.195 0 1 91559 
+83.149.37.137 5 30 10452997 20150518134209
+185.36.57.199 1 1 61328 20150506043730
+46.146.93.237 3 199 39913282 20150522201850
+178.161.165.151 1 58 13294230 20150502154701
+77.43.159.32 1 1 61328 20150506170503
+176.195.204.146 0 4 150083 
+82.145.208.147 2 59 1478145 20150506193730
+31.31.19.175 2 2 357672 20150525234449
+95.31.122.112 1 58 13294482 20150523131732
+176.195.186.158 0 7 295965 
+46.146.209.202 3 181 8424988 20150504082708
+89.204.117.61 2 175 14905115 20150527164822
+88.205.207.159 1 1 61328 20150503213329
+89.204.117.41 4 179 17237524 20150518022615
+193.200.88.106 13 774 29230181 20150516125128
+46.146.40.3 2 170 8415218 20150505081330
+89.204.116.158 1 2 61328 20150502210017
+46.146.62.144 2 175 14862593 20150515193109
+31.162.35.11 2 170 8415218 20150506154635
+217.118.83.202 1 58 13294230 20150503224913
+46.146.113.10 1 58 13294482 20150522204709
+83.149.37.35 6 191 15120856 20150531001842
+5.141.194.176 1 58 13294230 20150506113853
+108.221.62.71 1 57 6662807 20150530014433
+217.118.83.161 2 59 13356062 20150522091156
+46.73.254.88 1 11 138376 20150523205511
+46.146.118.209 0 3 145882 
+178.70.173.23 2 170 8415218 20150505000634
+77.43.154.188 1 38 1686979 20150513130725
+178.161.149.70 3 176 14980658 20150521084114
+46.146.8.127 2 188 14921560 20150521213641
+5.141.230.113 1 58 13294482 20150523164258
+213.87.240.219 1 57 13291176 20150507142306
+31.163.239.45 2 175 14905117 20150513093019
+188.18.89.119 1 39 3734247 20150517223538
+37.110.107.79 1 19 686631 20150510142634
+94.50.254.100 1 57 61580 20150527134650
+5.141.195.200 1 64 12707809 20150526164318
+188.16.65.216 4 68 2397401 20150530211529
+46.146.108.25 1 58 13294482 20150524200529
+37.79.250.221 2 38 658946 20150502181251
+5.141.232.216 4 308 15858387 20150526174629
+188.16.115.207 1 36 1500312 20150517205747
+188.19.162.214 2 170 8415218 20150501174437
+79.141.63.164 2 175 14905115 20150521093403
+5.143.18.231 4 4 388754 20150530185245
+212.33.239.145 4 191 14938500 20150526102224
+31.162.27.31 2 175 14905115 20150521192516
+5.141.232.93 1 9 107572 20150515203920
+195.189.120.20 1 53 12687033 20150525202603
+46.146.30.77 4 8 2407720 20150531235753
+46.146.20.20 4 166 9793853 20150509202145
+46.146.49.230 4 178 15180232 20150518132828
+5.189.17.160 1 57 10789365 20150528170808
+88.205.207.53 2 112 3572302 20150502145633
+78.85.81.39 2 166 14820309 20150519124941
+77.106.249.2 1 1 178836 20150516172410
+217.118.83.222 1 1 61580 20150517190546
+2.93.196.17 1 57 13118496 20150522213325
+46.159.220.230 0 1 91559 
+46.146.113.253 3 3 536514 20150514111709
+88.205.206.91 2 76 1499293 20150525084045
+46.146.8.50 1 57 10226327 20150518210630
+94.50.12.98 1 39 1957168 20150530212431
+54.149.176.250 1 1 10242 20150507060925
+46.146.64.201 3 116 13417642 20150528142715
+46.146.40.120 1 57 12898319 20150504160329
+5.165.248.119 1 70 13307873 20150530211637
+46.146.245.60 6 76 13337308 20150527094120
+37.79.250.67 1 14 15693 20150507205411
+46.146.78.143 7 201 21991755 20150502205749
+46.147.47.135 1 57 61328 20150502160356
+94.51.250.139 1 67 13306467 20150530151557
+217.118.83.231 7 250 28314595 20150531194319
+46.146.72.50 5 187 11343944 20150504182719
+46.146.97.106 1 37 4868496 20150502210548
+37.144.152.5 1 70 13307873 20150524160616
+46.146.20.95 7 220 21883772 20150502171826
+89.148.219.12 1 57 4659467 20150525233156
+213.87.130.200 0 1 91559 
+2.95.48.203 0 1 91559 
+37.79.250.87 3 195 14875884 20150513201703
+46.146.112.94 9 136 26752250 20150523102145
+88.205.207.150 2 57 3736841 20150520075415
+46.146.20.49 1 58 13294230 20150512130330
+188.17.158.154 1 12 141430 20150502073323
+94.50.14.184 0 3 145882 
+31.148.1.162 1 58 13294482 20150525105451
+5.228.36.92 2 135 4536726 20150519194503
+37.204.153.240 2 136 11716158 20150521034607
+5.141.192.16 1 39 609598 20150503174545
+95.179.25.109 1 1 13847 20150517170424
+89.28.24.190 1 1 10242 20150518190050
+37.79.249.95 5 219 28096085 20150521085818
+5.166.179.132 1 58 13294482 20150530172644
+178.161.150.59 1 58 13294482 20150513111917
+46.146.125.7 1 58 11132697 20150519121203
+95.31.66.108 1 58 13294482 20150530145326
+128.73.185.34 2 135 26169023 20150529085528
+46.146.17.68 2 175 14905117 20150513080309
+5.141.192.92 1 32 9987260 20150515222029
+194.190.5.174 1 58 13294482 20150521105856
+46.146.50.122 1 58 13294230 20150503193232
+31.132.176.202 0 1 64248 
+94.50.15.174 8 230 30336744 20150530200710
+178.161.129.46 6 210 17501867 20150513123103
+5.141.231.121 1 58 13294482 20150531074908
+213.87.248.5 1 11 138376 20150514151011
+37.144.150.59 2 167 9833843 20150509195809
+94.50.177.214 1 58 13294230 20150508205855
+5.141.231.207 1 58 13294230 20150507132155
+5.141.228.144 3 177 15169990 20150523114331
+77.43.245.226 3 188 14926526 20150529222743
+188.17.152.13 1 12 141430 20150529123832
+88.205.207.125 1 46 2761040 20150518065640
+46.146.36.102 1 58 13294482 20150526092138
+46.146.183.54 3 3 536508 20150529122421
+94.180.195.229 1 9 193914 20150528145728
+94.50.182.252 5 216 28145128 20150527200359
+46.146.40.45 5 75 13383452 20150517195103
+193.169.110.18 1 11 143893 20150515123545
+88.205.207.245 7 326 19685382 20150517180653
+88.205.207.91 2 58 242871 20150518221912
+46.146.211.14 3 318 24584137 20150519172843
+94.50.170.144 1 34 1129706 20150515211558
+5.166.161.2 1 57 13291428 20150524195135
+89.204.116.197 0 11 471149 
+94.138.148.109 1 67 1973650 20150520174455
+46.146.16.53 1 58 13294482 20150516181605
+46.146.108.2 1 11 138376 20150514110037
+46.146.20.66 7 191 15087513 20150516133214
+5.141.193.192 4 190 15106816 20150528125939
+178.47.95.218 2 175 14905115 20150526214116
+46.146.16.68 1 71 13310927 20150524100935
+46.146.218.148 5 208 22373329 20150525094622
+2.94.252.208 2 59 13356062 20150526183126
+176.195.69.47 1 9 107572 20150524192624
+62.33.148.49 1 46 3269974 20150523163901
+188.16.79.211 2 59 13356062 20150529212746
+212.33.229.93 3 181 14927947 20150521065430
+46.146.0.72 1 28 61580 20150526204611
+87.255.31.195 1 12 141430 20150518220841
+46.146.44.126 1 165 14809963 20150521134719
+217.118.83.226 6 204 14631259 20150529125442
+46.146.40.13 2 2 123160 20150524102029
+46.188.121.34 1 1 10242 20150531190137
+188.19.111.134 1 12 141430 20150530072718
+217.66.17.182 2 175 14905117 20150512131616
+46.146.222.248 1 58 13294384 20150528063259
+46.146.44.211 2 2 123160 20150518225031
+83.149.37.117 1 1 61580 20150522065914
+83.222.82.173 1 58 13294482 20150528140522
+54.187.222.253 1 1 10242 20150501113658
+46.146.8.45 3 205 28076832 20150518205136
+89.179.13.247 1 70 13694741 20150530130839
+46.146.0.82 1 58 13294230 20150505132559
+5.140.111.177 2 31 206848 20150526193719
+46.146.0.121 3 180 8421934 20150503201826
+5.166.178.185 4 200 21693156 20150503095424
+80.249.95.50 0 3 145882 
+88.205.207.251 3 164 9853067 20150507100114
+88.205.207.223 3 177 14941190 20150515083009
+46.146.16.73 1 70 12098481 20150524195550
+77.43.186.31 2 59 13356062 20150524205023
+95.31.121.76 4 299 14662674 20150504092604
+62.16.46.140 3 197 21579697 20150506070553
+195.189.120.22 1 104 5250597 20150506175917
+188.17.151.82 10 194 15570815 20150527103021
+46.146.113.206 2 59 13356062 20150520183246
+77.43.165.86 0 4 12036901 
+37.76.159.119 5 183 14855771 20150513172942
+46.146.20.53 4 183 8433872 20150502080445
+195.189.120.19 1 53 12687033 20150523174032
+37.79.249.199 1 58 13294482 20150520095203
+88.205.207.81 1 1 178836 20150520082354
+46.146.192.116 2 2 358438 20150510120945
+83.149.37.229 2 4 140099 20150517135836
+213.87.249.95 1 57 61580 20150523075958
+5.141.230.60 3 340 15041431 20150515110354
+94.140.237.252 0 1 64248 
+77.43.211.183 3 13 26536 20150529133509
+79.141.54.247 4 180 14923849 20150528094930
+194.190.5.136 1 58 13294482 20150519092036
+89.204.112.92 1 1 10242 20150530212509
+89.250.218.127 4 151 9860366 20150520143159
+46.146.188.61 4 178 17130670 20150515131234
+178.161.137.246 5 378 29921717 20150523170812
+46.146.178.13 1 1 178838 20150515122702
+46.146.172.116 1 71 13310927 20150530221414
+31.163.242.225 3 186 14914885 20150522162307
+5.166.130.114 1 70 13307873 20150526093240
+95.31.124.177 3 162 30991185 20150519160729
+213.87.241.74 2 96 13555139 20150517091353
+5.45.192.72 2 55 13276328 20150528182710
+37.79.250.7 1 39 5944383 20150503183240
+46.146.129.139 1 57 13291176 20150509195821
+204.15.199.138 0 1 17186 
+95.31.121.196 1 56 11591973 20150531171850
+89.204.112.124 1 165 14809963 20150521171504
+89.204.112.37 1 57 13291428 20150513203557
+37.58.71.199 1 1 10242 20150528084815
+89.178.7.77 1 9 107572 20150520151133
+46.146.131.21 2 85 11867486 20150525145054
+37.79.249.152 8 409 10400906 20150526121846
+46.146.227.213 1 45 2685656 20150528152932
+46.146.112.2 2 144 9858241 20150510183552
+94.50.248.130 1 36 545611 20150513230241
+88.205.207.51 4 185 8512128 20150506064215
+46.146.173.191 3 182 26509735 20150524165134
+178.161.151.9 1 58 12403181 20150528220528
+46.146.34.94 2 170 8415218 20150506161634
+46.188.29.95 1 42 10254868 20150521073726
+87.250.10.32 2 137 9483076 20150528174420
+92.124.121.205 1 51 6606159 20150522204717
+46.146.152.53 1 57 6187967 20150512222625
+176.193.141.167 1 70 13307873 20150518102042
+178.161.136.42 2 84 26513792 20150514150548
+83.149.35.68 3 72 3543391 20150506105508
+5.141.193.254 2 59 1314079 20150521170848
+46.146.48.18 1 58 13294230 20150506211520
+46.146.40.119 4 75 13329524 20150525185548
+46.146.4.120 2 59 13356062 20150525164121
+5.141.192.107 4 151 9463846 20150514135805
+176.214.230.93 1 12 141430 20150514014114
+5.141.232.150 1 58 13294482 20150527172919
+5.141.194.242 2 72 13372507 20150527080810
+188.16.100.14 1 73 13797247 20150523195745
+5.141.230.158 7 224 28232594 20150524192242
+94.51.88.254 5 76 13388854 20150514124841
+46.146.108.63 1 45 6021129 20150522204923
+178.161.176.106 1 58 13294230 20150505105436
+88.205.207.165 1 165 14809965 20150513154136
+5.141.231.178 1 56 8530957 20150524123904
+178.47.143.8 1 71 13310675 20150506074608
+46.146.40.86 5 199 21651267 20150505162122
+46.146.248.181 1 58 13294482 20150527114111
+46.146.16.50 2 19 166948 20150519132205
+31.148.1.69 3 287 26121092 20150519095916
+77.43.215.188 1 58 13294482 20150527135059
+82.145.223.1 3 289 10347442 20150507110035
+82.145.220.155 1 76 14402058 20150523214011
+212.33.238.63 1 58 13294482 20150526183355
+217.118.83.139 0 7 3677 
+5.166.178.106 1 58 13294230 20150502094256
+46.146.4.77 1 11 138376 20150513113042
+5.228.43.240 1 9 311553 20150509112449
+176.14.159.19 1 2 10661 20150521194635
+94.50.243.18 2 137 9483076 20150504065003
+109.196.137.147 2 153 9774174 20150510104955
+213.87.248.88 9 385 31980490 20150518165112
+188.234.173.226 1 11 138376 20150522212325
+5.166.187.231 11 185 16101781 20150530141455
+46.146.221.48 4 239 28234707 20150518141937
+213.87.241.88 3 197 21579697 20150502210124
+46.146.108.120 2 175 14905115 20150531110140
+46.146.8.121 3 285 22119925 20150518162858
+95.221.223.223 1 111 9172981 20150521034551
+46.146.190.114 1 57 12872829 20150531181908
+86.109.215.74 4 118 14786797 20150525211619
+5.141.229.205 1 11 138376 20150508133635
+2.93.98.175 1 58 13294482 20150522213447
+213.87.249.4 2 73 13314810 20150503105557
+213.87.248.254 3 99 3816512 20150518142158
+46.147.41.143 4 355 29764844 20150530102235
+37.79.142.250 2 2 20484 20150531172118
+77.43.218.108 16 589 36280029 20150527101256
+77.43.154.157 1 12 288394 20150506050346
+46.146.21.108 6 6 1073016 20150526195701
+46.146.112.12 2 19 166948 20150509115214
+37.79.210.13 1 12 141430 20150522151103
+46.146.8.85 1 165 14809963 20150520220700
+212.33.238.138 1 12 141430 20150523133648
+79.141.52.228 1 58 13294482 20150524002012
+89.204.117.29 3 138 12820535 20150523203058
+46.146.175.7 2 170 8415218 20150501103101
+94.100.93.88 1 1 178836 20150519152625
+5.166.175.187 5 82 13521860 20150505172125
+5.141.192.94 2 170 8415218 20150504084058
+5.141.192.247 2 59 13356062 20150526161837
+77.43.232.195 1 160 8320066 20150506071506
+87.250.11.114 2 66 13356062 20150513202025
+178.47.95.96 1 58 13294482 20150522212853
+88.81.213.214 2 175 14905117 20150513095518
+89.204.112.114 1 58 13294482 20150522212528
+178.161.128.26 3 218 28093277 20150521182955
+46.146.36.120 1 58 13294230 20150508094357
+37.53.167.249 1 1 61580 20150514071423
+188.17.81.89 1 58 13294482 20150522190504
+37.187.129.166 1 1 10242 20150513175348
+46.146.112.59 1 58 13294482 20150516211649
+95.28.134.100 1 9 193914 20150527072811
+88.81.213.194 2 88 4839495 20150526103621
+5.141.194.112 1 58 13294482 20150523230219
+88.205.207.98 1 32 182780 20150510212935
+46.146.40.2 7 635 45248949 20150519110524
+46.146.39.85 1 160 8320066 20150502195708
+89.204.112.184 0 2 0 
+46.146.36.31 1 46 6052990 20150512185115
+46.146.213.2 3 165 10003792 20150520090126
+46.146.16.99 3 177 16866326 20150524174104
+89.148.224.247 1 58 13294482 20150522140836
+195.19.178.108 3 171 8525580 20150506124411
+95.220.124.179 1 2 12507 20150505204015
+83.149.37.184 2 65 13400469 20150518120404
+46.146.20.21 2 59 13356062 20150521155718
+46.146.221.130 1 12 141418 20150505091757
+46.146.0.55 2 71 13307358 20150523180047
+176.193.83.179 2 155 10783488 20150515201040
+46.146.213.66 1 178 14826408 20150526062521
+79.141.58.200 1 10 108148 20150503115220
+37.76.137.214 1 47 3993738 20150525084358
+176.195.249.89 0 3 145882 
+188.232.99.160 3 3 83339 20150527063049
+5.141.230.229 3 142 9479541 20150505161032
+46.146.31.28 1 165 14809963 20150518112402
+195.189.123.220 1 53 12687033 20150518115739
+5.141.195.38 12 206 11196760 20150504191305
+128.69.176.122 1 11 138376 20150503204633
+31.135.121.222 6 72 13572692 20150505115825
+46.146.108.0 9 223 28346418 20150525182205
+178.47.78.71 3 35 536514 20150514204120
+46.146.11.122 1 165 14809963 20150526193736
+194.135.16.115 0 1 57503 
+77.43.143.78 1 58 13294482 20150514143746
+195.19.179.22 3 205 28076832 20150523100136
+88.198.236.206 0 279 40517841 
+89.250.219.50 1 12 143276 20150529125034
+213.87.240.13 1 58 13294482 20150526083322
+46.146.112.53 11 255 54538593 20150522081420
+31.162.15.119 0 3 145882 
+5.45.192.84 1 9 107572 20150512213651
+188.17.157.186 2 207 15731294 20150512155840
+213.87.241.173 7 354 15289219 20150516103749
+89.250.218.100 7 154 11916907 20150520144114
+176.9.139.227 1 11 138376 20150521072556
+88.205.207.133 0 2 0 
+37.79.250.75 4 216 28086602 20150522120149
+46.146.20.64 1 58 13294482 20150519154622
+89.204.112.64 2 28 2686275 20150518205329
+5.166.189.51 1 58 13294482 20150528200736
+46.147.38.38 1 58 13294482 20150530180150
+94.50.162.149 1 51 4057665 20150528001425
+46.146.4.87 3 187 14917698 20150525144305
+109.68.188.37 5 182 19146181 20150515153246
+217.118.83.136 1 11 138376 20150519115741
+37.79.27.141 1 58 13294230 20150509094521
+89.204.117.177 1 58 13294482 20150526160655
+46.146.108.15 4 167 9796907 20150507003423
+31.162.17.89 1 12 141430 20150529142719
+212.33.229.7 1 58 13294482 20150527165339
+213.87.249.191 3 181 8424988 20150506095852
+5.166.181.88 2 175 14862593 20150515182046
+83.149.35.172 4 38 2499551 20150526170730
+89.204.117.156 1 2 10661 20150529095913
+37.79.248.89 2 175 14905115 20150520094137
+195.222.148.154 1 178 14826408 20150519111622
+37.76.147.86 2 175 14905115 20150526174322
+46.146.213.130 1 12 141430 20150517114337
+130.255.52.239 0 1 396144 
+195.189.120.5 1 12 141430 20150527213233
+2.92.143.197 0 3 145882 
+5.166.165.219 2 175 14905115 20150527185508
+213.87.241.201 1 9 107572 20150522184553
+193.33.122.114 4 152 9598703 20150513093515
+5.141.192.51 1 58 13294230 20150505113440
+31.13.34.106 4 188 14882361 20150514152435
+37.76.145.214 1 57 4064207 20150522122834
+89.250.209.86 4 191 15071287 20150521134114
+212.33.255.237 2 170 8415218 20150504122700
+46.146.110.211 1 60 13295024 20150525204959
+83.149.37.53 0 3 145882 
+195.222.129.114 1 160 8319968 20150506134921
+46.146.8.117 2 59 13356062 20150524231040
+46.146.232.217 1 8 88867 20150527153522
+46.146.221.3 13 458 50147110 20150521072642
+46.146.221.76 5 200 13515527 20150520104608
+46.146.16.49 2 175 14905115 20150531131813
+46.146.16.116 0 3 145882 
+188.16.70.16 1 41 6726363 20150523143830
+46.146.40.108 1 1 10242 20150521232816
+66.249.81.238 16 925 49912076 20150530130234
+188.163.96.77 1 12 141430 20150517143817
+5.141.230.211 1 71 13787258 20150507155815
+5.141.195.16 2 59 13356062 20150513104913
+195.189.120.16 3 227 17481938 20150513201653
+46.146.108.55 1 165 14809963 20150520080258
+83.239.123.202 0 1 91559 
+213.87.249.31 4 148 14905091 20150527084134
+89.204.116.244 1 56 61328 20150505183209
+46.146.0.106 1 57 13291428 20150525085953
+77.235.97.40 1 39 2325108 20150521201134
+37.76.131.72 3 186 14914885 20150526122553
+95.28.10.223 2 135 6015460 20150505205035
+46.146.161.141 4 211 21657470 20150501123946
+83.149.35.91 4 188 14925405 20150521104617
+176.214.177.17 1 1 61580 20150531115316
+89.179.12.0 2 170 8415218 20150502144431
+193.169.111.244 2 169 206029 20150505074243
+193.36.41.126 2 175 14905115 20150528133125
+46.146.32.172 3 205 21511547 20150525184619
+46.146.51.109 1 58 13294482 20150520222040
+89.204.117.47 2 15 237395 20150519191024
+46.146.45.3 2 188 14921560 20150525141913
+46.147.4.100 15 254 24609641 20150530083954
+5.141.193.21 1 57 61580 20150524150302
+2.92.153.104 1 70 13307621 20150509095323
+5.141.194.97 2 139 9466578 20150527080442
+46.146.40.68 6 193 17152876 20150528210108
+46.146.69.120 1 1 178836 20150525110941
+2.93.234.77 1 11 138376 20150510103157
+5.141.229.35 5 140 10040563 20150531105032
+90.151.38.40 1 58 13294482 20150530034602
+5.166.164.166 1 58 13294482 20150529170556
+95.31.69.146 2 59 11494046 20150523070807
+78.159.233.242 3 156 9200991 20150507102439
+188.17.84.102 2 175 10538707 20150505153054
+195.19.177.255 2 153 9774174 20150508100447
+77.43.204.177 3 207 27994504 20150519165917
+79.141.58.30 1 58 13294230 20150505201219
+178.161.172.204 1 58 13294482 20150526133242
+46.146.0.36 5 197 15056629 20150512210443
+85.26.164.229 0 1 91559 
+88.205.207.68 2 20 208033 20150504205222
+89.179.2.174 2 175 14905115 20150519181919
+89.250.212.53 2 175 14905115 20150518144848
+46.146.78.189 1 58 13294482 20150529113345
+46.146.20.16 1 3 135669 20150514174346
+46.146.241.47 1 12 141430 20150522105006
+176.195.252.129 1 2 12507 20150521122333
+46.146.85.200 2 58 13353008 20150526192245
+89.179.7.145 1 12 141430 20150502232524
+46.146.44.12 1 58 13294482 20150527090534
+91.231.199.23 1 58 13294482 20150524195242
+89.204.116.192 1 56 61328 20150503102654
+5.166.182.173 14 269 27730033 20150504122713
+77.43.190.5 1 57 13291428 20150519054833
+188.19.104.19 2 58 13353008 20150514212203
+5.141.232.3 1 58 13294482 20150528182403
+37.79.29.75 2 166 9790619 20150507135129
+213.87.249.203 1 11 138376 20150514113319
+89.204.116.187 4 166 10997281 20150506130339
+46.146.52.52 2 175 14905115 20150516131543
+217.118.83.166 1 58 9694812 20150509113312
+78.37.154.113 2 169 8412164 20150501192403
+91.235.176.75 0 1 91559 
+79.172.116.201 1 9 318163 20150509112423
+83.149.34.188 0 1 91559 
+212.192.92.98 2 153 9774174 20150508144946
+95.220.124.183 1 70 13307621 20150503225724
+213.87.241.199 9 220 28425606 20150515192613
+168.63.200.167 2 404 42530700 20150516102636
+83.149.35.207 2 3 18005 20150529111955
+109.74.169.231 3 77 13465843 20150525131738
+178.161.134.170 1 70 12154511 20150525122922
+5.141.231.59 1 20 133811 20150525191438
+37.76.149.223 1 58 13294482 20150525082117
+217.118.83.240 1 3 56520 20150530183025
+178.140.10.155 1 9 311170 20150521122327
+5.141.194.75 1 73 13827620 20150525120732
+213.87.248.54 1 58 13294482 20150522125821
+95.25.151.117 1 9 193662 20150507074543
+46.146.40.82 1 57 13291428 20150527121751
+195.19.191.232 1 58 13294482 20150514135048
+46.146.8.40 2 175 14905117 20150513084553
+5.141.228.85 7 224 28232594 20150524145824
+212.124.26.193 0 1 91559 
+94.51.89.250 4 143 9896258 20150521105013
+188.16.79.108 1 51 4057665 20150510231414
+168.63.137.102 0 146 5064947 
+217.118.83.199 1 38 2587049 20150527180018
+95.24.253.210 1 70 6275692 20150505150144
+5.141.192.90 11 226 28361884 20150525163622
+188.19.97.114 3 187 14915680 20150516123125
+5.141.230.233 3 187 14917698 20150519185043
+5.141.219.110 1 1 61328 20150504203551
+46.146.193.85 2 170 8415218 20150501094231
+94.50.2.156 3 186 14914885 20150521123359
+195.19.177.217 2 174 14902061 20150523154942
+46.146.108.53 0 3 145882 
+37.79.249.105 1 58 13294482 20150527092705
+176.195.36.162 1 9 193662 20150509112443
+213.87.249.12 1 33 643843 20150524202533
+213.87.240.177 4 171 9963635 20150507121217
+213.87.248.189 1 28 61580 20150528172913
+5.140.98.247 1 5 12098229 20150505185308
+82.118.128.3 8 314 41669088 20150528075452
+46.146.126.98 2 174 14902061 20150519194801
+5.141.232.61 1 1 61580 20150531114145
+95.167.70.177 9 580 46328934 20150526100752
+95.28.190.37 1 2 12507 20150527201420
+31.163.250.143 0 1 3550 
+37.79.140.196 2 164 9790077 20150508144708
+77.236.79.233 1 58 13294482 20150527134621
+46.146.40.123 5 162 9681413 20150508092015
+46.146.180.107 10 10 205096 20150518204314
+46.146.20.102 1 58 13294482 20150522185817
+188.127.249.230 3 3 378512 20150531161742
+86.102.17.42 0 1 64248 
+185.26.182.35 1 12 141430 20150528084754
+5.141.193.120 10 188 11418984 20150504155311
+83.149.35.226 1 160 8320066 20150504223758
+46.146.20.97 1 58 13294482 20150522132615
+92.240.219.115 0 3 145882 
+46.146.20.217 2 72 13310175 20150526154657
+195.222.149.137 3 205 28165020 20150528074304
+46.146.35.26 1 57 9262527 20150520171427
+178.161.197.57 2 19 166948 20150526120405
+95.31.68.184 1 58 13294482 20150521083943
+212.120.189.132 9 328 24675982 20150528141626
+91.244.114.24 1 12 141430 20150513121227
+5.43.130.29 1 11 138376 20150510220543
+5.141.252.14 9 368 34241225 20150514145732
+94.50.184.114 4 142 9665623 20150507073332
+46.146.125.223 5 218 17752185 20150519112309
+5.140.65.14 1 36 625574 20150503224903
+176.195.201.228 1 2 10661 20150517213639
+5.141.193.152 1 57 13291176 20150507205129
+46.146.243.65 3 178 14830255 20150513124025
+46.146.0.125 1 58 13294482 20150526200526
+46.146.108.77 1 143 9679022 20150508193047
+46.146.4.69 3 181 8424988 20150501162225
+213.87.249.198 4 187 14925127 20150531195712
+2.93.155.60 4 165 9790364 20150510094104
+5.140.73.57 1 58 12107417 20150528115526
+46.146.141.179 2 171 8329836 20150501100916
+37.79.248.28 1 70 12875614 20150525195228
+195.19.178.160 2 174 14902061 20150520233540
+217.118.83.206 3 7 587974 20150529164915
+78.106.206.50 2 59 13353234 20150526183814
+109.196.136.46 3 148 9493318 20150527070118
+176.195.20.129 1 9 107320 20150510080302
+212.113.232.206 1 34 687108 20150518131551
+46.146.108.117 1 58 13294482 20150522214133
+212.120.160.65 2 184 8518005 20150506104733
+109.196.140.203 2 129 9642637 20150525180425
+148.251.92.106 1 1 13847 20150508031029
+89.179.6.6 3 179 8507316 20150502092844
+5.141.193.78 1 58 13294482 20150519095707
+5.141.195.14 6 183 15008069 20150530154651
+195.154.168.128 1 1 10242 20150520151605
+46.147.19.8 6 6 1073016 20150518201729
+46.146.23.181 1 36 7520205 20150522105022
+46.146.16.78 2 107 21571152 20150522180931
+87.251.152.251 13 13 1278443 20150502020016
+188.19.242.239 1 58 13294230 20150509132936
+37.79.249.169 1 11 138376 20150510103321
+82.193.155.233 1 58 13294482 20150522211914
+94.51.196.128 2 158 10248292 20150517102457
+176.14.156.56 1 70 13307873 20150528042458
+46.146.135.105 2 175 14905115 20150529134534
+46.146.127.124 1 71 13310927 20150530181150
+62.16.38.46 3 181 8425460 20150505114245
+212.33.228.135 1 58 13294482 20150528093913
+176.100.241.67 0 1 57503 
+188.190.74.29 3 3 83087 20150506132834
+37.79.244.171 1 11 138376 20150512120841
+91.235.112.130 2 175 14905115 20150527095426
+195.19.179.55 2 175 14905115 20150518154828
+46.42.62.135 0 1 64248 
+46.146.109.67 1 39 6320767 20150503214424
+5.141.230.85 1 160 8320066 20150501112134
+5.141.197.247 1 1 61580 20150523185412
+82.145.220.152 2 188 15146901 20150520080705
+46.146.9.109 3 171 9585374 20150506165628
+178.47.76.39 2 137 9483076 20150502163110
+46.146.14.99 2 59 13356062 20150522201437
+178.161.155.246 3 80 13528429 20150522112110
+37.218.139.207 0 1 57503 
+5.141.192.140 2 175 14905115 20150518213640
+54.191.244.94 1 3 213742 20150529111912
+188.19.20.250 16 425 18333784 20150503182046
+128.73.81.193 1 57 13291428 20150528220727
+46.146.67.146 7 363 29836662 20150530102253
+77.43.146.69 2 118 6036571 20150526074250
+5.166.182.98 1 1 178836 20150523110453
+46.146.138.219 3 186 14914885 20150525145002
+217.118.81.17 0 1 91559 
+217.118.83.234 2 152 9771120 20150510194309
+5.141.193.245 2 150 7536586 20150506140832
+178.47.137.218 1 71 13310927 20150526092718
+78.159.229.2 4 197 14783070 20150515132009
+144.76.60.200 15 303 41480226 20150527005734
+188.18.89.31 3 348 21683386 20150503181537
+93.80.137.20 1 70 13307873 20150521034551
+46.147.63.165 1 57 13291428 20150530182842
+5.141.207.237 1 1 61580 20150524181604
+176.195.162.230 1 2 10661 20150515202841
+5.45.192.87 1 1 61580 20150516181320
+46.146.40.80 2 175 14905115 20150519183207
+92.240.219.105 6 355 31666824 20150519055256
+5.166.173.145 3 60 13417642 20150518122826
+89.252.10.50 3 3 83087 20150507082313
+46.147.45.178 2 2 357676 20150513110337
+77.43.173.183 2 183 8431663 20150501195041
+37.79.250.99 1 58 13294482 20150521145838
+89.204.116.215 8 69 24088274 20150514072743
+46.146.112.32 1 42 3160965 20150522222052
+217.118.79.17 0 1 91559 
+5.141.194.192 1 30 343623 20150503201245
+31.162.45.37 2 176 14905534 20150522145718
+83.149.34.185 3 177 14983712 20150529104427
+150.70.173.8 1 1 61328 20150503054603
+37.76.147.137 1 58 13294230 20150502070302
+188.255.92.199 1 9 224828 20150520151134
+5.141.193.231 1 1 61580 20150530094143
+5.166.191.35 1 48 6489746 20150502183606
+90.151.223.138 1 12 141430 20150507104230
+46.146.20.126 1 58 13294482 20150517161858
+91.237.164.183 1 12 141430 20150509135631
+213.87.240.205 3 177 16866326 20150525152725
+217.118.83.239 2 177 10595888 20150525072510
+46.147.43.125 3 218 28093277 20150530100702
+37.79.250.66 5 33 328862 20150521150637
+95.31.68.239 1 36 1938273 20150523102150
+188.235.238.233 1 1 61328 20150504180216
+5.141.219.38 1 36 403148 20150501075601
+77.236.83.108 2 56 2301647 20150517190343
+88.205.207.242 1 57 188025 20150508202204
+5.166.165.19 1 58 13294482 20150517081819
+5.141.228.143 1 58 13294230 20150505203630
+5.141.231.37 1 58 13294482 20150514072852
+213.87.241.167 4 198 28070623 20150525092702
+46.146.178.202 1 71 13310927 20150518212916
+37.76.136.233 2 175 14905115 20150518143031
+46.147.9.83 1 12 141430 20150509130056
+91.243.6.195 0 1 64248 
+212.113.235.16 1 14 113739 20150502163641
+5.141.194.70 1 71 13310927 20150512200747
+212.33.227.220 4 182 8838749 20150503105825
+46.146.163.155 3 340 15083951 20150528101601
+5.141.194.154 1 40 3442571 20150531082100
+46.146.4.112 1 58 13294482 20150530203637
+161.69.163.20 2 2 20484 20150527044049
+77.43.176.249 3 168 16841247 20150526211620
+176.9.38.197 4 4 40968 20150527021219
+212.192.69.143 4 178 14951536 20150515123725
+46.146.230.72 1 58 13294230 20150503161019
+46.146.99.180 4 205 8989537 20150501141854
+178.161.202.157 2 59 13356062 20150526142158
+46.146.16.54 1 12 141430 20150510221530
+46.146.105.167 2 175 14905115 20150531101922
+212.33.238.57 2 176 8706982 20150506094444
+46.146.134.134 1 58 13294482 20150530211146
+77.43.247.222 7 194 15202179 20150526201456
+37.79.248.208 1 58 13294482 20150515162126
+217.118.83.254 2 153 11237937 20150530152308
+77.43.173.213 2 59 13356062 20150528171035
+188.17.85.59 1 50 4031806 20150505183533
+213.87.248.89 0 3 145882 
+5.45.192.75 0 1 91559 
+37.79.249.35 1 165 14809963 20150522114122
+66.249.81.241 15 1003 67626865 20150530100503
+46.146.4.66 2 170 8415218 20150504092452
+217.118.83.148 4 180 15180679 20150512133745
+92.47.114.86 0 1 91559 
+31.163.232.46 1 57 4209107 20150517125859
+46.146.223.84 1 58 13294482 20150515122644
+37.76.150.216 1 58 13294482 20150517193941
+213.87.249.1 2 175 14905115 20150518162027
+77.43.154.250 1 165 14809963 20150528183507
+104.155.31.93 1 1 10242 20150501073254
+46.146.14.15 1 75 14034216 20150520223657
+37.79.248.241 1 58 13294482 20150526185210
+95.31.120.249 4 61 13479222 20150517105020
+37.76.140.111 2 139 9440552 20150515130608
+37.79.248.19 1 58 13294482 20150523150709
+178.161.138.142 8 317 41603116 20150529075434
+188.18.94.241 2 188 14921560 20150528122328
+46.146.122.117 1 37 10485973 20150506152851
+46.146.108.58 6 36 4293608 20150524205612
+46.146.0.30 1 58 13294482 20150527051958
+5.166.161.130 1 165 14809963 20150531213755
+37.79.250.112 1 57 9133007 20150524200715
+46.146.17.253 1 58 13294482 20150527125735
+195.42.96.77 1 71 13310927 20150520093042
+217.118.83.204 3 198 8614333 20150503152323
+83.149.35.242 1 165 14809963 20150523084311
+88.205.207.252 1 165 14809963 20150525082232
+5.140.78.24 2 169 8384320 20150505195347
+212.113.232.241 4 188 14925405 20150520185931
+188.16.74.210 1 58 13294482 20150525201138
+5.166.173.183 5 190 17140971 20150523104511
+88.81.210.226 1 57 8995491 20150518065402
+5.141.230.119 4 263 41371314 20150526151959
+37.76.145.110 2 175 14905115 20150520074432
+83.149.35.198 2 43 551826 20150504124314
+188.19.27.107 3 177 14826153 20150525170324
+217.12.206.140 1 1 10242 20150505131529
+5.141.232.164 1 1 61328 20150506220432
+46.146.139.197 1 58 13294482 20150528150235
+62.16.45.143 14 678 44988511 20150518002328
+178.47.132.178 2 73 15414649 20150522113137
+37.76.158.176 2 71 13307358 20150521084520
+212.57.180.115 0 1 91559 
+185.26.120.79 1 1 61580 20150531082100
+5.141.231.252 1 39 2057756 20150504120318
+46.147.38.147 1 49 9162088 20150526150223
+5.141.193.205 1 165 178838 20150514174558
+82.145.220.115 4 254 28666775 20150526143350
+5.141.228.252 1 12 141430 20150515165616
+88.198.68.140 1 1 10242 20150504200457
+128.73.81.121 3 187 14917698 20150518184130
+188.32.229.157 1 165 14777090 20150521202036
+77.236.65.165 1 58 13294482 20150527105821
+5.141.228.59 1 57 8531887 20150515194034
+46.146.20.76 2 175 14905117 20150512131356
+89.204.117.43 3 176 14915357 20150518124748
+89.204.112.98 14 366 41147100 20150522075629
+46.146.123.230 2 77 25411958 20150506104819
+94.50.241.129 7 192 17367112 20150520165759
+5.141.228.74 1 11 135544 20150531212853
+212.33.229.203 4 383 42903240 20150521151950
+81.4.245.13 1 10 108400 20150528154842
+185.5.248.245 1 1 10242 20150515022857
+77.43.186.162 2 188 14921560 20150531081512
+94.131.14.16 1 1 10242 20150517165844
+95.31.66.14 9 280 40866434 20150528195555
+151.252.74.230 0 1 64248 
+212.33.243.23 6 343 29829181 20150527163632
+89.204.112.78 1 15 114819 20150514191118
+213.87.249.135 1 1 61580 20150515222217
+31.162.14.145 2 175 14905115 20150519191957
+82.145.220.240 1 71 13188470 20150525214608
+109.194.233.135 1 61 6128039 20150513135816
+46.146.4.81 1 58 13294482 20150523103224
+217.118.83.216 2 170 8415218 20150506111635
+88.205.207.126 1 2 61328 20150507062847
+83.149.35.220 5 7 51210 20150527203918
+94.50.3.208 1 58 13294482 20150525221716
+5.141.228.145 4 174 10297467 20150505112729
+5.141.228.31 5 217 28093022 20150522210443
+5.166.189.206 5 207 28265914 20150513132511
+46.146.3.152 3 3 536508 20150527152738
+212.33.255.233 1 165 14809963 20150518105215
+141.0.12.125 1 46 4842305 20150524130715
+77.43.218.217 1 58 13294482 20150522210815
+213.167.203.54 0 1 64248 
+89.250.210.138 2 174 8342931 20150504131852
+5.141.193.119 0 1 64248 
+5.141.232.237 2 114 26582856 20150527214258
+87.117.189.198 2 2 20484 20150529001141
+128.69.178.159 1 9 107572 20150517145023
+195.222.153.195 1 61 13301368 20150508085340
+217.118.83.221 1 5 179380 20150512134000
+46.146.152.43 2 2 357672 20150524172550
+46.146.9.155 1 11 138376 20150507214843
+95.28.149.99 1 9 107572 20150523095240
+31.163.238.187 3 171 8611005 20150506081838
+176.195.171.82 1 9 193662 20150503133904
+193.169.111.177 2 175 14905115 20150519125650
+195.19.191.254 1 59 13292988 20150522080708
+46.146.232.76 6 352 17245064 20150515161056
+95.31.127.36 1 58 13294482 20150523125713
+5.141.231.185 1 58 13294482 20150526225835
+178.161.151.3 2 175 14905115 20150528202257
+188.35.22.19 1 2 10661 20150507204258
+89.204.117.42 1 57 61580 20150520193429
+95.221.211.201 1 112 10707129 20150530211635
+212.33.243.176 18 427 40722255 20150516122411
+37.76.155.157 3 217 27762163 20150519192346
+37.204.231.212 0 1 91559 
+37.79.250.33 1 28 281994 20150529130201
+83.149.34.226 2 153 9774174 20150509161051
+195.19.178.33 1 36 1416291 20150522220704
+2.94.252.82 2 175 14905115 20150517140512
+5.141.228.121 1 72 13310927 20150518200451
+46.147.52.181 1 58 13294482 20150513080607
+195.222.145.136 1 58 13294482 20150522101228
+217.118.83.138 4 160 9721329 20150508084143
+95.31.122.196 1 58 13294482 20150523145653
+5.19.191.88 0 1 57503 
+46.146.109.154 6 607 15365213 20150525160305
+46.146.7.30 1 37 2560672 20150512212508
+83.149.35.111 1 58 13294482 20150529062817
+37.79.251.27 3 148 11447594 20150512110050
+95.85.64.235 0 1 64248 
+77.43.128.95 4 331 15162628 20150506192938
+144.76.119.75 6 6 0 20150531182652
+217.197.233.62 1 58 13294482 20150519164819
+37.79.248.64 3 177 14913999 20150520160402
+213.87.248.183 3 286 19735576 20150524114853
+188.32.21.252 1 70 13307621 20150506133224
+195.239.26.86 0 1 58163 
+46.146.40.97 1 60 13295024 20150523230328
+46.146.16.43 3 318 24584137 20150525230850
+89.179.9.225 2 174 14902061 20150528171318
+46.146.87.209 1 58 13294482 20150526231828
+89.204.117.31 10 244 18599908 20150517174838
+46.146.0.37 1 12 141430 20150523152627
+46.146.89.119 1 58 13294482 20150524065540
+178.161.136.158 6 191 14633823 20150508140132
+5.45.192.100 2 38 7329808 20150512231407
+88.205.207.117 1 9 225211 20150507152424
+77.43.217.85 1 57 7016899 20150519114726
+46.146.99.245 4 183 8689863 20150502120808
+128.73.183.3 2 175 14819690 20150521131923
+89.204.112.84 5 738 15273029 20150516110327
+37.79.22.160 2 137 9483076 20150521071915
+185.26.180.19 0 3 145882 
+79.141.50.15 1 58 13294482 20150525152058
+46.146.0.32 3 205 28076834 20150513155635
+83.149.37.211 5 90 6102898 20150506131007
+94.50.170.21 1 57 9893845 20150518184554
+176.195.185.185 1 70 13307621 20150507125654
+46.146.6.63 0 3 145882 
+145.255.2.9 4 4 405705 20150506091759
+188.127.237.36 6 6 419836 20150529171802
+37.76.157.224 3 13 158860 20150527110833
+5.140.73.16 2 175 14905115 20150517095243
+89.148.254.38 1 42 4639828 20150524203601
+158.46.255.18 1 163 13779838 20150525112950
+109.196.143.97 2 137 9483076 20150526121828
+176.195.32.67 1 9 193914 20150525145950
+46.146.167.138 1 74 13456809 20150523094651
+46.146.50.200 1 58 13294482 20150515164459
+89.148.224.61 1 58 61328 20150505205730
+188.19.100.59 6 292 50857312 20150502154401
+213.87.240.240 10 187 19223305 20150529094440
+195.222.146.172 1 57 13291428 20150530162238
+5.141.230.15 3 171 13353940 20150508160822
+83.149.37.170 3 186 14914383 20150529190135
+46.146.244.158 1 143 9679022 20150509093913
+217.118.83.180 2 105 8370687 20150518122048
+37.79.248.107 1 42 8667604 20150512103721
+217.118.83.170 0 3 117797 
+128.73.73.152 1 58 13294482 20150522141212
+5.166.184.204 15 516 43199048 20150509100446
+195.222.140.183 2 116 26588964 20150531205319
+89.178.61.170 1 9 107572 20150526050140
+46.146.16.72 6 276 28342485 20150512195615
+46.146.20.58 5 75 12230862 20150527210908
+94.50.160.243 2 153 9774174 20150510144630
+46.146.141.88 1 204 15924417 20150520144955
+46.146.36.55 0 3 145882 
+46.146.16.75 2 170 8415218 20150501005927
+188.16.126.152 1 58 13294230 20150505114101
+37.79.249.123 1 58 13294482 20150512214627
+5.141.232.246 1 57 13268546 20150531184204
+5.166.188.90 10 393 28875489 20150513213547
+168.63.139.43 2 363 14760245 20150530220643
+90.151.45.247 4 235 29108541 20150512110634
+66.249.81.185 3 65 8294805 20150517143056
+77.43.252.7 1 1 61580 20150514115728
+89.148.254.19 2 170 8415218 20150504151138
+217.118.83.157 12 203 16488649 20150514103239
+128.73.183.185 1 11 138376 20150506213422
+5.141.229.20 1 2 61328 20150508113835
+46.146.128.187 1 58 13294482 20150516184254
+46.146.145.188 1 58 13294482 20150512202746
+213.87.248.223 1 38 834108 20150523161736
+5.140.73.102 5 216 28265395 20150520213637
+2.94.227.180 1 58 10358946 20150527205051
+213.87.240.72 1 39 309797 20150514063240
+46.147.40.203 3 3 536508 20150524220627
+5.141.192.179 1 12 141430 20150515083450
+46.146.124.129 1 57 61580 20150525084557
+5.141.232.68 3 197 21579697 20150504092257
+217.118.83.223 3 184 14997213 20150529144218
+46.146.0.116 3 177 14826153 20150521162801
+46.146.112.93 1 57 13291176 20150506192846
+178.47.140.16 1 178 14636895 20150526151628
+5.45.192.97 2 116 26588964 20150527112904
+5.166.176.243 4 192 16961368 20150529112044
+46.146.86.74 1 58 13294482 20150524162731
+5.141.192.11 1 45 12553034 20150527123546
+5.141.229.101 1 58 13294482 20150526143925
+37.79.13.255 1 58 13294482 20150526030811
+213.87.248.247 2 166 6978862 20150526134544
+176.14.74.156 2 176 14719549 20150521202053
+213.87.240.114 2 143 8324437 20150503105034
+37.204.68.114 1 9 193662 20150506124951
+46.146.29.242 1 58 13294482 20150530112845
+46.146.61.53 3 186 14914887 20150512130404
+37.76.132.121 3 143 9505908 20150525082208
+188.226.48.123 1 58 13294482 20150512200603
+89.204.116.159 1 11 138376 20150507103346
+5.141.230.182 4 149 9499266 20150525140457
+88.205.207.212 9 212 17516643 20150512165302
+46.146.155.129 1 39 1038008 20150525103639
+213.87.241.114 8 79 13515756 20150526170305
+37.76.158.65 1 60 13294682 20150512115257
+46.146.36.14 1 58 13294482 20150526110243
+46.146.16.4 1 58 13294482 20150531192425
+217.118.83.160 5 177 14566903 20150531122545
+46.242.12.128 1 70 13307873 20150522072639
+185.17.135.53 0 1 64248 
+217.118.83.218 1 12 141430 20150518060524
+2.93.98.39 1 12 141430 20150519203848
+89.179.4.207 2 166 14988799 20150519141100
+46.146.58.24 1 58 13294482 20150522225025
+141.0.13.14 3 147 11372964 20150514174724
+178.207.128.32 1 75 4101627 20150515200855
+88.205.207.195 2 175 14905117 20150512150509
+2.94.13.168 4 155 9963635 20150510192330
+213.87.241.135 1 58 13294482 20150512215546
+212.113.234.238 1 36 1035732 20150522204420
+46.146.0.17 3 229 36140785 20150510104016
+88.205.206.246 1 57 61328 20150501113232
+46.146.20.19 1 58 13294482 20150512153456
+88.205.207.185 1 52 4344151 20150515172342
+46.147.11.222 2 58 7182187 20150512180850
+46.146.68.185 1 58 13294482 20150522220140
+93.81.87.58 1 1 15098 20150530211633
+31.163.249.236 1 40 11573593 20150513221501
+178.161.138.186 6 375 30015281 20150525113223
+5.19.138.13 1 1 10242 20150517114249
+193.105.73.152 1 1 10242 20150509152511
+213.21.44.250 10 262 23823796 20150513002144
+89.179.8.203 0 3 145882 
+31.163.251.234 1 58 13294482 20150525182714
+178.47.170.225 1 48 2998353 20150522114431
+46.146.138.77 4 187 14921305 20150522103258
+79.141.50.61 1 58 13294482 20150515133025
+213.87.249.159 3 5 78824 20150521112636
+46.73.223.178 1 109 5100563 20150510142634
+91.231.196.75 19 991 81535737 20150529160437
+69.164.111.198 1 2 12507 20150524013347
+89.204.117.3 2 64 1034653 20150519061300
+46.146.8.35 6 188 19030868 20150512211621
+88.85.95.125 3 3 30726 20150507181733
+188.42.240.119 4 4 388756 20150512211647
+46.146.36.113 1 58 13294482 20150513083121
+188.186.78.190 4 22 187591 20150508090634
+46.146.91.56 1 58 13294482 20150515190338
+188.18.91.128 4 350 29810230 20150529111711
+128.69.171.227 1 124 7366331 20150510142636
+195.19.177.166 2 175 14905115 20150521105348
+213.87.240.231 1 1 10242 20150530130136
+37.79.249.176 1 54 8011355 20150523212155
+62.16.50.175 0 8 81856 
+37.79.142.17 2 207 27413237 20150515153616
+46.146.91.43 1 58 13294482 20150525211538
+178.161.133.194 1 41 5791723 20150513105500
+95.27.2.233 1 70 13307873 20150516121834
+46.146.243.109 1 12 141430 20150520094215
+107.167.110.12 3 6 39888 20150531054408
+5.166.186.73 3 73 13371755 20150521065650
+5.141.231.244 1 57 13291428 20150520115110
+212.120.166.251 13 469 27260091 20150531134211
+5.141.194.17 1 34 1139566 20150528213209
+128.73.147.11 1 57 13291428 20150515173541
+77.43.134.176 1 58 13294230 20150504185630
+46.146.126.215 1 58 13294482 20150514232939
+94.50.190.210 1 12 141430 20150522084619
+46.146.137.25 1 12 141430 20150524160907
+46.146.40.67 2 58 13353008 20150514100702
+5.141.229.25 1 1 61580 20150529092442
+46.146.17.21 1 58 13294230 20150504033021
+82.145.223.23 2 90 14420114 20150526113805
+46.146.8.13 8 170 10824687 20150508092541
+93.80.35.166 1 70 13307873 20150523074519
+195.189.123.218 0 3 145882 
+5.141.195.193 5 503 17223998 20150516084648
+83.149.37.13 1 11 138376 20150516124502
+88.205.207.147 0 1 32785 
+46.146.120.138 1 71 13310675 20150506150804
+46.146.16.34 2 171 8329836 20150506075517
+46.146.112.0 1 73 13827620 20150519185208
+46.147.52.55 6 170 15704143 20150521111607
+92.240.202.32 2 222 24462049 20150528195101
+5.141.228.126 1 57 3079395 20150503172837
+37.147.102.40 5 5 450336 20150515224436
+88.205.206.247 2 175 14905115 20150528070938
+46.146.71.227 1 71 13310927 20150526092718
+46.146.20.40 2 71 13307358 20150523170358
+213.87.240.113 1 58 13294230 20150505142338
+93.80.134.248 1 70 13307621 20150502125206
+5.18.60.17 0 1 64248 
+5.166.163.17 1 22 124149 20150522210227
+46.146.62.83 1 9 107572 20150523103119
+188.19.25.174 0 10 28060 
+5.166.174.64 2 170 8415218 20150502111439
+77.43.130.245 4 189 16938636 20150527150051
+94.50.241.106 2 141 11326732 20150521200418
+217.118.83.171 1 7 62365 20150521183242
+5.141.230.162 1 74 13731602 20150518102506
+195.19.181.55 4 191 22948423 20150508132341
+188.19.253.17 3 178 194250 20150521161403
+213.87.240.193 1 4 27832 20150531080536
+46.146.16.36 1 58 13294482 20150531220533
+46.146.40.1 1 58 13294482 20150526101131
+89.179.8.73 1 38 1169928 20150528172951
+95.179.17.110 0 1 91559 
+46.146.148.5 1 58 13294482 20150517203242
+178.127.94.27 0 1 64248 
+5.45.192.81 1 58 13294482 20150522231821
+188.32.183.115 2 157 8308871 20150517210250
+89.204.112.39 2 29 440562 20150530220529
+88.205.207.248 1 58 13294482 20150524163113
+176.195.206.128 2 97 7844476 20150531203025
+213.87.241.50 1 71 13310927 20150521094708
+79.141.56.211 3 3 536508 20150528162057
+77.43.155.26 1 58 13294230 20150508185100
+93.81.81.57 2 167 9833843 20150507203440
+37.29.74.225 0 1 91559 
+5.141.229.74 16 787 16194522 20150506200953
+217.118.83.130 1 12 141430 20150530073434
+83.149.9.5 1 54 3724322 20150531162338
+5.141.229.253 1 58 13294482 20150520180308
+46.146.20.98 7 245 21932877 20150529134839
+46.146.16.98 2 177 14905657 20150521105833
+176.14.150.211 1 70 13307873 20150525065001
+46.146.16.123 4 187 14921305 20150521094031
+66.249.81.181 0 58 2953471 
+104.193.9.6 2 2 12169 20150526120331
+212.33.247.104 3 185 14872320 20150515163523
+5.141.231.61 3 149 11447637 20150517222257
+5.166.173.150 1 58 13294482 20150523101339
+83.149.35.88 3 200 27162841 20150531162413
+46.146.36.84 1 58 13294482 20150525183221
+213.87.241.218 2 59 13356062 20150529143012
+94.140.144.198 0 1 395911 
+213.87.248.148 1 1 10242 20150504151908
+217.118.83.205 3 210 23065602 20150515155819
+37.79.140.195 1 58 13294482 20150513173941
+89.21.95.95 0 1 396144 
+92.39.221.44 5 5 450334 20150531221720
+46.146.86.128 5 183 14948433 20150512151231
+134.19.130.26 5 5 450334 20150520143657
+46.146.4.33 6 212 21801715 20150504194910
+89.204.112.94 3 185 14914842 20150522115932
+46.146.98.74 1 12 141430 20150531104044
+37.79.250.181 1 30 13171717 20150522183128
+92.37.194.72 3 181 14927947 20150520143917
+194.190.5.137 7 189 9198896 20150506110428
+5.175.196.47 2 2 20484 20150529234541
+5.140.74.206 6 363 1982003 20150513173646
+217.118.83.152 2 175 14862593 20150515145035
+213.87.249.248 4 332 715344 20150523120629
+94.50.245.93 2 137 9483076 20150530141552
+31.162.36.129 1 57 13291176 20150504145743
+37.79.248.42 1 27 182581 20150525221050
+195.222.146.91 1 57 11793727 20150528162403
+213.87.241.60 2 170 8415218 20150505085712
+37.79.249.50 2 152 9771120 20150509100346
+46.146.70.115 2 175 14905115 20150527200114
+37.76.142.183 2 136 9480022 20150501182618
+83.149.35.238 1 39 4180635 20150503195804
+46.146.248.186 1 55 4783385 20150513212919
+5.140.72.114 1 58 13294482 20150516195701
+46.146.108.14 2 166 14988799 20150524154222
+5.166.178.111 4 370 42886799 20150512192053
+83.149.37.70 4 103 6032970 20150526154902
+193.138.129.118 3 181 14927947 20150521074112
+188.16.118.242 3 89 11111425 20150528190203
+46.146.108.60 2 73 13310401 20150523203841
+89.204.112.199 5 208 28170527 20150527090009
+176.193.81.240 2 161 10982997 20150529203918
+5.141.192.64 1 58 13294482 20150525214344
+89.204.112.65 1 11 138376 20150515122037
+5.141.195.147 0 9 13012 
+46.146.16.23 9 357 15306159 20150524132649
+5.141.229.190 2 175 14905115 20150525065550
+46.146.140.33 1 58 13294482 20150515124304
+77.43.185.177 1 58 13294482 20150529074708
+46.146.112.9 1 58 13294482 20150527094210
+46.146.4.11 1 12 141430 20150530092548
+83.149.35.5 4 174 9162483 20150501190153
+176.195.174.172 2 132 6527288 20150510142653
+62.16.45.18 1 58 13294230 20150507152947
+46.146.16.48 1 57 13291176 20150504164318
+46.146.218.71 2 175 14905115 20150519152245
+46.73.162.245 1 70 13307621 20150510075246
+178.47.91.35 1 58 13294482 20150527161156
+46.146.61.218 1 58 13294482 20150523104335
+46.158.107.225 0 1 91559 
+83.149.35.75 4 140 8710318 20150517150032
+37.79.250.170 3 164 9783944 20150507161653
+77.236.69.154 2 59 13356062 20150522085359
+46.188.20.48 1 108 1444180 20150530211633
+83.149.35.27 1 12 141430 20150526083219
+5.141.194.44 1 8 89661 20150531213942
+188.233.104.83 0 3 145882 
+83.149.37.15 0 1 3054 
+46.146.220.179 4 187 14921305 20150521155911
+37.79.250.204 1 165 14601940 20150515154409
+178.161.133.130 1 13 141430 20150513140036
+83.149.37.54 8 287 4079793 20150502150259
+46.150.95.63 3 3 30726 20150510215949
+46.146.28.62 1 51 5715254 20150512194910
+213.87.249.40 12 131 19365120 20150523171504
+5.141.192.83 1 58 13294482 20150530160628
+89.148.230.127 3 186 14914885 20150521171113
+95.31.122.79 2 175 14905115 20150516073259
+46.146.10.214 3 186 14914887 20150512154921
+46.146.59.1 2 170 8415218 20150506133015
+5.141.230.45 1 108 5322040 20150508123511
+46.146.53.11 1 43 1402782 20150522225854
+46.146.36.43 2 175 14905115 20150521212250
+195.64.155.203 1 1 10242 20150524131848
+188.186.0.29 1 11 138376 20150517155113
+89.179.6.88 4 182 8431408 20150504100037
+46.146.0.104 1 11 138376 20150515204822
+89.148.255.82 2 170 8415218 20150506171918
+37.79.129.192 1 11 138376 20150530143634
+62.16.43.225 3 182 8556648 20150503170016
+46.146.8.11 1 64 13670743 20150509215106
+83.149.37.223 1 165 14809963 20150524154429
+46.146.108.57 1 165 10380399 20150522212844
+94.50.5.149 6 236 15498135 20150514152410
+212.33.242.146 2 188 14921560 20150520061443
+77.245.116.160 9 157 12291309 20150523170433
+176.195.232.109 1 70 13307621 20150508110840
+83.149.37.152 2 104 5185488 20150505074521
+81.222.88.99 2 166 14988799 20150519163522
+88.86.83.134 1 50 4279696 20150518144950
+46.146.15.27 1 6 123046 20150508214654
+176.193.165.186 1 70 13307873 20150527061545
+94.50.244.35 1 58 13294230 20150504074641
+5.141.231.83 1 58 13294482 20150522124746
+188.32.232.142 1 2 12507 20150523211258
+212.33.248.43 3 74 13316971 20150513093234
+178.22.41.255 2 169 8412164 20150504230458
+213.87.241.207 1 12 141430 20150530175545
+46.146.0.54 0 3 145882 
+89.204.117.122 2 29 123160 20150524181434
+5.18.62.106 0 1 64248 
+195.222.145.8 4 299 10617542 20150507195453
+88.205.206.245 5 206 14924568 20150514194902
+217.118.83.145 2 146 9561532 20150530102609
+77.43.193.243 1 57 4436864 20150509112807
+88.205.207.55 3 111 17479859 20150512154929
+89.204.117.79 1 1 10242 20150523135225
+141.0.12.140 1 135 10105144 20150524130727
+5.140.92.193 8 258 22017363 20150520124208
+77.43.204.61 1 39 3808481 20150525211315
+5.166.32.45 1 33 10049455 20150531184655
+5.141.192.189 2 175 14905115 20150526004029
+195.19.179.208 0 3 145882 
+188.18.95.251 3 176 14915359 20150513152104
+94.50.13.181 7 540 33938096 20150522093127
+77.52.11.234 1 1 178836 20150531122838
+178.46.204.90 11 252 14416816 20150505094926
+37.29.23.130 0 1 396144 
+83.222.70.201 1 71 13310927 20150513071442
+195.19.178.190 3 187 14917437 20150529112953
+46.146.110.112 1 58 13294230 20150509180816
+46.146.16.79 1 58 13294482 20150515085503
+88.205.207.154 7 78 3686355 20150513163909
+178.169.87.6 0 1 91559 
+5.166.184.5 4 4 715352 20150512192044
+5.164.121.80 1 70 13307873 20150529044513
+213.87.248.8 1 1 178836 20150516102539
+128.69.130.250 1 2 10661 20150509200412
+178.22.46.119 3 178 14917055 20150512215035
+46.146.242.246 2 188 14921560 20150527055726
+46.146.0.3 13 217 22471089 20150502092946
+46.146.102.94 2 179 14872514 20150530225728
+188.17.80.218 2 13 151672 20150530083731
+178.46.207.98 1 57 11834447 20150525111157
+5.140.64.111 0 11 28300 
+5.141.228.215 1 58 13294482 20150526223412
+89.179.0.120 1 56 1534907 20150521220500
+46.146.163.176 9 9 1609528 20150517100205
+54.191.244.235 1 1 10242 20150525100410
+46.146.108.50 2 59 13356062 20150519050631
+83.149.35.187 1 12 141430 20150523100811
+83.222.78.171 1 43 5634373 20150530193822
+193.36.41.5 2 188 14921560 20150528133029
+46.146.102.19 1 71 13310927 20150517095617
+178.161.133.146 6 176 11539836 20150506075303
+109.173.60.182 2 4 23168 20150509112443
+5.45.192.76 1 1 61580 20150522133451
+5.140.82.72 1 57 4544074 20150520191118
+5.141.194.253 6 151 9695337 20150502121211
+85.192.188.156 0 1 64248 
+5.141.22.77 1 57 13291428 20150518143009
+37.79.249.14 1 57 61580 20150531074749
+94.50.161.15 1 57 10491385 20150525134231
+109.74.171.67 1 58 13294482 20150525140145
+91.122.34.162 1 58 13294482 20150522110924
+212.33.250.203 2 170 8415218 20150505111346
+46.146.164.245 3 154 9784416 20150507190135
+178.161.160.222 2 175 14905115 20150520110139
+37.79.248.108 1 1 61328 20150504093555
+5.141.228.24 1 67 13908123 20150522174600
+62.16.33.217 4 182 8600723 20150506113655
+89.204.112.121 2 176 14819733 20150526101526
+128.73.184.120 1 58 13294482 20150527202454
+213.87.240.140 2 175 14905115 20150518215121
+95.29.30.12 1 1 61580 20150525134455
+188.16.116.219 1 49 2852119 20150503093844
+89.185.74.200 6 203 15254666 20150526123143
+2.93.155.132 3 205 28076832 20150528110753
+176.195.60.61 1 9 107320 20150505091408
+5.141.195.92 6 186 8858761 20150504205815
+95.220.112.40 1 2 10661 20150520151134
+80.66.158.8 0 1 91559 
+178.161.130.22 2 175 14905117 20150512120806
+77.43.154.99 0 6 291764 
+176.195.130.8 1 70 13307873 20150519050625
+5.166.176.46 1 41 9913338 20150507130336
+46.147.43.189 1 58 13294482 20150522205017
+5.141.231.70 1 1 61328 20150503204319
+66.249.81.177 0 53 3835675 
+66.249.93.208 0 1 28749 
+46.146.229.144 3 60 13417642 20150519122149
+213.87.248.32 1 17 118444 20150504120924
+46.146.108.99 9 74 25643274 20150526112336
+188.17.153.59 15 555 26548128 20150508135043
+217.118.83.185 2 175 14905115 20150531090718
+89.179.0.247 5 179 14932603 20150523173905
+5.141.231.144 3 174 9070681 20150501163618
+95.24.222.26 2 151 12207561 20150531090220
+46.146.73.53 15 87 13571484 20150522221454
+213.87.249.76 1 165 14809963 20150522222020
+46.147.46.202 1 189 15725552 20150524221720
+88.205.207.90 1 165 226956 20150513092632
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20150501 75 3321 196640771 28
+20150502 87 3422 279341707 33
+20150503 79 3351 261973474 40
+20150504 103 4073 335932665 41
+20150505 98 3768 305827679 39
+20150506 144 6497 420958668 49
+20150507 77 3250 257485245 37
+20150508 96 4031 297907541 35
+20150509 40 1664 164803357 26
+20150510 98 3796 226047113 31
+20150511 0 89 4238980 0
+20150512 132 5344 598004756 53
+20150513 136 5850 539924316 54
+20150514 89 3143 310925877 36
+20150515 90 4292 441315568 47
+20150516 123 5605 344006184 26
+20150517 73 2934 287083341 39
+20150518 97 4557 491151204 49
+20150519 94 5498 554774276 47
+20150520 117 5408 510526432 50
+20150521 189 8956 826894439 71
+20150522 131 5856 765312884 70
+20150523 108 3970 527929800 56
+20150524 82 3478 402903915 48
+20150525 155 6970 814951556 78
+20150526 157 6477 728799389 64
+20150527 145 5285 691363137 62
+20150528 97 4789 546404386 56
+20150529 90 3369 360713012 42
+20150530 105 4158 479273375 56
+20150531 87 3361 331819035 45
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+5mn-15mn 81
+2mn-5mn 126
+15mn-30mn 31
+30s-2mn 143
+0s-30s 994
+30mn-1h 28
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 31
+/perm.php 792 143854971 206 372
+/obuchenie.php 756 46450816 574 580
+/ 728 7404966 581 170
+/adresa.html 150 963000 5 71
+/chaikovsky.php 124 23042796 18 33
+/zakaz.php 111 858490 0 24
+/akcia_1_1.php 69 713874 1 23
+/zvonok.php 58 432964 0 8
+/akcia_39.php 54 605286 1 13
+/prin.php 46 242420 2 19
+/zakazch.php 9 71874 1 1
+/akcia_CZC.php 17 181679 0 5
+/./chaikovsky.php 1 185829 0 0
+/manik_ped.php 17 179112 0 3
+/zvonokch.php 30 240180 0 9
+/1+1.htm 5 73100 1 3
+/akcia1.php 2 16852 1 2
+/akcia3.php 35 403095 1 9
+/./franshiza.php 1 13847 0 1
+/aksi.php 1 1927 0 1
+/akcia_39.htm 14 199276 0 2
+/akcia_499.htm 8 117160 0 2
+/./perm.php 1 178838 1 0
+/franshiza.php 42 581574 8 19
+/soglahenie.html 4 44304 0 2
+/499.html 8 138136 0 3
+/zvonok_uchoba.php 22 175824 1 6
+/man_499.php 10 202690 0 3
+/akcia_kombo.php 32 483136 2 12
+/zakaz_kurs.php 44 339592 1 9
+/remont.php 3 150324 3 3
+END_SIDER

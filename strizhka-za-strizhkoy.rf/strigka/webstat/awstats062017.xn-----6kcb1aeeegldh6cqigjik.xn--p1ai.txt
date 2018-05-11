@@ -1,0 +1,3805 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201706 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2017                
+POS_TIME 2675                
+POS_VISITOR 97026               
+POS_DAY 189817              
+POS_DOMAIN 3694                
+POS_LOGIN 3931                
+POS_ROBOT 4086                
+POS_WORMS 4975                
+POS_EMAILSENDER 5106                
+POS_EMAILRECEIVER 5249                
+POS_SESSION 190805              
+POS_SIDER 191021              
+POS_FILETYPES 5384                
+POS_DOWNLOADS 5692                
+POS_OS 5776                
+POS_BROWSER 6043                
+POS_SCREENSIZE 10502               
+POS_UNKNOWNREFERER 10576               
+POS_UNKNOWNREFERERBROWSER 12390               
+POS_ORIGIN 12608               
+POS_SEREFERRALS 12764               
+POS_PAGEREFS 12986               
+POS_SEARCHWORDS 78217               
+POS_KEYWORDS 86090               
+POS_MISC 2339                
+POS_ERRORS 89792               
+POS_CLUSTER 3787                
+POS_SIDER_404 89930               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170701000318 1 0 9285530224510
+FirstTime 0
+LastTime 20170630225137
+LastUpdate 20170701000545 1 0 0 0 0
+TotalVisits 2367                
+TotalUnique 1534                
+MonthHostsKnown 0                   
+MonthHostsUnknown 2654                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 91 810 60190059 65 175 12158378
+1 117 759 33349254 115 243 12820858
+2 31 231 11722682 50 125 7543799
+3 70 650 33766741 86 203 7017542
+4 90 795 39008451 62 130 10722778
+5 84 983 46743486 80 183 8846233
+6 274 4728 220307958 141 379 11959640
+7 346 6545 289567673 108 334 9690866
+8 443 9065 397431830 97 377 17428981
+9 505 9608 438268415 137 391 8165601
+10 595 11705 522057469 150 645 21231484
+11 410 8008 356531053 113 332 12075242
+12 522 10575 493679770 97 444 17502794
+13 372 7671 363768651 116 471 21182537
+14 455 9700 438168696 143 591 25061164
+15 475 9285 431494919 104 363 13133436
+16 397 7411 322250991 115 407 18561983
+17 352 6476 293652802 88 365 18012630
+18 257 4754 239132831 98 490 29407957
+19 317 5587 301649370 101 264 9523136
+20 333 6607 316861217 85 273 12872011
+21 312 5244 273450624 87 363 16921340
+22 280 5694 279767728 69 263 14955805
+23 116 2075 102642326 78 245 15799915
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 7244 134966 6305464996
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+yandex 2915 251961568 20170630235923 0
+googlebot 1092 50391934 20170630174225 0
+bot[\s_+:,\.\;\/\\-] 420 18358676 20170630220706 0
+cfnetwork 88 533397 20170630080420 0
+no_user_agent 59 1963425 20170630113148 0
+robot 44 1519239 20170630210740 0
+baiduspider 43 965206 20170630204647 0
+mj12bot 31 945159 20170630111648 0
+powermarks 11 698258 20170621202421 0
+python 11 190100 20170624071559 0
+ia_archiver 4 161818 20170628142033 0
+[\s_+:,\.\;\/\\-]bot 1 63478 20170611030119 0
+mail\.ru 10 845506 20170626041806 0
+unknown 1 66347 20170613162023 1
+slurp 4 153209 20170621115303 0
+surveybot 1 63478 20170612194100 0
+favicon 9 327863 20170629170416 0
+archive\.org_bot 1 63478 20170626022102 0
+msiecrawler 3 190434 20170619114353 0
+crawl 6 380868 20170627052827 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+eot 46 2520270 0 0
+css 12382 24255758 0 0
+png 40776 1292724239 0 0
+ttf 1187 108601360 0 0
+woff 1131 74026212 0 0
+php 499 19717693 0 0
+html 4381 163321079 0 0
+jpg 64311 4580432217 0 0
+js 9358 36349092 0 0
+jpeg 5 1309055 0 0
+gif 890 2208021 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/obuchenie.php/robots.txt 1 0 66347
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 20
+linuxandroid 44603
+winlong 222
+winxp 6910
+win2000 75
+winvista 5524
+win95 9
+winunknown 644
+wince 7
+j2me 132
+win2003 24
+unix 10
+winnt 14988
+win98 18
+linuxubuntu 1
+linux 925
+win7 34009
+win16 254
+macosx 25356
+winme 26
+Unknown 1229
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 227
+chrome50.0.2661.89 1084
+webcapture 7
+chrome52.0.2743.116 386
+chrome44.0.2403.124 109
+firefox44.0 115
+chrome33.0.1750.166 107
+chrome44.0.2403.130 1
+chrome59.0.3071.117 219
+firefox54.0 1518
+chrome31.0.1650.57 247
+firefox49.0 1
+chrome31.0.1650.63 99
+chrome24.0.1312.71 59
+msie8.0 713
+safari10.0.1 49
+chrome11.0.696.34 156
+chrome54.10.2840.71 1
+chrome34.0.1847.132 30
+chrome60.0.3112.21 107
+msie7.0 25
+chrome53.0.2785.124 224
+chrome537.306 1
+chrome30.0.1599.82 64
+chrome49.0.2623.91 215
+chrome50.0.2661.86 2
+chrome42.0.2311.152 7
+chrome45.0.2454.95 1
+chrome31.0.1650.59 108
+firefox50.0 111
+firefox40.0 32
+chrome59.0.3071.92 279
+opera9.01 6
+firefox38.0 4
+chrome46.0.2490.71 1
+chrome40.0.2214.114 107
+chrome47.0.2526.73 109
+chrome51.0.2704.103 2
+netscape0.6 2
+firefox25.0 169
+chrome33.0.1750.117 2
+netscape5.0 5
+chrome37.0.0.0 108
+chrome52.0.2743.98 244
+chrome46.0.2490.86 1
+chrome59.0.3071.109 109
+safari5.1.9 113
+firefox36.0 1
+safari 2033
+safari7.0 338
+chrome34.0.1847.76 434
+chrome60.0.3112.20 206
+firefox4.0.1 2
+chrome41.0.2225.0 2
+android 1771
+chrome43.0.2357.124 253
+chrome43.0.2327.5 5
+chrome48.0.2564.116 2
+firefox52.0 1249
+chrome28.0.1500.95 370
+chrome36.0.1985.125 1
+chrome26.0.1410.33 2
+firefox24.0 66
+chrome17.0.963.47 1
+chrome57.0.2987.98 2
+opera9.80 1557
+chrome46.0.2490.85 312
+chrome19.0.1084.56 3
+chrome39.0.0.0 435
+iphone 478
+firefox3.5.0 14
+chrome33.0.0.0 6
+chrome46.0.2490.76 111
+chrome43.0.2357.81 1
+chrome20.0.1132.47 1
+chrome34.0.1847.116 1
+chrome51.0.2704.84 137
+chrome53.0.2785.116 5
+chrome58.0.3029.96 109
+msie5.0 3
+opera7.54 4
+chrome57.0.2987.132 1223
+opera12.02 1
+chrome59.0.3071.115 2245
+chrome58.0.3029.140 1
+chrome49.0.2623.87 1
+chrome53.0.2785.143 112
+chrome35.0.1916.141 249
+opera8.01 2
+chrome51.0.2704.79 928
+chrome48.0.2564.98 1
+firefox30.0 4
+msie5.5 31
+chrome43.0.2357.132 1
+netscape4.79 7
+chrome38.0.2125.102 1504
+chrome52.0.2743.82 1
+chrome45.0.2454.94 930
+nokia 535
+chrome55.0.2623 1
+chrome51.0.2704.106 1889
+chrome42.0.0.0 106
+chrome25.0.1364.172 1
+firefox51.0 417
+chrome31.0.1650.16 1
+chrome48.0.2564.106 1
+svn040 219
+chrome59.0.3071.104 359
+msie6.0 435
+chrome42.0.2311.137 1
+chrome59.0.3071.122 1
+firefox26.0 4
+chrome28.0.1500.94 111
+chrome39.0.2171.95 15
+firefox18.0 6
+firefox4.0 5
+msie4.01 11
+curl 7
+chrome43.0.2357.121 112
+chrome61.0.3124.11 107
+chrome58.0.3029.110 29954
+chrome51.0.2704.81 218
+opera7.60 2
+chrome53.0.2785.146 571
+chrome50.0.2661.94 1
+chrome55.0.2883.84 1
+firefox43.0 215
+netscape3.0 3
+firefox40.1 1
+chrome27.0.1453.90 79
+chrome50.0.2661.102 214
+chrome37.0.2062.120 14
+firefox41.0 1
+chrome49.0.2623.112 3543
+opera9.0 27
+firefox48.0 150
+chrome33.0.1750.152 5
+opera7.11 8
+firefox53.0 2631
+chrome55.0.2883.87 8
+chrome58.0.3029.83 20843
+chrome49.0.2623.105 540
+chrome40.0.2214.109 601
+lg\- 1
+chrome52.0.2743.91 61
+chrome57.0.2987.54 108
+firefox3.5.2 2
+chrome56.0.2964.11 1
+chrome58.0.3029.97 110
+chrome56.0.2924.197 3
+chrome49.0.2623.75 26
+firefox47.0 50
+firefox45.0 354
+chrome51.25.2704.63 109
+firefox3.5.5 1
+chrome47.0.2526.106 427
+mozilla 3368
+chrome28.1.1500.75 105
+chrome54.0.2840.191 1
+chrome44.0.2403.157 5
+chrome57.0.2987.133 222
+chrome46.0.2486.0 295
+chrome26.0.1410.63 5
+firefox3.6.3 1
+chrome44.0.2403.133 217
+firefox35.0 110
+firefox15.0.1 1
+chrome29.0.1547.72 1
+chrome37.0.2062.124 103
+chrome59.0.3071.49 1
+chrome29.0.1547.57 1
+chrome59.0.3071.86 440
+chrome55.0.2883.91 2158
+chrome58.0.3029.81 139
+chrome47.5.2526.111 49
+chrome56.0.2924.87 4031
+opera9.00 25
+chrome43.0.2357.146 108
+msie3.02 7
+chrome26.0.1410.58 107
+chrome61.0.3135.5 1
+firefox13.0.1 2
+chrome7.0.514.0 1
+chrome47.0.2526.111 326
+chrome45.0.2454.93 1
+abrowse 106
+chrome55.0.2883.75 107
+chrome54.0.2840.68 214
+chrome55.0.2883.95 218
+msie2.0 3
+chrome56.0.2924.76 168
+chrome43.0.2357.93 431
+safari8.0 216
+chrome33.0.1750.154 2
+Unknown 31
+chrome47.0.2526.83 519
+firefox11.0 61
+chrome30.0.0.0 52
+chrome57.0.2987.137 8710
+chrome47.5.2526.115 1
+netscape4.61 9
+firefox3.5.6 2
+chrome30.0.1599.17 2
+chrome48.0.2608.44 1
+chrome48.0.2564.95 199
+opera8.00 3
+safari10.0 18572
+chrome41.0.2272.118 49
+chrome25.0.1234.12 1
+chrome54.0.2840.99 58
+chrome20.0.1132.57 1
+firefox46.0 2
+chrome58.0.3050.0 1
+chrome59.0.3071.125 108
+safari10.1.1 110
+chrome22.0.1250.0 1
+firefox3.0.3 2
+chrome36.0.1985.135 162
+safari9.0 1829
+chrome45.0.2454.101 312
+chrome48.0.2564.109 107
+chrome54.0.2840.100 1
+msie10.0 340
+chrome30.0.1599.103 216
+safari5.1 109
+chrome54.0.2840.85 363
+chrome35.0.1916.152 77
+safari9.1.3 217
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 21
+SeopultContentAnalyzer/1.0 20170630124220
+Opera/9.80_(S60;_SymbOS;_Opera_Mobi/1209;_U;_fr)_Presto/2.5.28_Version/10.1 20170612154458
+2ip.ru_CMS_Detector_(http://2ip.ru/cms/) 20170608061424
+Xenu_Link_Sleuth/1.3.8 20170614004210
+Opera/9.80_(S60;_SymbOS;_Opera_Mobi/447;_U;_en)_Presto/2.4.18_Version/10.00 20170612033717
+Opera/9.80_(Android;_Opera_Mini/20.0.2254/63.235;_U;_ru)_Presto/2.12.423_Version/12.16 20170603191423
+Mozilla/5.0_(Android_5.0.2;_Mobile;_rv:52.0)_Gecko/52.0_Firefox/52.0 20170604175251
+Opera/9.80_(Android_2.2;_Opera_Mobi/-2118645896;_U;_pl)_Presto/2.7.60_Version/10.5 20170611103042
+PycURL/7.43.0_libcurl/7.22.0_OpenSSL/1.0.1_zlib/1.2.3.4_libidn/1.23_librtmp/2.3 20170627000726
+Opera/9.80_(Android;_Opera_Mini/7.5.35198/64.199;_U;_ru)_Presto/2.12.423_Version/12.16 20170610234618
+Opera/9.80_(Android;_Opera_Mini/25.0.2254/65.213;_U;_ru)_Presto/2.12.423_Version/12.16 20170626142419
+Opera/9.80_(Android;_Opera_Mini/26.0.2254/64.228;_U;_ru)_Presto/2.12.423_Version/12.16 20170620085955
+Opera/9.80_(Android;_Opera_Mini/20.0.2254/65.213;_U;_ru)_Presto/2.12.423_Version/12.16 20170625203511
+Opera/9.80_(S60;_SymbOS;_Opera_Mobi/498;_U;_sv)_Presto/2.4.18_Version/10.00 20170610193735
+Mozilla/5.0 20170621104201
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20170629122231
+Mozilla/5.0_(S60;_SymbOS;_Opera_Mobi/1209;_U;_it;_rv:1.9.1.6)_Gecko/20091201_Firefox/3.5.6_Opera_10.1 20170612135750
+GuzzleHttp/6.1.0_curl/7.35.0_PHP/5.5.9-1ubuntu4.14 20170622023720
+Mozilla/5.0_Vindazo_Firefox/3.0.3 20170615113200
+Opera/9.80_(S60;_SymbOS;_Opera_Mobi/1181;_U;_en-GB)_Presto/2.5.28_Version/10.1 20170610212239
+Opera/9.80_(Android;_Opera_Mini/26.0.2254/64.199;_U;_ru)_Presto/2.12.423_Version/12.16 20170613201811
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+SeopultContentAnalyzer/1.0 20170630124220
+2ip.ru_CMS_Detector_(http://2ip.ru/cms/) 20170608061424
+Xenu_Link_Sleuth/1.3.8 20170614004210
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 654 2003
+From1 24 25
+From2 808 1777
+From3 1427 1460
+From4 4331 129701
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+google 360 1324
+search 3 4
+bing 1 1
+google_image 0 1
+yandex 440 443
+yahoo 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 293
+http://away.vk.com/away.php 237 237
+http://maps.2gis.ru 66 66
+http://link.2gis.ru/086B0DE1/grym/20170601/perm/f8b0a14a476a43 41 41
+http://\xd1\x81\xd1\x82\xd1\x80\xd0\xb8\xd0\xb6\xd0\xba\xd0\xb0-\xd0\xb7\xd0\xb0-\xd1\x81\xd1\x82\xd1\x80\xd0\xb8\xd0\xb6\xd0\xba\xd0\xbe\xd0\xb9.\xd1\x80\xd1\x84 25 25
+http://link.2gis.ru/807F6F4C/v4-android/20170601/perm/70000001007395862 23 23
+http://typer.one 18 18
+http://videochat.world 16 16
+http://link.2gis.ru/A72DA587/grym/20170501/perm/f8b0a14a476a43 14 14
+http://kemerovo.zrus.org 12 12
+http://link.2gis.ru/63F87F26/v4-android/20170601/perm/2252329095032822 12 12
+http://namenectar.com 5 5
+http://strizhka-za-strizhkoj59-3.perm-gid.info 1 1
+http://www.wttavern.com 5 5
+http://tula.zrus.org 8 8
+http://chaikovskii.varps.ru/268-salony_krasoty 2 2
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjgiLCJldmVudCI6IjdiOTJjZTM5LWI5NDgtNDAzYi1iZjU0LTdjN2Y4OGE3Yzg4MSIsInR5cGUiOjEsInRzIjoxNDk4NjcwMDkxNjA3LCJhZGQiOnsiaGFzaCI6ImQyZTVmZTY0LTg5ZTQtNDA3ZC04MGQ2LWZkN2E4M2M4YTI0MCIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNzMxMjYwNCIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3ODI2MzgiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk4NjcwMDg0LCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXT1c2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzU4LjAuMzAyOS4xMTAgWWFCcm93c2VyLzE3LjYuMC4xNjMzIFlvd3Nlci8yLjUgU2FmYXJpLzUzNy4zNiIsImlwIjoiNjIuMTYuNDUuNDIiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiJiMTkyMzdhZS0wOWQwLTQ1NGYtYWIyMi1hNTY3NTYyZWY1YzkiLCJzaWQiOiJlZTNjYTkwZi05NTZjLTRlMjgtOGFhMi00NDE4NDZjYTMyY2UiLCJzaHYiOiIxNzA2MjctNDMwMCJ9 1 1
+http://link.2gis.ru/00A1BD7A/v4-iphone/20170601/perm/70000001024569060 9 9
+http://chaikovskii.damspravku.ru/5871354-strizhka_za_strizhkoy-company 1 1
+https://axelname.ru/diag/ 1 1
+http://ufa.zrus.org 5 5
+http://perm.big-book-med.ru/company/173550/ 5 5
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MDciLCJldmVudCI6IjhiN2Y2NzBhLTU4ZTktNDU2Ni04NWQyLTI5M2ZjODBjZWRmMiIsInR5cGUiOjEsInRzIjoxNDk2ODM1MzIzNTQyLCJhZGQiOnsiaGFzaCI6ImIzYTdjMTMxLWYzMWUtNGVkMy1iNDUyLTI4NDYwYjA0ZDRlZSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNzMxMjYwNCIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk2ODMwODAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTEuMC4yNzA0Ljg0IFNhZmFyaS81MzcuMzYiLCJpcCI6IjQ2LjE0Ni4yMDYuMTE0Iiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiODFhODI5YjMtZGFjNi00ZTc3LWI3OGUtMGVmYmZiY2VjZGQ0Iiwic2lkIjoiZTQ5YzVmZmQtOTQ2OC00MDUxLWFiMGUtMDg5ODlhODQxMDBiIiwic2h2IjoiMTcwNjA3LTM4MjYifQ== 1 1
+http://tver.zrus.org 6 6
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTkiLCJldmVudCI6Ijg4YzllZDQ2LTJmYzUtNDExMC04NDkzLTQ0MWMyOTdkYWJiNSIsInR5cGUiOjEsInRzIjoxNDk3OTA3MTM3MTc2LCJhZGQiOnsiaGFzaCI6IjQ5NTUxMzMxLWFlOTMtNDk4MS1iNjcxLTZmYWI5MDY1YTVmYyIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MywicG9zIjoyNywicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk3OTAzMzAwLCJwbGFjZSI6MX0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydW9lZHc5MjI1IiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzU4LjAuMzAyOS4xMTAgU2FmYXJpLzUzNy4zNiIsImlwIjoiNS4xNDEuOC4xMzIiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiI2ZmNiYWY2NC01NjIyLTQxYTktODc2OC1hMjQ4OGM1YWRiZTUiLCJzaWQiOiIzNTAyMDJkMC1kMWFhLTQ4OTctOTI0NS00MTBkODk4YzBiM2QiLCJzaHYiOiIxNzA2MTktNDAxMiJ9 1 1
+http://link.2gis.ru/27689C9E/v4-iphone/20170301/perm/r16_70000001006660162 1 1
+http://go.mail.ru/redir 1 1
+http://naberezhnyechelny.zrus.org 2 2
+http://videochat.life 2 2
+http://craftinsta.ru 2 2
+http://samara.zrus.org 3 3
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTciLCJldmVudCI6ImE3NGY2NTZhLTQ4ZGUtNDRkOS1hMjkwLThiN2IyMDk3NDgxMiIsInR5cGUiOjEsInRzIjoxNDk3Njg3NDQzMTE0LCJhZGQiOnsiaGFzaCI6Ijk0YzYxOTFjLWY1OTItNGRhOC1iN2JhLTc1NDNmNzgwNmIyNSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAyODA0ODQ2MyIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MiwicG9zIjoxNSwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjMiLCJhZHN0IjoxNDk3Njg0MDAwLCJwbGFjZSI6MX0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBTYWZhcmkvNTM3LjM2IiwiaXAiOiI0Ni4xNDYuNTUuMTQxIiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiYmFlMWQ0YTktMDgyZS00YmY0LWIzMmYtNzI5NTQ3MzRlNzU0Iiwic2lkIjoiNGRmYjQ5MzItODk5ZC00MmQ1LWE3NTMtOWQ1MjU5OWUxMjIyIiwic2h2IjoiMTcwNjE2LTM5OTcifQ== 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkvb2J1Y2hlbmllLnBocApodHRwOi8vc3RhdC5hcGkuMmdpcy5ydQp7InByb2oiOjE2LCJpc2QiOiIyMDE3MDYyMyIsImV2ZW50IjoiOTU4MWRmYzEtMzU3Mi00ZDg0LTk2ZjAtOGNiNTMyNjg4OTZlIiwidHlwZSI6MSwidHMiOjE0OTgyMTM4OTU4MzUsImFkZCI6eyJoYXNoIjoiMDI2MDc2ZGEtZjkwYy00NzM1LThhOTgtM2NiZmFiMWQ3ZGEyIiwiYmMiOjIsImJyYW5jaCI6IjcwMDAwMDAxMDE3ODAzOTU3Iiwib3JnIjoiNzAwMDAwMDEwMTczNzUzNjIiLCJwYWdlIjoxLCJwb3MiOjQsInJ1YnIiOiIyMjUxOTIwMDcyNzcwMjMxIiwiYWRzIjowLCJ0eXMiOjEsInMiOiIzIiwiYWRzdCI6MTQ5ODIxMzIwMCwicGxhY2UiOjF9LCJ2IjoyLCJwcm9kIjoxMCwia2V5IjoicnVvZWR3OTIyNSIsImxhbmciOiJydV9SVSIsInVzZXJhZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDUuMSkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzQ3LjUuMjUyNi4xMTEgQW1pZ28vNDcuNS4yNTI2LjExMSBNUkNIUk9NRSBTT0MgU2FmYXJpLzUzNy4zNiIsImlwIjoiMTc4LjE2MS4xMzEuMTU0Iiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiNzBmN2VlNmEtMWVkZS00MjMyLWEyODUtMDcyYmZlODZmMDc0Iiwic2lkIjoiNGZkYTJhNjItYTQ4Yi00NWU3LTgwZGMtN2U4NzZjZjI1ZTc5Iiwic2h2IjoiMTcwNjIzLTQxODUifQ== 1 1
+http://www.zetmaster.ru 3 3
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjkiLCJldmVudCI6IjZiZmYyMTBhLThjZGMtNDgyOS1hZjgzLTczYzgyY2YzOTEzNCIsInR5cGUiOjEsInRzIjoxNDk4NzUyMTk4MzM5LCJhZGQiOnsiaGFzaCI6IjIzMzI5NTE5LWI4NjYtNGQ2Ni04MjY4LTNiYjA5YjViMGY5OSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAxOTUyOTUwNiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6NSwicG9zIjo1MywicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk4NzQ1NDAwLCJwbGFjZSI6MX0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTkuMC4zMDcxLjExNSBTYWZhcmkvNTM3LjM2IiwiaXAiOiI0Ni4xNDYuNDAuOTMiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiI4ZTM2NTc0My0xMGE3LTRlOTAtOTlmYi1hYzI1MjhlNjEwMjYiLCJzaWQiOiIxMTBkMGFiNS1hNDY1LTQ1OTgtOGEzOS01YTZmM2QzNzIwNzciLCJzaHYiOiIxNzA2MjktNDM1MyJ9 1 1
+https://maslenka.kz 4 4
+http://link.2gis.ru/2C939C1E/grymmobile/20170101/perm/f8b0a14aeaea82 1 1
+http://khantymansiysk.zrus.org 8 8
+http://kursk.zrus.org 1 1
+http://link.2gis.ru/D6F649B2/grym/20170601/perm/f8b0a14aeaea82 7 7
+http://vologda.zrus.org 2 2
+http://hvd-store.com 1 1
+http://life-instyle.com/architectural-design.html 6 6
+http://hundejo.com 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkvb2J1Y2hlbmllLnBocApodHRwOi8vc3RhdC5hcGkuMmdpcy5ydQp7InByb2oiOjE2LCJpc2QiOiIyMDE3MDYxOCIsImV2ZW50IjoiNmNkNGFhYzUtNDVjOS00OWUzLWJiODYtOGNmZTRhNTAzYWYxIiwidHlwZSI6MSwidHMiOjE0OTc4ODY0ODYxMzUsImFkZCI6eyJoYXNoIjoiZmQ2MDRiMjctYjY1My00NzJiLTgyMTMtMDhhMjRhZTdiNjFhIiwiYmMiOjIsImJyYW5jaCI6IjcwMDAwMDAxMDE3ODAzOTU3Iiwib3JnIjoiNzAwMDAwMDEwMTczNzUzNjIiLCJydWJyIjoiMjI1MTkyMDA3Mjc2OTg0MSIsImFkcyI6MCwidHlzIjoxLCJzIjoiMiIsImFkc3QiOjE0OTc3OTg5MDAsInBsYWNlIjoyfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1dG5wdDMyNzIiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCA1LjEpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS81Ny4wLjI5ODcuMTM3IFlhQnJvd3Nlci8xNy40LjEuOTE5IFlvd3Nlci8yLjUgU2FmYXJpLzUzNy4zNiIsImlwIjoiNDYuMTQ2LjguMzkiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiJkZmU0NTg0Ni1kNzZlLTQyODEtOWRmYS1lODg3ODBiNGQzYTEiLCJzaWQiOiI1YjBlOWNlZS1mNTIzLTRiOTItODkwNC05YzkwNTI4OTBiOTciLCJhdXRodXNlciI6OTg0MzAwOSwic2h2IjoiMTcwNjE2LTM5OTcifQ== 1 1
+http://chatroulette.online 7 7
+http://link.2gis.ru/4EAC14A5/v4-iphone/20170501/perm/r16_2252329095032822 1 1
+https://murmansk.afora.ru 3 3
+http://link.2gis.ru/C540E5AA/grym/20170101/perm/f8b0a14aeaea82 11 11
+http://link.2gis.ru/C099B069/v4-android/20170601/perm/70000001006660162 7 7
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjQiLCJldmVudCI6IjgwZTk4NDVkLTk3ZmUtNGUzNC1iMDcwLWE2Mzg0ZjZkN2VhYyIsInR5cGUiOjEsInRzIjoxNDk4Mjc0Mjc0NzUyLCJhZGQiOnsiaGFzaCI6ImJhMWE2NmExLTg1MDUtNGQ3MC05MTYyLTU1ZDk5ODQyNzQxYSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicG9zIjoxLCJhZHMiOjAsInR5cyI6MSwicyI6IjMiLCJhZHN0IjoxNDk4MjcwNTAwLCJwbGFjZSI6MX0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydW9lZHc5MjI1IiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKExpbnV4OyBBbmRyb2lkIDYuMDsgTEctSDUwMiBCdWlsZC9NUkE1OEspIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS81OC4wLjMwMjkuODMgTW9iaWxlIFNhZmFyaS81MzcuMzYiLCJpcCI6IjE3Ni41OS4yMDUuMjU0Iiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiMmQ0ZWJkOGYtY2NkOC00MTE5LTgxYWItMDdjZDc0NDcyM2FhIiwic2lkIjoiZGJkMmM0NTEtM2E4MC00Y2JhLTg3OTMtMTE5MzNkNGM3NmI3Iiwic2h2IjoiMTcwNjIzLTQxODUifQ== 1 1
+http://veles-garant.ru/pricheski-s-kosoy-i-lokonami-foto.html 0 1
+http://vladimir.zrus.org 1 1
+https://buydissertation.net 6 6
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjciLCJldmVudCI6IjhhZmE2NWExLTVlNzUtNDIxYi1iMWM5LTc4ZjJlZmZjMjQwNyIsInR5cGUiOjEsInRzIjoxNDk4NTY3NDI1MjI4LCJhZGQiOnsiaGFzaCI6ImQzNWQzMjA4LTY3NzUtNDJjYi05OWFiLWFkY2MyOGUzZmVjYyIsImJjIjoyLCJicmFuY2giOiIyMjUyMzI5MDk1MDMyODIyIiwib3JnIjoiNzAwMDAwMDEwMDY2NjAxNjMiLCJwYWdlIjoxLCJwb3MiOjEsInJ1YnIiOiIyMjUxOTIwMDcyNzY5ODQxIiwiYWRzIjowLCJ0eXMiOjEsInMiOiIzIiwiYWRzdCI6MTQ5ODU2NjAwMCwicGxhY2UiOjF9LCJ2IjoyLCJwcm9kIjoxMCwia2V5IjoicnV0bnB0MzI3MiIsImxhbmciOiJydV9SVSIsInVzZXJhZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDYuMTsgV09XNjQ7IHJ2OjU0LjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvNTQuMCIsImlwIjoiNDYuMTQ2LjIwOS44MiIsImtleXN0YXR1cyI6MSwidXNlciI6IjRlMDFhNDA3LTM5YTUtNDA4My04OTE5LWE5ZjMzNjczNDlmOSIsInNpZCI6Ijg5NDAwOWM5LTlmYTEtNDI1Yy1iYjg0LTQ3NTY2Y2QwY2NiNCIsInNodiI6IjE3MDYyNy00Mjg2In0= 1 1
+http://ulyanovsk.zrus.org 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MDUiLCJldmVudCI6IjU4NjU4NTFhLWM1ZTEtNDgwNy04NzMxLTRhMTVhMWM3NTBmYiIsInR5cGUiOjEsInRzIjoxNDk2NjQyMzE2MDI5LCJhZGQiOnsiaGFzaCI6ImFiMDJjODJmLTg0OWItNGEwNy1iN2RlLWUxNzMzZTUxNzJjYSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAyODA0ODQ2MyIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk2NjQwMDAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xKSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBTYWZhcmkvNTM3LjM2IE9QUi80NS4wLjI1NTIuODgxIiwiaXAiOiIxNzguMTYxLjIxNy44MyIsImtleXN0YXR1cyI6MSwidXNlciI6ImE1MDExZmIyLTcyMjItNDU5MC04N2UzLWUwNjBiNTk0NWM3OCIsInNpZCI6ImE0MTRhMGU1LWM3NmMtNDYzOC05YmNlLWM1NWJhNjJkMjI1OSIsInNodiI6IjE3MDYwMy0zNzY3In0= 1 1
+https://landscaping.center 4 4
+http://link.2gis.ru/8E6F8F4B/v4-android/20170501/perm/70000001024569060 2 2
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTYiLCJldmVudCI6IjZlYjNkMjhlLWIzNzQtNGJiYS04MGY3LWRiNzJhZjczZDhiOCIsInR5cGUiOjEsInRzIjoxNDk3NTYwMzA5MzgwLCJhZGQiOnsiaGFzaCI6ImU2Y2Q1NzEzLTk1ZjQtNDc3MC1iNzYzLTJlNmUzMjg2ODdiMiIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAyNDU2OTA2MCIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MywicG9zIjoyNSwicnViciI6IjIyNTE5MjAwNzI3NzAxODciLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk3NTU4MDAwLCJwbGFjZSI6MX0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydW9lZHc5MjI1IiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKGlQaG9uZTsgQ1BVIGlQaG9uZSBPUyAxMF8yXzEgbGlrZSBNYWMgT1MgWCkgQXBwbGVXZWJLaXQvNjAyLjQuNiAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMTAuMCBNb2JpbGUvMTREMjcgU2FmYXJpLzYwMi4xIiwiaXAiOiIxNzYuNTkuMTk5LjIyNSIsImtleXN0YXR1cyI6MSwidXNlciI6IjQzZTJjNTg2LWY5ZTctNDI2NC1iMTJiLWIwMTVhNjYwZTgwYiIsInNpZCI6IjRlODcxNjFjLTA4OGEtNDMxMy05ODYzLWUyYjBlMDM2NzgxMiIsInNodiI6IjE3MDYxNC0zOTI5In0= 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MDEiLCJldmVudCI6IjUxMjFmOGJlLTM1NzEtNGQ0YS1hMGNkLTUwNTUyNmM0MjM2YSIsInR5cGUiOjEsInRzIjoxNDk2MzI1NTk2NDc1LCJhZGQiOnsiaGFzaCI6IjRmNGZjNTQ5LWQyMzUtNDEyYS1hYjY0LTUyOGJkZGI1Y2E4NSIsImJjIjoyLCJicmFuY2giOiIyMjUyMzI5MDk1MDMyODIyIiwib3JnIjoiNzAwMDAwMDEwMDY2NjAxNjMiLCJwYWdlIjoxLCJwb3MiOjQsInJ1YnIiOiIyMjUxOTIwMDcyNzY5ODQxIiwiYWRzIjowLCJ0eXMiOjEsInMiOiIzMCIsImFkc3QiOjE0OTYzMjI5MDAsInBsYWNlIjoyfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1dG5wdDMyNzIiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCA2LjE7IFdPVzY0OyBydjo1MS4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzUxLjAiLCJpcCI6IjQ2LjE0Ni4yMjMuMTM5Iiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiZjRkZDMxOWEtNWJjYi00NGIwLTg3MTUtNDNlYjE2Mzc3ODk5Iiwic2lkIjoiNTdhM2UxNTMtZTRiNy00NmQ2LTg2YTQtYzE0MzIwMmQ0OGJiIiwic2h2IjoiMTcwNjAxLTM3MTIifQ== 1 1
+http://kozhniebolezni.com 2 2
+http://www.chaikovskie.ru/catalog/organizatsii/15550/ 1 1
+http://m.vk.com/away.php 1 1
+http://link.2gis.ru/E9F54294/v4-android/20170501/perm/70000001006660162 2 2
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjEiLCJldmVudCI6IjVlNWQ5MWMyLWU1MzEtNGU3Yi05ODdiLWViMjI3ZDRkMGU2NSIsInR5cGUiOjEsInRzIjoxNDk4MDUxMTUzNjI3LCJhZGQiOnsiaGFzaCI6ImFkOTUwMmJhLTliMTctNGRhYy04MjMzLWMyZTUyMzE5ZDRmNCIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk4MDQ3NjAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xKSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNDMuMC4yMzU3LjEyNCBZYUJyb3dzZXIvMTUuNy4yMzU3LjI4NzcgU2FmYXJpLzUzNy4zNiIsImlwIjoiODIuMTE4LjEyOC4zIiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiYjQzMjRjY2YtYjQ4Ni00NzM5LWJhMjktZGI0YjNhNDk2ZGVlIiwic2lkIjoiY2JlODFjNTYtNGExNy00ZmJhLTkxMzMtZWQyZjViZjEyMGE0Iiwic2h2IjoiMTcwNjIxLTQxMTEifQ== 1 1
+http://www.japan-bearings.ru 3 3
+http://rusmortgage.ru/pricheski-na-srednie-volosy-s-pleteniem-s-kudryami-na.html 0 6
+http://perm.zrus.org 8 8
+http://perm.hairlooks.ru/strizhka-za-strizhkoy-ekaterininskaya-134/ 1 1
+https://esopini.com 1 1
+http://xn--e1afanlbnfckd7c3d.xn--p1ai 9 9
+http://vzglyadriv.kg 5 5
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjAiLCJldmVudCI6Ijg1ZjgwYTNkLTE2MzktNGYyYy05ODAwLTFlZTQ3MzU3MGE3YyIsInR5cGUiOjEsInRzIjoxNDk3OTU0MjYyNDgzLCJhZGQiOnsiaGFzaCI6IjdiNjRmNjg4LTFmNGUtNDhkZC1hMWNkLWQzZDU2ZGIzMjA4OSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNzM5NTg2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6NCwicG9zIjozOSwicnViciI6IjIyNTE5MjAwNzI3ODI2MzgiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk3OTQyOTAwLCJwbGFjZSI6MX0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzU4LjAuMzAyOS4xMTAgU2FmYXJpLzUzNy4zNiIsImlwIjoiMjEyLjc2LjE4MC4yMzMiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiJlYzRhYWE3Ny03NTMxLTRjNjQtOTNhOC00ZDExYWMyNzNjYzkiLCJzaWQiOiIwZWNlMmQ1Ny0wMDQ1LTQ2MjItYTI3Zi04ZjFiYTczZTNhZTgiLCJzaHYiOiIxNzA2MjAtNDA0MSJ9 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjAiLCJldmVudCI6IjRkMmExNWEzLWU0OWEtNDIyMC05MDg1LTEzYjQzZWIzZjE2ZSIsInR5cGUiOjEsInRzIjoxNDk3OTUyNTMyMjE3LCJhZGQiOnsiaGFzaCI6IjdiNjRmNjg4LTFmNGUtNDhkZC1hMWNkLWQzZDU2ZGIzMjA4OSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MiwicG9zIjoxNSwicnViciI6IjIyNTE5MjAwNzI3ODI2MzgiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk3OTQyOTAwLCJwbGFjZSI6MX0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzU4LjAuMzAyOS4xMTAgU2FmYXJpLzUzNy4zNiIsImlwIjoiMjEyLjc2LjE4MC4yMzMiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiJlYzRhYWE3Ny03NTMxLTRjNjQtOTNhOC00ZDExYWMyNzNjYzkiLCJzaWQiOiIwZWNlMmQ1Ny0wMDQ1LTQ2MjItYTI3Zi04ZjFiYTczZTNhZTgiLCJzaHYiOiIxNzA2MjAtNDA0MSJ9 1 1
+http://store-rx.com 7 7
+http://link.2gis.ru/A9139DB1/v4-android/20170501/perm/70000001007395862 5 5
+http://chaikovskii.spravker.ru/salony-krasoty/strizhka-za-strizhkoj2.htm 1 1
+http://link.2gis.ru/0EB15D7D/v4-iphone/20170501/perm/70000001007395862 4 4
+http://greenzaim.ru 3 3
+http://video-chat.love 6 6
+http://link.2gis.ru/30793D4B/grymmobile/20170601/perm/f8b0a14a476a43 2 2
+http://nippon-bearings.ru 1 1
+http://link.2gis.ru/C2FF2459/v4-iphone/20170501/perm/70000001017803957 3 3
+http://stal-rulon.ru 2 2
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkvb2J1Y2hlbmllLnBocApodHRwOi8vc3RhdC5hcGkuMmdpcy5ydQp7InByb2oiOjE2LCJpc2QiOiIyMDE3MDYxMyIsImV2ZW50IjoiOWU4NTYwZDQtYTYwZC00NzE5LThjZDktZGJkYjcyNTk4YWZlIiwidHlwZSI6MSwidHMiOjE0OTczMzU5NzQxNTEsImFkZCI6eyJoYXNoIjoiYjAwYWE0NWYtM2I3ZC00MjJjLTljNzAtM2RmY2U4NTAxMTQxIiwiYmMiOjIsImJyYW5jaCI6IjcwMDAwMDAxMDE3ODAzOTU3Iiwib3JnIjoiNzAwMDAwMDEwMTczNzUzNjIiLCJwYWdlIjo1LCJwb3MiOjYwLCJydWJyIjoiMjI1MTkyMDA3Mjc3MDIzMSIsImFkcyI6MCwidHlzIjoxLCJzIjoiMiIsImFkc3QiOjE0OTczMzEyMDAsInBsYWNlIjoxfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1dG5wdDMyNzIiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCA2LjM7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS81OC4wLjMwMjkuMTEwIFNhZmFyaS81MzcuMzYiLCJpcCI6IjQ2LjE0Ni4xNi4zOSIsImtleXN0YXR1cyI6MSwidXNlciI6IjdhYjNhYzg2LWI3OWEtNDI0MS1iZWRmLTY0MWE1ZTQyYzEyOSIsInNpZCI6ImJmMGU5NDZjLTkyMzctNDk5Mi05NTU0LWQzZDlhNmEzMDIxYiIsInNodiI6IjE3MDYwOS0zODczIn0= 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjIiLCJldmVudCI6IjE5ZGFkMmQ2LTJkNTAtNDQwOC1hZDIyLTkxNDYxNDM5N2Y0YSIsInR5cGUiOjEsInRzIjoxNDk4MTIyMjQyMzMzLCJhZGQiOnsiaGFzaCI6Ijk2ZGM2NDUzLTU2M2EtNDgzYS1hZjA5LWY5MjAxNzdjYTMyMSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAyODA0ODQ2MyIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk4MTE5NjAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4zOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBTYWZhcmkvNTM3LjM2IiwiaXAiOiIzNy4xMTIuMC40MCIsImtleXN0YXR1cyI6MSwidXNlciI6Ijc4ZjUwNTYwLWNiNmEtNDA2OC04ZWRlLTkxZDE4MDE5MjkyYSIsInNpZCI6IjI5MWQwYmQxLWJjOWItNDU2MC1hNjE5LWUwNjQ1NDk1ZWU5YyIsInNodiI6IjE3MDYyMi00MTM2In0= 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTEiLCJldmVudCI6ImVhMjljNjJiLTNhYjQtNDFkZi1iODY2LTRkYmNhN2M1YmY0NiIsInR5cGUiOjEsInRzIjoxNDk3MTgwNDY1OTI0LCJhZGQiOnsiaGFzaCI6IjQwZTNkYzFhLTFjZWUtNGQwNy04NTU3LTg4NGM3YjU5YzQ0MSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAyNDU2OTA2MCIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicG9zIjoxLCJhZHMiOjAsInR5cyI6MSwicyI6IjMiLCJhZHN0IjoxNDk3MTgwMDAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV09XNjQ7IHJ2OjUzLjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvNTMuMCIsImlwIjoiMzcuMTEyLjExLjE1NSIsImtleXN0YXR1cyI6MSwidXNlciI6IjU0MTlkZDZjLTVkZDUtNDIyYi05ZjY5LTcwYWM1MTE1ZDkyNSIsInNpZCI6Ijg5OTEzNGRjLWUyYTUtNDA0Yi04ZDM1LThhOWRiZmMwZTZiNiIsInNodiI6IjE3MDYwOS0zODczIn0= 1 1
+http://link.2gis.ru/5CDBB7F3/grymmobile/20161101/perm/f8b0a14a476a43 3 3
+http://pics-a.123ddns.com/gallery/pleteniy-kos-video.html 0 1
+http://companies-catalog.com 6 6
+http://link.2gis.ru/A61ED2C2/v4-iphone/20170601/perm/2252329095032822 2 2
+http://adyar.ru/pricheski-s-pleteniem-i-kudryami-na-srednie-volosy.html 0 1
+https://coindirect.io 9 9
+http://link.2gis.ru/23083C53/v4-iphone/20170601/perm/r16_70000001017803957 2 2
+http://link.2gis.ru/B771FF4E/grymmobile/20151101/perm/f8b0a14a476a43 1 1
+http://orenburg.zrus.org 4 4
+http://kazan.zrus.org 2 2
+http://zoon.ru/redirect/ 11 11
+https://pregnant.guru 3 3
+https://ohmyrings.com 3 3
+http://link.2gis.ru/585E79E5/v4-android/20170601/perm/70000001007312604 6 6
+http://link.2gis.ru/27DDAF80/v4-iphone/20170601/perm/70000001007395862 6 6
+http://link.2gis.ru/FFFCB929/v4-iphone/20170601/perm/70000001007312604 5 5
+http://volgograd.zrus.org 6 6
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTMiLCJldmVudCI6IjEwMmE0YTQ2LTMwYWYtNDNiMy05ZDY4LTJmYmU1ZjZlNWE1YyIsInR5cGUiOjEsInRzIjoxNDk3MzI3NDgyMjY1LCJhZGQiOnsiaGFzaCI6ImJlNjRiOWIxLWRkNzQtNGFlOS05NjU5LWQxYmQ3OGExNGE5NyIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAxOTUyOTUwNiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MSwicG9zIjozLCJydWJyIjoiMjI1MTkyMDA3Mjc2OTg0MSIsImFkcyI6MCwidHlzIjoxLCJzIjoiMyIsImFkc3QiOjE0OTczMjQwMDAsInBsYWNlIjoxfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1b2VkdzkyMjUiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCA1LjEpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS81Ny4wLjI5ODcuMTM3IFlhQnJvd3Nlci8xNy40LjEuNzE1IChiZXRhKSBZb3dzZXIvMi41IFNhZmFyaS81MzcuMzYiLCJpcCI6IjE5NS4yMzkuMTQ4LjEzOSIsImtleXN0YXR1cyI6MSwidXNlciI6IjExOGQ2NDAzLTU4OWYtNDA0ZS1hMzQ4LThjMzdmMjRhZDU1ZSIsInNpZCI6IjhjYjZjOTliLTU3ZTgtNGQ5MC1iM2IxLWExNGFlMjA3N2I2OSIsInNodiI6IjE3MDYwOS0zODczIn0= 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjAiLCJldmVudCI6IjEwZTZkN2Q5LTkyZGUtNDMyMS1hZDMzLTk5ZmM2NGI2OTQ5MiIsInR5cGUiOjEsInRzIjoxNDk3OTYyOTMyOTM4LCJhZGQiOnsiaGFzaCI6IjQ3MjBmODI4LTcwMWUtNDdhNy1hOThlLTJlYWExYzg4ZjNiNSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MSwicG9zIjoxLCJydWJyIjoiMjI1MTkyMDA3Mjc2OTg0MSIsImFkcyI6MCwidHlzIjoxLCJzIjoiMSIsImFkc3QiOjE0OTc5NjEyMDAsInBsYWNlIjoxfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1b2VkdzkyMjUiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoTGludXg7IEFuZHJvaWQgNS4xOyBUZWxlMl9NaW5pIEJ1aWxkL0xNWTQ3SSkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzQ5LjAuMjYyMy4xMDUgTW9iaWxlIFNhZmFyaS81MzcuMzYiLCJpcCI6IjE3Ni41OS4yMDAuMjM3Iiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiMTI5ZGEzZWYtMjRmOC00MzA3LWE3NjgtYTdhY2JhNDkwNTgxIiwic2lkIjoiYWI3NTI4M2UtM2IyYS00MWY3LWEyZmUtNWYwNTE2NWMzY2YwIiwic2h2IjoiMTcwNjIwLTQwNTIifQ== 1 1
+http://krasnoyarsk.zrus.org 5 5
+http://saratov.zrus.org 2 2
+http://lipetsk.zrus.org 7 7
+http://chatroulette.world 9 9
+http://ivanovo.zrus.org 1 1
+http://cheboksary.zrus.org 10 10
+http://link.2gis.ru/DE7D41DA/v4-iphone/20170601/perm/70000001017803957 1 1
+http://link.2gis.ru/9A292E44/v4-iphone/20170601/perm/r16_70000001024569060 3 3
+http://galeonhome.ru/mobile/manikiur/naraschivanie-nogtey-prostoy-dizayn.html 0 1
+http://surgut.zrus.org 3 3
+http://fr-bearings.ru 6 6
+http://link.2gis.ru/D580BBBA/v4-iphone/20161201/perm/r16_70000001007395862 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjYiLCJldmVudCI6Ijc0MzA3M2Q4LWM3NjktNGQ1Ny04NjI2LWYzMDdjMzE2ZTcwZiIsInR5cGUiOjEsInRzIjoxNDk4NDU0OTQ3NjgxLCJhZGQiOnsiaGFzaCI6Ijg4ZThhMjJlLTI5MmYtNDc0Zi1hNjM2LWUzOGUzZTM4NTE2NSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk4NDUzODAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xKSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBZYUJyb3dzZXIvMTcuNi4wLjE2MzMgWW93c2VyLzIuNSBTYWZhcmkvNTM3LjM2IiwiaXAiOiIzMS4xNjIuMjEuMjA3Iiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiNmFmMjg3NzQtOWQ3YS00N2JjLThkMTktMDI5ZDM1Y2FlNjA4Iiwic2lkIjoiMGI4NzFhNTEtNGQ5ZS00Mjc1LWIyYzYtZjRmZDc1YTc1NmNiIiwic2h2IjoiMTcwNjI2LTQyMjkifQ== 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MDkiLCJldmVudCI6ImEyODk0NTk4LTc2ZWQtNDAwYy1iODA3LTMyNzc0NGZjMDExMSIsInR5cGUiOjEsInRzIjoxNDk3MDA2MjY0NzEyLCJhZGQiOnsiaGFzaCI6ImU2NGE5ZjYzLTI0NDMtNDJkYS05MDM1LWNiMjI4NTY3OGQwYyIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MSwicG9zIjoxLCJydWJyIjoiMjI1MTkyMDA3Mjc2OTg0MSIsImFkcyI6MCwidHlzIjoxLCJzIjoiMSIsImFkc3QiOjE0OTcwMDYyNjEsInBsYWNlIjoxfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1b2VkdzkyMjUiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCA2LjE7IFdPVzY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTcuMC4yOTg3LjEzNyBZYUJyb3dzZXIvMTcuNC4xLjkxOSBZb3dzZXIvMi41IFNhZmFyaS81MzcuMzYiLCJpcCI6IjQ2LjE0Ni4yMTguNTYiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiIxYTAyNTgyZS1hZGYzLTQzZjktODQ5YS05NGI4ZTkwZGNiYzgiLCJzaWQiOiJjMWE2ZTI4Yi05MzljLTQ2MDAtOTEzMi05NmE2M2Q5Yzg1NGEiLCJzaHYiOiIxNzA2MDktMzg1OSJ9 1 1
+http://demian.kz 2 2
+http://y8games-free.com 11 11
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MDIiLCJldmVudCI6IjVkZTBlOTI0LWVhYzItNGE3Yi04NTljLTJlMTcxNmZiOGYwZiIsInR5cGUiOjEsInRzIjoxNDk2NDA0MzkwMTUzLCJhZGQiOnsiaGFzaCI6IjliNzA1MDE0LTU0YjYtNDFhNi04ZmVmLWRmN2IzZjJmMmQzNCIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAyNDU2OTA2MCIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3NzAxODciLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk2NDAyMTAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydW9lZHc5MjI1IiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV09XNjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS81Ny4wLjI5ODcuMTM3IFlhQnJvd3Nlci8xNy40LjEuOTE5IFlvd3Nlci8yLjUgU2FmYXJpLzUzNy4zNiIsImlwIjoiOTEuMjMxLjE5OC40MCIsImtleXN0YXR1cyI6MSwidXNlciI6Ijk1ZDYzYmJhLThlZDItNDUwNi04MDQzLWZkNzIxYWQxOTlmZCIsInNpZCI6IjExZjZmZWNhLWU4YTctNDhhOC05ZjQwLThjMmFlNDNhYjYwYyIsInNodiI6IjE3MDYwMi0zNzQ5In0= 3 3
+https://bio-optomarket.ru 3 3
+http://link.2gis.ru/B4053698/v4-iphone/20170501/perm/r16_70000001006660162 1 1
+https://vk.com/vps_vds_dedicated_server 3 3
+http://strizhka-za-strizhkoy.blizko.ru/contacts 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTAiLCJldmVudCI6Ijk2M2I1NGU4LTQ4MDktNGE3Zi1iOTBkLWU3ZmIzMWM1NWNkYiIsInR5cGUiOjEsInRzIjoxNDk3MDg2MDk2NjAyLCJhZGQiOnsiaGFzaCI6IjA0OWM0ZTI0LWMzOGMtNDhlYS1iNWZmLWJkNzZkYjYyNzkyOSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MSwicG9zIjoxMSwicnViciI6IjIyNTE5MjAwNzI3NzUxMzkiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk3MDgyODAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydW9lZHc5MjI1IiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xKSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBTYWZhcmkvNTM3LjM2IiwiaXAiOiIxNzguMTYxLjI0My4xMjUiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiI3Y2M2MDMzZS05MDRjLTQ4MDgtODA5MS1kMDRmZjc4ZDE0NTQiLCJzaWQiOiI5M2NkMTdmYS1mZDY2LTQzMjYtYTBiNi03OGJmZWM5YTk4MzUiLCJzaHYiOiIxNzA2MDktMzg3MyJ9 1 1
+http://link.2gis.ru/673B70A5/v4-iphone/20170601/perm/70000001006660162 8 8
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjEiLCJldmVudCI6IjFkOWFjZjJjLWI2NzUtNGQ0MS1iNzQyLWQyNWIyNDE1MTRjZiIsInR5cGUiOjEsInRzIjoxNDk4MDQ0MTA1NDE2LCJhZGQiOnsiaGFzaCI6Ijc1OGJmN2ZiLWI2ODItNDZkMC1hNzUzLTE4NjJmOTVhMTgxOSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAxOTUyOTUwNiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3NzAxODciLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk4MDQwNDAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xKSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBTYWZhcmkvNTM3LjM2IiwiaXAiOiI4Mi4xMTguMTI4LjMiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiI3OTA0MTc4NC03NjJmLTQwNjItODE0Ni01NzNmYTc5ZmJhMDciLCJzaWQiOiIwYzUyMGIwZi1hYWMxLTQ0MTctYTRlNi0zNDM3ZGNhNjcxYjAiLCJzaHYiOiIxNzA2MjEtNDExMSJ9 1 1
+http://piter.zrus.org 6 6
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkvb2J1Y2hlbmllLnBocApodHRwOi8vc3RhdC5hcGkuMmdpcy5ydQp7InByb2oiOjE2LCJpc2QiOiIyMDE3MDYxNCIsImV2ZW50IjoiZjU5Yzg1Y2QtNDI1Zi00MTlkLWI5ZTMtZjU3NDNjY2VhY2NlIiwidHlwZSI6MSwidHMiOjE0OTc0NjE0OTMzNTYsImFkZCI6eyJoYXNoIjoiOGNhMWVkMGYtNDVjMS00ZTE4LTg2YWQtYjdhYjliYzIxNGEzIiwiYmMiOjIsImJyYW5jaCI6IjcwMDAwMDAxMDE3ODAzOTU3Iiwib3JnIjoiNzAwMDAwMDEwMTczNzUzNjIiLCJwYWdlIjoxLCJwb3MiOjQsInJ1YnIiOiIyMjUxOTIwMDcyNzcwMjMxIiwiYWRzIjowLCJ0eXMiOjEsInMiOiIzIiwiYWRzdCI6MTQ5NzQ2MDUwMCwicGxhY2UiOjF9LCJ2IjoyLCJwcm9kIjoxMCwia2V5IjoicnVvZWR3OTIyNSIsImxhbmciOiJydV9SVSIsInVzZXJhZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDYuMTsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzU4LjAuMzAyOS4xMTAgU2FmYXJpLzUzNy4zNiIsImlwIjoiNDYuMTQ2LjIwLjk4Iiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiNzYxMDMxZjYtMmI3Mi00OTQzLWFjMGMtOTliZTMzNGQ1MmNlIiwic2lkIjoiOTJmMzcxNzAtNzk2NC00MGFjLWJhNjUtNjI2NWY1YzFlN2IxIiwic2h2IjoiMTcwNjE0LTM5MjkifQ== 1 1
+http://irkutsk.zrus.org 10 10
+http://strizhka-za-strizhkoy.blizko.ru 2 2
+http://krasnodar.zrus.org 5 5
+http://videochat.bz 2 2
+http://dkmua.ru/pricheski-s-kudryami-i-s-kosoy-na-srednie-volosy.html 0 3
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MDYiLCJldmVudCI6IjhiZWRlOGRhLTgxMTctNGY4Zi1hZTQ2LTQ4MGMyY2VkMWUxMCIsInR5cGUiOjEsInRzIjoxNDk2NzUwMzI0NTcwLCJhZGQiOnsiaGFzaCI6ImUzMmQ4MmVhLTg3ZTYtNDZjMS04ZjM3LTU3NTI1OGY2YjBhNiIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNzM5NTg2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk2NzQ4MDAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXT1c2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzU3LjAuMjk4Ny4xMzcgWWFCcm93c2VyLzE3LjQuMS45MTkgWW93c2VyLzIuNSBTYWZhcmkvNTM3LjM2IiwiaXAiOiI0Ni4xNDYuNjEuMTQyIiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiY2UxNjQwNjYtZDA4NS00YTg4LTg4N2ItMTZhYjI3YWNmNTZmIiwic2lkIjoiMTQwNGUwOTMtNTc4NC00MWNmLWFhZTYtN2M4OGIxMmRhMTBlIiwic2h2IjoiMTcwNjA1LTM3ODMifQ== 1 1
+http://link.2gis.ru/7FFE5B82/grymmobile/20170201/perm/f8b0a14a476a43 1 1
+http://www.\xd1\x81\xd1\x82\xd1\x80\xd0\xb8\xd0\xb6\xd0\xba\xd0\xb0-\xd0\xb7\xd0\xb0-\xd1\x81\xd1\x82\xd1\x80\xd0\xb8\xd0\xb6\xd0\xba\xd0\xbe\xd0\xb9.\xd1\x80\xd1\x84/vakansiy.php 4 4
+http://777-club.ru 11 11
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTMiLCJldmVudCI6ImM2ZmFkNThhLTdjNjgtNGNmMy05MjI4LTM5N2I5M2U0ODNjYiIsInR5cGUiOjEsInRzIjoxNDk3MzM0NTcyNzQ2LCJhZGQiOnsiaGFzaCI6IjVhZTc4OWMwLWU2YWYtNDA2Ni05NzA3LTU4MGI2OThhZjYwYiIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk3MzMxMjAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydW9lZHc5MjI1IiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXT1c2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzQ3LjAuMjUyNi4xMDYgU2FmYXJpLzUzNy4zNiIsImlwIjoiNS4xNDEuMjUyLjE5NCIsImtleXN0YXR1cyI6MSwidXNlciI6IjZkOWUxMWMxLTVkNjItNDFiYy04MzAxLWNiYWMzODg2MGRmNSIsInNpZCI6ImI3YzUyNDc1LWRiMDMtNGZlMC1hMGRmLWMxMTczZjQzOTNkNSIsInNodiI6IjE3MDYwOS0zODczIn0= 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTYiLCJldmVudCI6Ijg3MTU0ZDFiLTU0YWYtNDdmZi1hYTA0LTUwOTFjYzQzNTc4ZSIsInR5cGUiOjEsInRzIjoxNDk3NjI0NDM2MTI1LCJhZGQiOnsiaGFzaCI6ImUzMTY5ZjBkLTM2MWMtNDY0ZS05ZDNmLTA3NmQ1ZjI1NjBjYiIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNzM5NTg2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicG9zIjoyLCJhZHMiOjAsInR5cyI6MSwicyI6IjMiLCJhZHN0IjoxNDk3NjIyNTAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydW9lZHc5MjI1IiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV09XNjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS81Ny4wLjI5ODcuMTM3IFlhQnJvd3Nlci8xNy40LjEuNzU4IFlvd3Nlci8yLjUgU2FmYXJpLzUzNy4zNiIsImlwIjoiNDYuMTQ3LjU2LjIyMCIsImtleXN0YXR1cyI6MSwidXNlciI6IjQ4NTdmZjFmLThkMWQtNGM2Yy1hNjJmLTg4N2Q0NjFjN2NjOSIsInNpZCI6IjVjYWJjZjkwLTQwMjQtNGE4YS1hNDdmLTdjOGJmMzdkMDdlYiIsInNodiI6IjE3MDYxNi0zOTk3In0= 1 1
+http://nizhnevartovsk.zrus.org 2 2
+http://murmansk.xrus.org 6 6
+http://angarsk.zrus.org 3 3
+https://buy-meds24.com 3 3
+http://topkarkas.com 4 4
+http://www.\xd1\x81\xd1\x82\xd1\x80\xd0\xb8\xd0\xb6\xd0\xba\xd0\xb0-\xd0\xb7\xd0\xb0-\xd1\x81\xd1\x82\xd1\x80\xd0\xb8\xd0\xb6\xd0\xba\xd0\xbe\xd0\xb9.\xd1\x80\xd1\x84 4 4
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MDMiLCJldmVudCI6IjM1NDg5MzgxLTg5MWYtNDVkNy05ZGMxLWUyZTU4OGM2NTdkNyIsInR5cGUiOjEsInRzIjoxNDk2NDc2MTEzNzY2LCJhZGQiOnsiaGFzaCI6ImIwZThmOTIzLWU5NGMtNGNhYi05ZTBiLTBmMWU0M2ZlMDA3ZCIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk2NDc0NDAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydW9lZHc5MjI1IiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xKSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBTYWZhcmkvNTM3LjM2IiwiaXAiOiIxODguMTcuMTQ5LjE1MyIsImtleXN0YXR1cyI6MSwidXNlciI6ImQyYjZhZjQ0LWVmZDAtNGEzZi1iYmM0LWEwNmE2MjM3OTBiYiIsInNpZCI6IjE2YzM1YWQ1LTU1ODQtNDE0OC1iM2UwLThlNjk3NDE5ZDliMiIsInNodiI6IjE3MDYwMy0zNzY3In0= 1 1
+http://nefteyugansk.zrus.org 3 3
+http://www.kupongid.ru/place/out/strizhka_za_strizhkoy/ 1 1
+http://khabarovsk.zrus.org 4 4
+https://essayservicewriting.org 9 9
+http://prof-music.ru/kosichki-pleteniya-lokonov/ 0 1
+http://nomistake21.ru/pricheski-lokony-s-kosami-na-srednie-volosy.html 0 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTciLCJldmVudCI6ImE5NjJiMDRjLWEwMzYtNGU3Ny04NDc1LTY0ZDY4OWQxMTk4ZiIsInR5cGUiOjEsInRzIjoxNDk3NzA3MDg5OTIyLCJhZGQiOnsiaGFzaCI6Ijk5ZGM0NDEyLTBkMWQtNGI5Zi04NDg3LTQ4MDkxMzU4NjJlOCIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNzM5NTg2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjEiLCJhZHN0IjoxNDk3NzA2OTQ0LCJwbGFjZSI6MX0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKGlQaG9uZTsgQ1BVIGlQaG9uZSBPUyAxMF8zXzEgbGlrZSBNYWMgT1MgWCkgQXBwbGVXZWJLaXQvNjAyLjEuNTAgKEtIVE1MLCBsaWtlIEdlY2tvKSBWZXJzaW9uLzEwLjAgWWFCcm93c2VyLzE3LjYuMS43MzAuMTAgTW9iaWxlLzE0RTMwNCBTYWZhcmkvNjAyLjEiLCJpcCI6IjE3Ni41OS4yMDkuMTY5Iiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiNmMwM2Y4ZmQtODEyOC00N2Y2LTk3MmUtZTAxZDA4M2QxMzVhIiwic2lkIjoiM2E5ODgzN2ItMDNiNC00NzFlLWE0MzItOGFhYTRhMTk2NGYzIiwic2h2IjoiMTcwNjE2LTM5OTcifQ== 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjAiLCJldmVudCI6ImIyODllZGIwLWE5OTAtNGNjMC1hNDY1LWFiYmE1MTZlYTY0NiIsInR5cGUiOjEsInRzIjoxNDk3OTM1MzE4NDkwLCJhZGQiOnsiaGFzaCI6IjZkOTAwZjQyLWY3ODktNGIxOC04MjRiLTRhMWIzNjY4NGFmYyIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNzM5NTg2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3NzUxMzkiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk3OTMyNDAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXT1c2NDsgcnY6NTIuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC81Mi4wIiwiaXAiOiIxOTMuMjguNDQuMjMiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiI3OGVmOTZjZS0xOGM4LTQzZWEtYWQxOC0zZjlmMTVmYWI1ZTciLCJzaWQiOiI3YWNkMjIxNC1lZjQyLTRjNWYtYTY5Mi0yMzc0N2FmOTE2NWEiLCJzaHYiOiIxNzA2MjAtNDA0MSJ9 1 1
+http://anapa.zrus.org 2 2
+http://link.2gis.ru/F39D1F95/grymmobile/20161201/perm/f8b0a14a476a43 2 2
+http://www.chaik.info 4 4
+http://info.ertelecom.ru 4 4
+http://videochat.tv.br 12 12
+http://locdog.ru/pricheska-na-srednie-volosy-pletenie-na-bok.html 0 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTYiLCJldmVudCI6ImQ3MDMxNmRlLWMzNjEtNGI3YS04YjNlLTZjN2UwZTNmMmE3OCIsInR5cGUiOjEsInRzIjoxNDk3NjEyMDU4MzMwLCJhZGQiOnsiaGFzaCI6IjZkNjYyNzkzLWRkMGYtNGRjZi1hNmZiLTY1ZThjZDM5ZTMyMiIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNzMxMjYwNCIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MSwicG9zIjo0LCJydWJyIjoiMjI1MTkyMDA3Mjc2OTg0MSIsImFkcyI6MCwidHlzIjoxLCJzIjoiMyIsImFkc3QiOjE0OTc2MTE3MDAsInBsYWNlIjoxfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1dG5wdDMyNzIiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCA2LjM7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS81OC4wLjMwMjkuMTEwIFNhZmFyaS81MzcuMzYiLCJpcCI6IjE3OC40Ny4xNDAuMjQ0Iiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiN2QxNDBkY2QtZGZhNS00NzFjLWIzNTMtZWZlZjg3YWQxNjA4Iiwic2lkIjoiYTg0NjdiYjYtMDk0NS00MjExLWJkMTItODAwMWVkNjRkOTdjIiwic2h2IjoiMTcwNjE2LTM5ODkifQ== 1 1
+http://link.2gis.ru/82B54D9D/grymmobile/20150601/perm/f8b0a14a476a43 7 7
+http://bryansk.zrus.org 7 7
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTgiLCJldmVudCI6IjQ0MTk3YzgxLTlmNGEtNDM0MC1iZWY1LWFmOWMyZmY4NTQwYyIsInR5cGUiOjEsInRzIjoxNDk3NzcwMjUwNjUyLCJhZGQiOnsiaGFzaCI6IjczMjVhYTI5LWUxZGYtNDE1ZC1hYjcxLWFhYjkwZDcwNTZlOSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAyNDU2OTA2MCIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3NzAxODciLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk3NzY2ODAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKGlQaG9uZTsgQ1BVIGlQaG9uZSBPUyAxMF8zXzIgbGlrZSBNYWMgT1MgWCkgQXBwbGVXZWJLaXQvNjAzLjIuNCAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMTAuMCBNb2JpbGUvMTRGODkgU2FmYXJpLzYwMi4xIiwiaXAiOiIyMTMuODcuMjQ5LjIyMSIsImtleXN0YXR1cyI6MSwidXNlciI6IjMzNjg2NmFjLTE1OWYtNDQwNC1hNDRhLWE2ZDNjMTFjYTM1NiIsInNpZCI6IjAwNzE5ODI5LTBlNDctNDVmZi1iZjA2LTNhOWI4ZTRhOWFlMiIsInNodiI6IjE3MDYxNi0zOTk3In0= 1 1
+http://nac-bearings.ru 11 11
+http://stavropol.zrus.org 5 5
+http://yaroslavl.zrus.org 2 2
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjEiLCJldmVudCI6ImY0NTI5OGZhLTkzYjEtNGI4Yi04M2VhLTUxY2ZjZDViN2ExYiIsInR5cGUiOjEsInRzIjoxNDk4MDQ5NjMyMzA1LCJhZGQiOnsiaGFzaCI6ImNjYzk2ZWMzLTNjMWItNDg0OC1hN2VkLTNlYTM0YTkxZmI3MiIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNzM5NTg2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6NSwicG9zIjo1MSwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk4MDQ3NjAwLCJwbGFjZSI6MX0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydW9lZHc5MjI1IiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzU4LjAuMzAyOS4xMTAgU2FmYXJpLzUzNy4zNiIsImlwIjoiODkuMTQ4LjE5Ni4xNTkiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiI2OGZkMmE0NS00OGMwLTQ4YzItYjZhOC1hNDFjODJmMDI0MTciLCJzaWQiOiJkNjBkM2IyMS1mM2RmLTRlMzUtYTRhNC0xMzViZjQ3MTljMjkiLCJzaHYiOiIxNzA2MjAtNDA1MiJ9 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjAiLCJldmVudCI6ImI3YmI2N2I0LTk2ZDYtNDhjYS1hZmNjLTVkYjFlMmEwYjc0MCIsInR5cGUiOjEsInRzIjoxNDk3ODk1MzkzOTY4LCJhZGQiOnsiaGFzaCI6IjcyMGUxNzc2LWE5YTMtNDkxNi1iOGRhLWM0Njk5MzJjMmIzMSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAxOTUyOTUwNiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MSwicG9zIjozLCJydWJyIjoiMjI1MTkyMDA3Mjc2OTg0MSIsImFkcyI6MCwidHlzIjoxLCJzIjoiMyIsImFkc3QiOjE0OTc4OTI1MDAsInBsYWNlIjoxfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1dG5wdDMyNzIiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCA2LjE7IFdPVzY0OyBydjo1My4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzUzLjAiLCJpcCI6IjMxLjE2Mi40OS42NSIsImtleXN0YXR1cyI6MSwidXNlciI6IjkyOWM2YTQ0LTFlNjAtNGY0Mi1hMDQyLTIxN2EyNzAxMDI5MCIsInNpZCI6Ijc1ZTliYmUyLTMxZTAtNGMyOS1hYjgzLTliNDM5MTM1NzBkMiIsInNodiI6IjE3MDYxOS00MDEyIn0= 1 1
+http://barnaul.zrus.org 2 2
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTAiLCJldmVudCI6IjZiNTVkY2Y0LTNmOWYtNDFhYi1hYzFlLTQ3NmRkMGVjMTZlNCIsInR5cGUiOjEsInRzIjoxNDk3MDcxNDQ4MzkzLCJhZGQiOnsiaGFzaCI6ImRlYzY1YzdlLThkMDktNGJmOS05ZDYyLWI5MGYyYzEzMzg1NCIsImJjIjoyLCJicmFuY2giOiIyMjUyMzI5MDk1MDMyODIyIiwib3JnIjoiNzAwMDAwMDEwMDY2NjAxNjMiLCJydWJyIjoiMjI1MTkyMDA3Mjc2OTg0MSIsImFkcyI6MCwidHlzIjoxLCJzIjoiMiIsImFkc3QiOjE0OTcwNjA5MDAsInBsYWNlIjoyfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1dG5wdDMyNzIiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoaVBhZDsgQ1BVIE9TIDEwXzJfMSBsaWtlIE1hYyBPUyBYKSBBcHBsZVdlYktpdC82MDIuMS41MCAoS0hUTUwsIGxpa2UgR2Vja28pIENyaU9TLzU5LjAuMzA3MS44NCBNb2JpbGUvMTREMjcgU2FmYXJpLzYwMi4xIiwiaXAiOiIxNzYuNTkuMjA5LjcyIiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiYTQ3OGZlNzQtZTFlMi00MmRlLTk2ZTItMGIxMTQxYjVjZTkxIiwic2lkIjoiYjAzNDE4NmItNTZhMS00YjU0LTg3Y2UtNDdlOGFjZjE2NWIxIiwic2h2IjoiMTcwNjA5LTM4NzMifQ== 1 1
+https://stop-gepatit.te.ua 9 9
+http://yoshkarola.zrus.org 5 5
+https://inome.com.ua 9 9
+http://chaikovskii.spravker.ru/salony-krasoty/strizhka-za-strizhkoj1.htm 1 1
+http://link.2gis.ru/87C61C13/v4-iphone/20170401/perm/70000001024569060 2 2
+http://elvel.com.ua/girobordy 6 6
+http://link.2gis.ru/1AC3C3A0/grymmobile/20170301/perm/f8b0a14a476a43 1 1
+http://link.2gis.ru/EB1186AC/v4-android/20170601/perm/70000001017803957 5 5
+http://rusmortgage.ru/pricheski-na-srednie-volosy-kosa-i-kudri.html 0 3
+http://kinoplen.ru 6 6
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTciLCJldmVudCI6IjRlNTQwN2RhLThlMzQtNDU2NC05ZTBlLTA3ZmI5Y2ZhNzNlOSIsInR5cGUiOjEsInRzIjoxNDk3NzEyOTI4ODYzLCJhZGQiOnsiaGFzaCI6IjUwMjgwYzExLTQ4YTItNDgwMy04MGQwLWRiY2ZlOGEyMWY1MSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNzMxMjYwNCIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3NzAxODciLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk3NzEyODAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4zOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBTYWZhcmkvNTM3LjM2IiwiaXAiOiIxMjguNzMuMjUwLjE4Iiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiNWU5ZTU1ZjItOTY0YS00ODdkLTljNTAtOWJjNzRmMTQxMTQ5Iiwic2lkIjoiZTVjNjA2ZTYtOGJmYS00NGUyLWEyYjctYzVkMWI0NmY2OTFkIiwic2h2IjoiMTcwNjE2LTM5OTcifQ== 1 1
+http://chatroulette.video 3 3
+http://profobr37.ru/kosa-i-kudri-v-pricheske.html 0 1
+http://perm.big-book-med.ru/company/173475/ 1 1
+http://magnitogorsk.zrus.org 6 6
+http://gelendzhik.zrus.org 8 8
+http://perm.bebeshka.info/perm/strizhka-za-strizhkoy-128557/ 2 2
+http://coinsspb.com 3 3
+http://sochi.zrus.org 5 5
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MDUiLCJldmVudCI6ImRjOWM1NzhhLThmODctNGMxNi04YWY3LWQ0NGFkNjU5OWExNyIsInR5cGUiOjEsInRzIjoxNDk2NjQ0NTIwMDg4LCJhZGQiOnsiaGFzaCI6Ijg3ZWY0MDlhLTY3OWQtNDVlOS1hOTYzLTA3M2Y5ZDYxYTUwNiIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAyNDU2OTA2MCIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicG9zIjoxLCJhZHMiOjAsInR5cyI6MSwicyI6IjMiLCJhZHN0IjoxNDk2NjQzNjAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydW9lZHc5MjI1IiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xKSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBTYWZhcmkvNTM3LjM2IiwiaXAiOiIxMjguNzMuMjguMjI1Iiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiYjY4NGRmOTItYmUyYS00YmUyLWFhOWYtZDJhODhlMjNiOThhIiwic2lkIjoiMjIxZDYyNGYtMjVkNC00YWQ4LTgxOWEtY2FjNjY4ZDBkYTI4Iiwic2h2IjoiMTcwNjAzLTM3NjcifQ== 1 1
+http://your-bearings.com 8 8
+http://tagil.zrus.org 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTEiLCJldmVudCI6ImFiYWNmODRhLTdhYjItNDBmMy05ZTBiLWI2ZjY5YTAzMTIzOCIsInR5cGUiOjEsInRzIjoxNDk3MTcxNTM0NDE3LCJhZGQiOnsiaGFzaCI6IjQyYTdjN2RjLTY2MTUtNDEzOC1hZDc3LWIxYzk3NzZlYTA0OSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MiwicG9zIjoxNSwicnViciI6IjIyNTE5MjAwNzI3ODI2MzgiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk3MTY5MjAwLCJwbGFjZSI6MX0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzU4LjAuMzAyOS4xMTAgU2FmYXJpLzUzNy4zNiIsImlwIjoiODkuMjIuMTc3LjE4NiIsImtleXN0YXR1cyI6MSwidXNlciI6ImM5ZDI0YWNiLWI3ZjktNGYxZC1hNTBjLWJlZGYxNDMxZWUzMiIsInNpZCI6IjZjZjg0OTA3LWE2OGUtNDc3MS05MDg3LTk2YTdmYjhiNTgzNSIsInNodiI6IjE3MDYwOS0zODczIn0= 1 1
+http://rostov.zrus.org 5 5
+http://izhevsk.zrus.org 5 5
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MDYiLCJldmVudCI6ImM5ODYwNWQzLTQ3MWQtNDUxNS04Yjg4LTBkZWUyNzJlZTFmZiIsInR5cGUiOjEsInRzIjoxNDk2NzUzNjY0NDg5LCJhZGQiOnsiaGFzaCI6ImU1MWUwYzhiLWVlNjEtNGI1MS05MzkyLWJlNDJmMTgxZTVmOCIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk2NzUxNjAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXT1c2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzU4LjAuMzAyOS4xMTAgU2FmYXJpLzUzNy4zNiIsImlwIjoiNDYuMTQ2LjIyMC4xMzAiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiIyMGMxMWY0NC1jZTYyLTQzZTYtYTA4My02NzJhMjIwM2U1NjYiLCJzaWQiOiI5YjJhNmE3Ny1jYWU5LTQ4NzItOTlmMS1kMTU5N2NjODgzNWUiLCJzaHYiOiIxNzA2MDUtMzc4MyJ9 1 1
+http://www.4istoshop.com 3 3
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTgiLCJldmVudCI6Ijk3ZTRjNDZmLWY2MjItNDZiMS05ZWE2LWZlN2FiZTViNzMwMiIsInR5cGUiOjEsInRzIjoxNDk3ODA3MDIyODcwLCJhZGQiOnsiaGFzaCI6ImUyNTgzMzNlLWMwOTYtNDUzZS05MDBkLWUzYjQwMTllMDE3NiIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicG9zIjoxLCJhZHMiOjAsInR5cyI6MSwicyI6IjMiLCJhZHN0IjoxNDk3ODAyODAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydW9lZHc5MjI1IiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBTYWZhcmkvNTM3LjM2IiwiaXAiOiI3Ny40My4xNTUuMTE0Iiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiN2U1Nzk0ZjUtZDgxNC00YjMxLWIzM2QtOGFjMTZkMjRlNGYyIiwic2lkIjoiMzhkMzA2ZDUtMjRkOS00ODA1LTk3YjItNjBkNDg1NmM5ZThkIiwic2h2IjoiMTcwNjE2LTM5OTcifQ== 1 1
+http://european-torches.ru 7 7
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MDUiLCJldmVudCI6IjIyNTk2MjdmLTQ4MDYtNDQ2NC05ZDhiLTc3NzZhNDA3YjhkOSIsInR5cGUiOjEsInRzIjoxNDk2Njg1MDU0NTI1LCJhZGQiOnsiaGFzaCI6IjMwYjQ1YmI2LTU4OTAtNDk0NS04MGEyLTY5YWE3ZTI0OTg5NyIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MSwicG9zIjoxLCJydWJyIjoiMjI1MTkyMDA3Mjc2OTg0MSIsImFkcyI6MCwidHlzIjoxLCJzIjoiMSIsImFkc3QiOjE0OTY2ODI5MDAsInBsYWNlIjoyfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1b2VkdzkyMjUiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXT1c2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzUwLjAuMjY2MS4xMDIgVUJyb3dzZXIvNi4xLjIwMTUuMTAwNyBTYWZhcmkvNTM3LjM2IiwiaXAiOiI5NC41MS4yNTAuMzIiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiJjMjFhNjlkYy0xMTlmLTQ1YzAtYTQ0Yy1jN2FkY2U2NWIzODMiLCJzaWQiOiJhNGNkYjQ5Yi0xN2Q1LTRiNGQtYmQwYi1mYzZlNDI4ZTliNDkiLCJzaHYiOiIxNzA2MDUtMzc4MyJ9 1 1
+https://bpro1.top 9 9
+http://2gis.ru 7 7
+http://omsk.zrus.org 4 4
+http://video-chat.in 4 4
+http://coolwallpapers-hd.com 9 9
+https://paydayloanslocal.com 4 4
+http://x-lime.net 1 1
+https://dellalimov.com 8 8
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkvb2J1Y2hlbmllLnBocApodHRwOi8vc3RhdC5hcGkuMmdpcy5ydQp7InByb2oiOjE2LCJpc2QiOiIyMDE3MDYyMiIsImV2ZW50IjoiNGQxYmQxZWMtZDdlNC00ZTBmLWExN2UtMjI0MDMzMTAwM2M1IiwidHlwZSI6MSwidHMiOjE0OTgxMzUyODU0ODYsImFkZCI6eyJoYXNoIjoiY2QwZTA5OTgtNmE5OS00N2IxLWEyOGUtOTA4ZTU0MDJhMDI2IiwiYmMiOjIsImJyYW5jaCI6IjcwMDAwMDAxMDE3ODAzOTU3Iiwib3JnIjoiNzAwMDAwMDEwMTczNzUzNjIiLCJwYWdlIjoyLCJwb3MiOjE2LCJhZHMiOjAsInR5cyI6MSwicyI6IjMyIiwiYWRzdCI6MTQ5ODEzMDQwMCwicGxhY2UiOjF9LCJ2IjoyLCJwcm9kIjoxMCwia2V5IjoicnV0bnB0MzI3MiIsImxhbmciOiJydV9SVSIsInVzZXJhZ2VudCI6Ik1vemlsbGEvNS4wIChYMTE7IFVidW50dTsgTGludXggaTY4NjsgcnY6NTQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC81NC4wIiwiaXAiOiI3Ny43My41My4yIiwia2V5c3RhdHVzIjoxLCJ1c2VyIjoiOTA1NTIxOTUtMDk0YS00OTVjLTk0ZGQtZWY3ODZmM2I4NDVhIiwic2lkIjoiMDA4MDVmMzQtMGI3NC00MGNmLWIxNWQtNmFlNGNiNTEwYmU5Iiwic2h2IjoiMTcwNjIyLTQxNTYifQ== 1 1
+http://shkola-strizhek59.perm-gid.info 4 4
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjQiLCJldmVudCI6ImM2YTdjZGY5LWFmZTgtNGJjOC1hM2Q3LTY5ZGRlNTFkNjhlMyIsInR5cGUiOjEsInRzIjoxNDk4MjQ3NTQzMjYyLCJhZGQiOnsiaGFzaCI6ImFhNzgwZDVkLTcyNjYtNDhkNi1iNGNlLTMwNTc5MWMxNWQ1MCIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAyNDU2OTA2MCIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6OSwicyI6IjI3IiwiYWRzdCI6MTQ5ODI0NzUzMSwicGxhY2UiOjJ9LCJ2IjoyLCJwcm9kIjoxMCwia2V5IjoicnVvZWR3OTIyNSIsImxhbmciOiJydV9SVSIsInVzZXJhZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS81OS4wLjMwNzEuMTA0IFNhZmFyaS81MzcuMzYiLCJpcCI6IjQ2LjE0Ni4xNjUuMTAiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiI5ZWY5N2NkYi1jYjEzLTRhZmEtYmI3NC1kNWUxOTNjZGExMmMiLCJzaWQiOiJjNGQwOTJhNy02M2EwLTQ4YzgtOWI0Mi1lZDBlMzhiNGZkMjUiLCJzaHYiOiIxNzA2MjMtNDE4NSJ9 1 1
+https://2gis.ru 8 8
+http://murmansk.zrus.org 3 3
+http://burger-imperia.com 6 6
+http://link.2gis.ru/4166F36F/v4-winphone/20170601/perm/r16_70000001019529506 1 1
+http://profobr37.ru/kak-sdelat-prichesku-kosa-i-lokony.html 0 1
+http://novgorod.zrus.org 5 5
+http://arenda-avtoprokat-krasnodar.ru 2 2
+http://link.2gis.ru/DB707267/v4-android/20170601/perm/70000001019529506 9 9
+http://kopimistsamfundet.ru/pricheska-lokony-s-kosami-na-srednie-volosy.html 0 1
+https://akita.kz 2 2
+http://link.2gis.ru/FA020D0F/grymmobile/20170401/perm/f8b0a14a476a43 4 4
+http://www.haircity.ru/kursy-parikmaherov/perm/shkola-strizhek.php 2 2
+http://tomsk.zrus.org 4 4
+http://www.chaik.info/m/ 1 1
+http://chaikovskii.spravker.ru/salony-krasoty/ 1 1
+http://pfo.spr.ru/chaykovskiy-i-chaykovskiy-rayon/strizhka-za-strizhkoy.html 4 4
+http://link.2gis.ru/55BE4056/v4-iphone/20170501/perm/70000001019529506 2 2
+http://sevastopol.zrus.org 7 7
+http://serdcenebolit.com 8 8
+http://hdwallpapers-free.com 6 6
+http://videochat.cafe 2 2
+http://www.z-master.ru 9 9
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjgiLCJldmVudCI6IjgxNWZhNWZhLWRhNTgtNGZiMi04ODA0LTA3N2FjNThhMTI1ZSIsInR5cGUiOjEsInRzIjoxNDk4NjMxMDI1MjU5LCJhZGQiOnsiaGFzaCI6IjE0ZTZjNTVjLWUyMjAtNDE0Yi04NTY3LTI5M2RhYWI4OWE3NiIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAyODA0ODQ2MyIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk4NjI2OTAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydW9lZHc5MjI1IiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXT1c2NDsgcnY6NTQuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC81NC4wIiwiaXAiOiIxOTUuMjIyLjE0My4xMiIsImtleXN0YXR1cyI6MSwidXNlciI6Ijg3M2RmY2YzLTVmNDktNDcyOS05YTNkLWU2ZmZiYzkxZTU3ZCIsInNpZCI6IjE5YTY1MWRlLTUzYzYtNDgyNy05N2VmLTM1OTFlMjg2ZGJkOCIsInNodiI6IjE3MDYyNy00MzAwIn0= 1 1
+http://kirov.zrus.org 2 2
+http://link.2gis.ru/1325B7BB/v4-iphone/20170501/perm/2252329095032822 2 2
+http://link.2gis.ru/29CD4F87/v4-iphone/20170501/perm/70000001024569060 1 1
+http://mebel-vstroika.ru 12 12
+http://tyumen.zrus.org 4 4
+http://all81.ru/f/shkola-strizhek.html 2 2
+https://ua.tc 6 6
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjMiLCJldmVudCI6IjI0YTNmOTgyLWYzZjAtNGU0My1hNzZlLTc1NDgyMDI5ZDY5NiIsInR5cGUiOjEsInRzIjoxNDk4MjE1NDQ1MzY2LCJhZGQiOnsiaGFzaCI6IjcxNTlkOGE1LWZkNGQtNGRkMS04YWViLWI5YWFlNmNiZjIyYSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MSwicG9zIjoxLCJydWJyIjoiMjI1MTkyMDA3Mjc2OTg0MSIsImFkcyI6MCwidHlzIjoxLCJzIjoiMSIsImFkc3QiOjE0OTgyMTMyMDAsInBsYWNlIjoxfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1b2VkdzkyMjUiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBTYWZhcmkvNTM3LjM2IiwiaXAiOiI1LjE0MS44Ni41MiIsImtleXN0YXR1cyI6MSwidXNlciI6ImYwOGVjZWNiLThiNDEtNGIxZC05NjFhLTY4ZmZhZjJhZjU4ZSIsInNpZCI6IjQzMmZlMWIxLWNmNmUtNDdiNy04ZjgzLTc2Y2ViZTViMjViOCIsInNodiI6IjE3MDYyMy00MTg1In0= 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTAiLCJldmVudCI6IjFlZDkzMmNiLTc4MzQtNGI3OS1iMTk2LTRjMjhhZjUxN2VhNCIsInR5cGUiOjEsInRzIjoxNDk3MDgwOTEwOTMxLCJhZGQiOnsiaGFzaCI6ImM2Yzc5ZDVhLWRmYzUtNGI5ZC04N2U2LTI1Njc1YWZhMDc1ZCIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MSwicG9zIjoxLCJydWJyIjoiMjI1MTkyMDA3Mjc2OTg0MSIsImFkcyI6MCwidHlzIjoxLCJzIjoiMiIsImFkc3QiOjE0OTcwNzkyMDAsInBsYWNlIjoyfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1dG5wdDMyNzIiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBTYWZhcmkvNTM3LjM2IiwiaXAiOiIxOTUuMTkuMTc4LjE2MCIsImtleXN0YXR1cyI6MSwidXNlciI6IjE5ZGI1ZDM4LTAxYWItNGZkZi1hM2E0LTRkODI5NjE1NTBkNiIsInNpZCI6IjlhNjIwNjYxLTI1ODMtNDAzYy04N2MyLWRjMWEzNGI1ODhmNiIsInNodiI6IjE3MDYwOS0zODczIn0= 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTkiLCJldmVudCI6IjEzMWIzOTcyLWZhMWQtNGUxZi05ZTNmLTI5OWU3YTk1NDc1NCIsInR5cGUiOjEsInRzIjoxNDk3ODYxMzI3MTI1LCJhZGQiOnsiaGFzaCI6Ijg2NmJjYmUzLWQ2ZTgtNDQ3NC1hNDNmLWQ0YTI5N2EwNzJhOSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAxOTUyOTUwNiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk3ODU5ODAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBTYWZhcmkvNTM3LjM2IiwiaXAiOiI0Ni4xNDYuMjQxLjEwOCIsImtleXN0YXR1cyI6MSwidXNlciI6IjRiNDQxNTAxLWIwOGItNDEzOC04ODhhLTBhMzcwMDIyZTk3NyIsInNpZCI6IjkzMjc5ZmVkLTZkYTUtNDM2Mi1iZmYwLTAwYjc1ZmY0N2FhNiIsInNodiI6IjE3MDYxOS00MDA1In0= 1 1
+http://link.2gis.ru/DF39D88C/v4-android/20170401/perm/70000001007312604 2 2
+http://perm-profnastil.ru 11 11
+http://chelyabinsk.zrus.org 5 5
+http://link.2gis.ru/F21C809A/v4-android/20170501/perm/70000001019529506 4 4
+http://pizza-tycoon.com 5 5
+http://link.2gis.ru/56256C3C/grym/20170501/perm/f8b0a14aeaea82 2 2
+http://moscow.zrus.org 3 3
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjkiLCJldmVudCI6IjhlYWYzMzgyLTg0NzQtNGU2YS1hZDNhLTBmM2Q2Mjc2ZTMyMCIsInR5cGUiOjEsInRzIjoxNDk4NzQ0NjAxMTk3LCJhZGQiOnsiaGFzaCI6IjdhNzEyMzE2LWRjYjMtNGU3ZC1iNjY0LWU5NGI5MjBlMGI3MSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MSwicG9zIjoxLCJydWJyIjoiMjI1MTkyMDA3Mjc2OTg0MSIsImFkcyI6MCwidHlzIjoxLCJzIjoiMSIsImFkc3QiOjE0OTg3NDE4MDAsInBsYWNlIjoxfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1b2VkdzkyMjUiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCA2LjM7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS81OS4wLjMwNzEuMTE1IFNhZmFyaS81MzcuMzYiLCJpcCI6IjUuMTQxLjE5Mi4xNTEiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiJhNTcwOGQ1OS01YjM3LTQ0NGUtYWMwNS05YWRiNTUwNjhkMzYiLCJzaWQiOiJmMmEyYjY3YS02ODU3LTRlYWUtYTllMy0yNjY0ZmZiZTI2MzEiLCJzaHYiOiIxNzA2MjktNDM1MyJ9 1 1
+http://izumrud24.ru/franshiza/biznes-plan%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/pricheska-na-srednie-volosy-s-kudryami-i-kosami.html 0 1
+http://kaliningrad.zrus.org 8 8
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTkiLCJldmVudCI6ImI0ZDM3NzNiLWRmNDctNDE1Zi04MDQ5LTBjZTQwZDJlNGVhZiIsInR5cGUiOjEsInRzIjoxNDk3ODg1MjQ0MjQ0LCJhZGQiOnsiaGFzaCI6IjI2NTc5ZmE0LWMyYTAtNDJjOC1hMzFjLTFiNzcxOTE5MjQyMCIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAxOTUyOTUwNiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk3ODc0NTAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV09XNjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS81OC4wLjMwMjkuMTEwIFNhZmFyaS81MzcuMzYgT1BSLzQ1LjAuMjU1Mi44ODgiLCJpcCI6IjUuMTY2LjE5MC4xMDMiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiJhNzNjZGQwNi02MGUwLTRlYTQtOTYyOS0yN2Y0MThlZDIxYzAiLCJzaWQiOiI3YzBjMjdjOC0zM2IwLTRmZDMtYWU3ZS0xMzI5MzZhNDIwOGMiLCJzaHYiOiIxNzA2MTktNDAxMiJ9 3 3
+http://chatroulette.si 3 3
+http://tolyatti.zrus.org 1 1
+http://link.2gis.ru/5DDD4A79/v4-iphone/20170401/perm/r16_70000001024569060 1 1
+http://bestdraws.com 9 9
+http://rusmortgage.ru/pricheska-na-srednie-volosy-lokony-s-pleteniem.html 0 7
+http://se-welding.ru 3 3
+http://late-roman-empire.ru/blog/pricheska-na-srednie-volosy-s-pleteniem-na-bok.html 0 1
+http://link.2gis.ru/7CD2B2AB/v4-iphone/20170601/perm/70000001019529506 7 7
+http://voronezh.zrus.org 2 2
+http://novosibirsk.zrus.org 5 5
+https://letsart.ru 3 3
+http://link.2gis.ru/FC730B14/v4-iphone/20170101/perm/70000001024569060 1 1
+http://kostroma.zrus.org 1 1
+http://link.2gis.ru/9F3F952D/grymmobile/20170501/perm/f8b0a14a476a43 2 2
+http://link.2gis.ru/C91C6953/v4-iphone/20170401/perm/2252329095032822 1 1
+http://link.2gis.ru/A7037DB6/v4-android/20170601/perm/70000001024569060 10 10
+http://avatara.su/kosy-foto-pletenie.html 0 1
+https://link.ac 5 5
+http://vladivostok.zrus.org 6 6
+http://link.2gis.ru/1.2/97E4701A/webapi/20170601/project16/2252329095032822/orgdir.ru/4EAqk9G6G4B8GHGJ1HH1zp7ylgm3A57B976543C0Euvqp6G44CC7I3BB44H02b9v6p8p661I228A6044H4JH4JIdb 1 1
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjIiLCJldmVudCI6ImFkZDA5MzFjLTcxMmQtNDQyMy05OTg1LTU3Zjg2YzgwY2M4ZSIsInR5cGUiOjEsInRzIjoxNDk4MTM1OTk2ODEwLCJhZGQiOnsiaGFzaCI6ImQ3MTFjYjUyLWIwNmYtNGIzMy1iMjRjLTkwMTY4ZjYxMDNhOSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MSwicG9zIjo4LCJydWJyIjoiMjI1MTkyMDA3Mjc3MDE4NyIsImFkcyI6MCwidHlzIjoxLCJzIjoiMiIsImFkc3QiOjE0OTgxMzA0MDAsInBsYWNlIjoxfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1b2VkdzkyMjUiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCA2LjI7IFdPVzY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBZYUJyb3dzZXIvMTcuNi4wLjE2MzMgWW93c2VyLzIuNSBTYWZhcmkvNTM3LjM2IiwiaXAiOiI4OS4xODUuNzQuNDciLCJrZXlzdGF0dXMiOjEsInVzZXIiOiI2NDA2N2Y2Ny1jMjgxLTRmNmMtOTJmNy02N2VjNzY1ZjE2OWQiLCJzaWQiOiIyZmQzMDA0Ny02NDI0LTQwMTUtYWY4My0wNGZjMWFmMTA3N2IiLCJzaHYiOiIxNzA2MjItNDE1NiJ9 2 2
+http://webalta.ru 3 3
+http://free-gluten.ru 7 7
+http://ulanude.zrus.org 5 5
+http://link.2gis.ru/FDB3E39B/v4-iphone/20170601/perm/r16_70000001006660162 2 2
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MTUiLCJldmVudCI6Ijc1OTM3OTJkLTk1M2YtNGM1ZS04NDYwLTNjNGI5MTFiMDJjNiIsInR5cGUiOjEsInRzIjoxNDk3NTAwNjAzODU0LCJhZGQiOnsiaGFzaCI6Ijk3NjYxZDJjLTA0MWMtNDliNS1iOGZlLWI4YTI5ZmY5MDk2OCIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNzM5NTg2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MSwicG9zIjoyLCJydWJyIjoiMjI1MTkyMDA3Mjc2OTg0MSIsImFkcyI6MCwidHlzIjoxLCJzIjoiMzAiLCJhZHN0IjoxNDk3NTAwMTAwLCJwbGFjZSI6MX0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydW9lZHc5MjI1IiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBUcmlkZW50LzcuMDsgU0xDQzI7IC5ORVQgQ0xSIDIuMC41MDcyNzsgLk5FVCBDTFIgMy41LjMwNzI5OyAuTkVUIENMUiAzLjAuMzA3Mjk7IE1lZGlhIENlbnRlciBQQyA2LjA7IC5ORVQ0LjBDOyAuTkVUNC4wRTsgcnY6MTEuMCkgbGlrZSBHZWNrbyIsImlwIjoiNDYuMTQ2LjIxMC4xODQiLCJrZXlzdGF0dXMiOjEsInVzZXIiOiIyNGU4ZjcyOC05M2M2LTQ4YWYtYTVmNC0wMTQ1M2RiZjZhZTUiLCJzaWQiOiJjMWMyYTZhMy0wYzEwLTQxMTctYTU4Mi1kMmVhYTgzZGJiY2MiLCJzaHYiOiIxNzA2MTQtMzkyOSJ9 1 1
+http://freza-sverlo.ru 12 12
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjAiLCJldmVudCI6IjU4YTJkNWM3LTU1ODctNDk3ZC05YjU5LTkxYzhkNTYwN2JjZSIsInR5cGUiOjEsInRzIjoxNDk3OTQ5OTgxNzEwLCJhZGQiOnsiaGFzaCI6Ijc4MmMzYzNmLTRiZTItNDI2OC1iNjJkLTUzNWZhOWNkM2JlMyIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicnViciI6IjIyNTE5MjAwNzI3Njk4NDEiLCJhZHMiOjAsInR5cyI6MSwicyI6IjIiLCJhZHN0IjoxNDk3OTQ2ODAwLCJwbGFjZSI6Mn0sInYiOjIsInByb2QiOjEwLCJrZXkiOiJydXRucHQzMjcyIiwibGFuZyI6InJ1X1JVIiwidXNlcmFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xKSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBTYWZhcmkvNTM3LjM2IiwiaXAiOiIxODguMTcuMTQ5LjE1MyIsImtleXN0YXR1cyI6MSwidXNlciI6Ijg2YjAxN2Y4LWU5MTktNDEyOC05MzQyLTE4NWQ0ODdhMmJjZiIsInNpZCI6ImQ4NGNkMTI0LWZjODQtNDVhMC05OGE1LTljY2NlZWYzZjgyMCIsInNodiI6IjE3MDYyMC00MDQxIn0= 1 1
+http://go.mail.ru 6 7
+http://yalta.zrus.org 11 11
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjMiLCJldmVudCI6IjMzNjM2ZjliLWI3M2EtNGJkMS04NTE1LTM4Yzg2NDg1OTFhZCIsInR5cGUiOjEsInRzIjoxNDk4MjI4NTI4MzcyLCJhZGQiOnsiaGFzaCI6IjBkYjFjNTZjLTAwNzUtNGVhYS1iOWJlLWIyNDYzZTkwZTFiMSIsImJjIjoyLCJicmFuY2giOiI3MDAwMDAwMTAwNjY2MDE2MiIsIm9yZyI6IjcwMDAwMDAxMDA2NjYwMTYzIiwicGFnZSI6MSwicG9zIjo0LCJydWJyIjoiMjI1MTkyMDA3Mjc2OTg0MSIsImFkcyI6MCwidHlzIjoxLCJzIjoiMiIsImFkc3QiOjE0OTgyMjczMDAsInBsYWNlIjoxfSwidiI6MiwicHJvZCI6MTAsImtleSI6InJ1b2VkdzkyMjUiLCJsYW5nIjoicnVfUlUiLCJ1c2VyYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNTguMC4zMDI5LjExMCBTYWZhcmkvNTM3LjM2IiwiaXAiOiI5MS4yMDQuMTY1LjI0MyIsImtleXN0YXR1cyI6MSwidXNlciI6IjA5MTRlMmU3LTMzN2ItNDA2ZS04NTk2LTZlZTgwYmJlNTIyNCIsInNpZCI6IjRlYTdiOTZlLTY1NjItNGQzMC04NThhLTkwYzM1ZTE1ZmU2ZSIsInNodiI6IjE3MDYyMy00MTg1In0= 1 1
+http://ryazan.zrus.org 2 2
+http://link.2gis.ru/1.4/aHR0cDovL3huLS0tLS02a2NiMWFlZWVnbGRoNmNxaWdqaWsueG4tLXAxYWkKaHR0cDovL3N0YXQuYXBpLjJnaXMucnUKeyJwcm9qIjoxNiwiaXNkIjoiMjAxNzA2MjciLCJldmVudCI6ImNhNmNhZjI2LTRiMjgtNDdlNC04ZjFhLTYzNWJiOTc5MDY5OCIsInR5cGUiOjEsInRzIjoxNDk4NTY3MzQzMTA2LCJhZGQiOnsiaGFzaCI6ImQzNWQzMjA4LTY3NzUtNDJjYi05OWFiLWFkY2MyOGUzZmVjYyIsImJjIjoyLCJicmFuY2giOiIyMjUyMzI5MDk1MDMyODIyIiwib3JnIjoiNzAwMDAwMDEwMDY2NjAxNjMiLCJwYWdlIjoxLCJwb3MiOjEsInJ1YnIiOiIyMjUxOTIwMDcyNzY5ODQxIiwiYWRzIjowLCJ0eXMiOjEsInMiOiIzIiwiYWRzdCI6MTQ5ODU2NjAwMCwicGxhY2UiOjF9LCJ2IjoyLCJwcm9kIjoxMCwia2V5IjoicnV0bnB0MzI3MiIsImxhbmciOiJydV9SVSIsInVzZXJhZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDYuMTsgV09XNjQ7IHJ2OjU0LjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvNTQuMCIsImlwIjoiNDYuMTQ2LjIwOS44MiIsImtleXN0YXR1cyI6MSwidXNlciI6IjRlMDFhNDA3LTM5YTUtNDA4My04OTE5LWE5ZjMzNjczNDlmOSIsInNpZCI6Ijg5NDAwOWM5LTlmYTEtNDI1Yy1iYjg0LTQ3NTY2Y2QwY2NiNCIsInNodiI6IjE3MDYyNy00Mjg2In0= 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 50
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 44
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9 10
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%b0%d0%b4%d1%80%d0%b5%d1%81%d0%b0 5
+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%b3%d0%b4%d0%b5+%d1%81%d0%b4%d0%b5%d0%bb%d0%b0%d1%82%d1%8c+%d0%ba%d1%80%d0%b5%d0%b0%d1%82%d0%b8%d0%b2%d0%bd%d1%83%d1%8e+%d0%b6%d0%b5%d0%bd%d1%81%d0%ba%d1%83%d1%8e+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d1%83 3
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%ba%d0%b8%d0%bc 2
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%b0%d1%8f+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 2
+%d0%b4%d0%b5%d1%80%d0%b5%d0%b2%d0%be%d0%be%d0%b1%d0%b4%d0%b5%d0%bb%d0%be%d1%87%d0%bd%d0%b0%d1%8f+8+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%b8%d0%b5+%d1%80%d1%8f%d0%b4%d0%be%d0%bc 2
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0 2
+%d0%a1%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b4%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 2
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%b0%d1%8f+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 2
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d1%80%d0%b5%d0%b2%d0%be%d0%bb%d1%8e%d1%86%d0%b8%d0%b8 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d1%81%d0%b0%d0%b9%d1%82 1
+%d0%ba%d1%80%d0%b5%d0%b0%d1%82%d0%b8%d0%b2%d0%bd%d1%8b%d0%b5+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b8+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%bc%d0%b8+%d0%bd%d0%be%d0%b6%d0%bd%d0%b8%d1%86%d0%b0%d0%bc%d0%b8+%d0%bf%d0%b0%d1%80%d0%ba%d0%be%d0%b2%d1%8b%d0%b9 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d1%81%d0%b0%d0%bb%d0%be%d0%bd 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d0%b8%d0%b6%d0%ba%d0%be%d0%b9 1
+www.%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0-%d0%b7%d0%b0-%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9.%d1%80%d1%84 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d0%b8%d1%8e%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+anything 1
+%d1%82%d0%b5%d1%80%d0%bc%d0%be%d0%ba%d0%b5%d1%80%d0%b0%d1%82%d0%b8%d0%bd+%d1%81%d1%82%d0%be%d0%b8%d0%bc%d0%be%d1%81%d1%82%d1%8c+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%bd%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d1%83+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%bc%d0%b0%d1%81%d1%82%d0%b5%d1%80+%d0%b6%d0%b5%d0%bd%d1%81%d0%ba%d0%b8%d1%85+%d0%ba%d0%be%d1%80%d0%be%d1%82%d0%ba%d0%b8%d1%85+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%b5%d0%ba+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%b5%d0%ba%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%bd%d0%b8%d0%bd%d1%81%d0%ba%d0%b0%d1%8f 1
+%d0%a1%d0%b0%d0%bb%d0%be%d0%bd 1
+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d1%8f+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9 1
+%d0%b3%d0%b4%d0%b5+%d0%b2+%d0%9f%d0%b5%d1%80%d0%bc%d0%b8+%d0%bd%d0%b5%d0%b4%d0%be%d1%80%d0%be%d0%b3%d0%be+%d0%bf%d0%be%d0%b4%d1%81%d1%82%d1%80%d0%b8%d1%87%d1%8c%d1%81%d1%8f 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%86%d0%b5%d0%bd%d1%8b+%d0%bd%d0%b0+%d0%bf%d0%be%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d1%83+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%bf%d0%b0%d1%80%d0%b8%d1%85%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%b0%d1%8f+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c+%d0%b5%d0%ba%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%bd%d0%b8%d0%bd%d1%81%d0%ba%d0%b0%d1%8f 1
+%d1%81%d0%be%d0%bb%d1%8f%d1%80%d0%b8%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d0%bb%d0%b5%d1%82%d0%b5%d0%bd%d0%b8%d0%b5+%d0%ba%d0%be%d1%81+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%b6%d0%b5%d0%bd%d1%81%d0%ba%d0%b8%d0%b5+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b8+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8+%d0%ba%d0%b0%d1%87%d0%b5%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%bd%d0%be 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%be%d0%bd%d0%bb%d0%b0%d0%b9%d0%bd+%d0%b7%d0%b0%d0%bf%d0%b8%d1%81%d1%8c+%d0%bd%d0%b0+%d0%b6%d0%b5%d0%bd%d1%81%d0%ba%d1%83%d1%8e+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d1%83+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%86%d0%b5%d0%bd%d0%b0+%d0%bc%d1%83%d0%b6%d1%81%d0%ba%d0%be%d0%b9+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b8+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%ba%d0%b8%d0%bc 1
+xn-----6kcb1aeeegldh6cqigjik.xn--p1ai 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b2+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%bf%d1%80%d0%b8%d1%87%d0%b5%d1%81%d0%be%d0%ba+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d0%bf%d0%be%d0%b7%d0%b8%d1%82%d0%b8%d0%b2%d0%bd%d0%b0%d1%8f+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%b0%d1%8f+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%b0%d1%8f+%d0%bd%d0%b0+%d0%bf%d0%b0%d1%80%d0%ba%d0%be%d0%b2%d0%be%d0%bc 1
+%d0%b0%d0%b4%d1%80%d0%b5%d1%81%d0%b0+%d1%81%d0%b0%d0%bb%d0%be%d0%bd+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%bf%d0%bb%d0%b5%d1%82%d0%b5%d0%bd%d0%b8%d0%b5+%d0%ba%d0%be%d1%81+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%b0%d1%8f+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b7%d0%b0+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9 1
+%d1%86%d0%b5%d0%bd%d1%8b+%d0%bd%d0%b0+%d0%bf%d1%80%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8+%d0%b2+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%be%d0%b9 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%bf%d0%bb%d0%be%d1%89%d0%b0%d0%b4%d0%ba%d0%be%d0%b9+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d0%ba%d1%83%d1%80%d1%81%d1%8b+%d0%ba%d0%be%d1%81%d0%be%d0%bf%d0%bb%d0%b5%d1%82%d0%b5%d0%bd%d0%b8%d1%8f+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%be%d0%b3%d0%bd%d0%b5%d0%bc+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d1%83%d1%87%d0%b5%d0%b1%d0%bd%d1%8b%d0%b9+%d1%86%d0%b5%d0%bd%d1%82%d1%80+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%be%d0%b3%d0%be+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0+%d0%b8+%d0%bc%d0%b0%d0%bd%d0%b8%d0%ba%d1%8e%d1%80+%d0%b2+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 1
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%b8%d0%b5+%d0%bd%d0%b0+%d0%bf%d0%b0%d1%80%d0%ba%d0%be%d0%b2%d0%be%d0%bc+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 75
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0 84
+%d0%bf%d0%b5%d1%80%d0%bc%d1%8c 83
+%d0%b7%d0%b0 79
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9 73
+%d0%b2 8
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%b0%d1%8f 7
+%d0%bf%d0%b5%d1%80%d0%bc%d0%b8 6
+%d0%bd%d0%b0 6
+%d0%b0%d0%b4%d1%80%d0%b5%d1%81%d0%b0 6
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d1%83 5
+%d0%bf%d0%be%d0%b4%d1%81%d1%82%d1%80%d0%b8%d1%87%d1%8c%d1%81%d1%8f 1
+%d0%ba%d0%b0%d1%87%d0%b5%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%bd%d0%be 1
+%d0%ba%d1%80%d0%b5%d0%b0%d1%82%d0%b8%d0%b2%d0%bd%d1%83%d1%8e 3
+%d0%ba%d1%83%d1%80%d1%81%d1%8b 3
+%d0%bd%d0%b5%d0%b4%d0%be%d1%80%d0%be%d0%b3%d0%be 1
+%d0%bf%d0%b0%d1%80%d0%ba%d0%be%d0%b2%d1%8b%d0%b9 1
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%be%d0%b9 1
+%d0%bf%d1%80%d0%b8%d1%87%d0%b5%d1%81%d0%be%d0%ba 1
+%d0%b6%d0%b5%d0%bd%d1%81%d0%ba%d0%b8%d1%85 1
+%d0%bf%d0%be%d0%b7%d0%b8%d1%82%d0%b8%d0%b2%d0%bd%d0%b0%d1%8f 1
+%d0%bf%d0%be%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d1%83 1
+%d1%86%d0%b5%d0%bd%d1%8b 2
+%d0%a1%d0%b0%d0%bb%d0%be%d0%bd 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b4%d0%ba%d0%be%d0%b9 2
+%d1%81%d1%82%d0%b8%d0%b6%d0%ba%d0%be%d0%b9 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%b5%d0%ba 1
+%d0%bf%d0%bb%d0%be%d1%89%d0%b0%d0%b4%d0%ba%d0%be%d0%b9 1
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%b8%d0%b5 3
+%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d1%8f 1
+xn-----6kcb1aeeegldh6cqigjik.xn--p1ai 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5 2
+%d1%81%d0%be%d0%bb%d1%8f%d1%80%d0%b8%d0%b9 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b2 1
+%d0%ba%d1%80%d0%b5%d0%b0%d1%82%d0%b8%d0%b2%d0%bd%d1%8b%d0%b5 1
+%d0%bf%d1%80%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8 1
+%d0%bc%d0%b0%d0%bd%d0%b8%d0%ba%d1%8e%d1%80 1
+%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b8 3
+%d1%80%d0%b5%d0%b2%d0%be%d0%bb%d1%8e%d1%86%d0%b8%d0%b8 1
+%d0%bc%d0%b0%d1%81%d1%82%d0%b5%d1%80 1
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%be%d0%b3%d0%be 1
+%d0%9f%d0%b5%d1%80%d0%bc%d0%b8 1
+%d0%bd%d0%be%d0%b6%d0%bd%d0%b8%d1%86%d0%b0%d0%bc%d0%b8 1
+%d0%be%d0%bd%d0%bb%d0%b0%d0%b9%d0%bd 1
+%d0%b3%d0%b4%d0%b5 4
+%d0%be%d0%b3%d0%bd%d0%b5%d0%bc 1
+%d1%80%d1%8f%d0%b4%d0%be%d0%bc 2
+%d1%81%d1%82%d0%b8%d1%8e%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9 1
+%d0%b8 1
+%d1%86%d0%b5%d0%bd%d1%82%d1%80 1
+%d1%82%d0%b5%d1%80%d0%bc%d0%be%d0%ba%d0%b5%d1%80%d0%b0%d1%82%d0%b8%d0%bd 1
+%d0%ba%d0%be%d1%81 2
+www.%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0-%d0%b7%d0%b0-%d1%81%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%be%d0%b9.%d1%80%d1%84 1
+anything 1
+%d0%b5%d0%ba%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%bd%d0%b8%d0%bd%d1%81%d0%ba%d0%b0%d1%8f 2
+%d1%81%d1%82%d0%be%d0%b8%d0%bc%d0%be%d1%81%d1%82%d1%8c 1
+%d0%a1%d1%82%d1%80%d0%b8%d0%b6%d0%ba%d0%b0 2
+%d0%b6%d0%b5%d0%bd%d1%81%d0%ba%d1%83%d1%8e 4
+%d0%ba%d0%b8%d0%bc 3
+%d0%b3%d0%be%d1%80%d1%8f%d1%87%d0%b8%d0%bc%d0%b8 1
+%d0%bc%d1%83%d0%b6%d1%81%d0%ba%d0%be%d0%b9 1
+%d1%81%d0%b0%d0%bb%d0%be%d0%bd 2
+%d0%ba%d0%be%d1%80%d0%be%d1%82%d0%ba%d0%b8%d1%85 1
+%d1%86%d0%b5%d0%bd%d0%b0 1
+%d0%b7%d0%b0%d0%bf%d0%b8%d1%81%d1%8c 1
+%d0%bf%d0%b0%d1%80%d0%b8%d1%85%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d1%81%d0%ba%d0%b0%d1%8f 1
+%d0%b6%d0%b5%d0%bd%d1%81%d0%ba%d0%b8%d0%b5 1
+%d0%ba%d0%be%d1%81%d0%be%d0%bf%d0%bb%d0%b5%d1%82%d0%b5%d0%bd%d0%b8%d1%8f 1
+%d0%bf%d0%bb%d0%b5%d1%82%d0%b5%d0%bd%d0%b8%d0%b5 2
+8 2
+%d0%b4%d0%b5%d1%80%d0%b5%d0%b2%d0%be%d0%be%d0%b1%d0%b4%d0%b5%d0%bb%d0%be%d1%87%d0%bd%d0%b0%d1%8f 2
+%d1%81%d0%b0%d0%b9%d1%82 1
+%d1%81%d0%b4%d0%b5%d0%bb%d0%b0%d1%82%d1%8c 3
+%d0%bf%d0%b0%d1%80%d0%ba%d0%be%d0%b2%d0%be%d0%bc 2
+%d0%bf%d0%b0%d1%80%d0%b8%d0%ba%d0%bc%d0%b0%d1%85%d0%b5%d1%80%d0%be%d0%b2 1
+%d1%83%d1%87%d0%b5%d0%b1%d0%bd%d1%8b%d0%b9 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 1 2912
+302 9 0
+206 157 14182675
+301 1 366
+404 3024 8566716
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 136
+//robots.txt 1 -
+/system/cms/ 1 -
+/wordpress/ 56 -
+/blogs/wp-admin/setup-config.php 2 -
+/admin.php 1 -
+/libs1/fonts/slick.svg 1 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/
+/administrator/wp-login.php 4 -
+//admin 2 -
+/blog/wp-admin/setup-config.php 2 -
+/oneskyssa/ 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/oneskyssa/
+/joomla/robots.txt 18 -
+/javascript:displaylightbox('/zvonok_uchoba.php',%7Bwidth:390,height:397,centerOnScroll:true,overlayOpacity:0.8,overlayColor:' 2 -
+/images/buta.png 5 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/kosa.php
+/xmlrpc.php 56 -
+/typo3/index.php 1 -
+/mscms/ 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/mscms/
+/vam_rss2_info.php 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/vam_rss2_info.php
+/administrator/robots.txt 4 -
+/cms/wp-admin/setup-config.php 1 -
+/depositphotos_18219881-scissors-black-glossy-icon-on-white-background 2 -
+//wp-login.php 3 -
+/feedback1/css/jquery.arcticmodal 1 -
+/wp-content/themes/brainstorm/style.css 1 http://www.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/wp-content/themes/brainstorm/style.css
+/https://www.instagram.com/strijka_za_strijkoi/ 1 -
+/libs/html5shiv/html5shiv.min.js 16 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/
+/joomla/administrator/index.php 18 -
+/libs1/font-awesome/css/font-awesome.min 1 -
+/wp-login.php 8 -
+/admin/login/ 1 -
+/engine/print.php 1 -
+/feedback1/css/jquery.jgrowl 1 -
+/sitetree/ 1 -
+/apple-touch-icon76x76.png 1 -
+/fancybox/jquery.fancybox-1.3.0 2 -
+/news/wp-admin/setup-config.php 2 -
+/user/reg 1 http://hefeng.packltd.cn
+/libs1/slick-theme 1 -
+/language/en-GB/en-GB.xml 1 -
+/fonts1/AA-BebasNeue.ttf)%20format(%22truetype%22 15 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/
+/OpenSans-Regular.ttf 206 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/2.css
+/wp-admin/admin-ajax.php 15 -
+/libs/respond/respond.min.js 24 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/
+/cms/admin/ 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/cms/admin/
+/license.php 11 http://www.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/wp-admin/
+/blog/administrator/index.php 18 -
+/OpenSans-Regular.woff 181 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/2.css
+/magazin.html/uploadify/uploadify.php 2 http://www.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/magazin.html/wp-admin/
+/magazin.html/wp-content/uploads/51217766.php 2 -
+/apple-touch-icon120x120.png 1 -
+/wp/wp-admin/setup-config.php 2 -
+/administrator/index.php 19 -
+/caches.php 1 -
+/images/%2109B35.png 3 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/franshiza.php
+/libs1/slick 1 -
+/css1/bootstrap-grid.min 1 -
+//blog/robots.txt 1 -
+/bitrix/admin/ 1 -
+//xmlrpc.php 1 -
+//fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/jm-ajax/upload_file/ 2 -
+/modx/manager/ 1 -
+/robots.txt 459 -
+/manager/ 1 -
+/tel:+%2073422871713 5 -
+/admin/login.php 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/admin/login.php
+/uploadify/uploadify.php 12 http://www.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/wp-admin/
+//wp/ 1 -
+/fonts1/BebasNeueBold.ttf)%20format(%22truetype%22 15 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/
+/media/system/js/core.js 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/media/system/js/core.js
+/libs1/ajax-loader.gif 1320 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/libs1/slick-theme.css
+/css1/fonts 1 -
+/wp-admin/ 1 -
+/https://vk.com/school_stizki 2 -
+/libs1/fonts/slick.woff 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/
+/adminzone 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/adminzone
+/https://vk.com/szs_perm 1 -
+/browserconfig.xml 2 -
+/cgi-bin/mt/mt-check.cgi 1 -
+/login_form 1 -
+/Sait0 1 -
+/bitrix/admin/index.php 6 -
+/blog/wordpress/wp-admin/setup-config.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/conf.php 1 http://www.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/wp-content/plugins/revslider/temp/update_extract/conf.php
+/apple-touch-icon-120x120.png 1 -
+/wp-content/plugins/wp-symposium/readme.txt 1 http://www.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/wp-content/plugins/wp-symposium/readme.txt
+/administrator 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/administrator
+/apple-touch-icon-120x120-precomposed.png 1 -
+/wordpress/wp-admin/setup-config.php 2 -
+/manager 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/manager
+/wp-content/plugins/wp-easy-gallery-pro/admin/php.php 1 http://www.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/wp-content/plugins/wp-easy-gallery-pro/admin/php.php
+/admin/ 5 -
+/cms/kernel/admin.php 1 -
+/apple-touch-icon152x152.png 1 -
+/apple-touch-icon.png 21 -
+/wp-content/plugins/revslider/temp/update_extract/Uploader.php 2 -
+/libs/html5shiv/es5-shim.min.js 26 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/
+/new/wp-admin/setup-config.php 2 -
+/beta/wp-admin/setup-config.php 2 -
+/https://fonts.googleapis.com/css 1 -
+/netcat/ 3 -
+/%23nums 2 -
+/media/system/js/caption.js 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/media/system/js/caption.js
+/login.php 1 -
+/wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php 1 http://www.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php
+/blog/ 57 -
+/old/wp-admin/setup-config.php 2 -
+/2 2 -
+/wp/ 56 -
+/tel:2-30-70 6 -
+/wp-content/uploads/51217766.php 10 -
+/contacts/ 20 -
+/libs1/fonts/slick.eot 11 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/
+/magazin.html/license.php 2 http://www.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/magazin.html/wp-admin/
+/OpenSans-Regular.eot 22 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/obuchenie.php
+/css1/main 1 -
+/apple-touch-icon-precomposed.png 18 -
+//wordpress/ 1 -
+/blog/robots.txt 73 -
+/css1/media 1 -
+/test/wp-admin/setup-config.php 2 -
+/javascript:displaylightbox('/obuchenie.php',%7Bwidth:450,height:400,centerOnScroll:true,overlayOpacity:0.8,overlayColor:' 2 -
+/images/ui-icons_444444_256x240.png 1 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/
+/magazin.html/wp-admin/admin-ajax.php 2 http://www.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/magazin.html/wp-admin/
+/images/formbga2.png 30 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/kosa.php
+/wp-content/plugins/showbiz/temp/update_extract/Uploader.php 1 -
+/wp-content/upgrade/theme-compat/popup-pomo.php 1 http://www.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/wp-content/upgrade/theme-compat/popup-pomo.php
+/member/login/ 1 -
+/admin 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/admin
+/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php 1 http://www.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php
+/wp-content/plugins/wpstorecart/readme.txt 3 http://www.xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/wp-content/plugins/wpstorecart/readme.txt
+/textpattern/ 1 -
+/libs/html5shiv/html5shiv-printshiv.min.js 25 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/
+/wp-admin/setup-config.php 1 -
+/cms/ 2 http://xn-----6kcb1aeeegldh6cqigjik.xn--p1ai/cms/
+//blog/ 1 -
+/favicon.png 9 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2654
+66.102.9.137 93 2684 120080500 20170630164354
+66.102.9.135 91 2577 106088719 20170630164354
+66.102.9.139 82 2603 109467547 20170630154722
+46.119.116.109 81 81 5141718 20170630070131
+46.118.125.174 74 74 4697372 20170630160721
+46.118.117.158 72 72 4570416 20170630111348
+46.118.158.86 70 70 4443460 20170615025322
+46.118.117.131 69 69 4371371 20170615074319
+46.118.123.232 68 68 4316504 20170615091810
+46.118.124.89 68 68 4316504 20170630094227
+46.146.16.74 4 106 4211243 20170618201609
+46.146.3.122 1 48 7682791 20170623150509
+46.73.221.194 0 1 471757 
+5.18.213.58 1 1 63478 20170627234156
+188.68.130.57 0 1 471757 
+77.88.57.194 1 1 63478 20170605135252
+46.146.108.43 5 110 4217959 20170618134407
+89.148.203.44 1 1 622 20170630195425
+93.77.245.217 0 1 77461 
+37.17.40.76 0 1 92021 
+120.92.32.177 1 2 69776 20170622184023
+217.118.83.149 4 107 6444786 20170628161942
+217.66.159.21 0 1 429716 
+176.59.213.130 2 50 7752192 20170617232813
+5.140.85.57 1 58 25859 20170630101047
+176.59.193.196 6 34 2380281 20170608082257
+91.231.198.46 6 109 4246959 20170603215729
+31.31.2.199 0 1 16492 
+213.87.249.242 1 1 622 20170608134012
+5.44.169.41 0 1 92021 
+46.147.17.214 4 106 4211243 20170619110125
+46.146.116.28 1 1 63478 20170604164918
+91.214.221.237 0 1 471757 
+176.59.206.199 1 1 622 20170620124617
+217.118.83.188 1 1 622 20170614145356
+46.146.56.153 6 111 4281437 20170629122238
+31.162.23.222 4 107 4218259 20170628171754
+5.35.111.152 0 1 471757 
+109.62.222.8 0 1 471757 
+94.231.34.23 0 1 471757 
+136.169.143.87 0 1 471757 
+195.211.23.217 0 4 217519 
+176.49.228.149 0 1 189380 
+151.249.192.229 0 1 92021 
+88.200.214.171 0 1 471757 
+77.236.66.90 4 110 5345745 20170630104515
+188.170.73.95 0 1 471757 
+178.91.20.51 0 1 471757 
+94.50.7.137 2 77 3233031 20170603122916
+31.173.103.5 4 107 4218259 20170602063807
+46.250.22.232 0 1 471757 
+46.146.36.124 5 108 4218881 20170629060405
+94.50.3.228 2 37 1281634 20170607095505
+37.79.250.5 4 107 4182859 20170608191922
+2.93.152.150 9 111 4277209 20170603102406
+91.202.16.40 0 1 92021 
+176.59.45.115 0 1 471757 
+46.146.226.163 4 110 4476625 20170605084353
+31.173.100.219 2 2 63478 20170609163149
+94.25.181.164 4 107 4218259 20170623131928
+208.110.66.130 2 2 126956 20170607114350
+195.178.31.224 0 1 471757 
+5.3.152.81 1 1 63478 20170627000726
+91.214.128.157 0 1 471757 
+46.146.47.81 4 107 4182859 20170604092226
+217.118.83.134 4 106 4211243 20170625102800
+176.223.100.221 0 1 92021 
+37.214.165.144 0 1 471757 
+188.170.208.54 0 1 471757 
+31.44.252.150 0 1 366892 
+46.147.7.81 4 172 11065307 20170607115655
+31.162.21.207 4 107 4182859 20170626082922
+95.108.133.211 0 1 92021 
+78.111.190.47 0 1 96771 
+83.169.216.5 2 3 63478 20170615125658
+37.115.85.152 1 42 2611606 20170601164515
+46.163.161.119 1 49 7685845 20170614064028
+46.146.4.3 1 1 622 20170628232858
+87.255.31.177 1 1 622 20170626184116
+217.118.83.161 11 216 5187262 20170628092801
+213.87.127.192 0 1 92021 
+178.124.202.122 0 1 92021 
+213.87.100.74 0 1 92021 
+178.122.158.50 0 1 92021 
+94.51.253.180 4 107 4218259 20170627205540
+37.213.242.182 0 1 471757 
+46.146.188.40 4 106 4211243 20170624064514
+213.87.240.219 10 161 7123367 20170612124730
+89.148.200.104 12 246 10807426 20170626223628
+212.33.245.224 2 50 7752192 20170628214649
+62.231.1.218 4 107 4182859 20170619075833
+213.87.249.154 4 106 4217736 20170627081907
+120.92.32.240 2 4 139552 20170621083722
+46.146.9.37 5 108 4218881 20170613191113
+46.146.108.25 4 111 5230034 20170629121949
+188.114.213.15 0 1 92021 
+95.108.133.206 4 107 4182859 20170603132704
+5.141.228.163 4 106 4211243 20170601142707
+37.48.68.247 1 1 63478 20170610104511
+85.140.76.137 4 106 4211243 20170607164517
+46.146.33.82 4 107 4182859 20170622131450
+79.126.107.62 0 1 92021 
+46.175.72.64 2 2 126956 20170619032611
+31.173.100.201 2 2 63478 20170608104354
+46.146.228.82 2 60 7755542 20170602110225
+212.33.239.145 4 110 5228942 20170620105515
+89.22.177.186 4 107 4182859 20170611115849
+212.33.238.141 4 106 4211243 20170627154924
+109.174.113.178 0 1 429716 
+89.148.243.38 0 1 471757 
+46.146.68.254 4 105 3949938 20170618225412
+46.56.184.158 0 1 92021 
+199.30.25.20 0 1 21819 
+62.182.204.211 0 1 471757 
+178.90.248.232 0 1 471757 
+188.187.6.43 4 106 4217736 20170630225137
+95.170.140.96 0 1 92021 
+176.59.210.125 2 2 1244 20170607071051
+89.148.244.30 12 167 7183949 20170610215639
+193.169.111.19 8 215 8399673 20170614112427
+77.41.92.70 1 2 12954 20170617083930
+62.133.187.32 0 1 471757 
+77.43.218.111 4 106 4217736 20170628093540
+212.33.236.116 0 1 7016 
+37.140.189.242 4 105 4175320 20170612155214
+91.242.180.185 0 1 269792 
+213.87.248.133 1 48 7682791 20170626190600
+46.146.42.71 4 108 4245721 20170627004612
+188.162.64.94 0 1 471757 
+213.59.193.110 0 1 471757 
+82.145.221.193 9 214 8430124 20170619044334
+46.147.5.85 5 108 4246337 20170623181555
+199.30.24.191 0 1 6717 
+176.241.109.185 0 1 471757 
+94.50.4.98 4 108 4436223 20170612195148
+77.43.165.147 4 106 4211243 20170613212258
+94.25.182.70 0 1 77461 
+94.50.2.89 4 109 4217337 20170630071728
+46.146.162.211 4 110 4476625 20170629100601
+178.62.4.246 1 1 63478 20170621104201
+93.219.97.26 0 2 159393 
+5.141.228.180 14 223 9253668 20170605211202
+46.146.28.208 2 2 64100 20170617071104
+5.141.194.63 11 78 3950319 20170630054551
+213.87.241.42 4 110 5258418 20170606221112
+85.140.77.141 0 1 57503 
+31.173.101.232 1 1 622 20170617152000
+104.168.148.88 2 2 126956 20170602145405
+77.222.104.46 0 1 92021 
+128.75.168.206 0 1 471757 
+5.166.177.14 4 107 4182859 20170629095527
+178.20.235.164 2 2 132694 20170630201050
+85.140.79.88 1 57 3679816 20170619144846
+176.37.80.131 0 1 92021 
+188.166.68.235 0 1 92021 
+79.173.124.127 0 1 92021 
+213.24.132.130 0 1 246274 
+188.166.85.177 0 1 471757 
+176.59.199.35 4 107 4218259 20170614163305
+37.112.7.93 4 110 5264342 20170614161835
+93.79.71.104 0 1 471757 
+176.213.213.250 0 1 471757 
+86.57.208.180 0 1 471757 
+199.30.24.62 0 4 65000 
+89.148.210.28 8 206 8336609 20170610153048
+82.145.221.242 1 8 25218 20170628214847
+89.179.12.10 4 107 4182859 20170627204328
+176.59.197.237 4 106 4211243 20170613170304
+92.51.42.179 0 1 471757 
+176.14.208.180 2 108 5101774 20170618183558
+131.253.27.42 0 3 8897 
+95.32.3.189 0 1 471757 
+199.30.24.212 0 1 5760 
+217.118.81.211 0 1 471757 
+94.50.6.253 1 76 3187144 20170624162623
+178.125.255.9 0 1 471757 
+37.215.14.155 0 1 471757 
+185.3.35.7 0 1 471757 
+95.53.103.232 0 1 471757 
+46.242.78.44 0 1 419 
+195.19.177.20 1 1 622 20170621120229
+65.55.210.86 0 4 164978 
+176.59.208.103 4 109 4252737 20170618075552
+185.40.128.5 1 58 3696985 20170614113952
+89.19.196.216 9 141 5949487 20170628173110
+176.59.201.225 0 1 471757 
+89.179.4.80 4 107 4182859 20170614182915
+37.213.21.212 0 1 471757 
+91.204.228.61 7 7 450084 20170622054331
+37.79.250.100 4 107 4182859 20170603082533
+185.13.45.133 0 1 125771 
+65.55.210.22 0 3 61263 
+31.8.101.108 0 1 471757 
+65.55.210.63 0 3 11936 
+176.194.43.96 2 12 147039 20170611214215
+176.59.209.129 4 71 2947206 20170629101019
+65.55.210.81 0 1 114447 
+178.47.138.122 4 108 4239214 20170607121304
+178.140.185.63 1 70 3696261 20170606082223
+195.191.250.33 1 1 63478 20170630221407
+195.211.23.212 0 6 549203 
+94.50.1.246 4 110 5219496 20170625165035
+5.45.235.66 1 1 63478 20170603073054
+35.192.1.163 1 1 63478 20170623192844
+94.50.247.50 4 107 4218259 20170613181333
+65.55.210.70 0 3 202045 
+37.140.189.214 1 49 7685845 20170627125815
+35.188.223.11 1 1 63478 20170614172918
+93.178.223.202 0 1 92021 
+5.141.8.182 4 55 1644607 20170619081708
+82.145.221.61 0 1 471757 
+89.179.74.120 4 109 4443239 20170630122803
+109.200.157.238 0 1 471757 
+5.44.173.23 0 1 77461 
+94.50.7.206 1 1 622 20170616051054
+95.37.243.142 0 1 471757 
+85.140.76.70 1 1 622 20170601150703
+94.25.182.24 8 215 8366810 20170627175959
+77.43.144.231 4 107 4182859 20170613105525
+178.34.160.131 0 1 471757 
+91.203.239.88 4 107 4182859 20170617103438
+131.253.25.189 0 4 42957 
+90.143.177.157 0 1 2966620 
+95.54.214.228 0 1 92021 
+94.50.6.26 4 107 4218259 20170622152002
+199.30.24.21 0 1 404716 
+46.146.154.133 4 107 4182859 20170601074527
+213.87.249.174 8 212 4431987 20170626095101
+62.192.252.26 0 1 471757 
+217.118.83.226 1 1 622 20170616155959
+94.25.177.101 1 57 3679816 20170620062554
+31.148.38.42 0 1 471757 
+95.32.215.154 0 1 471757 
+95.31.64.223 4 107 4218259 20170626190047
+46.175.194.103 0 1 471757 
+188.19.31.30 4 108 4471623 20170612114059
+34.223.220.232 6 6 380868 20170628183554
+188.162.72.14 0 1 471757 
+94.25.176.55 4 105 4210720 20170613082025
+195.90.184.134 0 1 471757 
+65.55.210.172 0 1 83054 
+94.25.183.135 4 107 4182859 20170628145323
+46.146.112.65 1 64 7716634 20170622144806
+93.84.234.22 0 1 471757 
+85.26.186.76 0 1 57503 
+95.57.7.109 0 1 92021 
+65.55.210.182 0 2 111983 
+89.31.113.178 0 1 92021 
+185.76.10.94 0 2 184042 
+85.140.79.220 1 1 622 20170615175823
+5.141.192.151 4 107 4182859 20170629165913
+37.140.189.210 2 3 75447 20170627130134
+188.165.26.121 1 1 63478 20170618180840
+95.190.82.191 0 1 92021 
+88.198.18.103 2 2 126956 20170604161409
+46.146.45.55 4 108 4183951 20170616174012
+46.146.96.208 14 241 9109752 20170615114814
+212.192.93.28 4 108 4936268 20170630150132
+178.170.233.13 4 106 4182336 20170619145451
+176.59.193.111 3 3 1614 20170605143645
+94.28.110.82 0 2 109234 
+176.59.192.230 4 107 4218259 20170625181726
+109.200.139.45 0 1 471757 
+176.115.120.204 0 1 262172 
+178.219.255.34 0 1 429716 
+95.108.225.219 4 105 4039435 20170630170636
+85.140.78.33 4 107 4218259 20170628102944
+77.43.178.163 4 107 4182859 20170618140402
+94.51.254.161 8 217 8498458 20170628122955
+217.118.83.217 4 107 4218259 20170609152114
+46.146.36.2 4 107 4182859 20170601211558
+5.141.229.140 9 140 6554389 20170618213332
+178.120.24.76 0 1 471757 
+31.173.100.19 4 105 4210720 20170601085553
+37.21.23.31 0 2 943514 
+178.161.232.63 4 110 4273692 20170614072334
+188.32.238.213 0 4 4904 
+164.132.51.91 1 1 63478 20170619161606
+217.118.83.207 4 108 4245721 20170604104838
+89.250.217.16 16 323 30250424 20170628114431
+95.108.141.81 8 110 4168158 20170630203340
+95.108.133.226 0 1 92021 
+178.163.25.104 4 108 4219351 20170628233018
+131.253.27.97 2 18 241750 20170605211427
+91.201.236.42 0 1 92021 
+62.183.127.32 0 1 471757 
+46.236.152.242 0 1 471757 
+46.146.101.237 4 107 4182859 20170611225054
+5.141.232.112 1 58 3696985 20170607115518
+109.106.141.144 0 1 92021 
+78.85.13.131 0 1 471757 
+84.18.118.251 0 1 471757 
+178.161.229.250 11 138 4877763 20170614145808
+95.24.9.19 4 21 251778 20170606200102
+88.147.173.14 0 1 471757 
+93.77.1.87 0 1 471757 
+85.140.77.250 6 6 2700 20170615172748
+150.70.188.179 1 1 63478 20170629151236
+46.158.171.126 0 1 116905 
+178.69.78.220 0 1 471757 
+31.162.48.81 4 106 4211243 20170601104207
+176.59.207.168 4 108 4219351 20170602171207
+217.118.91.108 1 1 63478 20170621141635
+85.140.77.51 4 110 4512025 20170608163115
+46.146.112.24 5 108 4246337 20170630045249
+176.65.110.84 0 1 471757 
+84.201.148.100 1 1 63478 20170613213041
+37.112.9.212 4 107 4182859 20170624113728
+46.201.190.222 0 1 471757 
+213.87.248.147 7 148 6388760 20170618141224
+194.67.178.100 0 1 92021 
+89.148.233.58 1 1 622 20170612062150
+5.141.194.18 5 5 3110 20170607192853
+178.150.94.197 3 51 7818539 20170627152350
+176.59.209.72 4 109 4510933 20170610081053
+176.59.206.219 8 135 4813041 20170608103357
+83.220.237.79 4 80 3258658 20170602034349
+95.53.189.213 0 1 471757 
+85.140.76.108 10 218 8198005 20170614164415
+46.101.38.123 2 50 7752192 20170619220801
+195.16.103.89 0 1 92021 
+87.117.13.147 0 1 92021 
+176.197.24.39 0 1 92021 
+217.118.83.139 4 109 4217337 20170610152238
+176.62.111.202 0 1 471757 
+46.38.31.251 0 1 471757 
+95.108.225.215 0 1 92021 
+109.62.184.7 0 1 92021 
+37.140.189.236 0 1 116905 
+2.94.121.134 4 4 149861 20170607230840
+5.165.200.30 0 1 92021 
+195.211.23.209 0 6 470165 
+95.132.208.153 0 1 471757 
+80.83.235.26 5 108 4218881 20170606062827
+99.254.200.200 1 1 63478 20170626214441
+188.166.28.31 0 1 92021 
+5.166.160.231 6 108 4281836 20170614150947
+78.29.40.127 0 1 471757 
+5.141.229.205 5 134 6454567 20170628220717
+85.140.79.107 4 108 4471623 20170605092322
+199.30.24.93 0 1 1045 
+185.20.224.185 2 2 126956 20170630113148
+94.50.1.173 0 1 92021 
+195.209.58.2 1 1 52414 20170604150433
+176.59.193.128 4 106 4211243 20170627195126
+83.149.37.1 1 58 3696985 20170621123536
+37.140.189.243 1 48 7682791 20170620064621
+31.47.185.68 0 1 125771 
+178.47.82.84 1 1 622 20170602011558
+46.146.122.133 1 49 7685845 20170621073612
+176.125.127.59 0 1 92021 
+5.141.8.47 5 28 623788 20170607193415
+78.106.230.147 0 1 471757 
+176.59.209.127 2 105 64100 20170609120104
+195.114.124.148 0 1 92021 
+46.146.78.40 4 106 4211243 20170602075950
+176.59.209.78 3 10 395060 20170628163402
+195.211.23.223 2 5 135637 20170625085540
+93.85.221.163 0 1 92021 
+77.93.117.42 0 1 92021 
+93.78.242.232 0 1 92021 
+188.16.76.168 13 139 4974799 20170617091632
+77.43.177.223 0 2 488729 
+46.146.12.94 5 110 4253359 20170607152402
+46.146.0.81 1 1 622 20170629081528
+46.146.112.92 8 146 5560020 20170621141409
+193.169.221.62 0 1 92021 
+94.241.211.249 0 1 471757 
+185.97.165.166 0 1 92021 
+93.183.200.35 0 1 92021 
+188.18.115.130 0 1 471757 
+178.161.131.62 12 234 9245994 20170614102613
+2.93.245.46 5 109 5312809 20170609124439
+176.60.177.209 0 1 471757 
+188.17.148.255 8 214 8365718 20170623144746
+93.185.17.39 0 1 116905 
+83.174.225.113 2 2 63478 20170611060256
+94.50.1.43 4 107 4182859 20170617111805
+94.253.109.60 0 1 125771 
+178.91.18.86 0 1 471757 
+176.59.195.136 2 105 64100 20170605145443
+46.146.224.35 4 108 4183951 20170628140838
+178.62.92.29 2 50 7752192 20170620124616
+95.221.48.234 3 16 93413 20170630144759
+194.54.160.206 0 1 92021 
+109.197.219.179 0 1 471757 
+90.151.33.232 1 49 7685845 20170605170021
+212.35.168.165 0 1 471757 
+93.189.42.28 2 2 129825 20170607031244
+176.195.114.112 1 1 63478 20170606035227
+46.146.112.82 4 109 4217337 20170619140913
+188.168.75.102 4 107 4182859 20170629063203
+94.51.254.254 4 107 4218259 20170621201442
+77.108.119.154 0 1 125771 
+94.51.87.41 5 111 4603244 20170614072209
+213.87.240.49 4 107 4218259 20170613185559
+46.146.4.2 14 316 13435757 20170620125701
+46.146.244.44 2 116 7393970 20170619131715
+37.112.15.121 4 107 4182859 20170611134350
+176.59.212.19 4 106 4217736 20170621210729
+89.232.70.202 0 1 471757 
+178.161.223.5 4 107 4218259 20170603134708
+178.47.129.227 4 107 4182859 20170613074930
+46.148.176.221 0 1 471757 
+94.25.180.255 4 107 4182859 20170619105245
+94.51.251.56 9 137 5567072 20170630200529
+193.9.245.40 0 1 92021 
+94.50.1.8 4 107 4218259 20170604143755
+94.50.243.54 4 108 4936268 20170629195925
+212.33.235.200 6 109 4282359 20170614051830
+188.133.207.154 0 1 471757 
+5.153.182.26 1 1 63478 20170621125328
+95.221.245.226 1 4 85111 20170627233813
+178.88.62.6 0 1 19266 
+91.105.184.186 0 1 471757 
+5.141.195.176 1 58 3696985 20170618210725
+5.18.235.246 0 1 471757 
+37.112.0.40 4 107 4182859 20170622120535
+195.88.16.114 3 3 190434 20170616204927
+92.252.240.102 0 1 110061 
+80.95.45.91 0 1 471757 
+77.222.98.104 0 1 471757 
+217.118.78.84 0 1 471757 
+213.79.117.189 0 1 471757 
+94.50.5.97 8 214 8612066 20170612115539
+198.204.229.74 1 1 63478 20170609135450
+95.106.205.86 0 2 184042 
+92.242.121.137 0 3 166868 
+40.77.179.225 0 6 258888 
+94.50.8.212 0 1 471757 
+213.155.204.131 0 1 471757 
+65.55.210.27 0 3 6532 
+37.1.59.26 0 1 471757 
+91.210.84.250 0 1 92021 
+85.140.78.250 4 107 4218259 20170608074611
+213.87.248.159 5 64 2154844 20170630103056
+94.50.184.223 5 107 4211865 20170612090021
+188.116.183.71 4 44 1380542 20170623201301
+188.166.74.12 0 2 943514 
+150.70.173.40 1 1 63478 20170622154638
+35.192.2.32 1 1 63478 20170614200741
+176.59.118.210 0 1 471757 
+85.140.78.154 4 106 4211243 20170614163746
+31.173.103.216 11 169 2676442 20170610151413
+178.173.4.198 0 1 471757 
+37.112.32.213 3 20 160586 20170618012422
+217.74.124.49 0 1 92021 
+31.173.101.199 4 107 4218259 20170605153157
+185.137.18.235 0 2 388906 
+188.93.26.193 0 1 471757 
+77.88.57.234 1 1 63478 20170603222446
+78.29.100.58 0 1 125771 
+46.146.112.105 4 106 4211243 20170625145353
+176.59.192.241 4 107 4218259 20170609120020
+188.32.233.78 1 17 102649 20170630214125
+178.62.99.175 1 1 63478 20170630100908
+40.77.178.120 0 56 3777197 
+82.151.122.18 0 1 92021 
+94.51.88.252 8 214 8365718 20170615124434
+94.25.177.215 1 1 622 20170611132622
+212.33.245.240 4 109 4475533 20170602084058
+37.79.248.30 4 107 4182859 20170603092135
+95.108.225.209 0 1 139355 
+46.146.70.121 4 110 5219496 20170612154029
+46.146.40.93 8 135 4813041 20170629190627
+65.55.210.183 0 4 140778 
+46.146.16.49 1 1 622 20170617210512
+85.140.79.35 4 106 4211243 20170625124524
+213.87.241.231 1 1 622 20170616183704
+46.146.8.14 4 109 4217337 20170625183234
+199.30.24.170 0 1 52688 
+79.141.60.233 4 109 4217337 20170615064837
+94.50.7.5 1 1 622 20170613171252
+92.124.84.88 0 1 471757 
+176.59.203.111 0 1 471757 
+176.59.209.192 0 1 471757 
+82.145.220.234 4 107 4182859 20170616190733
+77.120.185.205 0 1 471757 
+37.140.189.228 0 1 3054 
+176.59.44.69 0 1 471757 
+46.98.197.125 0 1 92021 
+95.65.120.20 0 1 471757 
+77.43.186.26 3 3 1866 20170615221153
+77.43.194.110 4 107 4218259 20170624221123
+109.252.75.127 0 1 471757 
+91.210.144.129 1 1 63478 20170625161421
+217.118.83.141 2 102 9042224 20170618205257
+65.55.210.39 0 5 29394 
+91.200.29.122 0 1 471757 
+46.146.77.11 4 106 4211243 20170605093836
+178.64.14.20 0 1 471757 
+217.118.83.200 2 2 1244 20170616103352
+176.195.169.175 1 106 5002373 20170613121843
+46.146.110.245 4 107 4218259 20170617143030
+82.145.220.37 2 2 64100 20170610002122
+46.146.144.252 6 110 4597200 20170616151236
+89.179.15.23 5 110 4217707 20170624122007
+79.137.214.14 5 5 317390 20170626124208
+78.31.79.184 0 1 471757 
+185.54.179.134 0 1 471757 
+178.90.252.168 0 1 92021 
+150.70.173.47 1 1 63478 20170620070930
+94.50.2.164 4 107 4182859 20170620110444
+199.30.25.170 0 5 126163 
+82.145.220.118 16 248 9193978 20170626162236
+5.141.8.132 5 155 11868181 20170620001903
+176.59.209.108 0 1 471757 
+37.215.64.183 0 1 471757 
+5.141.228.87 4 107 4182859 20170614205642
+89.179.8.83 2 5 25064 20170605123413
+188.133.198.250 0 1 471757 
+2.60.230.118 0 1 471757 
+212.192.81.149 4 110 5228942 20170621203338
+176.59.194.153 8 214 8436518 20170626191847
+94.25.177.241 0 1 471757 
+65.55.210.195 0 4 236142 
+88.80.61.212 0 1 471757 
+178.161.156.14 4 111 5220588 20170615085602
+78.29.64.76 0 1 471757 
+37.112.6.226 0 1 429716 
+213.230.75.207 0 1 0 
+46.56.191.131 0 1 92021 
+77.236.79.54 6 112 5034846 20170619093933
+5.228.75.63 0 1 419 
+37.113.206.237 0 1 92021 
+46.146.152.3 8 135 4813041 20170620000324
+195.88.208.134 1 1 63478 20170607032632
+185.100.86.128 1 1 63478 20170615083759
+66.102.9.31 5 208 10974409 20170602151112
+195.211.23.213 0 6 586085 
+95.73.132.97 0 1 471757 
+212.33.250.98 14 123 5711261 20170607100055
+95.29.8.142 0 1 471757 
+128.69.159.243 2 108 5066374 20170626192418
+107.150.58.178 2 2 126956 20170614102249
+77.35.215.138 0 1 92021 
+178.161.147.226 4 107 4245198 20170622113824
+178.47.129.233 1 6 346378 20170613140614
+46.146.155.59 11 140 4912241 20170610162409
+93.124.22.14 0 1 440692 
+94.50.0.155 4 109 4443239 20170618104110
+82.145.220.119 4 106 4211243 20170618144309
+46.53.203.254 0 1 57552 
+91.231.198.40 18 276 11656550 20170611160321
+37.112.13.107 2 73 3699642 20170625232623
+77.240.253.84 0 1 102659 
+188.235.93.221 0 1 471757 
+195.200.245.88 2 2 126956 20170627212145
+178.161.231.201 1 1 622 20170608154509
+77.43.174.55 4 109 5212480 20170616134851
+188.68.139.192 9 134 4835031 20170623094156
+104.154.250.211 1 1 63478 20170617145421
+213.87.241.199 4 104 4209840 20170626103632
+212.122.0.91 0 1 92021 
+46.158.205.75 0 1 471757 
+31.129.131.121 1 1 63478 20170624144735
+83.169.216.2 2 2 64100 20170614100014
+185.75.191.64 0 2 184042 
+46.146.240.157 4 107 4218259 20170608202225
+46.146.108.98 1 1 25859 20170613180545
+185.48.36.16 0 1 471757 
+176.59.204.19 2 2 64100 20170601173206
+5.141.192.102 9 166 8762115 20170617111113
+62.177.42.62 8 113 4517704 20170628120007
+83.169.216.194 1 1 622 20170621170712
+193.169.111.3 6 122 5158394 20170602112258
+213.87.161.18 0 1 471757 
+217.66.159.180 0 1 471757 
+37.112.9.94 26 338 13171726 20170629060853
+46.56.188.7 0 1 471757 
+77.43.190.128 4 107 4218259 20170617101404
+176.59.203.92 4 106 4211243 20170626173619
+78.85.229.99 0 1 471757 
+95.72.146.60 0 2 943514 
+66.102.9.41 0 21 1467769 
+93.78.13.254 0 3 237543 
+176.195.187.96 2 108 5066374 20170617053845
+46.191.225.26 0 1 92021 
+178.137.24.119 0 1 471757 
+176.59.211.131 4 107 4218259 20170608090335
+176.59.200.130 4 109 4478639 20170601072331
+188.168.215.40 0 1 92021 
+89.148.245.182 6 111 4281437 20170626210241
+217.118.83.199 4 109 4478639 20170619180527
+176.59.198.239 0 1 523 
+213.87.249.249 4 107 4218259 20170618100633
+46.146.8.51 6 137 6750969 20170607201420
+5.164.100.70 3 23 166746 20170628031344
+5.141.91.2 0 1 471757 
+213.87.240.145 2 20 766282 20170624080110
+95.108.133.231 2 3 156121 20170628214210
+195.24.133.139 0 1 92021 
+46.200.169.237 0 1 471757 
+46.146.155.166 8 135 4813041 20170612124537
+199.30.25.159 0 2 42496 
+78.137.36.149 0 1 471757 
+213.222.239.94 1 49 7685845 20170622154126
+185.104.213.127 0 1 471757 
+142.54.183.226 2 2 34500 20170603145340
+46.146.199.109 11 140 5138143 20170615195607
+176.59.202.94 4 107 4218259 20170613083418
+46.146.16.141 4 109 4252737 20170612160037
+82.118.128.3 11 339 20060221 20170621161958
+94.51.254.200 4 108 4183951 20170613173443
+5.141.210.95 0 1 471757 
+46.146.40.56 4 106 4211243 20170607140050
+37.112.9.185 10 216 10501196 20170606160658
+178.150.31.6 1 1 63478 20170608075400
+92.246.221.161 0 1 471757 
+31.207.69.23 0 1 92021 
+46.146.30.167 8 216 8435596 20170605085215
+109.248.190.181 0 1 125771 
+217.118.95.81 0 1 92021 
+65.55.210.114 0 2 10512 
+46.176.118.30 1 60 2720795 20170620013138
+212.26.236.25 0 1 92021 
+46.146.209.82 16 246 9124100 20170627154530
+37.215.64.62 1 58 3696985 20170612235906
+176.125.110.193 0 1 92021 
+5.44.172.77 0 1 471757 
+188.43.116.9 0 1 92021 
+178.161.137.198 4 107 4182859 20170628101037
+46.146.108.68 1 58 3696985 20170611205301
+35.188.146.119 1 1 63478 20170615195700
+195.211.23.210 0 6 628914 
+70.35.195.117 1 1 63478 20170611045307
+46.146.0.123 8 216 8470996 20170625223259
+85.140.76.0 1 1 63478 20170611202037
+88.147.173.79 0 1 471757 
+37.115.187.118 63 63 3999114 20170615144525
+188.255.16.110 1 70 3696261 20170624013829
+79.174.36.172 0 1 471757 
+95.37.98.194 0 1 114447 
+213.87.248.60 8 217 9224405 20170607143937
+46.146.36.52 1 1 622 20170604120322
+176.59.202.170 1 1 622 20170607075033
+46.146.4.10 4 107 4182859 20170624191740
+46.146.112.118 1 1 25859 20170620122404
+217.118.81.20 1 58 3696985 20170628124722
+93.183.253.180 0 1 471757 
+46.146.141.218 6 198 8392226 20170613185257
+2.93.60.163 4 107 4182859 20170602155523
+188.121.208.189 0 1 471757 
+185.137.17.43 0 1 471757 
+217.118.83.206 4 107 4218259 20170602102230
+93.90.82.122 0 1 429716 
+179.199.244.234 0 1 102659 
+94.143.245.242 0 1 92021 
+178.165.69.94 0 1 471757 
+2.95.228.74 0 1 471757 
+46.147.42.120 4 109 4443239 20170619211619
+217.118.83.178 4 110 5258418 20170602135900
+213.87.240.156 1 1 622 20170606124842
+5.141.192.22 8 214 8401118 20170620175157
+188.19.127.187 0 1 471757 
+46.146.206.114 6 137 6617762 20170607143905
+176.59.215.212 6 111 4542739 20170610103423
+85.93.49.34 0 1 125771 
+46.211.230.69 0 1 471757 
+77.43.154.101 4 109 4478639 20170602163838
+115.88.236.234 1 1 63478 20170605201140
+93.81.154.3 1 48 5367839 20170602160533
+46.146.200.132 4 107 4182859 20170614085939
+95.108.141.70 4 107 4182859 20170623161349
+85.140.78.241 1 1 622 20170602151113
+212.33.244.226 1 49 7682834 20170605121908
+128.0.30.97 0 1 471757 
+176.212.72.51 0 1 471757 
+213.87.241.104 1 1 622 20170624224743
+94.25.177.151 6 6 3480 20170617095459
+176.59.205.114 4 106 4211243 20170623094131
+91.235.112.130 4 110 5219496 20170623082546
+178.44.124.173 0 1 92021 
+5.168.14.144 1 22 63478 20170615234159
+87.117.16.170 0 1 471757 
+188.255.121.190 3 16 93413 20170610080335
+46.146.0.73 7 134 4629305 20170610201326
+176.59.212.49 4 75 3036438 20170607185136
+31.173.103.89 4 111 5265434 20170608123348
+94.25.179.199 5 135 4545987 20170608200914
+80.64.102.202 0 1 471757 
+5.141.198.128 0 1 471757 
+37.214.55.165 0 1 471757 
+207.236.155.100 1 1 63478 20170612014005
+188.68.5.201 4 107 4182859 20170615153551
+95.211.230.94 1 1 63478 20170626175700
+46.147.4.128 1 58 3696985 20170615215325
+199.30.25.151 1 2 4074 20170626163518
+176.59.215.105 4 61 2470477 20170601131031
+5.206.91.231 0 1 471757 
+188.16.121.213 8 8 253912 20170614072326
+213.87.240.86 10 138 4859158 20170627190233
+217.118.81.17 0 1 57503 
+46.151.110.158 0 1 471757 
+66.102.9.43 0 20 945705 
+5.166.72.42 0 1 92021 
+46.146.200.37 4 107 4182859 20170601100622
+176.59.214.171 4 42 625907 20170620064210
+178.22.41.50 12 319 12640745 20170607111651
+213.87.248.4 4 107 4218259 20170630201701
+85.140.76.49 2 12 121720 20170613204257
+176.59.196.76 4 106 4211243 20170629105541
+85.140.78.3 4 107 4218259 20170622235212
+79.141.59.119 1 1 622 20170618161155
+46.216.185.170 0 1 471757 
+176.59.193.23 4 108 4245721 20170607173206
+176.212.149.198 0 1 92021 
+46.146.34.48 5 134 6454567 20170621211850
+195.19.179.226 4 107 4182859 20170611120252
+199.30.25.132 0 2 8956 
+89.179.6.204 1 58 3696985 20170614194505
+46.146.164.112 4 109 4217337 20170623010251
+93.185.185.64 0 1 92021 
+77.35.20.242 0 1 92021 
+5.166.190.103 4 107 4182859 20170619161325
+85.140.79.166 4 106 4217736 20170610205423
+213.87.240.74 9 134 4835031 20170628111011
+46.146.4.95 2 2 1244 20170607060205
+82.145.221.194 0 1 471757 
+37.112.198.234 0 1 471757 
+46.147.44.54 4 4 144962 20170618165257
+91.244.45.165 0 1 471757 
+93.78.248.103 0 1 77461 
+46.146.112.32 6 111 4281437 20170604123328
+176.59.47.38 4 94 3936004 20170629171814
+176.59.200.85 4 110 5006146 20170624104006
+94.243.69.147 0 1 471757 
+193.34.144.236 12 12 705051 20170619100537
+213.87.248.17 4 106 4211243 20170603122655
+46.146.108.24 2 2 1244 20170622081151
+46.146.40.30 10 218 9470653 20170607100804
+46.146.27.183 4 107 4182859 20170612043806
+95.27.248.182 1 2 12954 20170606105446
+46.146.20.126 9 115 4494398 20170621190754
+31.42.218.71 0 1 471757 
+89.148.196.46 4 111 5220588 20170630091155
+176.98.29.73 0 1 395911 
+46.146.152.178 5 110 4217707 20170609171904
+199.30.24.215 0 1 728 
+5.166.184.30 8 209 8630375 20170603163306
+176.59.198.153 4 107 4218259 20170615143945
+91.204.228.62 2 2 132694 20170622051112
+46.146.20.112 1 75 622 20170627113220
+62.16.49.196 1 1 622 20170624100728
+5.157.38.35 1 1 63478 20170612005741
+46.146.190.6 1 49 7685845 20170607182257
+194.190.5.141 14 328 13660944 20170628074915
+95.190.253.132 0 1 471757 
+185.26.180.79 4 111 4447805 20170613201809
+37.112.9.149 4 106 4211243 20170630145001
+178.44.99.254 0 1 92021 
+85.140.76.71 5 96 4895855 20170616182817
+109.86.72.163 1 1 63478 20170623153812
+212.33.238.57 0 1 92021 
+46.146.8.75 4 107 4218259 20170609154835
+83.234.207.33 0 2 109234 
+176.59.68.215 0 1 471757 
+2.62.0.148 0 1 92021 
+46.173.15.11 2 2 126956 20170622065324
+195.239.148.139 7 112 4444325 20170613072153
+46.146.16.1 1 1 622 20170606085648
+176.59.142.85 0 1 471757 
+5.16.104.202 0 1 471757 
+85.140.79.64 4 80 2945167 20170620183114
+77.87.207.197 0 1 471757 
+199.30.24.138 1 2 836 20170630062938
+213.87.240.224 0 1 230604 
+65.55.210.5 0 3 25605 
+188.17.149.153 8 214 8365718 20170620121304
+94.50.8.43 7 91 3751607 20170626153203
+95.152.63.209 0 1 471757 
+46.254.166.38 0 1 471757 
+37.215.177.74 0 2 275942 
+94.50.0.191 13 240 5809184 20170629141251
+83.172.25.172 0 4 348816 
+109.187.95.20 0 1 92092 
+93.78.239.37 0 1 471757 
+141.226.169.214 0 1 261811 
+40.77.178.146 0 1 110061 
+176.59.199.212 4 107 4218259 20170618144959
+188.17.243.221 0 1 471757 
+5.166.178.159 4 109 4252737 20170620072006
+31.192.152.42 0 2 943514 
+46.188.26.225 1 1 63478 20170627000227
+195.211.23.206 1 6 236530 20170629122231
+5.141.236.235 0 1 138412 
+199.30.24.69 0 3 254239 
+185.99.11.116 0 1 429716 
+46.146.4.37 0 3 21516 
+199.30.25.165 0 3 30378 
+93.171.62.106 0 1 52688 
+2.93.162.38 4 107 4182859 20170606152121
+176.59.209.73 1 1 622 20170616094102
+78.85.74.156 0 1 471757 
+176.59.206.108 4 110 4512025 20170612192602
+178.129.205.79 0 1 471757 
+212.33.238.54 4 54 1719159 20170618212949
+109.198.170.46 0 1 471757 
+176.59.196.234 6 109 4219503 20170624181747
+46.146.112.40 1 1 25859 20170617092233
+109.120.6.253 0 2 597528 
+213.177.121.30 1 1 63478 20170624133707
+212.33.245.118 4 107 4182859 20170621141017
+90.150.183.45 16 250 10171275 20170628145641
+178.141.55.190 0 1 92021 
+5.19.176.125 0 1 86715 
+91.246.25.1 4 107 4182859 20170630130600
+175.139.134.74 0 1 102659 
+89.250.222.10 4 107 4182859 20170616093838
+176.59.199.146 1 1 622 20170626200110
+212.76.180.233 8 148 5293015 20170620112351
+46.146.16.246 6 109 4246959 20170618225955
+80.92.238.45 0 1 64898 
+195.211.23.216 0 4 210779 
+213.87.248.231 1 1 622 20170622142604
+94.25.181.193 11 138 4996465 20170626223630
+217.118.83.146 3 107 4180269 20170614111156
+107.167.108.185 0 1 471757 
+193.169.111.245 4 108 4245721 20170617125511
+90.151.39.19 4 107 4182859 20170621220858
+94.233.169.203 0 1 92021 
+62.16.41.39 4 107 4182859 20170613093447
+37.204.58.171 0 10 21482 
+193.110.17.221 0 1 90212 
+83.220.236.161 0 1 471757 
+195.19.184.79 4 109 4443239 20170601221905
+87.253.4.79 0 1 471757 
+109.206.177.104 1 1 25859 20170604211333
+5.145.203.236 0 1 471757 
+37.213.2.44 0 2 0 
+195.230.144.227 0 1 92021 
+94.50.8.106 5 110 5313332 20170628174537
+82.145.222.3 1 58 3696985 20170614092721
+94.50.5.157 6 115 4258173 20170623101333
+194.186.248.86 0 1 471757 
+5.141.226.153 0 1 92021 
+188.170.74.145 0 1 471757 
+46.146.112.61 4 105 4210720 20170621085240
+85.140.77.70 4 106 4211243 20170606094802
+85.140.78.103 4 109 4252737 20170612113821
+94.50.3.222 4 106 4211243 20170613191319
+199.30.24.133 0 1 38636 
+198.96.155.3 1 1 63478 20170624224431
+5.141.8.171 4 59 2126302 20170603213255
+5.141.194.91 1 1 622 20170628061938
+37.112.10.209 1 49 7685845 20170621072505
+150.70.188.171 1 1 63478 20170613121007
+85.26.235.159 0 1 96252 
+31.173.81.84 0 1 471757 
+178.161.145.82 4 107 4218259 20170626100658
+213.87.127.22 0 1 471757 
+94.50.5.224 4 109 4217337 20170621073352
+77.223.74.133 0 1 92021 
+188.16.81.9 4 106 4211243 20170610124046
+46.146.218.56 13 238 9755048 20170609140722
+188.16.127.166 4 44 2477002 20170629144940
+83.169.216.78 2 2 63478 20170614103458
+37.112.10.58 4 107 4182859 20170621220400
+217.118.83.221 6 202 7798010 20170628080042
+109.194.155.9 10 219 8723584 20170626141306
+95.27.122.233 0 1 471757 
+176.59.198.3 4 107 4218259 20170630112755
+95.108.141.44 4 29 637198 20170612155421
+176.59.205.131 4 106 4211243 20170623140839
+2.95.64.42 1 1 54867 20170616204016
+67.7.193.96 0 1 47890 
+93.181.220.132 0 1 471757 
+95.188.165.36 0 1 471757 
+5.35.52.210 8 135 4813041 20170623104346
+37.112.10.115 2 2 1244 20170625105858
+95.30.213.68 0 1 471757 
+46.146.147.14 2 6 92166 20170610092715
+31.220.186.135 0 1 471757 
+95.153.128.130 0 1 125771 
+83.169.216.28 6 110 4248051 20170619124438
+195.211.23.215 0 6 445318 
+46.146.19.121 4 106 4211243 20170610061047
+46.146.220.130 5 108 4309730 20170606165817
+2.135.199.6 0 1 471757 
+195.19.173.212 12 270 10131331 20170614100955
+37.140.189.222 0 1 429716 
+46.146.118.145 4 107 4182859 20170619172109
+82.145.221.177 4 107 4218259 20170616110351
+85.140.78.87 6 111 4316837 20170614100703
+176.59.194.135 1 1 622 20170601150756
+92.47.51.56 0 1 57503 
+80.95.44.47 0 1 92021 
+178.89.25.162 0 1 92021 
+163.172.4.153 5 5 317390 20170623065214
+2.93.163.2 5 110 4217959 20170615085933
+46.147.47.104 12 12 657685 20170613064119
+2.93.226.56 4 4 149861 20170613184736
+213.87.249.189 7 116 4354666 20170612170954
+46.146.16.39 5 65 7902857 20170613093938
+86.57.226.24 0 1 471757 
+188.191.23.92 0 1 471757 
+188.232.11.30 0 1 471757 
+77.43.157.164 4 107 4218259 20170625093306
+85.140.76.54 1 1 622 20170627172146
+37.114.3.50 0 1 471757 
+37.44.88.184 0 1 471757 
+46.146.92.214 6 137 6715569 20170604230242
+31.173.82.29 0 1 471757 
+185.81.157.124 6 6 380868 20170630113710
+46.146.152.143 5 183 7370003 20170626155357
+31.173.242.83 0 1 92021 
+88.147.238.120 0 1 471757 
+85.198.185.138 2 61 4666358 20170623084634
+178.121.48.175 0 1 92021 
+199.30.24.155 0 1 758 
+5.141.194.69 1 76 3187144 20170627143934
+46.146.165.10 5 108 4246337 20170623225241
+5.45.235.93 1 1 63478 20170602130836
+46.242.77.172 1 18 116934 20170618012422
+94.51.251.73 4 110 5258418 20170620210738
+217.197.112.84 2 2 126956 20170601083031
+31.173.101.109 4 6 126956 20170620134926
+91.190.178.248 0 1 92021 
+85.140.76.128 6 111 4253729 20170619133807
+37.115.119.116 1 1 66347 20170626090006
+176.209.195.19 0 1 58732 
+91.207.147.39 0 1 471757 
+31.132.182.76 0 1 471757 
+199.30.25.83 1 5 139889 20170617195900
+213.87.224.187 0 1 471757 
+212.33.239.73 8 113 4345285 20170629135210
+37.140.189.233 4 108 4183951 20170608122523
+212.164.114.154 0 1 92021 
+178.121.65.228 0 1 471757 
+94.51.254.235 4 106 4211243 20170620074630
+47.192.189.97 0 1 471757 
+82.145.222.69 4 107 4218259 20170609143435
+94.50.1.172 6 136 6534679 20170602154413
+217.118.83.252 1 1 622 20170613181850
+5.141.228.170 1 31 4262282 20170614085946
+94.50.2.179 8 113 4345537 20170626183042
+176.49.164.65 0 1 92021 
+82.145.220.120 12 139 4886766 20170628131907
+79.141.54.182 3 3 1866 20170629093753
+5.141.230.15 4 113 4204453 20170625080655
+46.146.108.102 1 49 7685845 20170610102901
+178.120.67.231 0 1 471757 
+89.179.15.203 1 49 7685845 20170627093148
+95.27.74.85 1 99 3537148 20170621094652
+95.108.225.225 0 2 563778 
+46.146.130.86 15 143 5196219 20170604155151
+85.140.78.17 4 107 4218259 20170615193621
+194.146.231.203 0 1 471757 
+46.146.35.223 6 108 4275343 20170608070730
+91.235.178.37 0 1 92021 
+37.157.215.175 0 2 115104 
+188.17.157.31 4 107 4182859 20170608122226
+185.66.252.9 0 1 37492 
+195.161.2.206 2 2 126956 20170622054226
+46.146.108.22 6 116 5307856 20170619174621
+176.59.195.206 2 2 1244 20170608152356
+176.212.140.59 0 1 92021 
+95.108.133.197 0 1 471757 
+192.187.100.58 2 2 126956 20170613152212
+31.163.234.125 0 1 92021 
+94.51.250.142 10 14 380868 20170621195723
+98.143.36.24 4 4 253912 20170622173542
+178.47.136.134 7 110 4247581 20170602063112
+141.0.12.236 8 222 8727706 20170609200741
+213.87.144.94 0 1 86715 
+109.248.181.122 0 1 471757 
+176.50.163.25 0 1 92021 
+91.236.204.93 0 1 471757 
+188.232.36.10 0 1 471757 
+185.185.121.50 0 1 471757 
+46.146.31.155 4 107 4182859 20170622124339
+46.146.9.196 5 108 4246337 20170616094145
+46.146.151.136 4 107 4182859 20170611133928
+46.146.4.104 4 107 4218259 20170610084434
+176.192.82.126 0 1 471757 
+2.73.86.191 0 1 92021 
+95.139.134.219 0 1 92021 
+217.118.83.223 4 107 4303264 20170615135406
+188.170.80.152 0 1 445772 
+80.95.45.194 0 1 471757 
+212.96.82.160 0 1 92021 
+176.212.16.39 0 1 125771 
+82.145.211.113 4 112 4377975 20170610234609
+87.255.2.209 0 1 471757 
+46.146.40.196 4 107 4182859 20170603064838
+194.152.37.181 0 1 113532 
+31.173.103.65 7 110 4338199 20170624102816
+5.141.231.3 8 216 8394272 20170618195426
+188.17.116.211 0 1 471757 
+5.140.233.161 4 107 4182859 20170618100100
+176.193.180.43 1 9 100859 20170620143153
+145.255.3.12 0 1 471757 
+195.19.177.233 5 108 4246337 20170616134245
+94.50.1.80 4 110 4224353 20170620211519
+94.25.183.94 4 109 4252737 20170601210324
+85.140.76.186 4 106 4211243 20170615062608
+37.140.189.208 4 106 4039958 20170628213721
+109.124.97.162 0 1 471757 
+78.85.250.69 0 1 471757 
+178.69.231.82 0 1 471757 
+213.108.181.53 2 2 129825 20170629193652
+91.122.212.193 0 1 381568 
+46.151.104.165 0 1 471757 
+5.166.168.100 4 110 4224353 20170616135814
+5.138.45.175 0 4 703272 
+199.30.24.2 0 2 19281 
+213.87.249.221 4 106 4211243 20170618101733
+89.250.218.124 8 111 4311059 20170601122732
+177.65.69.148 0 1 102659 
+109.162.67.12 33 33 2094774 20170615125728
+46.146.244.213 4 110 5219496 20170605063610
+185.54.179.23 0 1 92021 
+46.146.20.19 4 6 162678 20170609073524
+213.87.248.120 2 2 64100 20170612160652
+95.213.143.160 3 3 89731 20170627113857
+5.141.194.50 0 1 471757 
+176.195.165.79 1 61 7699236 20170618183555
+176.59.203.103 5 81 2965547 20170616143340
+95.108.133.225 4 107 4218259 20170609080331
+46.48.19.27 0 1 471757 
+95.54.38.244 0 1 471757 
+213.202.254.136 1 1 63478 20170617145649
+92.113.35.181 0 1 92021 
+148.251.186.75 2 2 126956 20170617093039
+188.19.104.58 4 109 4217337 20170626164958
+31.173.103.52 4 107 4218259 20170623105042
+217.118.91.76 0 2 563778 
+37.29.41.125 0 2 615685 
+95.69.239.246 0 1 471757 
+31.173.81.106 4 105 4210720 20170627060107
+46.146.198.151 4 107 4182859 20170620191014
+37.113.172.35 0 1 92021 
+94.50.1.176 4 62 7888236 20170628141301
+188.19.16.169 1 49 7685845 20170619203319
+77.43.180.108 4 110 5219496 20170615152159
+83.97.108.111 0 1 471757 
+128.73.70.202 4 107 4182859 20170615213046
+188.168.156.174 0 1 125771 
+212.106.55.30 0 2 563778 
+178.72.71.57 0 1 471757 
+35.194.130.198 13 13 825214 20170621170259
+185.156.172.134 1 1 63478 20170623031031
+87.253.25.13 0 1 471757 
+88.81.212.14 8 114 5261992 20170613125859
+5.141.231.214 4 109 4478639 20170618101405
+46.147.10.21 4 106 4211243 20170602124949
+213.176.233.71 0 1 471757 
+46.36.2.154 0 1 92021 
+46.61.242.0 0 1 92021 
+188.170.80.231 0 1 471757 
+85.26.186.187 0 1 471757 
+212.33.247.136 6 109 4246959 20170601161516
+46.146.36.28 8 113 4505761 20170619170939
+37.215.148.42 0 1 471757 
+176.59.194.186 4 108 4510410 20170615135307
+95.108.133.232 0 1 471757 
+52.33.85.9 1 2 69776 20170605153518
+178.120.102.158 0 1 90693 
+46.146.40.94 4 108 4245721 20170615172556
+78.159.233.133 5 134 6454567 20170606130245
+78.25.16.172 0 1 471757 
+85.140.78.164 4 107 4218259 20170613123908
+176.114.208.115 0 1 92021 
+46.147.57.54 4 91 3722140 20170630103340
+91.147.8.4 0 1 471757 
+46.146.166.93 4 110 5258418 20170625231534
+94.179.42.240 0 1 471757 
+5.188.92.2 1 1 17439 20170607185710
+91.235.12.224 0 1 92021 
+188.235.60.177 0 1 471757 
+213.87.241.237 3 35 438068 20170610114452
+31.173.242.223 0 1 429716 
+46.148.55.109 0 1 471757 
+150.70.173.46 1 1 66347 20170623134750
+176.59.198.217 4 107 4218259 20170627102247
+178.205.77.234 0 1 471757 
+178.158.134.68 0 1 471757 
+109.201.188.183 0 1 471757 
+92.255.135.40 1 1 622 20170604154808
+93.90.101.178 0 1 187000 
+77.120.231.118 0 1 471757 
+94.50.7.63 5 108 4183481 20170608120745
+82.208.124.61 0 1 92021 
+199.30.25.54 0 1 57823 
+5.141.230.30 4 107 4218259 20170606153116
+109.61.149.171 0 1 471757 
+46.146.16.115 8 114 4640225 20170617115743
+188.32.104.242 1 49 7685845 20170602175707
+79.139.222.183 0 4 34453 
+95.213.218.206 4 107 4182859 20170605205102
+176.59.206.45 1 1 622 20170624124609
+85.140.77.114 0 1 38034 
+195.122.253.210 4 107 4182859 20170626233429
+176.59.209.169 4 107 4218259 20170617164453
+178.44.149.171 0 1 471757 
+62.78.87.25 0 1 471757 
+37.76.150.169 4 54 1950066 20170601201309
+46.146.244.65 4 107 4182859 20170602122110
+178.185.82.94 0 1 471757 
+51.15.37.18 2 2 126956 20170615001057
+213.87.240.24 0 1 471757 
+217.118.83.140 1 58 3696985 20170620145635
+46.158.179.80 0 1 92021 
+82.208.126.39 0 1 58814 
+46.37.128.31 0 3 1113030 
+212.33.244.190 9 217 8400566 20170621174902
+89.148.199.229 4 107 4182859 20170616113648
+46.146.40.22 4 109 4447516 20170630195458
+94.51.95.122 1 58 3696985 20170621121053
+95.220.196.216 1 17 102649 20170627233814
+187.177.117.146 1 1 63478 20170628161854
+178.46.128.50 0 1 471757 
+82.208.124.73 0 1 471757 
+46.235.158.196 6 6 295477 20170619124741
+89.20.112.10 9 174 7621799 20170605063723
+213.87.144.42 4 107 4218259 20170626174635
+46.146.212.239 2 6 852510 20170601110048
+178.161.152.75 11 140 4912241 20170608070623
+94.50.7.154 6 108 4212487 20170630062647
+213.87.249.64 4 107 4218259 20170619165019
+171.33.253.241 0 1 2233543 
+176.59.198.2 4 106 4217736 20170621093104
+94.50.5.71 4 107 4182859 20170625140249
+82.145.222.4 11 11 320870 20170626193009
+178.161.217.65 4 111 4532980 20170607221438
+95.31.71.123 4 107 4182859 20170628212026
+31.173.83.121 0 1 471757 
+31.173.103.231 4 107 4218259 20170621083809
+46.148.220.92 0 1 471757 
+130.211.207.144 1 1 63478 20170616174037
+37.212.201.44 0 1 471757 
+212.109.29.13 0 1 471757 
+178.19.251.184 0 1 471757 
+46.146.20.78 1 58 3696985 20170613065057
+178.161.143.98 3 31 575792 20170611174908
+62.213.53.24 0 2 313304 
+89.148.245.105 1 49 7685845 20170615001446
+91.203.238.146 15 249 11053368 20170627093813
+13.78.57.98 2 2 126956 20170624103532
+193.34.165.244 0 2 943514 
+178.170.233.33 1 1 622 20170605121624
+141.0.13.73 19 459 14762000 20170625222303
+145.255.21.25 0 2 943514 
+213.59.201.50 0 1 471757 
+158.69.229.6 2 9 86193 20170607185958
+37.73.207.44 0 1 86715 
+5.144.96.254 6 134 6500201 20170615232315
+85.30.248.113 3 23 169143 20170618102801
+176.49.221.225 0 1 471757 
+46.151.7.253 0 1 92021 
+217.118.83.205 4 106 4211243 20170608143859
+176.59.107.42 0 1 471757 
+176.59.197.12 4 107 4218259 20170620192104
+188.187.196.6 0 1 471757 
+46.146.61.142 11 220 8507334 20170606165347
+46.146.218.170 1 41 2591618 20170622131733
+89.185.74.122 4 107 4182859 20170628115203
+82.121.15.216 0 1 102659 
+46.173.15.4 1 1 63478 20170622053515
+176.59.206.173 4 106 4217736 20170618194833
+80.64.101.195 0 1 471757 
+217.118.83.179 8 104 4218361 20170622142307
+83.219.146.59 0 1 471757 
+95.52.6.42 0 1 471757 
+93.190.203.60 0 2 943514 
+37.44.86.62 0 1 471757 
+80.234.35.98 0 1 471757 
+212.33.227.27 4 107 4182859 20170623074916
+83.220.237.122 4 107 4218259 20170624235703
+176.8.91.225 2 2 109734 20170612105418
+90.150.183.39 4 106 4211243 20170602185632
+176.59.199.225 4 106 4211243 20170615235833
+66.102.9.142 5 146 7885124 20170629092345
+150.70.173.43 1 1 63478 20170616112527
+176.59.212.54 4 106 4211243 20170611174753
+213.87.249.192 1 11 82466 20170615064647
+83.99.197.225 0 1 471757 
+95.220.199.41 2 9 68076 20170626134751
+94.50.3.156 1 46 3436744 20170629085159
+46.146.89.46 9 115 4299349 20170604154205
+46.146.214.53 1 41 1536299 20170606121914
+46.211.156.138 0 1 92021 
+46.147.2.183 2 2 64100 20170605154905
+46.146.0.15 1 60 3699597 20170628211919
+5.141.230.231 4 108 4183951 20170614104919
+217.118.83.137 1 1 622 20170630164354
+141.101.200.169 0 1 429716 
+87.243.47.208 0 1 92021 
+46.146.78.157 4 107 4218259 20170608175810
+195.19.179.95 4 107 4182859 20170603134547
+46.147.41.102 4 107 4218259 20170618144330
+31.173.243.15 0 1 471757 
+37.215.2.189 0 1 471757 
+91.231.197.22 4 107 4218259 20170604020202
+95.213.218.48 8 113 4410373 20170622125608
+176.59.193.218 4 107 4218259 20170618073529
+5.44.172.60 0 1 471757 
+84.53.198.74 0 1 471757 
+178.47.142.36 8 206 8336609 20170630125751
+212.192.92.23 4 108 4471623 20170625170938
+94.25.182.253 4 106 4211243 20170602083610
+5.43.154.64 0 1 92021 
+178.161.130.214 16 325 12676777 20170623130327
+5.166.196.36 0 1 471757 
+5.140.93.202 1 49 7685845 20170604232856
+37.29.40.181 0 1 92021 
+176.59.212.34 1 1 622 20170620131246
+178.72.99.245 0 1 110061 
+85.140.6.192 0 1 471757 
+37.212.99.248 0 1 92021 
+78.106.36.90 0 1 471757 
+83.142.160.33 4 4 253912 20170608110715
+188.255.42.90 0 1 429716 
+176.59.138.187 0 1 471757 
+46.146.108.109 1 1 25859 20170613050549
+85.140.79.46 5 22 522134 20170615060952
+176.59.204.57 4 108 4471623 20170619163511
+5.136.92.66 0 1 471757 
+85.140.78.149 6 28 246308 20170629150228
+46.146.137.27 8 212 8422486 20170610091320
+199.30.25.152 0 4 219655 
+178.161.243.125 4 110 5196648 20170610121504
+85.26.235.181 0 1 112572 
+188.17.157.128 4 109 4217337 20170610120423
+85.175.73.93 0 1 471757 
+199.30.25.75 3 104 4158550 20170601070622
+82.162.10.246 0 1 92021 
+83.149.19.184 0 1 471757 
+37.79.249.254 1 49 7685845 20170623182738
+176.59.210.210 0 1 753409 
+188.234.48.0 0 2 184042 
+93.85.42.226 0 1 92021 
+195.110.47.217 0 1 471757 
+91.122.209.120 0 1 471757 
+176.59.202.173 4 52 1324204 20170604132235
+46.146.0.104 4 118 7445688 20170620090449
+85.117.117.160 0 1 77461 
+46.146.8.112 11 164 7085993 20170616103018
+5.141.195.163 5 159 7854971 20170625184025
+204.13.201.139 0 11 170143 
+188.166.25.149 0 1 92021 
+199.30.25.62 0 2 95866 
+94.25.176.206 4 107 4218259 20170628115141
+213.87.121.77 0 1 471757 
+176.60.45.5 0 1 367684 
+31.173.81.253 0 1 471757 
+83.69.0.23 0 1 36723 
+217.118.83.232 1 2 1714 20170605175421
+95.135.121.125 0 1 471757 
+128.74.247.243 1 18 116934 20170624120605
+66.249.93.73 0 1 471757 
+81.4.254.27 3 78 3278918 20170616092736
+77.43.146.124 4 110 5196648 20170620181519
+85.117.120.149 0 1 92021 
+195.138.89.203 1 1 63478 20170605115220
+89.179.4.5 4 107 4182859 20170601164733
+46.72.23.133 0 1 471757 
+193.222.109.145 3 125 15353250 20170617130412
+109.86.82.33 0 3 1415271 
+176.59.192.164 1 10 81421 20170625071120
+94.25.180.162 4 106 4211243 20170614073234
+94.50.6.246 4 107 4218259 20170622211607
+188.17.90.157 4 107 4182859 20170619143559
+46.147.191.55 4 109 4478639 20170610091756
+89.185.74.47 7 136 6518667 20170623095846
+85.140.76.64 0 1 471757 
+82.145.222.135 0 1 471757 
+188.225.32.105 0 1 66300 
+217.118.83.198 3 48 90072 20170629231835
+37.61.176.187 0 1 471757 
+95.108.133.200 0 1 471757 
+93.124.7.239 0 1 471757 
+89.40.194.56 0 1 471757 
+212.97.18.154 0 1 471757 
+37.215.120.215 0 1 471757 
+62.16.45.42 4 107 4182859 20170628201457
+176.59.202.132 3 3 1354 20170608085730
+89.148.216.70 1 1 622 20170607203203
+178.161.241.137 5 135 5865564 20170606105018
+77.43.213.253 4 106 4217736 20170630153910
+176.59.214.76 4 106 4211243 20170617104626
+188.162.64.129 4 107 4182859 20170605172050
+31.173.100.52 2 3 63478 20170626121408
+37.215.133.8 0 1 471757 
+77.43.220.207 4 110 4476625 20170617200434
+178.217.46.246 0 1 92021 
+178.161.134.150 8 113 4408930 20170629073443
+31.173.243.37 0 1 16012 
+5.8.177.208 0 1 92021 
+195.19.177.56 2 2 64100 20170604142825
+213.87.241.246 15 327 13989929 20170612125520
+46.146.36.38 5 108 4246337 20170629093227
+213.87.153.127 0 1 471757 
+176.59.207.23 4 109 4510933 20170603092120
+193.160.231.248 0 1 471757 
+199.30.24.7 0 1 227281 
+176.196.67.138 1 1 63478 20170617022417
+188.166.71.138 0 1 92021 
+77.43.198.158 4 107 4182859 20170618111744
+89.250.223.50 2 49 7749138 20170628122700
+213.242.7.101 0 1 92021 
+128.73.250.18 4 109 4443239 20170617182212
+46.118.211.63 0 1 92021 
+85.248.227.163 1 1 63478 20170619202812
+79.141.54.84 4 109 4252737 20170602124608
+176.60.44.64 0 1 44836 
+178.161.172.124 4 107 4182859 20170619143109
+178.129.0.37 0 1 429716 
+89.151.178.242 0 1 471757 
+176.59.196.83 4 107 4218259 20170623084013
+207.154.249.49 0 1 471757 
+46.146.58.145 6 109 5028752 20170615093014
+178.47.131.186 4 107 4182859 20170622065217
+95.213.218.67 1 39 1247933 20170629144624
+217.107.124.52 0 1 116905 
+92.255.164.56 0 1 92021 
+213.87.240.15 4 52 1214508 20170623104135
+176.59.196.209 4 64 2356625 20170626121948
+5.141.231.122 7 138 5588846 20170604105128
+85.140.79.149 5 108 4218881 20170613121513
+185.125.112.76 0 1 92021 
+5.166.190.242 0 1 7172 
+176.59.205.254 3 3 1866 20170624061758
+188.17.148.114 4 107 4218259 20170619132915
+88.81.213.67 5 135 6541282 20170602125451
+109.111.169.35 0 1 471757 
+167.114.89.195 1 1 63478 20170627091507
+89.107.38.93 0 1 381672 
+95.28.226.165 5 129 5234492 20170627110358
+90.151.33.202 1 49 7685845 20170627154917
+46.146.129.231 4 107 4182859 20170623132626
+89.232.145.11 0 1 394996 
+128.72.212.252 6 24 264620 20170622224626
+93.75.9.222 0 1 471757 
+213.230.78.139 0 1 471757 
+93.178.69.112 0 1 471757 
+46.146.143.150 1 70 3696261 20170616125932
+46.146.36.80 3 55 1213643 20170616115443
+46.39.7.121 0 1 57552 
+145.255.3.175 0 1 471757 
+199.30.25.207 1 1 91192 20170602010005
+176.59.202.154 1 28 204920 20170623071447
+46.39.230.139 0 1 471757 
+176.59.198.135 4 106 4211243 20170624082906
+176.59.192.135 7 112 5377432 20170628220148
+178.57.227.78 0 1 125771 
+46.211.121.68 0 1 471757 
+46.146.72.240 4 107 4182859 20170602070807
+178.218.107.195 0 1 92021 
+31.207.237.231 0 1 471757 
+212.33.240.63 8 87 2954726 20170607152111
+199.30.24.130 0 1 227281 
+94.50.5.238 4 107 4182859 20170614211306
+91.201.119.226 0 1 471757 
+77.236.84.13 4 107 4218259 20170603130940
+93.85.5.204 0 1 139355 
+213.230.101.177 0 1 92021 
+217.118.83.224 2 24 370255 20170622134711
+128.68.22.67 1 1 63478 20170620044754
+93.170.1.207 0 1 471757 
+195.211.23.207 0 6 475571 
+217.118.83.181 1 1 63478 20170627155040
+46.147.59.151 10 137 4877141 20170618133215
+46.146.171.183 4 109 4252737 20170627200214
+212.75.196.153 0 1 471757 
+95.71.86.72 0 1 471757 
+5.18.201.215 3 3 190434 20170618233828
+217.69.143.217 2 4 140988 20170628075048
+217.107.124.233 0 1 92021 
+52.87.86.158 2 2 126956 20170623005138
+94.25.183.157 0 1 471757 
+2.95.39.121 1 1 54867 20170608234443
+176.59.204.191 8 113 5385526 20170609162607
+85.140.2.5 0 1 77461 
+176.59.212.78 9 136 4849063 20170606193452
+94.25.182.96 15 270 11360092 20170625164927
+217.118.83.213 8 213 8429502 20170626102157
+65.55.210.200 2 2 112165 20170602010006
+213.87.248.177 5 111 4381390 20170628075802
+79.141.53.95 4 107 4218259 20170622134706
+37.29.40.185 0 1 471757 
+91.233.49.242 0 1 471757 
+195.211.23.214 0 6 568411 
+79.173.66.68 0 1 471757 
+213.87.248.113 2 2 64100 20170611075744
+46.146.3.107 1 1 63478 20170621160403
+194.48.218.74 0 1 92021 
+77.43.190.246 4 106 4217736 20170610145837
+80.70.110.64 0 1 471757 
+5.166.169.90 4 109 4478639 20170617222153
+95.73.20.184 0 1 92021 
+128.73.28.216 7 112 4603111 20170618201304
+176.59.192.186 4 109 4252737 20170620070836
+217.118.83.191 2 2 64100 20170608212344
+77.50.13.19 0 1 19266 
+65.55.210.157 0 1 1009 
+77.37.181.12 3 12 88509 20170623085352
+109.61.214.178 0 1 471757 
+188.162.198.205 0 1 2233543 
+95.108.225.196 5 108 4040328 20170622163929
+217.118.83.156 4 110 5258418 20170625102150
+95.128.167.217 6 109 4219503 20170625224857
+176.59.201.135 1 1 622 20170609134114
+83.149.37.137 12 318 12646715 20170606223216
+188.19.97.244 4 107 4182859 20170601154313
+95.153.135.238 1 48 7682791 20170622225458
+178.47.132.146 4 111 5346837 20170606151618
+193.28.44.23 4 107 4182859 20170620080841
+94.50.8.142 4 108 4471623 20170619200806
+178.47.136.166 11 221 8499144 20170608093654
+178.219.217.93 0 1 471757 
+109.196.143.82 4 107 4182859 20170615102521
+195.58.16.149 4 107 4182859 20170629182507
+188.17.117.110 0 1 92021 
+213.87.146.26 0 1 60753 
+95.78.252.17 0 1 92021 
+91.231.187.129 0 1 471757 
+195.161.40.6 0 1 471757 
+5.141.195.151 4 107 4218259 20170611180853
+91.122.129.52 2 2 132694 20170622170159
+83.219.1.74 4 107 4182859 20170629122442
+5.166.173.156 6 110 4274421 20170602151338
+217.118.81.209 0 1 471757 
+176.59.197.96 4 107 4218259 20170630181721
+91.231.187.142 0 1 57503 
+199.30.24.56 3 16 231756 20170614085544
+85.173.247.55 0 4 1695283 
+176.59.203.185 2 2 1244 20170622203819
+89.208.69.99 0 1 471757 
+94.50.5.254 4 105 4210720 20170629210404
+46.146.112.155 3 3 1866 20170620072902
+212.109.30.106 0 1 86715 
+62.183.125.30 0 2 102200 
+95.175.97.229 2 2 126956 20170630201910
+37.112.10.116 6 145 6622373 20170608181412
+212.96.87.155 0 1 471757 
+46.146.113.5 4 109 4217337 20170624172742
+62.16.45.205 4 107 4182859 20170620112742
+85.140.0.153 0 1 471757 
+46.173.15.5 1 1 63478 20170622035336
+52.12.83.209 1 1 63478 20170605044923
+93.85.103.21 0 1 471757 
+46.173.15.15 1 1 63478 20170622055217
+109.200.100.151 0 1 429716 
+89.179.8.136 4 107 4182859 20170624220024
+46.146.8.50 4 107 4218259 20170616164407
+5.141.8.87 5 107 4218358 20170614201244
+46.147.136.48 5 108 4218881 20170613180345
+150.70.188.177 1 1 66347 20170622170307
+83.169.216.73 4 107 4182859 20170613105214
+217.118.83.231 4 106 4211243 20170625165358
+109.127.148.212 0 1 471757 
+95.170.140.116 16 16 1021386 20170604074346
+107.167.108.60 0 1 471757 
+185.156.173.38 0 1 471757 
+77.43.216.137 9 209 8136515 20170621113632
+178.47.129.236 1 1 622 20170615145336
+178.47.129.213 1 1 622 20170615134255
+199.30.25.123 0 2 23970 
+94.50.2.36 1 1 622 20170624114414
+46.146.76.203 12 168 7138813 20170615212327
+37.115.185.138 1 1 63478 20170608131733
+178.124.92.230 0 1 471757 
+46.211.69.162 0 1 471757 
+109.187.130.211 0 1 86715 
+213.87.241.116 4 107 4218259 20170627113704
+145.255.168.70 0 1 471757 
+83.169.216.165 4 108 4218782 20170628104511
+173.208.221.194 2 2 126956 20170621064016
+131.253.27.60 0 4 9501 
+217.118.83.243 4 107 4218259 20170617064816
+130.255.59.157 0 1 471757 
+35.188.134.100 1 1 63478 20170616113419
+46.146.40.64 4 107 4182859 20170610060337
+46.146.18.224 4 107 4218259 20170619220303
+46.146.48.241 1 1 622 20170602080024
+120.92.32.207 1 2 69776 20170619180630
+217.118.83.253 1 1 622 20170619132953
+95.56.167.200 0 1 471757 
+176.59.44.195 0 1 471757 
+95.161.222.94 0 1 92021 
+188.165.2.183 1 1 63478 20170609034246
+83.149.46.13 0 1 471757 
+178.137.4.41 47 47 2983466 20170629163602
+46.146.93.170 12 137 4845026 20170605214339
+5.166.184.6 3 5 98379 20170619065507
+188.116.177.85 0 1 471757 
+46.146.108.66 4 107 4182859 20170628115659
+176.59.203.243 4 106 4211243 20170624165307
+85.140.3.143 0 1 92021 
+95.108.141.78 0 1 471757 
+199.30.24.123 0 1 63311 
+77.243.183.87 1 1 63478 20170626062200
+5.141.232.233 1 1 622 20170603095858
+213.87.72.70 10 138 4878233 20170616115357
+80.249.83.52 0 1 72208 
+176.59.199.71 1 1 622 20170616133257
+84.201.148.99 1 1 63478 20170616113551
+85.140.77.28 2 2 64100 20170607174716
+95.58.168.15 0 1 92021 
+65.55.210.50 0 2 5646 
+176.59.212.233 5 122 4310874 20170612201318
+91.203.238.211 4 110 5228942 20170602122443
+217.118.83.237 12 196 8028074 20170618223727
+128.73.230.47 5 110 4253107 20170620130535
+46.146.223.139 4 108 4183951 20170601170000
+91.244.243.253 0 1 92021 
+188.19.26.37 4 107 4182859 20170621185813
+178.120.55.128 0 1 429716 
+176.59.200.237 6 108 4218980 20170620155234
+92.246.210.242 0 1 471757 
+176.59.208.163 4 107 4218259 20170614175449
+31.163.150.116 0 1 92021 
+2.93.152.24 4 107 4182859 20170621184759
+176.59.197.120 1 57 3679816 20170605193139
+91.79.142.129 4 105 4210720 20170605204524
+199.30.25.79 0 1 77461 
+95.108.133.215 1 49 7685845 20170621091008
+217.118.81.193 0 1 471757 
+37.79.250.24 5 5 3110 20170604091206
+188.170.193.203 0 1 92021 
+46.146.230.105 12 137 4864353 20170604214158
+92.101.90.79 0 1 471757 
+198.27.85.233 1 1 63478 20170622182040
+94.50.1.77 2 4 136291 20170630154722
+178.33.39.197 1 1 63478 20170627162848
+65.55.210.123 0 1 20113 
+95.108.225.205 0 2 92544 
+46.146.8.66 4 107 4218259 20170614203255
+46.146.246.1 4 4 2488 20170626093609
+5.141.195.45 4 110 5228942 20170624133903
+195.222.138.179 18 277 11487263 20170625115539
+37.122.43.159 0 1 92021 
+94.153.240.70 0 1 57552 
+46.133.114.97 0 1 471704 
+37.204.39.52 3 20 160586 20170625181750
+66.102.9.39 1 18 1375532 20170620154023
+80.234.79.92 0 1 471757 
+91.203.238.254 13 357 14350512 20170622223417
+88.200.149.186 0 1 92021 
+213.87.240.95 4 107 4182859 20170606091936
+46.146.216.108 8 218 8945142 20170616070143
+46.147.43.95 4 109 4252737 20170623051708
+5.167.126.185 2 27 501000 20170630211615
+62.183.126.234 0 1 471757 
+94.25.183.253 0 1 471757 
+79.164.132.186 3 154 6569134 20170623033649
+65.55.210.59 1 2 91464 20170625091921
+188.17.115.123 0 1 92021 
+46.146.15.42 4 107 4218259 20170618204554
+199.30.25.155 3 104 4158550 20170622090825
+37.190.37.218 0 1 471757 
+89.179.14.251 1 6 69824 20170615201623
+109.126.194.247 0 1 471757 
+94.25.177.180 5 109 4246091 20170626151047
+85.174.217.182 0 1 471757 
+94.50.2.212 4 107 4218259 20170621212341
+142.0.201.41 0 1 92021 
+195.211.23.221 1 3 71566 20170619132848
+94.230.160.66 8 8 299722 20170615160950
+213.87.249.193 4 4 2488 20170613194135
+85.255.189.201 0 1 92021 
+188.162.72.60 0 1 471757 
+195.211.236.177 0 1 471757 
+176.59.9.74 0 1 92021 
+178.161.163.52 4 108 4245721 20170602222908
+109.110.70.96 0 1 471757 
+89.250.218.120 6 183 7444274 20170606220616
+178.161.176.130 5 110 4217707 20170610170601
+46.146.97.124 5 110 4217707 20170626162531
+109.168.168.166 0 1 471757 
+185.41.154.231 4 4 253912 20170622162526
+213.87.241.103 1 1 622 20170601191809
+94.50.244.41 4 106 4211243 20170618061304
+46.146.129.139 4 107 4218259 20170621150830
+178.169.83.125 0 1 92021 
+46.146.175.168 2 2 64100 20170613182319
+109.201.92.209 0 1 471757 
+46.146.11.91 1 1 622 20170604132119
+94.50.8.230 21 269 11593704 20170606110029
+46.147.105.138 0 1 471757 
+5.19.172.91 8 207 8337701 20170621154103
+66.102.9.140 7 149 4084373 20170629093751
+46.39.247.79 0 1 471757 
+46.53.176.185 0 1 92021 
+212.96.82.94 0 1 471757 
+213.87.130.61 1 1 63478 20170626184112
+195.211.23.222 0 3 86396 
+217.118.79.19 0 1 92021 
+93.76.123.191 0 1 77461 
+89.250.217.18 4 108 4654616 20170609224839
+148.251.182.122 2 2 126956 20170618122841
+91.123.88.110 0 1 471757 
+31.173.103.80 1 48 6971362 20170602093157
+31.173.103.218 8 212 8422486 20170618125439
+213.87.159.235 4 105 4210720 20170601100541
+212.33.243.3 8 176 6612265 20170627111602
+5.166.172.135 4 110 5219496 20170618223108
+5.144.127.188 0 1 92021 
+94.51.254.98 2 2 1244 20170621180230
+173.208.249.74 2 2 126956 20170614091211
+46.146.204.32 4 107 4182859 20170629125634
+37.212.174.75 0 1 471757 
+46.146.121.8 2 2 984 20170620101548
+193.169.52.154 30 30 1904340 20170630012501
+213.87.241.147 3 3 64470 20170628152150
+87.117.189.68 0 2 943514 
+77.43.129.124 4 107 4218259 20170611105651
+217.22.168.102 18 18 1266615 20170613111027
+5.167.177.91 0 1 471757 
+89.148.194.249 3 7 153614 20170610195553
+79.126.102.64 0 1 471757 
+46.146.42.103 4 106 4211243 20170611101340
+88.99.68.199 1 1 63478 20170630173332
+46.146.20.13 3 3 1866 20170625211914
+178.161.223.8 9 60 8107648 20170601161851
+109.203.192.123 5 173 12922878 20170602090632
+79.165.21.83 0 1 85083 
+46.242.9.169 0 1 471757 
+85.174.58.19 0 1 471757 
+176.59.201.33 4 64 2291452 20170618122027
+94.25.182.129 5 31 1284255 20170626210032
+93.185.18.188 0 1 471757 
+107.167.108.62 4 109 4217337 20170601075129
+93.73.23.31 0 1 92021 
+54.244.48.9 1 2 69776 20170601164516
+89.148.212.58 6 110 4248051 20170612230608
+5.141.194.135 0 1 471757 
+46.146.108.113 4 107 4218259 20170621123132
+217.74.47.7 1 62 7702290 20170619124741
+94.51.253.94 4 108 4936268 20170609220829
+46.61.30.8 0 1 92021 
+176.59.200.128 0 1 471757 
+176.59.196.62 8 113 4317561 20170628090553
+65.55.210.68 0 1 6330 
+83.169.216.184 4 107 4182859 20170612104831
+46.146.125.156 4 107 4182859 20170619225328
+212.192.69.189 4 109 4217337 20170614112636
+31.173.101.62 4 107 4218259 20170612111628
+178.121.201.164 0 1 471757 
+213.87.241.58 4 106 4211243 20170616085332
+46.146.108.92 0 1 7172 
+178.137.192.155 0 2 943514 
+212.192.81.161 4 107 4182859 20170605082343
+85.26.164.42 0 1 92021 
+217.107.124.242 0 1 471757 
+178.161.174.206 0 1 471757 
+5.141.230.120 4 107 4182859 20170620172558
+178.47.140.244 4 107 4182859 20170616142059
+85.26.234.226 0 1 471757 
+82.140.212.91 0 1 471757 
+107.178.40.104 0 1 471757 
+37.150.5.63 0 1 92021 
+46.146.112.12 2 97 15368636 20170618190754
+212.192.81.22 4 111 5230034 20170619132608
+46.8.138.39 0 1 471757 
+194.190.5.140 10 141 6718436 20170627120905
+128.69.224.57 1 61 7699236 20170603042813
+46.146.207.178 4 107 4182859 20170613081638
+46.146.77.174 1 1 63478 20170619174238
+78.41.102.58 0 1 92021 
+46.146.16.63 4 107 4218259 20170603133938
+213.87.225.114 0 1 92021 
+95.213.218.171 4 105 4210720 20170626074137
+31.173.100.207 0 1 471757 
+5.141.195.32 3 39 1999726 20170620095614
+176.59.204.17 1 49 7685845 20170630061033
+5.166.183.118 4 107 4182859 20170603205240
+199.30.24.177 0 1 3006 
+188.255.23.139 1 9 74965 20170608222248
+46.146.96.61 4 106 4211243 20170610204508
+178.161.141.26 2 50 7752192 20170629215755
+199.30.24.236 0 2 7721 
+85.140.76.32 1 48 7682791 20170605173308
+31.173.101.97 10 137 4877141 20170605162037
+46.173.15.9 2 2 126956 20170622054729
+46.146.174.77 4 107 4182859 20170602091012
+83.149.45.131 0 1 471757 
+85.140.77.251 1 48 6650242 20170613131510
+199.30.24.200 0 1 5477 
+35.184.128.252 6 6 380868 20170630092022
+95.108.133.201 4 106 4039958 20170623101206
+91.193.172.140 1 1 25859 20170623110805
+92.126.254.136 0 1 471757 
+199.30.24.243 0 2 135742 
+78.37.38.230 0 1 471757 
+95.31.127.230 1 1 622 20170602211038
+83.220.238.254 0 1 471757 
+94.50.5.236 4 106 4211243 20170610153553
+94.50.5.48 4 107 4218259 20170617232518
+94.50.7.194 4 107 4229567 20170604071912
+188.16.72.135 6 112 4848393 20170606184700
+46.146.253.22 4 107 4218259 20170625110852
+188.163.85.17 0 1 92021 
+46.146.171.58 1 10 81421 20170627214147
+176.59.210.28 4 107 4218259 20170615162326
+87.225.63.1 0 1 414412 
+46.146.190.74 12 141 4948011 20170625085843
+78.139.232.206 0 1 471757 
+91.195.137.204 0 1 429716 
+188.17.151.142 4 107 4218259 20170616133850
+82.140.193.202 0 1 471757 
+37.76.140.132 4 108 4219351 20170619145001
+217.118.83.228 15 365 15287103 20170615125820
+91.229.233.201 0 1 2233543 
+94.25.183.215 7 110 4247581 20170608145353
+89.179.5.112 3 106 15393309 20170612210646
+37.204.73.56 2 27 501000 20170613114651
+78.106.89.71 0 1 57503 
+178.47.129.231 3 101 3836481 20170613140613
+109.195.228.199 0 1 471757 
+176.213.4.15 0 1 471757 
+90.151.32.247 0 1 96771 
+5.168.9.231 4 105 4210720 20170604083411
+213.87.241.39 10 215 4693611 20170623170840
+83.239.96.109 0 1 92021 
+178.120.81.172 0 1 471757 
+35.164.141.138 2 2 126956 20170620002943
+46.146.36.26 6 109 4282359 20170616105728
+46.146.210.83 5 110 4343956 20170610113139
+77.91.199.44 0 1 73831 
+213.87.249.246 4 107 4218259 20170603072319
+89.250.219.50 4 107 4309108 20170601105403
+94.179.1.12 0 1 92021 
+94.25.3.186 0 1 471757 
+176.59.210.187 1 1 622 20170602083245
+176.195.171.71 1 17 116515 20170622224614
+89.179.1.246 1 49 7685845 20170626212925
+89.148.235.206 4 107 4218259 20170610195648
+78.129.205.148 7 7 444346 20170623001223
+94.51.250.32 1 49 7685845 20170608185045
+94.230.141.78 0 1 471757 
+46.146.36.49 5 107 4211865 20170615193934
+213.87.248.82 3 3 1866 20170622105456
+46.49.58.239 0 1 471757 
+176.59.201.119 4 105 4210720 20170616090454
+65.55.210.125 0 3 43596 
+95.213.6.46 0 2 271962 
+176.59.202.14 4 106 4211243 20170629072717
+91.203.236.62 1 1 622 20170614144519
+188.32.239.21 1 9 74965 20170628095916
+95.163.118.198 20 20 1269560 20170630124220
+149.62.201.204 0 1 92021 
+66.102.9.5 4 119 8185255 20170602011558
+94.50.0.117 1 1 622 20170611202218
+217.118.83.136 1 49 7685845 20170630140408
+148.251.48.178 1 1 63478 20170622023720
+31.8.173.219 0 1 92021 
+188.32.42.88 4 21 251778 20170622061955
+89.188.166.7 0 1 92021 
+212.33.250.213 4 109 4217337 20170608160512
+37.112.8.29 1 1 622 20170607132935
+46.146.16.62 1 57 3679816 20170604222922
+77.43.134.123 6 124 4933800 20170608194948
+217.118.95.74 0 1 471757 
+95.31.125.54 4 109 4252737 20170606085138
+178.234.246.134 4 106 4211243 20170608111212
+46.146.8.1 4 107 4218259 20170627083002
+109.94.1.64 0 1 429716 
+62.105.129.22 0 1 471757 
+82.145.216.157 0 1 471757 
+109.184.200.118 0 1 471757 
+5.166.32.31 0 1 471757 
+31.132.178.5 0 1 471757 
+83.149.19.190 0 1 14813 
+5.141.193.47 0 1 92021 
+93.74.235.211 0 1 471757 
+176.59.212.171 4 106 4217736 20170619100437
+37.76.148.179 6 109 4282359 20170630073555
+199.30.24.156 0 4 120593 
+46.146.8.74 1 50 7685888 20170615224804
+80.245.117.59 0 1 471757 
+188.17.89.201 4 111 4523534 20170622154558
+89.250.209.86 4 107 4182859 20170628070518
+46.98.21.147 0 1 471757 
+94.50.241.41 4 108 4471623 20170616103837
+46.146.232.217 4 107 4182859 20170616115953
+176.59.0.204 0 1 157515 
+37.57.167.29 0 6 463568 
+2.93.85.26 4 107 4218259 20170601164210
+80.83.238.69 0 1 471757 
+5.166.171.83 1 1 622 20170608130247
+176.59.192.169 8 136 6564301 20170621165614
+178.120.130.32 0 1 471757 
+194.105.212.3 0 1 92021 
+176.59.199.250 4 109 4478639 20170630192103
+46.146.183.193 4 106 4175843 20170602075859
+90.150.188.101 10 268 16670562 20170630103222
+46.73.232.136 0 1 57503 
+91.221.199.113 6 109 4312684 20170616163608
+176.59.23.7 0 1 429716 
+213.151.6.72 0 1 471757 
+94.181.196.0 0 1 92021 
+85.25.201.182 1 1 63478 20170614080516
+5.164.121.143 1 70 3696261 20170616020209
+93.84.44.108 0 1 92021 
+178.234.139.200 4 100 3975814 20170625130802
+46.146.6.34 4 106 4175843 20170621063422
+94.25.181.124 4 106 4211243 20170629175037
+66.102.9.44 11 299 28368015 20170623164845
+31.173.103.185 1 1 622 20170610151438
+176.59.210.150 0 1 57093 
+89.250.217.17 7 305 11714372 20170622193601
+65.55.210.148 0 1 5950 
+170.246.96.169 0 1 16828 
+176.59.206.34 1 1 622 20170619222002
+46.146.40.19 6 111 4253729 20170620121530
+89.179.5.170 8 135 4813041 20170619040119
+176.59.119.39 0 1 471757 
+128.73.70.175 0 3 5024 
+91.237.223.222 1 42 2610884 20170607115729
+83.153.92.250 0 1 471757 
+5.141.194.239 1 48 7682791 20170630003838
+178.123.154.233 0 1 92021 
+85.26.235.201 0 1 471757 
+176.105.205.143 0 1 471757 
+176.59.197.32 7 111 4633222 20170607084100
+46.0.120.189 0 1 471757 
+88.147.152.238 0 1 471757 
+213.87.240.175 5 194 7766424 20170628143446
+188.226.129.55 1 1 63478 20170618075244
+90.150.127.243 4 107 4218259 20170629204554
+5.137.199.184 0 1 471757 
+176.59.206.217 4 106 4211243 20170627164146
+46.146.120.88 8 212 8352255 20170622073527
+213.87.248.95 13 241 9059531 20170629182142
+46.147.168.44 0 1 471757 
+85.140.77.98 1 1 622 20170617102049
+46.146.191.144 6 134 6500201 20170612140505
+85.140.0.182 0 1 471757 
+5.166.164.47 6 111 4316837 20170627114154
+31.173.103.132 0 1 92021 
+178.121.68.55 0 1 471757 
+141.0.12.56 0 1 471757 
+176.59.198.248 1 1 622 20170621203038
+77.43.208.196 2 2 1244 20170623132011
+91.204.165.243 5 134 6454567 20170623173538
+46.146.92.51 8 135 4813041 20170624174537
+185.76.10.176 0 1 92021 
+46.146.165.206 1 1 622 20170614063301
+109.202.61.236 0 1 471757 
+217.66.152.228 0 1 471757 
+95.31.68.237 10 56 1255957 20170617013813
+149.62.8.140 16 16 1021386 20170618042117
+37.79.249.22 0 1 471757 
+31.173.103.113 4 107 4218259 20170623134836
+217.118.83.186 6 111 4479883 20170609125812
+46.146.16.40 4 107 4182859 20170626092813
+46.146.235.167 5 108 4183481 20170612150843
+46.146.93.31 4 106 4211243 20170619153843
+176.59.203.227 1 1 622 20170621094614
+85.140.78.203 5 109 4246091 20170629212145
+176.113.32.48 0 1 125771 
+176.59.204.152 4 106 4211243 20170618111305
+5.141.228.16 4 107 4218259 20170627125953
+93.85.95.24 0 1 19266 
+213.24.126.167 0 1 471757 
+194.85.126.48 0 1 92021 
+66.102.9.46 9 285 9345106 20170623164653
+5.140.233.24 1 49 7685845 20170606092546
+31.173.100.71 4 108 4936268 20170621152105
+195.211.23.225 0 5 197589 
+109.173.60.190 2 27 501000 20170625045651
+65.55.210.1 0 1 23533 
+2.61.44.169 0 1 471757 
+77.43.155.114 4 109 4217337 20170618203024
+134.249.216.77 0 1 471757 
+2.94.194.64 5 107 4274721 20170611204716
+52.55.70.101 1 1 63478 20170609162224
+178.161.136.26 8 113 4345537 20170616110854
+5.45.235.84 1 1 63478 20170602135727
+87.229.143.156 5 111 4603244 20170619084432
+37.214.216.106 0 1 471757 
+62.16.47.4 4 107 4218259 20170628191441
+46.146.4.60 7 112 4342696 20170622204440
+5.141.230.233 4 108 4936268 20170610132215
+95.32.216.95 0 1 92021 
+46.146.228.178 4 108 4245721 20170627123049
+37.79.250.39 4 107 4218259 20170625201057
+46.146.185.200 5 84 8152464 20170628102803
+212.96.86.221 0 1 92021 
+176.59.201.147 1 1 622 20170610185206
+83.169.216.7 4 107 4182859 20170628085718
+93.75.42.183 0 1 471757 
+80.255.64.140 1 58 3771837 20170609144046
+46.8.118.41 0 1 471757 
+31.173.242.76 0 1 125771 
+176.59.201.106 7 113 5070616 20170619182208
+178.212.100.150 0 1 471757 
+178.205.154.154 0 1 471757 
+83.219.157.126 0 1 471757 
+213.59.160.50 0 1 92021 
+185.124.167.253 0 1 92021 
+158.181.42.175 0 1 77461 
+77.236.79.233 7 110 4310437 20170612061724
+109.196.141.135 10 139 4911619 20170606104737
+77.95.94.146 0 1 92021 
+46.147.38.173 4 107 4182859 20170628125410
+31.173.101.87 4 107 4182859 20170627065327
+46.146.214.104 2 50 7752192 20170620095244
+78.153.3.47 0 1 471757 
+195.88.58.33 0 1 92021 
+46.146.77.50 11 246 10813820 20170619135024
+212.112.119.17 0 1 471757 
+176.59.198.86 5 64 2003575 20170612152345
+217.118.78.81 0 1 366492 
+31.173.101.213 1 1 622 20170613193340
+37.79.248.119 8 111 4346459 20170629222244
+89.148.208.138 5 110 4217707 20170613123849
+5.166.175.161 4 106 4211243 20170609121759
+46.146.206.184 4 107 4182859 20170607103150
+195.211.23.219 0 3 200558 
+46.146.129.72 1 1 63478 20170615111207
+188.166.78.14 0 1 471757 
+188.168.229.106 0 1 471757 
+91.244.54.33 0 1 471757 
+94.41.160.82 0 1 92021 
+37.230.206.194 1 49 7685845 20170616174659
+189.82.81.179 0 1 113532 
+95.172.43.38 4 107 4182859 20170608145803
+178.161.238.158 6 111 4281437 20170629140251
+35.184.250.231 2 2 126956 20170623204159
+87.252.225.131 0 1 471757 
+188.255.16.153 1 70 3696261 20170618065424
+213.231.3.97 0 1 92021 
+213.87.240.21 2 51 7697412 20170624113736
+91.235.112.12 4 107 4182859 20170613101254
+185.138.206.2 4 106 4211243 20170603195555
+5.141.192.84 15 219 8433333 20170603085805
+46.146.36.37 4 108 4936268 20170615093502
+80.83.237.54 1 1 622 20170606082015
+31.173.101.12 4 106 4211243 20170609072203
+176.59.200.82 1 1 622 20170620165357
+46.146.108.108 4 108 4190031 20170616093436
+195.19.178.160 4 107 4182859 20170610104856
+46.0.217.27 0 1 116905 
+46.147.58.32 4 106 4211243 20170604061838
+94.51.253.86 8 135 4813041 20170619180315
+109.172.127.90 0 1 160362 
+46.146.108.117 10 142 6012965 20170618224217
+188.254.95.10 0 4 1507292 
+176.59.210.170 5 34 2647194 20170621103524
+37.45.156.144 0 1 77461 
+85.140.78.129 3 3 1614 20170606164203
+130.180.217.22 0 1 92021 
+92.46.76.86 0 1 92021 
+82.146.37.243 16 16 1021386 20170623001927
+178.63.151.224 2 2 126956 20170608061424
+95.30.102.103 0 1 116905 
+94.126.157.50 0 1 471757 
+176.59.204.74 4 107 4218259 20170615152953
+46.146.63.179 1 1 63478 20170616142655
+109.248.72.101 0 1 471757 
+178.161.209.15 4 111 5220588 20170604103436
+95.31.189.222 0 1 471757 
+40.77.177.87 0 4 28489 
+176.59.213.214 1 58 3696985 20170620080132
+46.146.4.5 5 108 4218881 20170621094736
+176.59.203.204 5 36 637090 20170623162712
+199.30.24.166 0 9 240632 
+195.222.143.12 1 1 63478 20170628092345
+85.174.36.200 0 1 471757 
+150.70.173.5 1 1 66347 20170627093336
+89.179.13.96 4 106 4211243 20170621170959
+176.193.145.183 1 17 76755 20170623025212
+217.66.152.98 2 2 76742 20170606224550
+189.15.245.28 0 1 102659 
+37.112.57.30 0 1 92021 
+83.149.44.133 0 1 471757 
+46.146.0.42 4 106 4217736 20170619192319
+46.146.223.63 4 107 4182859 20170629153723
+188.130.167.52 0 1 92021 
+107.167.108.72 0 1 92021 
+199.30.25.119 0 4 147586 
+213.230.76.159 0 1 471757 
+176.59.195.187 4 109 4217337 20170627144237
+94.25.229.73 0 1 92021 
+46.146.0.93 0 2 14344 
+120.92.32.214 1 2 69776 20170622204555
+188.170.83.7 4 60 2457597 20170629170818
+37.73.231.121 0 1 92021 
+91.222.221.107 0 1 92021 
+5.141.232.194 4 106 4211243 20170614081335
+82.193.99.137 0 1 92021 
+212.109.6.47 0 1 471757 
+89.179.9.78 4 108 4285922 20170624204344
+217.118.83.192 4 107 4218259 20170629215547
+46.146.239.177 4 107 4182859 20170619130540
+85.140.78.213 2 107 64100 20170619101453
+46.211.114.172 0 1 92021 
+37.73.236.105 0 1 57552 
+95.70.44.15 0 1 471757 
+178.161.217.83 4 109 4217337 20170605085838
+94.25.182.125 4 109 4252737 20170621083610
+128.72.220.54 0 1 429716 
+93.115.95.207 1 1 63478 20170617082813
+89.185.73.118 4 107 4182859 20170614084508
+31.173.103.152 2 3 63478 20170615193426
+46.133.110.170 0 1 92021 
+31.163.239.186 8 140 6812803 20170620122014
+94.25.230.39 0 1 92021 
+46.146.241.108 4 108 4239214 20170619113529
+213.87.248.252 5 106 4322880 20170608080112
+89.218.239.74 0 1 471757 
+31.131.193.14 0 1 471757 
+95.79.36.111 1 1 66347 20170627112424
+78.159.229.2 4 107 4182859 20170628090635
+178.187.42.209 0 1 429716 
+31.173.242.56 0 2 106824 
+46.146.161.96 12 218 8522308 20170612124545
+95.72.113.97 0 1 471757 
+185.13.132.48 0 1 92021 
+178.90.144.157 0 2 32986 
+5.18.207.145 0 1 429716 
+46.146.244.184 8 216 8400196 20170626133913
+46.146.217.79 4 107 4182859 20170613135839
+212.192.69.77 4 107 4051961 20170622123455
+213.24.127.239 0 1 92021 
+37.112.5.232 4 107 4182859 20170607122605
+85.234.7.243 0 1 471757 
+37.26.136.225 0 1 471757 
+46.42.25.34 0 1 471757 
+5.141.232.36 4 107 4182859 20170608082108
+217.118.95.85 0 1 471757 
+95.108.141.46 3 96 4129822 20170625071126
+176.124.146.231 0 1 471757 
+109.191.17.171 0 1 92021 
+188.40.155.139 2 2 129825 20170615113200
+54.209.248.63 1 1 63478 20170621210736
+128.73.28.231 4 107 4182859 20170627104050
+46.146.8.93 12 12 65980 20170621111322
+109.86.212.247 0 1 471757 
+176.14.217.238 1 1 63478 20170613063652
+94.50.5.179 4 109 4478639 20170601063825
+92.240.218.193 11 217 8430440 20170614151656
+46.146.122.240 1 48 7682791 20170626084133
+89.250.217.19 4 108 4183951 20170622203356
+217.65.87.186 0 1 471757 
+93.91.172.172 3 3 139841 20170626115930
+176.59.195.43 1 61 7699236 20170606140008
+46.146.210.78 9 217 8400566 20170615125619
+89.28.67.184 0 1 471757 
+66.249.93.75 0 1 471757 
+195.230.128.138 0 2 219922 
+85.140.78.63 6 109 4282359 20170622090836
+109.108.39.228 0 1 92021 
+87.243.62.8 0 1 471757 
+79.175.1.66 0 1 471757 
+94.78.208.58 0 1 471757 
+78.85.222.75 1 77 3238910 20170624154935
+90.154.68.22 0 1 471757 
+176.59.203.117 4 106 4211243 20170614160001
+5.141.8.57 4 106 4211243 20170606141109
+46.147.58.214 2 2 1244 20170622172057
+213.87.248.155 1 1 622 20170628230000
+46.173.15.6 2 2 126956 20170622041735
+128.69.27.53 1 1 63478 20170625223549
+82.145.221.243 0 1 92021 
+95.153.130.91 0 1 471757 
+185.106.29.174 1 1 63478 20170618064351
+37.192.182.175 0 1 2233543 
+176.59.206.87 1 1 622 20170616100730
+89.179.13.19 8 215 8428580 20170608095402
+89.148.243.118 2 2 1244 20170622092755
+188.18.93.189 1 58 3696985 20170610191536
+46.146.0.27 6 109 4219503 20170602084006
+40.77.178.246 0 1 227281 
+131.253.27.128 0 2 547397 
+217.116.57.146 0 1 86715 
+37.76.156.129 4 107 4182859 20170605191707
+37.73.243.231 0 1 471757 
+213.87.249.155 12 218 8528549 20170611122753
+5.137.233.85 0 1 471757 
+46.146.229.49 1 1 622 20170612201253
+217.118.83.254 4 106 4211243 20170628150151
+5.45.235.126 2 2 126956 20170612195352
+31.173.101.54 2 4 98578 20170623124831
+5.141.195.35 5 110 4253359 20170629163722
+37.190.85.119 0 1 471757 
+5.166.183.16 3 108 98948 20170626214319
+212.20.48.241 0 1 471757 
+93.185.29.96 0 1 57552 
+85.115.224.209 0 2 41239 
+5.166.178.180 5 109 4184004 20170606225446
+178.212.224.111 0 1 471757 
+85.140.78.239 4 106 4211243 20170621112537
+195.34.235.34 0 3 722224 
+91.124.57.150 0 1 471757 
+195.208.45.182 0 1 92021 
+199.30.25.37 0 3 21702 
+176.59.198.5 3 30 1146560 20170626093218
+46.175.27.135 0 1 471757 
+89.148.232.174 17 173 8066180 20170614233303
+199.30.24.44 0 1 110600 
+5.44.172.41 0 1 116905 
+94.19.9.220 2 2 89337 20170614113805
+77.43.165.37 5 109 4210691 20170611123849
+46.146.36.117 1 50 5412217 20170614195622
+178.57.236.1 0 1 471757 
+83.220.238.50 0 1 471757 
+128.68.45.226 1 61 7699236 20170627052418
+46.211.3.63 0 1 471757 
+13.58.4.238 4 4 253912 20170615102952
+95.27.251.238 1 27 2271708 20170602175155
+94.51.254.57 4 107 4182859 20170607093402
+176.59.212.244 6 111 5313954 20170619144545
+66.102.9.2 4 147 6331265 20170602151112
+176.59.213.138 4 108 4245721 20170613143807
+46.146.103.94 1 49 7685845 20170612133042
+31.162.49.65 4 107 4182859 20170619210318
+37.151.179.167 0 1 471757 
+65.55.210.49 0 4 52013 
+37.112.11.155 4 107 4182859 20170611142748
+46.173.15.16 7 7 455822 20170622055628
+95.47.200.1 0 1 471757 
+217.64.141.4 0 1 429716 
+37.29.107.30 0 1 92021 
+89.148.194.117 7 7 4354 20170620064423
+188.162.228.131 0 1 126172 
+95.79.52.109 0 1 92021 
+46.146.207.12 4 107 4182859 20170602123853
+176.59.211.212 0 1 471757 
+85.140.76.194 5 123 4304571 20170623215641
+37.146.180.206 2 108 5066374 20170619140639
+217.118.83.196 12 138 4906769 20170609193903
+217.174.237.151 0 1 24316 
+178.161.242.172 1 58 3696985 20170623132809
+176.59.192.221 5 110 4253107 20170608135057
+89.223.47.219 0 1 125771 
+85.140.76.22 2 2 1244 20170621180459
+141.0.13.187 1 65 4877445 20170603191421
+141.0.13.67 4 117 4464351 20170626142417
+77.43.143.205 4 109 4343586 20170620120339
+62.16.44.100 4 109 4185577 20170609115425
+213.87.241.63 6 109 4625584 20170613182409
+78.29.86.149 0 1 471757 
+199.30.24.4 0 1 1009 
+213.87.241.189 2 60 3683197 20170620093645
+37.73.186.96 0 1 92021 
+77.43.174.76 4 107 4218259 20170613161429
+94.25.182.208 0 1 471757 
+46.146.46.57 4 107 4182859 20170605071639
+91.203.239.18 9 113 4242324 20170624125104
+5.141.232.10 4 107 4218259 20170608132837
+5.141.232.26 1 1 622 20170629163130
+188.32.230.147 0 1 471757 
+188.232.143.166 4 21 251778 20170608222250
+46.146.65.186 8 137 4847519 20170604173104
+31.162.58.62 13 146 6373286 20170620191702
+193.178.131.1 8 137 4847519 20170607132653
+95.133.167.85 0 1 43440 
+176.59.193.120 1 1 622 20170616143434
+176.59.203.182 0 1 471757 
+150.70.173.53 2 2 129825 20170630103936
+46.146.112.104 3 3 1866 20170608152939
+85.140.78.132 2 60 7755542 20170622214436
+148.251.186.81 1 1 66347 20170613162023
+46.146.6.159 4 107 4182859 20170614154110
+46.146.69.171 6 109 4246959 20170613110720
+212.33.246.92 4 107 4182859 20170613103805
+79.141.57.69 1 48 7682791 20170622070525
+95.84.129.157 4 21 251778 20170613225326
+217.66.152.34 5 5 133234 20170607204218
+176.59.209.152 1 1 622 20170611123056
+31.173.103.83 0 1 92021 
+207.154.245.194 0 1 471757 
+46.146.112.84 3 34 1218591 20170613101640
+178.161.128.10 5 194 7923169 20170629143241
+109.226.219.233 0 1 85083 
+213.135.141.183 0 1 92021 
+46.147.42.198 7 109 4275965 20170630214941
+188.17.149.127 0 2 184042 
+46.147.8.74 2 49 7749138 20170627104352
+87.255.31.249 1 1 63478 20170607004427
+178.91.17.109 0 1 471757 
+82.145.211.9 0 1 92021 
+128.73.124.20 4 107 4218259 20170601101433
+176.59.214.129 4 107 4218259 20170601125047
+178.120.40.142 0 1 92021 
+89.148.236.29 5 110 4443609 20170607202640
+81.22.57.43 0 1 92021 
+178.45.29.169 0 1 125771 
+62.192.232.15 0 1 471757 
+95.108.133.202 0 2 260380 
+65.55.210.40 0 1 5477 
+178.161.131.154 1 49 7777345 20170623134622
+46.0.216.33 0 1 92021 
+5.141.232.195 4 106 4211243 20170603140858
+46.173.15.12 1 1 63478 20170622050027
+178.47.180.3 0 2 943514 
+178.47.69.115 4 107 4182859 20170603150909
+85.140.79.207 4 109 4478639 20170605091626
+109.63.128.245 1 22 118601 20170625191043
+176.31.43.162 4 4 259650 20170623185216
+199.30.25.68 0 3 47641 
+92.113.13.79 0 1 471757 
+31.163.248.13 5 185 7404481 20170624135030
+95.78.48.36 0 1 471757 
+213.87.248.240 6 109 4282359 20170611185512
+178.123.97.38 0 1 92021 
+5.141.252.194 4 103 3576951 20170613092030
+188.170.72.253 1 77 3202969 20170616151146
+178.161.243.27 4 107 4182859 20170625200958
+213.87.127.169 0 1 471757 
+92.100.224.177 0 1 471757 
+178.72.70.26 0 1 471757 
+94.75.163.55 0 1 471757 
+128.73.239.5 4 107 4182859 20170602083914
+85.140.78.49 4 106 4211243 20170613130537
+95.189.45.232 0 1 471757 
+217.118.64.55 0 1 471757 
+94.50.3.16 4 107 4182859 20170614074950
+46.0.68.57 4 106 4217736 20170620003359
+188.16.87.61 3 3 1866 20170622212314
+77.43.168.153 1 49 7685845 20170602095257
+89.18.156.198 0 1 471757 
+37.112.8.155 4 109 4217337 20170615102344
+176.59.211.228 4 107 4218259 20170601183115
+46.146.0.5 4 108 4310280 20170614114455
+46.211.66.40 0 1 471757 
+178.163.81.216 0 1 471757 
+95.108.141.65 0 1 92021 
+94.50.241.75 6 118 4620867 20170605144946
+176.59.215.220 15 120 4254805 20170616153358
+178.167.91.178 4 106 4211243 20170615204358
+178.88.176.58 0 1 110061 
+185.11.81.54 0 1 471757 
+37.112.0.232 5 108 4183481 20170630142933
+37.112.3.46 8 206 8336609 20170612200617
+194.44.79.133 0 1 471757 
+92.37.170.86 0 1 92021 
+176.59.192.65 6 108 4275343 20170610094844
+46.146.152.59 7 113 4289075 20170608061310
+46.242.66.6 1 99 3537148 20170612045048
+78.159.229.98 4 109 4217337 20170623084410
+5.167.162.175 0 1 471757 
+37.215.78.114 0 1 92021 
+77.73.105.70 0 1 471757 
+5.141.86.52 5 111 4476995 20170623135912
+213.87.249.3 4 106 4211243 20170601114747
+94.50.1.142 4 107 4182859 20170608233707
+95.108.133.205 0 1 92021 
+2.94.52.133 0 1 471757 
+46.159.248.101 0 1 429716 
+199.30.24.136 0 2 25901 
+37.79.248.230 4 107 4182859 20170621082925
+85.140.5.32 0 1 471757 
+216.244.93.122 2 2 126956 20170610091557
+199.30.25.221 1 2 135693 20170625091922
+83.149.20.13 0 1 71003 
+85.172.96.218 0 1 92021 
+46.146.209.40 4 108 4183951 20170630100533
+2.42.143.121 0 1 92021 
+85.26.233.52 0 1 471757 
+46.146.20.110 1 1 622 20170613214900
+176.50.80.44 0 1 471757 
+94.137.30.218 0 1 471757 
+46.61.60.192 0 1 92021 
+85.140.76.254 4 106 4211243 20170627102426
+95.68.196.133 0 1 471757 
+46.146.208.27 4 107 4182859 20170628134048
+91.218.102.28 0 1 471757 
+94.51.253.124 1 1 622 20170611095754
+188.19.152.147 4 109 4217337 20170603220252
+213.24.133.244 0 1 92021 
+178.18.103.13 0 1 92021 
+85.173.202.108 0 1 92021 
+188.18.113.119 0 1 471757 
+213.87.248.215 5 110 5313332 20170616151604
+46.147.36.123 10 216 8714953 20170611112246
+46.146.112.74 4 107 4182859 20170602092104
+79.141.53.73 1 1 622 20170619204940
+213.87.128.147 0 1 92021 
+176.59.192.97 4 107 4218259 20170602121803
+2.93.171.171 4 106 4146345 20170612133651
+85.140.79.37 4 106 4211243 20170620085516
+217.66.157.99 0 1 92021 
+185.132.240.93 0 1 471757 
+93.159.237.78 0 1 429716 
+66.102.9.141 0 36 1267598 
+77.43.163.174 4 106 4211243 20170601111854
+46.147.1.166 4 107 4218259 20170623120201
+95.83.170.189 0 1 92021 
+46.146.160.199 2 2 1244 20170628165400
+94.51.254.21 4 107 4182859 20170614032907
+94.19.123.52 0 1 92021 
+5.166.160.194 2 96 15365582 20170617001714
+217.118.83.157 5 115 4293112 20170616080100
+213.87.240.161 3 5 883484 20170608090929
+89.148.241.40 5 107 4211865 20170624194409
+85.140.76.82 2 22 980112 20170611074648
+91.203.238.253 3 71 2416324 20170605192234
+213.87.149.249 0 1 471757 
+213.221.31.70 0 1 125771 
+77.43.137.212 1 1 622 20170626083658
+85.25.208.101 2 2 126956 20170619145624
+46.146.0.25 1 1 622 20170627134840
+176.59.215.0 4 106 4211243 20170620101850
+204.13.201.137 1 21 255942 20170630100322
+78.132.210.70 0 1 92021 
+94.50.183.85 1 49 7685845 20170624201606
+176.59.203.143 1 1 622 20170608122310
+176.59.2.31 0 1 471757 
+46.146.38.35 4 107 4182859 20170612153905
+178.95.174.25 2 2 126956 20170617224318
+46.146.108.46 1 58 3696985 20170612190835
+65.55.210.146 1 4 25070 20170625091920
+176.59.197.195 3 109 5263720 20170608180547
+195.211.23.220 1 4 152758 20170627153651
+95.28.55.14 2 107 5065851 20170621220620
+128.73.230.153 4 107 4182859 20170621104350
+85.26.235.72 0 1 92021 
+95.108.141.63 0 1 92021 
+46.146.131.160 4 106 4211243 20170611090058
+176.59.213.58 4 106 4211243 20170615153555
+90.151.33.189 4 107 4218259 20170608193257
+95.189.187.204 0 1 92021 
+213.87.249.85 1 49 7685845 20170626132211
+93.85.167.244 0 1 471757 
+31.173.103.109 2 2 63478 20170608135138
+5.149.156.7 0 1 471757 
+171.33.249.183 1 1 63478 20170610164400
+94.50.0.228 4 107 4182859 20170613165403
+79.142.173.137 0 1 471757 
+194.88.14.138 4 106 4175636 20170621130920
+92.101.234.136 0 2 943514 
+62.133.162.21 0 1 464332 
+178.127.75.123 0 1 471757 
+51.15.40.233 1 1 63478 20170621112053
+188.166.84.233 0 1 471757 
+176.15.121.60 0 1 471757 
+104.236.141.156 1 1 63478 20170625041928
+188.170.193.19 0 1 272692 
+82.145.220.168 0 1 92021 
+90.150.211.172 4 107 4218259 20170619142810
+83.220.236.87 0 1 47890 
+88.81.213.170 26 646 28235847 20170627103410
+95.31.124.171 6 109 4246959 20170610084913
+85.26.234.3 0 1 471757 
+46.146.113.65 4 107 4182859 20170611203243
+94.25.176.219 1 1 622 20170611115137
+95.108.225.230 0 1 471757 
+188.170.195.14 0 1 92021 
+37.45.252.181 0 1 92021 
+176.59.201.53 2 59 3722844 20170621220439
+95.56.177.71 0 1 471757 
+77.43.190.94 6 134 6500201 20170630223235
+81.22.62.180 0 1 471757 
+78.111.185.186 0 1 57552 
+131.253.27.69 3 104 4158550 20170611223247
+176.59.205.60 1 1 622 20170620093046
+178.66.139.198 0 1 471757 
+5.166.166.93 2 2 1244 20170617095146
+188.168.22.105 0 1 92021 
+83.169.216.161 1 1 622 20170629124220
+212.33.238.49 6 111 4217895 20170628163908
+46.146.112.78 4 107 4182859 20170629051847
+109.169.226.9 0 1 92021 
+212.33.239.148 4 107 4182859 20170623100258
+77.43.210.90 1 57 3679816 20170611074804
+185.144.60.253 0 1 92021 
+31.173.103.30 4 106 4211243 20170605174251
+95.220.218.79 1 8 51359 20170619013212
+46.42.132.62 2 108 5066374 20170630212058
+217.118.83.246 4 110 5219496 20170621082811
+46.146.8.63 6 108 4212487 20170625120217
+199.30.24.1 0 3 100352 
+193.92.57.26 0 1 471757 
+92.255.141.45 2 4 66118 20170606111041
+89.163.152.135 4 4 253912 20170620092414
+217.118.83.143 4 106 4211243 20170609060639
+128.73.28.225 4 99 4153750 20170605093523
+128.68.108.162 1 1 63478 20170606035218
+191.55.177.171 0 1 102659 
+46.165.11.99 0 1 471757 
+185.137.18.70 0 1 92021 
+90.150.122.68 5 108 4218881 20170629093559
+37.140.189.220 1 3 14621 20170627125925
+213.208.167.84 0 1 471757 
+217.107.126.209 0 1 471757 
+46.146.210.184 4 111 5220588 20170615072325
+185.76.71.100 0 1 471757 
+193.150.94.10 0 1 471757 
+89.148.196.159 8 215 8422073 20170621155354
+46.146.217.189 6 111 4316837 20170624094127
+81.23.16.57 0 1 73831 
+85.113.49.225 0 1 471757 
+176.59.195.66 4 106 4211243 20170618105233
+109.187.42.4 0 1 471757 
+188.19.159.50 4 108 4245721 20170612150044
+46.133.224.52 0 1 471757 
+185.124.230.48 0 1 471757 
+46.146.112.67 13 143 5143581 20170617160925
+85.26.232.240 0 1 471757 
+188.19.149.68 3 3 1866 20170614113413
+77.222.112.64 0 1 471757 
+85.140.6.72 0 1 471757 
+85.26.164.53 0 1 125771 
+46.211.158.243 0 1 92021 
+188.18.100.10 4 107 4182859 20170603221740
+46.175.188.13 0 1 471757 
+213.87.248.156 2 2 1244 20170630101613
+88.147.173.71 0 1 471757 
+195.211.23.208 0 6 372448 
+94.25.179.150 0 1 471757 
+93.85.57.234 0 1 16973 
+46.72.112.11 0 1 471757 
+37.112.4.200 4 107 4182859 20170614093956
+46.146.16.105 4 107 4182859 20170612111859
+2.132.84.46 0 1 471757 
+2.94.17.190 0 1 92021 
+185.144.60.40 0 1 471757 
+178.161.145.174 6 111 4281230 20170616082945
+46.146.61.44 1 44 1273414 20170621232153
+120.92.32.244 2 4 139552 20170629135328
+46.147.56.220 4 109 4217337 20170616174719
+46.146.26.246 1 43 802713 20170618224046
+188.16.41.255 0 1 471757 
+188.17.148.30 12 314 13272342 20170615064859
+109.238.97.202 0 1 471757 
+212.33.246.70 19 195 10298714 20170607094634
+178.248.85.216 10 10 429543 20170613115819
+37.79.249.224 6 110 4597200 20170611102845
+51.15.56.11 1 1 63478 20170622162903
+46.36.149.29 0 1 86715 
+46.146.170.44 4 109 4443239 20170617212953
+199.30.25.55 0 2 46607 
+213.87.241.8 1 1 622 20170605141226
+176.50.240.197 0 1 429716 
+31.173.120.179 4 4 126956 20170613123932
+188.163.96.95 0 1 92021 
+212.33.247.239 8 80 2524010 20170613152039
+46.146.4.86 12 240 9082098 20170629151045
+46.146.54.10 4 107 4218259 20170615094557
+5.140.162.187 1 49 7685845 20170623143839
+85.140.78.187 4 107 4218259 20170607135949
+213.87.241.107 1 1 622 20170617043956
+94.50.4.89 6 112 4274676 20170630113707
+83.239.22.206 0 1 471757 
+199.30.24.169 0 1 6330 
+31.173.101.188 4 107 4218259 20170616112325
+78.85.17.90 0 1 471757 
+66.102.9.48 22 315 16982635 20170623164845
+89.148.216.190 4 107 4182859 20170626175236
+176.59.105.229 0 1 471757 
+93.124.123.254 0 1 471757 
+213.87.122.26 0 1 91992 
+176.59.194.120 2 2 1244 20170619132317
+95.78.26.143 1 1 63478 20170612225727
+213.87.248.80 4 107 4218259 20170601093848
+83.220.237.253 0 1 471757 
+46.146.20.98 1 49 7685845 20170614203532
+176.59.147.120 0 1 471757 
+2.93.251.121 3 3 157266 20170623210953
+176.59.208.30 2 113 5376277 20170603185925
+85.140.76.67 8 213 8456441 20170626164123
+178.161.163.42 4 107 4182859 20170628155816
+178.95.246.34 0 1 471757 
+217.77.215.176 5 108 4281737 20170610152303
+176.59.197.24 1 1 622 20170607124421
+89.148.228.233 4 107 4182859 20170614235615
+46.146.224.221 20 20 1165509 20170613095533
+37.230.235.8 6 112 5409845 20170627091401
+178.161.223.6 4 107 4218259 20170602204556
+77.247.181.163 1 1 63478 20170630100333
+46.146.108.52 5 110 4253359 20170630121635
+212.33.232.45 4 110 5219496 20170608084129
+178.65.55.23 0 1 57503 
+94.199.17.220 0 1 92021 
+89.178.92.49 3 20 160586 20170624050515
+5.251.40.138 0 2 943514 
+31.173.242.68 0 1 471757 
+217.118.83.152 6 67 2055721 20170630153710
+94.50.3.107 1 49 7685845 20170627221703
+85.25.246.236 1 1 25859 20170601041420
+62.16.41.50 4 107 4182859 20170624200140
+5.141.231.19 0 1 7016 
+85.26.241.109 0 1 92021 
+94.51.150.74 0 1 471757 
+188.42.35.214 0 1 92021 
+37.113.47.56 0 1 471757 
+81.4.254.129 4 106 4211243 20170602202825
+46.146.19.70 4 106 4211243 20170622093853
+46.146.197.144 2 2 1244 20170606213018
+86.86.199.58 0 1 102659 
+95.220.27.212 1 10 41527 20170611214215
+199.30.25.117 0 3 118753 
+83.217.214.72 1 61 7699236 20170626034750
+5.141.195.74 6 111 4542739 20170622112550
+46.146.133.102 4 109 4217337 20170622112713
+188.235.22.80 0 1 92021 
+46.146.202.123 4 107 4182859 20170619072244
+176.59.195.59 4 107 4218259 20170615164920
+46.146.240.91 6 111 4281437 20170602142037
+109.196.208.114 0 1 471757 
+92.240.218.150 4 106 4211243 20170629195802
+178.34.158.219 0 1 471757 
+77.43.185.123 17 144 4925276 20170625212441
+92.255.220.62 0 1 471757 
+46.146.84.43 9 136 4849063 20170620163150
+194.186.46.10 9 276 16068008 20170630072524
+176.100.188.82 0 1 96771 
+82.145.220.251 6 109 4393897 20170621211200
+46.146.16.23 4 107 4218259 20170604173017
+5.44.172.250 0 1 92021 
+46.173.15.17 1 1 63478 20170622060902
+94.51.250.103 4 107 4218259 20170603101854
+31.173.80.15 0 1 429716 
+46.146.131.88 4 106 4211243 20170626100908
+85.140.6.230 0 1 471757 
+95.31.123.81 1 1 622 20170612083245
+46.216.216.18 0 1 92021 
+91.144.171.208 0 1 92021 
+94.25.179.100 4 107 4182859 20170624130540
+65.55.210.65 0 1 5760 
+5.141.231.24 1 1 622 20170610120116
+199.30.24.199 0 4 245617 
+31.135.237.164 0 1 471757 
+77.134.119.224 0 1 102659 
+46.146.205.244 6 6 386606 20170617091052
+178.120.98.113 0 1 471757 
+109.74.139.186 0 1 471757 
+88.81.212.150 4 107 4182859 20170602121607
+178.168.192.169 0 1 429716 
+176.59.193.84 7 105 3959496 20170627201356
+46.146.254.212 2 78 3714858 20170616152222
+176.59.196.137 4 107 4218259 20170623073517
+198.204.249.74 2 2 126956 20170626082814
+91.235.30.113 0 1 471757 
+213.87.240.244 1 58 3696985 20170606120824
+46.146.0.113 4 107 4182859 20170616160855
+94.50.7.163 4 107 4182859 20170604182225
+5.141.195.82 4 107 4182859 20170628163054
+5.165.20.39 0 1 471757 
+213.87.224.218 0 1 471757 
+185.63.216.179 0 1 471757 
+85.140.78.77 1 1 622 20170629155137
+91.149.128.58 0 1 92021 
+77.43.153.73 4 107 4218259 20170625132829
+83.149.46.65 0 1 429716 
+176.226.150.98 16 16 1021386 20170610105148
+95.153.132.0 0 1 125771 
+128.72.92.240 1 1 63478 20170605131925
+188.234.105.78 0 1 471757 
+81.30.178.90 0 1 471757 
+213.87.248.241 4 107 4218259 20170611033403
+217.118.83.147 6 109 4219503 20170622191507
+46.23.145.98 0 1 471757 
+94.50.8.147 8 204 8399870 20170626055338
+176.59.199.144 3 53 5324160 20170624120451
+95.105.102.26 1 1 63478 20170603105736
+5.166.171.27 4 106 4211243 20170621182828
+46.146.36.255 6 127 6426080 20170624064706
+176.59.215.92 2 2 51718 20170626103434
+194.246.74.248 0 1 92021 
+188.166.65.42 0 1 92021 
+40.77.177.44 3 5 608831 20170603151252
+188.18.114.146 0 1 471757 
+37.59.178.99 6 6 380868 20170627075852
+31.173.100.3 0 46 3601274 
+46.39.5.229 0 1 471757 
+83.219.24.158 5 108 4309730 20170623110701
+5.45.235.87 1 1 63478 20170607104437
+213.87.241.220 4 109 4252737 20170620171148
+46.148.234.162 1 1 52414 20170606145512
+85.140.78.25 4 107 4218259 20170602182628
+178.68.239.101 0 1 41054 
+94.50.1.49 4 107 4182859 20170613162015
+195.184.208.7 1 1 25859 20170605192317
+195.91.220.81 0 1 471757 
+37.73.254.46 0 1 471757 
+217.118.83.187 1 72 2977898 20170613101630
+78.132.154.66 0 1 92021 
+37.79.250.71 4 107 4218259 20170601221103
+46.146.16.41 24 338 19603411 20170626211822
+178.141.49.142 0 1 92021 
+178.124.74.115 0 1 471757 
+89.22.129.17 0 1 471757 
+46.146.138.128 4 107 4218259 20170606150318
+95.221.55.72 1 17 102649 20170609160801
+217.118.83.164 4 106 4211243 20170611102259
+46.146.186.219 2 2 64100 20170616215149
+31.202.220.169 0 1 471757 
+176.209.169.160 0 1 471757 
+188.17.157.158 4 108 4183951 20170608092249
+188.17.85.100 2 3 63478 20170617111139
+195.138.65.158 0 5 2358785 
+176.59.196.232 4 107 4218259 20170612163701
+194.44.253.141 0 1 57552 
+46.173.15.10 1 1 63478 20170622035353
+217.118.81.213 0 1 471757 
+37.147.99.64 0 52 2033865 
+83.169.216.244 1 48 2070682 20170623061141
+40.71.226.157 3 3 190434 20170606032347
+195.211.23.224 0 5 143336 
+37.212.238.179 0 1 92021 
+85.140.76.141 4 107 4218259 20170618075548
+91.185.225.189 0 1 125771 
+85.140.77.103 4 107 4218259 20170609104727
+46.146.109.12 1 49 7685845 20170620191219
+46.146.4.83 4 109 4252737 20170625151421
+205.185.209.172 0 1 92021 
+188.17.153.115 4 107 4182859 20170621144020
+90.151.32.243 4 105 4210720 20170613055118
+188.16.114.121 8 137 4882919 20170623160128
+178.186.7.202 0 1 471757 
+78.106.66.49 0 1 471757 
+5.167.126.127 1 61 7699236 20170619140627
+185.16.58.151 0 1 471757 
+188.255.21.104 1 27 2271708 20170602183620
+83.149.37.22 3 3 1614 20170629143102
+37.229.195.130 0 2 943514 
+5.189.57.147 4 107 4182859 20170620225046
+46.174.69.98 0 1 92021 
+95.84.203.252 3 20 160586 20170610082906
+178.185.13.180 0 1 471757 
+213.87.248.10 4 108 4245721 20170627121748
+176.210.247.53 0 1 471757 
+176.59.193.181 4 107 4218259 20170606104916
+95.153.130.202 0 1 92021 
+91.234.96.206 1 1 63478 20170623150117
+91.206.146.47 4 107 4182859 20170613155820
+128.73.70.156 4 195 28475166 20170630100241
+46.146.173.77 1 58 3696985 20170604152409
+217.118.83.135 8 205 8418575 20170627223253
+95.221.250.150 1 7 25337 20170626134718
+37.23.23.184 0 1 471757 
+178.66.117.163 0 1 429716 
+46.147.55.176 6 110 5000368 20170614071834
+178.161.149.62 4 106 4175843 20170607091126
+85.140.78.136 1 1 622 20170607145735
+94.51.251.62 4 107 4218259 20170606200509
+91.189.112.7 3 3 190434 20170626195337
+199.30.25.178 0 1 758 
+84.17.11.122 0 1 471757 
+144.76.110.236 1 1 63478 20170602132655
+85.140.5.145 0 1 92021 
+46.146.8.39 1 49 7685845 20170618193551
+178.19.251.90 0 1 96771 
+195.211.23.218 1 4 178004 20170621203358
+81.18.157.36 0 1 92021 
+31.173.100.172 2 2 63478 20170614151301
+109.163.234.9 0 1 471757 
+192.162.242.111 0 1 471757 
+199.30.25.36 0 2 151061 
+95.108.133.222 0 1 33386 
+185.26.183.11 5 155 11901050 20170630110831
+66.102.9.144 8 145 7045613 20170626063856
+46.146.55.141 5 108 4183481 20170617112229
+37.229.253.71 39 39 2475642 20170629135749
+213.24.125.171 0 1 471757 
+199.30.24.40 0 1 437 
+89.179.9.90 4 107 4218259 20170630150356
+77.43.219.8 1 1 622 20170610220518
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20170601 201 4018 186007055 63
+20170602 249 5420 274584664 88
+20170603 155 3176 152010052 50
+20170604 198 3139 151858957 63
+20170605 218 4178 209121236 73
+20170606 240 4568 223228528 75
+20170607 226 4026 189015091 85
+20170608 282 5092 219881217 88
+20170609 161 2918 122202499 50
+20170610 248 4080 178137269 74
+20170611 170 3146 134514245 67
+20170612 212 3906 178686074 70
+20170613 316 5151 226982142 97
+20170614 274 5415 248014918 85
+20170615 279 5089 234927618 88
+20170616 265 4902 226204019 83
+20170617 211 3470 168705829 72
+20170618 239 4751 231042663 69
+20170619 291 5850 281290327 99
+20170620 280 5033 235849567 90
+20170621 298 6262 273341552 96
+20170622 251 4145 214068861 101
+20170623 268 4697 222827504 95
+20170624 178 3424 157046308 68
+20170625 219 4142 166561942 62
+20170626 299 5456 253918550 86
+20170627 252 4483 236596307 84
+20170628 273 5534 257121646 79
+20170629 269 5048 226441492 86
+20170630 222 4447 225276864 81
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 10
+5mn-15mn 89
+15mn-30mn 35
+2mn-5mn 113
+30s-2mn 126
+0s-30s 1944
+30mn-1h 50
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 28
+/ 2564 160916730 1779 682
+/feedback1/ 1750 1052211 198 1041
+/fonts1/AA-BebasNeue.ttf 1170 106694640 47 137
+/libs1/font-awesome/fonts/fontawesome-webfont.woff 1131 74026212 56 198
+/obuchenie.php 210 13932870 132 132
+/vakansiy.php 105 936312 24 8
+/kosa.php 77 1991143 70 65
+/magazin.html 63 1086750 9 23
+/libs1/font-awesome/fonts/fontawesome-webfont.eot 46 2520270 1 2
+/perm.php 20 1097340 17 16
+/chaikovsky.php 18 825966 11 12
+/matrix.php 4 61808 4 4
+/zapis%60kp.php 6 60120 2 3
+/bron.php 16 160256 1 7
+/akcia_39.php 1 13264 0 1
+/form-ok.php 4 3076 1 4
+/chaykovsk.php 1 178882 1 0
+/akcia1.php 5 42130 3 2
+/zapis`kp.php 4 40080 0 4
+/prin.php 5 37870 1 2
+/zakaz.php 5 16740 1 2
+/franshiza.php 7 87745 4 5
+/libs1/font-awesome/fonts/fontawesome-webfont.ttf 17 1906720 1 8
+/obuchenie.php/contacts/ 4 265388 0 1
+/akcia_kombo.php 5 87195 2 3
+/./zapis`kp.php 1 10020 0 1
+/./bron.php 3 30048 0 2
+/remont.php 2 104828 2 2
+END_SIDER

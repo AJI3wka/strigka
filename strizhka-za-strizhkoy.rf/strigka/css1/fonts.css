@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "BebasNeue";
+  font-style: normal;
+  font-weight: normal;
+  src:  url("../fonts1/AA-BebasNeue.ttf") format("truetype"); }
+
+  @font-face {
+  font-family: "BebasNeueBold";
+  src:  url("../fonts1/BebasNeueBold.ttf") format("truetype"); }

@@ -1,0 +1,43 @@
+body
+{
+   margin: 0;
+   padding: 0;
+   background-color: #FFFFFF;
+   color: #000000;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+#countdown
+{
+   color: #FFFFFF;
+   font-size: 36px;
+   font-family: Trebuchet MS;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+}
+#wb_timer2
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 57px;
+   height: 25px;
+   z-index: 0;
+}

@@ -1,0 +1,206 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1069px) {
+.formhead form > input[type="text"] { width: 220px;}
+
+
+}
+
+
+@media only screen and (max-width : 1060px) {
+.zalcont{text-align: center;}
+.zalhl{margin-bottom: 10px;}
+.vlb1{display: none;}
+}
+
+@media only screen and (max-width : 1024px) {
+	.headcont {width: 65.5%;}
+    .inctbwrap {text-align: center;}
+	.inconttable {text-align: left;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.secondinl {background-color: white;padding-top: 3px;padding-left: 3px;padding-right: 3px;}
+.tip1{background-color: white;padding-left: 3px;padding-right: 3px;}
+.tipsect {background-image: url("../img1/tipsbg1.jpg");}
+.secondinl2{margin-top: 50px;}
+.modalempt input[type="text"], .modalkup input[type="text"] {width: 233px;}
+.modalempt,.modalkup,.aboutusl1, .aboutusl2, .aboutusl3 {width: 780px;}
+
+}
+
+@media only screen and (max-width : 930px) {
+.headline img {margin: 10px auto; display: block;}
+.headline {padding-top: 10px;padding-bottom: 15px;}
+.headlw {min-height: 113px;}
+.formhead form > input[type="text"] {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.formhead form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+}
+@media only screen and (max-width : 900px) {
+.otz2 .comenttext {display: inline-block;max-width: 545px;padding-right: 20px;}
+.headcont {width: 65%;}
+.modalempt, .modalkup, .aboutusl1, .aboutusl2, .aboutusl3 {width: 640px;}
+.modalempt input[type="text"], .modalkup input[type="text"] { width: 185px;}
+.modalkup,.modalempt {height: 312px;}
+    .cupon {float: left;margin-top: -141px;margin-left: -57px;margin-right: 31px;}
+    .modalkup p {font-size: 17px;}
+    .modalkup h2 {font-size: 29px;line-height: 40px;}
+    .modalempt {padding-top: 30px;padding-bottom: 43px;}
+    .modalempt h2 {font-size: 29px;color: white;line-height: 35px;}
+.modalempt p{font-size: 15px;}
+.modalempt form {
+    margin-top: 23px;
+}
+.aboutusl1 img, .aboutusl2 img, .aboutusl3 img {
+    float: left;
+    width: 265px;
+    margin-right: 27px;
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width : 780px) {
+.otz1 img, .otz2 img, .otz3 img{width: 180px;}
+.formhead h2 {
+    font-size: 23px;
+    letter-spacing: 1.1px;
+}
+.middlehead {
+    width: 80%;
+}
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.chose {margin-left: 2%;}
+	.prices p {font-size: 31px;}
+	.otz1 .comentcont {padding-left: 15px;}
+	.otz1 .comenttext {padding-left: 20px;}
+	.otz3 .comentcont {padding-left: 15px;}
+	.comentblock h3 > span {font-size: 19px;}
+	.otz1 h3, .otz2 h3, .otz3 h3 {font-size: 28px;}
+	.otz2 p {font-size: 21px;}
+	.slidewrap {width: 85%;margin: 0;}
+.prices > div {margin-right: 5px;}
+.addrcont {margin: 0 10px 42px !important;}
+}
+@media only screen and (max-width : 700px) {
+.otz1 .comenttext,.otz2 .comenttext,.otz3 .comenttext {max-width: 400px;}
+.otz1 p,.otz2 p,.otz3 p {font-size: 19px;line-height: 23px;}
+.otz1 .comentcont,.otz2 .comentcont,.otz3 .comentcont{max-width: 580px;}
+.modalempt, .modalkup, .aboutusl1, .aboutusl2, .aboutusl3 {width: 470px;}
+.aboutusl1 h2, .aboutusl2 h2, .aboutusl3 h2 {font-size: 36px;line-height: 35px;}
+
+.cupon {
+    float: left;
+    margin-top: -141px;
+    margin-left: -156px;
+    margin-right: 31px;
+}
+.modalkup{
+    height: 356px;
+}
+}
+}
+@media only screen and (max-width : 625px) {
+	.mainhead {background-size: cover;}
+.headcont {width: 73%;}
+.asksect p {font-size: 35px;line-height: 67px;}
+.logo {display: block;text-align: center;}
+.chose {display: block;text-align: center;padding-top: 25px;margin: 0;}
+.phone {text-align: center;display: block;margin: 20px auto;float: none;}
+.phone a.numb {text-align: center;}
+footer .phone > .num {
+    text-align: center;
+}
+.headcont {width: 84%;}
+.rowtb .coltb:nth-child(1) {width: 180px;}
+.coltb .prbl {width: 50% !important;border-bottom: 1px solid white;}
+.otz1 h3, .otz2 h3, .otz3 h3 { font-size: 17px;}
+.comentblock h3 > span {font-size: 12px;}
+.otz1 p, .otz2 p, .otz3 p {font-size: 13px;line-height: 18px;}
+.otz3 .comenttext {padding-left: 20px;}
+.slick-slide > div {height: 366px !important;}
+
+
+}
+
+@media only screen and (max-width : 580px) {
+.otz1 .comenttext, .otz2 .comenttext, .otz3 .comenttext {max-width: 310px; padding-right: 10px;    padding-left: 10px;}
+.otz1 p, .otz2 p, .otz3 p {font-size: 15px;line-height: 20px;}
+.prices p {    font-size: 32px;    line-height: 30px;    vertical-align: bottom;}
+.prices > div * { vertical-align: bottom;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 530px) {
+	h1 {font-size: 90px; line-height: 72px;}
+	.listhead {font-size: 41px;line-height: 50px;}
+	.headcont ul > li {font-size: 40px;line-height: 49px;}
+	.addblock {padding-left: 15px;padding-right: 15px;}
+	.vdlblock {width: 10px;}
+	.womblock{ margin: 3px;}
+	.incblock img,.compblock>img{width: 100%;}
+	.prices p {font-size: 24px;}
+.prices p > span {font-size: 19px !important;}
+.medblock {
+    margin: 0 auto;
+}
+.preimg ul {font-size: 21px;}
+.otz1 .comenttext, .otz2 .comenttext, .otz3 .comenttext {
+    max-width: 390px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.headcont input {width: 435px;margin-left: 0;}
+.paintblock{
+    margin: 8px 0;
+}
+}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
