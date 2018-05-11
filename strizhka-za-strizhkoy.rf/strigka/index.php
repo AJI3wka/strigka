@@ -73,14 +73,14 @@
 					<a class="numb prm choose_numb" data-id="1" href="tel:+ 73422871501" style="display: block;"> <i class="fa fa-plus" style="font-size: 18px; vertical-align: middle; line-height: 0; margin-top: 5px;"></i>
 						7 342 287 15 01
 					</a>
-					<a class="numb chaik choose_numb" data-id="2" href="tel:2-30-70 ">
-						2-30-70 
+					<a class="numb chaik choose_numb" data-id="2" href="+ 73422871501" style="display:none;"><i class="fa fa-plus" style="font-size: 18px; vertical-align: middle; line-height: 0; margin-top: 5px;"></i>
+						7 342 287 15 01 
 					</a>
-					<a class="numb chaik choose_numb" data-id="3" href="tel:3-30-70 ">
-						3-30-70 
+					<a class="numb chaik choose_numb" data-id="3" href="+ 78126059511" style="display:none;"><i class="fa fa-plus" style="font-size: 18px; vertical-align: middle; line-height: 0; margin-top: 5px;"></i>
+						7 812 605 95 11
 					</a>
-					<a class="numb chaik choose_numb" data-id="4" href="tel:4-30-70 ">
-						4-30-70 
+					<a class="numb chaik choose_numb" data-id="4" href="+ 72286955" style="display:none;"> <i class="fa fa-plus" style="font-size: 18px; vertical-align: middle; line-height: 0; margin-top: 5px;"></i>
+						7 228 69 55
 					</a>
 					<input type="button" class="phbtn" value="Заказать звонок"></div>
 			</div>
@@ -159,28 +159,28 @@
 					<div>
 						<img src="img1/picon1.png" alt="">
 						<p>
-							7993
+							1000
 							<span>р</span>
 						</p>
 					</div>
 					<div>
 						<img src="img1/picon2.png" alt="">
 						<p>
-							10993
+							1400
 							<span>р</span>
 						</p>
 					</div>
 					<div>
 						<img src="img1/picon3.png" alt="">
 						<p>
-							14993
+							1900
 							<span>р</span>
 						</p>
 					</div>
 					<div>
 						<img src="img1/picon4.png" alt="">
 						<p>
-							17993
+							2250
 							<span>р</span>
 						</p>
 					</div>
@@ -220,7 +220,7 @@
 			<div class="clearfix"></div>
 		</div>
 	</header>
-	<section class="tipsect">
+	<section class="tipsect choose_presents" data-id="1">
 		<div class="tipscont">
 			<div style="display:inline-block" class="tip1">
 				<div class="tip tip11" style="cursor: pointer;">
@@ -256,6 +256,149 @@
 			</div>
 		</div>
 	</section>
+	<section class="tipsect choose_presents" data-id="2" style="display: none;">
+		<div class="tipscont">
+			<div style="display:inline-block" class="tip1">
+				<div class="tip tip11" style="cursor: pointer;">
+					<p class="tipc">
+						любой сеанс загара
+						<br>за</p>
+					<p class="tipm">39 рублей</p>
+				</div>
+				<div class="tip tip2" style="cursor: pointer;">
+					<p class="tipc">
+						Каждому клиенту
+						<br>дарим</p>
+					<p class="tipm">абонемент</p>
+				</div>
+			</div>
+			<div style="display:inline-block" class="secondinl">
+				<div class="tip tip3" style="cursor: pointer;">
+					<p class="tipc">
+						покрытие гель-лаком,
+						<br>
+						маникюр
+						<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="+">педикюр</p>
+					<p class="tipm prm">1390 рублей</p>
+					<p class="tipm chaik">999 рублей</p>
+
+				</div>
+				<div class="tip">
+					<p class="tipc">
+						скидка на первую
+						<br>услугу экранирования</p>
+					<p class="tipm">50%</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="tipsect choose_presents" data-id="3" style="display: none;">
+		<div class="tipscont">
+			<div style="display:inline-block" class="tip1">
+				<div class="tip tip11" style="cursor: pointer;">
+					<p class="tipc">
+						любой сеанс загара
+						<br>за</p>
+					<p class="tipm">49 рублей</p>
+				</div>
+				<div class="tip tip2" style="cursor: pointer;">
+					<p class="tipc">
+						Каждому клиенту
+						<br>дарим</p>
+					<p class="tipm">абонемент</p>
+				</div>
+			</div>
+			<div style="display:inline-block" class="secondinl">
+				<div class="tip tip3" style="cursor: pointer;">
+					<p class="tipc">
+						покрытие гель-лаком,
+						<br>
+						маникюр
+						<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="+">педикюр</p>
+					<p class="tipm prm">1699 рублей</p>
+
+				</div>
+				<div class="tip">
+					<p class="tipc">
+						скидка на первую
+						<br>услугу экранирования</p>
+					<p class="tipm">50%</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="tipsect choose_presents" data-id="4" style="display: none;">
+		<div class="tipscont">
+			<div style="display:inline-block" class="tip1">
+				<div class="tip tip11" style="cursor: pointer;">
+					<p class="tipc">
+						любой сеанс загара
+						<br>за</p>
+					<p class="tipm">39 рублей</p>
+				</div>
+				<div class="tip tip2" style="cursor: pointer;">
+					<p class="tipc">
+						Каждому клиенту
+						<br>дарим</p>
+					<p class="tipm">абонемент</p>
+				</div>
+			</div>
+			<div style="display:inline-block" class="secondinl">
+				<div class="tip tip3" style="cursor: pointer;">
+					<p class="tipc">
+						покрытие гель-лаком,
+						<br>
+						маникюр
+						<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="+">педикюр</p>
+					<p class="tipm prm">1390 рублей</p>
+					<p class="tipm chaik">999 рублей</p>
+
+				</div>
+				<div class="tip">
+					<p class="tipc">
+						скидка на первую
+						<br>услугу экранирования</p>
+					<p class="tipm">50%</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--<section class="tipsect">
+		<div class="tipscont">
+			<div style="display:inline-block" class="tip1">
+				<div class="tip tip11" style="cursor: pointer;">
+					<p class="tipc">
+						любой сеанс загара
+						<br>за</p>
+					<p class="tipm">39 рублей</p>
+				</div>
+				<div class="tip tip2" style="cursor: pointer;">
+					<p class="tipc">
+						Каждому клиенту
+						<br>дарим</p>
+					<p class="tipm">абонемент</p>
+				</div>
+			</div>
+			<div style="display:inline-block" class="secondinl">
+				<div class="tip tip3" style="cursor: pointer;">
+					<p class="tipc">
+						покрытие гель-лаком,
+						<br>
+						маникюр
+						<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="+">педикюр</p>
+					<p class="tipm prm">1390 рублей</p>
+					<p class="tipm chaik">999 рублей</p>
+
+				</div>
+				<div class="tip">
+					<p class="tipc">
+						скидка на первую
+						<br>услугу экранирования</p>
+					<p class="tipm">50%</p>
+				</div>
+			</div>
+		</div>
+	</section>-->
 	<section class="trigsect">
 		<h2>Наши преимущества</h2>
 		<hr>
@@ -303,7 +446,7 @@
 		<hr>
 		<section class="zalsect">
 			<h3>Парикмахерский зал</h3>
-			<div class="zalcont">
+			<div class="zalcont choose_zal" data-id="1">
 				<div class="zalhl">
 					<h4>мужские</h4>
 					<div class="zalimgbl" style="margin-bottom:6px;">
@@ -311,6 +454,164 @@
 						<div class="preimg pre1" >
 							<span class="prm">
 							290
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							290
+								<span>р</span>
+							</span>
+							<p>модельная</p>
+						</div>
+					</div>
+					<div class="zalimgbl" style="margin-right: 6px;">
+						<img src="img1/zalimg2.jpg" alt="">
+						<div class="preimg pre2">
+							<span class="prm">
+							190
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							190
+								<span>р</span>
+							</span>
+							<p>Спортивная</p>
+						</div>
+					</div>
+					<div class="zalimgbl">
+						<img src="img1/zalimg3.jpg" alt="">
+						<div class="preimg pre3">
+							<span class="prm">
+							190
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							190
+								<span>р</span>
+							</span>
+							<p>Полубокс</p>
+						</div>
+					</div>
+					<div class="zalimgbl" style="margin-right: 6px;margin-top: 6px;">
+						<img src="img1/zalimg4.jpg" alt="">
+						<div class="preimg pre2">
+							<span class="prm">
+							330
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							330
+								<span>р</span>
+							</span>
+							<p>креативная</p>
+						</div>
+					</div>
+					<div class="zalimgbl"  style="margin-top: 6px;">
+						<img src="img1/zalimg41.jpg" alt="">
+						<div class="preimg pre3">
+							<span class="prm">
+							120
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							120
+								<span>р</span>
+							</span>
+							<p>наголо</p>
+						</div>
+					</div>
+				</div>
+				<div class="vdlblock vlb1">
+					<img src="img1/vdline.jpg" alt=""></div>
+				<div class="zalhl" style="max-width: 525px;">
+					<div class="zalqt">
+						<h4>женские</h4>
+						<div class="zalimgbl">
+							<img src="img1/zalimg5.jpg" alt="">
+							<div class="preimg pre5">
+								<p style="letter-spacing: 3.15px;">Стрижка</p>
+								<span class="prm">
+							330
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							330
+								<span>р</span>
+							</span>
+								<p style="line-height: 0; padding-bottom: 11px;">
+
+									<span>
+										на короткие
+										<br>волосы</span>
+								</p>
+							</div>
+						</div>
+						<div class="zalimgbl" style="margin-top: 6px;">
+							<img src="img1/zalimg6.jpg" alt="">
+							<div class="preimg pre6">
+								<p style="letter-spacing: 2px;">стрижка</p>
+								<span class="prm">
+							400
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							400
+								<span>р</span>
+							</span>
+								<p style="line-height: 0;  padding-bottom: 10px;padding-top: 4px;">
+
+									<span>
+										на средние и
+										<br>длинные волосы</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="vdlblock">
+						<img src="img1/vdline.jpg" alt=""></div>
+					<div class="zalqt">
+						<h4>
+							детские
+							<span>(до 7 лет)</span>
+						</h4>
+						<div class="zalimgbl">
+							<img src="img1/zalimg8.jpg" alt="">
+							<div class="preimg pre7">
+								<span class="prm">
+							250
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							250
+								<span>р</span>
+							</span>
+								<p>модельная</p>
+							</div>
+						</div>
+						<div class="zalimgbl" style="margin-top: 6px;">
+							<img src="img1/zalimg7.jpg" alt="">
+							<div class="preimg pre8">
+								<span class="prm">
+							330
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							330
+								<span>р</span>
+							</span>
+								<p>креативная</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="zalcont choose_zal" data-id="2" style="display:none;">
+				<div class="zalhl">
+					<h4>мужские</h4>
+					<div class="zalimgbl" style="margin-bottom:6px;">
+						<img src="img1/zalimg1.jpg" alt="">
+						<div class="preimg pre1" >
+							<span class="prm">
+							250
 								<span>р</span>
 							</span>
 							<span class="chaik">
@@ -391,7 +692,7 @@
 								<span>р</span>
 							</span>
 							<span class="chaik">
-							280
+							330
 								<span>р</span>
 							</span>
 								<p style="line-height: 0; padding-bottom: 11px;">
@@ -411,7 +712,7 @@
 								<span>р</span>
 							</span>
 							<span class="chaik">
-							350
+							400
 								<span>р</span>
 							</span>
 								<p style="line-height: 0;  padding-bottom: 10px;padding-top: 4px;">
@@ -438,7 +739,7 @@
 								<span>р</span>
 							</span>
 							<span class="chaik">
-							190
+							210
 								<span>р</span>
 							</span>
 								<p>модельная</p>
@@ -449,6 +750,322 @@
 							<div class="preimg pre8">
 								<span class="prm">
 							290
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							290
+								<span>р</span>
+							</span>
+								<p>креативная</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="zalcont choose_zal" data-id="3" style="display:none;">
+				<div class="zalhl">
+					<h4>мужские</h4>
+					<div class="zalimgbl" style="margin-bottom:6px;">
+						<img src="img1/zalimg1.jpg" alt="">
+						<div class="preimg pre1" >
+							<span class="prm">
+							250
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							250
+								<span>р</span>
+							</span>
+							<p>модельная</p>
+						</div>
+					</div>
+					<div class="zalimgbl" style="margin-right: 6px;">
+						<img src="img1/zalimg2.jpg" alt="">
+						<div class="preimg pre2">
+							<span class="prm">
+							220
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							220
+								<span>р</span>
+							</span>
+							<p>Спортивная</p>
+						</div>
+					</div>
+					<div class="zalimgbl">
+						<img src="img1/zalimg3.jpg" alt="">
+						<div class="preimg pre3">
+							<span class="prm">
+							220
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							220
+								<span>р</span>
+							</span>
+							<p>Полубокс</p>
+						</div>
+					</div>
+					<div class="zalimgbl" style="margin-right: 6px;margin-top: 6px;">
+						<img src="img1/zalimg4.jpg" alt="">
+						<div class="preimg pre2">
+							<span class="prm">
+							400
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							400
+								<span>р</span>
+							</span>
+							<p>креативная</p>
+						</div>
+					</div>
+					<div class="zalimgbl"  style="margin-top: 6px;">
+						<img src="img1/zalimg41.jpg" alt="">
+						<div class="preimg pre3">
+							<span class="prm">
+							120
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							120
+								<span>р</span>
+							</span>
+							<p>наголо</p>
+						</div>
+					</div>
+				</div>
+				<div class="vdlblock vlb1">
+					<img src="img1/vdline.jpg" alt=""></div>
+				<div class="zalhl" style="max-width: 525px;">
+					<div class="zalqt">
+						<h4>женские</h4>
+						<div class="zalimgbl">
+							<img src="img1/zalimg5.jpg" alt="">
+							<div class="preimg pre5">
+								<p style="letter-spacing: 3.15px;">Стрижка</p>
+								<span class="prm">
+							400
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							400
+								<span>р</span>
+							</span>
+								<p style="line-height: 0; padding-bottom: 11px;">
+
+									<span>
+										на короткие
+										<br>волосы</span>
+								</p>
+							</div>
+						</div>
+						<div class="zalimgbl" style="margin-top: 6px;">
+							<img src="img1/zalimg6.jpg" alt="">
+							<div class="preimg pre6">
+								<p style="letter-spacing: 2px;">стрижка</p>
+								<span class="prm">
+							490
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							490
+								<span>р</span>
+							</span>
+								<p style="line-height: 0;  padding-bottom: 10px;padding-top: 4px;">
+
+									<span>
+										на средние и
+										<br>длинные волосы</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="vdlblock">
+						<img src="img1/vdline.jpg" alt=""></div>
+					<div class="zalqt">
+						<h4>
+							детские
+							<span>(до 7 лет)</span>
+						</h4>
+						<div class="zalimgbl">
+							<img src="img1/zalimg8.jpg" alt="">
+							<div class="preimg pre7">
+								<span class="prm">
+							250
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							250
+								<span>р</span>
+							</span>
+								<p>модельная</p>
+							</div>
+						</div>
+						<div class="zalimgbl" style="margin-top: 6px;">
+							<img src="img1/zalimg7.jpg" alt="">
+							<div class="preimg pre8">
+								<span class="prm">
+							300
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							300
+								<span>р</span>
+							</span>
+								<p>креативная</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="zalcont choose_zal" data-id="4" style="display:none;">
+				<div class="zalhl">
+					<h4>мужские</h4>
+					<div class="zalimgbl" style="margin-bottom:6px;">
+						<img src="img1/zalimg1.jpg" alt="">
+						<div class="preimg pre1" >
+							<span class="prm">
+							250
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							250
+								<span>р</span>
+							</span>
+							<p>модельная</p>
+						</div>
+					</div>
+					<div class="zalimgbl" style="margin-right: 6px;">
+						<img src="img1/zalimg2.jpg" alt="">
+						<div class="preimg pre2">
+							<span class="prm">
+							180
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							180
+								<span>р</span>
+							</span>
+							<p>Спортивная</p>
+						</div>
+					</div>
+					<div class="zalimgbl">
+						<img src="img1/zalimg3.jpg" alt="">
+						<div class="preimg pre3">
+							<span class="prm">
+							180
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							180
+								<span>р</span>
+							</span>
+							<p>Полубокс</p>
+						</div>
+					</div>
+					<div class="zalimgbl" style="margin-right: 6px;margin-top: 6px;">
+						<img src="img1/zalimg4.jpg" alt="">
+						<div class="preimg pre2">
+							<span class="prm">
+							290
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							290
+								<span>р</span>
+							</span>
+							<p>креативная</p>
+						</div>
+					</div>
+					<div class="zalimgbl"  style="margin-top: 6px;">
+						<img src="img1/zalimg41.jpg" alt="">
+						<div class="preimg pre3">
+							<span class="prm">
+							99
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							99
+								<span>р</span>
+							</span>
+							<p>наголо</p>
+						</div>
+					</div>
+				</div>
+				<div class="vdlblock vlb1">
+					<img src="img1/vdline.jpg" alt=""></div>
+				<div class="zalhl" style="max-width: 525px;">
+					<div class="zalqt">
+						<h4>женские</h4>
+						<div class="zalimgbl">
+							<img src="img1/zalimg5.jpg" alt="">
+							<div class="preimg pre5">
+								<p style="letter-spacing: 3.15px;">Стрижка</p>
+								<span class="prm">
+							190
+								<span>р</span>
+							</span>
+							<span class="chaik">
+						    190
+								<span>р</span>
+							</span>
+								<p style="line-height: 0; padding-bottom: 11px;">
+
+									<span>
+										на короткие
+										<br>волосы</span>
+								</p>
+							</div>
+						</div>
+						<div class="zalimgbl" style="margin-top: 6px;">
+							<img src="img1/zalimg6.jpg" alt="">
+							<div class="preimg pre6">
+								<p style="letter-spacing: 2px;">стрижка</p>
+								<span class="prm">
+							290
+								<span>р</span>
+							</span>
+							<span class="chaik">
+						    290
+								<span>р</span>
+							</span>
+								<p style="line-height: 0;  padding-bottom: 10px;padding-top: 4px;">
+
+									<span>
+										на средние и
+										<br>длинные волосы</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="vdlblock">
+						<img src="img1/vdline.jpg" alt=""></div>
+					<div class="zalqt">
+						<h4>
+							детские
+							<span>(до 7 лет)</span>
+						</h4>
+						<div class="zalimgbl">
+							<img src="img1/zalimg8.jpg" alt="">
+							<div class="preimg pre7">
+								<span class="prm">
+							280
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							280
+								<span>р</span>
+							</span>
+								<p>модельная</p>
+							</div>
+						</div>
+						<div class="zalimgbl" style="margin-top: 6px;">
+							<img src="img1/zalimg7.jpg" alt="">
+							<div class="preimg pre8">
+								<span class="prm">
+							250
 								<span>р</span>
 							</span>
 							<span class="chaik">
@@ -468,7 +1085,7 @@
 			<h3>женские прически</h3>
 			<div class="womcont">
 				<div style="display:inline-block">
-					<div class="womblock">
+					<div class="womblock choose_ykladka1" data-id="1">
 						<img src="img1/womimg1.jpg" alt="">
 						<div class="preimg">
 							<p class="womlist">
@@ -501,7 +1118,172 @@
 							</ul>
 						</div>
 					</div>
-					<div class="womblock">
+					<div class="womblock choose_ykladka1" data-id="2" style="display:none;">
+						<img src="img1/womimg1.jpg" alt="">
+						<div class="preimg">
+							<p class="womlist">
+								укладка по форме стрижки
+Включено мытье волос
+							</p>
+							<span class="wm1" >
+								150
+								<span>р</span>
+								<br>
+								200
+								<span>р</span>
+								<br>
+								250
+								<span>р</span>
+							</span>
+							<ul class="wml">
+								<li>
+									короткие
+									<span>.......</span>
+								</li>
+								<li>
+									средние
+									<span>.......</span>
+								</li>
+								<li>
+									длинные
+									<span>.......</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="womblock choose_ykladka1" data-id="3" style="display:none;">
+						<img src="img1/womimg1.jpg" alt="">
+						<div class="preimg">
+							<p class="womlist">
+								укладка по форме стрижки
+Включено мытье волос
+							</p>
+							<span class="wm1" >
+								180
+								<span>р</span>
+								<br>
+								250
+								<span>р</span>
+								<br>
+								300
+								<span>р</span>
+							</span>
+							<ul class="wml">
+								<li>
+									короткие
+									<span>.......</span>
+								</li>
+								<li>
+									средние
+									<span>.......</span>
+								</li>
+								<li>
+									длинные
+									<span>.......</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="womblock choose_ykladka1" data-id="4" style="display:none;">
+						<img src="img1/womimg1.jpg" alt="">
+						<div class="preimg">
+							<p class="womlist">
+								укладка по форме стрижки
+Включено мытье волос
+							</p>
+							<span class="wm1" >
+								150
+								<span>р</span>
+								<br>
+								200
+								<span>р</span>
+								<br>
+								250
+								<span>р</span>
+							</span>
+							<ul class="wml">
+								<li>
+									короткие
+									<span>.......</span>
+								</li>
+								<li>
+									средние
+									<span>.......</span>
+								</li>
+								<li>
+									длинные
+									<span>.......</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="womblock choose_ykladka2" data-id="1">
+						<img src="img1/womimg2.jpg" alt="">
+						<div class="preimg">
+							<p style="font-size: 32px; padding-bottom: 12px; letter-spacing: 2px; padding-top: 20px;">Дневная</p>
+							<span class="prm" style="font-size: 30px; margin-top: 21px; line-height: 43px;">
+								<span style="font-size: 20px;">от</span>
+								700
+								<span style="font-size: 21px;">р</span>
+							</span>
+							<span class="chaik" style="font-size: 30px; margin-top: 21px; line-height: 43px;">
+								<span style="font-size: 20px;">от</span>
+								500
+								<span style="font-size: 21px;">р</span>
+							</span>
+							<p style="font-size: 18px; line-height: 22px; padding-top: 2px;">
+								Включено:
+								<br>
+								шампунь, бальзам,
+стайлинг, работа
+							</p>
+						</div>
+					</div>
+					<div class="womblock choose_ykladka2" data-id="2" style="display:none;">
+						<img src="img1/womimg2.jpg" alt="">
+						<div class="preimg">
+							<p style="font-size: 32px; padding-bottom: 12px; letter-spacing: 2px; padding-top: 20px;">Дневная</p>
+							<span class="prm" style="font-size: 30px; margin-top: 21px; line-height: 43px;">
+								<span style="font-size: 20px;">от</span>
+								700
+								<span style="font-size: 21px;">р</span>
+							</span>
+							<span class="chaik" style="font-size: 30px; margin-top: 21px; line-height: 43px;">
+								<span style="font-size: 20px;">от</span>
+								500
+								<span style="font-size: 21px;">р</span>
+							</span>
+							<p style="font-size: 18px; line-height: 22px; padding-top: 2px;">
+								Включено:
+								<br>
+								шампунь, бальзам,
+стайлинг, работа
+							</p>
+						</div>
+					</div>
+					<div class="womblock choose_ykladka2" data-id="3" style="display:none;"">
+						<img src="img1/womimg2.jpg" alt="">
+						<div class="preimg">
+							<p style="font-size: 32px; padding-bottom: 12px; letter-spacing: 2px; padding-top: 20px;">Дневная</p>
+							<span class="prm" style="font-size: 30px; margin-top: 21px; line-height: 43px;">
+								<span style="font-size: 20px;">от</span>
+								700
+								<span style="font-size: 21px;">р</span>
+							</span>
+							<span class="chaik" style="font-size: 30px; margin-top: 21px; line-height: 43px;">
+								<span style="font-size: 20px;">от</span>
+								500
+								<span style="font-size: 21px;">р</span>
+							</span>
+							<p style="font-size: 18px; line-height: 22px; padding-top: 2px;">
+								Включено:
+								<br>
+								шампунь, бальзам,
+стайлинг, работа
+							</p>
+						</div>
+					</div>
+					<div class="womblock choose_ykladka2" data-id="4" style="display:none;"">
 						<img src="img1/womimg2.jpg" alt="">
 						<div class="preimg">
 							<p style="font-size: 32px; padding-bottom: 12px; letter-spacing: 2px; padding-top: 20px;">Дневная</p>
@@ -525,7 +1307,7 @@
 					</div>
 				</div>
 				<div style="display:inline-block">
-					<div class="womblock">
+					<div class="womblock choose_ykladka3" data-id="1">
 						<img src="img1/womimg3.jpg" alt="">
 						<div class="preimg">
 							<p style="font-size: 32px; padding-bottom: 12px; letter-spacing: 2px; padding-top: 20px;">Вечерняя</p>
@@ -541,7 +1323,103 @@
 							</p>
 						</div>
 					</div>
-					<div class="womblock">
+					<div class="womblock choose_ykladka3" data-id="2" style="display:none;">
+						<img src="img1/womimg3.jpg" alt="">
+						<div class="preimg">
+							<p style="font-size: 32px; padding-bottom: 12px; letter-spacing: 2px; padding-top: 20px;">Вечерняя</p>
+							<span style="font-size: 30px; margin-top: 21px; line-height: 43px;width: 90px;">
+								700
+								<span style="font-size: 21px;">р</span>
+							</span>
+							<p style="font-size: 18px; line-height: 22px; padding-top: 2px;">
+								Включено:
+								<br>
+								шампунь, бальзам,
+стайлинг, работа
+							</p>
+						</div>
+					</div>
+					<div class="womblock choose_ykladka3" data-id="3" style="display:none;">
+						<img src="img1/womimg3.jpg" alt="">
+						<div class="preimg">
+							<p style="font-size: 32px; padding-bottom: 12px; letter-spacing: 2px; padding-top: 20px;">Вечерняя</p>
+							<span style="font-size: 30px; margin-top: 21px; line-height: 43px;width: 90px;">
+								850
+								<span style="font-size: 21px;">р</span>
+							</span>
+							<p style="font-size: 18px; line-height: 22px; padding-top: 2px;">
+								Включено:
+								<br>
+								шампунь, бальзам,
+стайлинг, работа
+							</p>
+						</div>
+					</div>
+					<div class="womblock choose_ykladka3" data-id="4" style="display:none;">
+						<img src="img1/womimg3.jpg" alt="">
+						<div class="preimg">
+							<p style="font-size: 32px; padding-bottom: 12px; letter-spacing: 2px; padding-top: 20px;">Вечерняя</p>
+							<span style="font-size: 30px; margin-top: 21px; line-height: 43px;width: 90px;">
+								700
+								<span style="font-size: 21px;">р</span>
+							</span>
+							<p style="font-size: 18px; line-height: 22px; padding-top: 2px;">
+								Включено:
+								<br>
+								шампунь, бальзам,
+стайлинг, работа
+							</p>
+						</div>
+					</div>
+					<div class="womblock choose_ykladka4" data-id="1">
+						<img src="img1/womimg4.jpg" alt="">
+						<div class="preimg">
+							<p style="font-size: 32px; padding-bottom: 12px; letter-spacing: 2px; padding-top: 20px;">Свадебная</p>
+							<span style="font-size: 30px; margin-top: 21px; line-height: 43px;width: 90px;">
+								1000
+								<span style="font-size: 21px;">р</span>
+							</span>
+							<p style="font-size: 18px; line-height: 22px; padding-top: 2px;">
+								Включено:
+								<br>
+								шампунь, бальзам,
+стайлинг, работа
+							</p>
+						</div>
+					</div>
+					<div class="womblock choose_ykladka4" data-id="2" style="display:none";>
+						<img src="img1/womimg4.jpg" alt="">
+						<div class="preimg">
+							<p style="font-size: 32px; padding-bottom: 12px; letter-spacing: 2px; padding-top: 20px;">Свадебная</p>
+							<span style="font-size: 30px; margin-top: 21px; line-height: 43px;width: 90px;">
+								1000
+								<span style="font-size: 21px;">р</span>
+							</span>
+							<p style="font-size: 18px; line-height: 22px; padding-top: 2px;">
+								Включено:
+								<br>
+								шампунь, бальзам,
+стайлинг, работа
+							</p>
+						</div>
+					</div>
+					<div class="womblock choose_ykladka4" data-id="3" style="display:none";>
+						<img src="img1/womimg4.jpg" alt="">
+						<div class="preimg">
+							<p style="font-size: 32px; padding-bottom: 12px; letter-spacing: 2px; padding-top: 20px;">Свадебная</p>
+							<span style="font-size: 30px; margin-top: 21px; line-height: 43px;width: 90px;">
+								1250
+								<span style="font-size: 21px;">р</span>
+							</span>
+							<p style="font-size: 18px; line-height: 22px; padding-top: 2px;">
+								Включено:
+								<br>
+								шампунь, бальзам,
+стайлинг, работа
+							</p>
+						</div>
+					</div>
+					<div class="womblock choose_ykladka4" data-id="4" style="display:none";>
 						<img src="img1/womimg4.jpg" alt="">
 						<div class="preimg">
 							<p style="font-size: 32px; padding-bottom: 12px; letter-spacing: 2px; padding-top: 20px;">Свадебная</p>
@@ -564,7 +1442,7 @@
 		<section class="paintsect">
 			<h3>окрашивание</h3>
 			<div class="paintcont">
-				<div class="paintblock">
+				<div class="paintblock choose_yslygi" data-id="1">
 					<img src="img1/paintimg1.jpg" alt="">
 					<div class="preimg">
 						<p class="womlist paintl">мелирование</p>
@@ -633,7 +1511,216 @@
 						</ul>
 					</div>
 				</div>
-				<div class="paintblock">
+
+				<div class="paintblock choose_yslygi" data-id="2" style="display:none;">
+					<img src="img1/paintimg1.jpg" alt="">
+					<div class="preimg">
+						<p class="womlist paintl">мелирование</p>
+						<span class="wm1 paint1" >
+							850
+							<span>р</span>
+							<br>
+							1100
+							<span>р</span>
+							<br>
+							1500
+							<span>р</span>
+							<br>
+							1800
+							<span>р</span>
+							<br>
+							<br>
+							<br>
+							1090
+							<span>р</span>
+							<br>
+							1390
+							<span>р</span>
+							<br>
+							1800
+							<span>р</span>
+							<br>
+							2250
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li>«Estel»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+							<li>«Couture» и «Matrix»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="paintblock choose_yslygi" data-id="3" style="display:none;">
+					<img src="img1/paintimg1.jpg" alt="">
+					<div class="preimg">
+						<p class="womlist paintl">мелирование</p>
+						<span class="wm1 paint1" >
+							1000
+							<span>р</span>
+							<br>
+							1300
+							<span>р</span>
+							<br>
+							1800
+							<span>р</span>
+							<br>
+							2200
+							<span>р</span>
+							<br>
+							<br>
+							<br>
+							1300
+							<span>р</span>
+							<br>
+							1700
+							<span>р</span>
+							<br>
+							2200
+							<span>р</span>
+							<br>
+							2700
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li>«Estel»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+							<li>«Couture» и «Matrix»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="paintblock choose_yslygi" data-id="4" style="display:none;">
+					<img src="img1/paintimg1.jpg" alt="">
+					<div class="preimg">
+						<p class="womlist paintl">мелирование</p>
+						<span class="wm1 paint1" >
+							850
+							<span>р</span>
+							<br>
+							1100
+							<span>р</span>
+							<br>
+							1500
+							<span>р</span>
+							<br>
+							1800
+							<span>р</span>
+							<br>
+							<br>
+							<br>
+							1090
+							<span>р</span>
+							<br>
+							1390
+							<span>р</span>
+							<br>
+							1800
+							<span>р</span>
+							<br>
+							2250
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li>«Estel»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+							<li>«Couture» и «Matrix»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="paintblock choose_yslygi2" data-id="1">
 					<img src="img1/paintimg2.jpg" alt="">
 					<div class="preimg">
 						<p class="womlist paintl">Окрашивание <span style="line-height: normal; font-size: 20px; letter-spacing: 2.5px;">в один тон</span></p>
@@ -700,7 +1787,208 @@
 						</ul>
 					</div>
 				</div>
-				<div class="paintblock">
+				<div class="paintblock choose_yslygi2" data-id="2" style="display:none;">
+					<img src="img1/paintimg2.jpg" alt="">
+					<div class="preimg">
+						<p class="womlist paintl">Окрашивание <span style="line-height: normal; font-size: 20px; letter-spacing: 2.5px;">в один тон</span></p>
+						<span class="wm1 paint1" >
+							750
+							<span>р</span>
+							<br>1000<span>р</span>
+							<br>
+							1400
+							<span>р</span>
+							<br>
+							1700
+							<span>р</span>
+							<br>
+							<br>
+							<br>
+							990 
+							<span>р</span>
+							<br>
+							1400 
+							<span>р</span>
+							<br>
+							1900 
+							<span>р</span>
+							<br>
+							2400
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li>«Estel»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+							<li>«Couture» и «Matrix»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="paintblock choose_yslygi2" data-id="3" style="display:none;">
+					<img src="img1/paintimg2.jpg" alt="">
+					<div class="preimg">
+						<p class="womlist paintl">Окрашивание <span style="line-height: normal; font-size: 20px; letter-spacing: 2.5px;">в один тон</span></p>
+						<span class="wm1 paint1" >
+							950
+							<span>р</span>
+							<br>1200<span>р</span>
+							<br>
+							1700
+							<span>р</span>
+							<br>
+							2000
+							<span>р</span>
+							<br>
+							<br>
+							<br>
+							1200
+							<span>р</span>
+							<br>
+							1700 
+							<span>р</span>
+							<br>
+							2300
+							<span>р</span>
+							<br>
+						    2900
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li>«Estel»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+							<li>«Couture» и «Matrix»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="paintblock choose_yslygi2" data-id="4" style="display:none;">
+					<img src="img1/paintimg2.jpg" alt="">
+					<div class="preimg">
+						<p class="womlist paintl">Окрашивание <span style="line-height: normal; font-size: 20px; letter-spacing: 2.5px;">в один тон</span></p>
+						<span class="wm1 paint1" >
+							750
+							<span>р</span>
+							<br>1000<span>р</span>
+							<br>
+							1400
+							<span>р</span>
+							<br>
+							1700
+							<span>р</span>
+							<br>
+							<br>
+							<br>
+							990 
+							<span>р</span>
+							<br>
+							1400 
+							<span>р</span>
+							<br>
+							1900 
+							<span>р</span>
+							<br>
+							2400
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li>«Estel»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+							<li>«Couture» и «Matrix»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="paintblock choose_yslygi3" data-id="1">
 					<img src="img1/paintimg3.jpg" alt="">
 					<div class="preimg">
 						<p class="womlist paintl">Креативное окрашивание</p>
@@ -769,7 +2057,214 @@
 						</ul>
 					</div>
 				</div>
-				<div class="paintblock" style="margin-top: 19px;">
+				<div class="paintblock choose_yslygi3" data-id="2" style="display:none;">
+					<img src="img1/paintimg3.jpg" alt="">
+					<div class="preimg">
+						<p class="womlist paintl">Креативное окрашивание</p>
+						<span class="wm1 paint1" >
+							1300
+							<span>р</span>
+							<br>
+							1700
+							<span>р</span>
+							<br>
+							2300
+							<span>р</span>
+							<br>
+							2600
+							<span>р</span>
+							<br>
+							<br>
+							<br>
+							1600
+							<span>р</span>
+							<br>
+							2000
+							<span>р</span>
+							<br>
+							2600
+							<span>р</span>
+							<br>
+							3000
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li>«Estel»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+							<li>«Couture» и «Matrix»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="paintblock choose_yslygi3" data-id="3" style="display:none;">
+					<img src="img1/paintimg3.jpg" alt="">
+					<div class="preimg">
+						<p class="womlist paintl">Креативное окрашивание</p>
+						<span class="wm1 paint1" >
+							1500
+							<span>р</span>
+							<br>
+							2000
+							<span>р</span>
+							<br>
+							2800
+							<span>р</span>
+							<br>
+							3200
+							<span>р</span>
+							<br>
+							<br>
+							<br>
+						    1900
+							<span>р</span>
+							<br>
+							2400
+							<span>р</span>
+							<br>
+							3200
+							<span>р</span>
+							<br>
+							3600
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li>«Estel»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+							<li>«Couture» и «Matrix»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="paintblock choose_yslygi3" data-id="4" style="display:none;">
+					<img src="img1/paintimg3.jpg" alt="">
+					<div class="preimg">
+						<p class="womlist paintl">Креативное окрашивание</p>
+						<span class="wm1 paint1" >
+							1300
+							<span>р</span>
+							<br>
+							1700
+							<span>р</span>
+							<br>
+							2300
+							<span>р</span>
+							<br>
+							2600
+							<span>р</span>
+							<br>
+							<br>
+							<br>
+							1600
+							<span>р</span>
+							<br>
+							2000
+							<span>р</span>
+							<br>
+							2600
+							<span>р</span>
+							<br>
+							3000
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li>«Estel»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+							<li>«Couture» и «Matrix»</li>
+							<li>
+								на короткие
+								<span>................</span>
+							</li>
+							<li>
+								на средние
+								<span>.................</span>
+							</li>
+							<li>
+								на длинные
+								<span>................</span>
+							</li>
+							<li>
+								на очень длинные
+								<span>...........</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="paintblock choose_tonirovka_woman" data-id="1" style="margin-top: 19px;">
 					<img src="img1/paintimg4.jpg" alt="">
 					<div class="preimg">
 						<p class="womlist paintl">Экспресс тонирование волос ЖЕНСКОЕ</p>
@@ -800,7 +2295,100 @@
 						</ul>
 					</div>
 				</div>
-				<div class="paintblock" style="margin-top: 19px;">
+				<div class="paintblock choose_tonirovka_woman" data-id="2" style="margin-top: 19px; display:none">
+					<img src="img1/paintimg4.jpg" alt="">
+					<div class="preimg">
+						<p class="womlist paintl">Экспресс тонирование волос ЖЕНСКОЕ</p>
+						<span style="width: 118px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							400
+							<span>р</span>
+							<br>
+							800
+							<span>р</span>
+							<br>
+							1200
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«Estel Prima Blond» и «Estel Prima»</li>
+							<li>
+								На короткие и средние
+								<span>......................</span>
+							</li>
+							<li>
+								На длинные
+								<span>................................</span>
+							</li>
+							<li>
+								На очень длинные
+								<span>..........................</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="paintblock choose_tonirovka_woman" data-id="3" style="margin-top:19px; display:none">
+					<img src="img1/paintimg4.jpg" alt="">
+					<div class="preimg">
+						<p class="womlist paintl">Экспресс тонирование волос ЖЕНСКОЕ</p>
+						<span style="width: 118px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							420
+							<span>р</span>
+							<br>
+							660
+							<span>р</span>
+							<br>
+							900
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«Estel Prima Blond» и «Estel Prima»</li>
+							<li>
+								На короткие и средние
+								<span>......................</span>
+							</li>
+							<li>
+								На длинные
+								<span>................................</span>
+							</li>
+							<li>
+								На очень длинные
+								<span>..........................</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="paintblock choose_tonirovka_woman" data-id="4" style="margin-top: 19px; display:none">
+					<img src="img1/paintimg4.jpg" alt="">
+					<div class="preimg">
+						<p class="womlist paintl">Экспресс тонирование волос ЖЕНСКОЕ</p>
+						<span style="width: 118px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							400
+							<span>р</span>
+							<br>
+							800
+							<span>р</span>
+							<br>
+							1200
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«Estel Prima Blond» и «Estel Prima»</li>
+							<li>
+								На короткие и средние
+								<span>......................</span>
+							</li>
+							<li>
+								На длинные
+								<span>................................</span>
+							</li>
+							<li>
+								На очень длинные
+								<span>..........................</span>
+							</li>
+						</ul>
+					</div>
+				</div> 
+				<div class="paintblock  choose_tonirovka_man" data-id="1" style="margin-top: 19px;">
 					<img src="img1/paintimg5.jpg" alt="">
 					<div class="preimg">
 						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
@@ -830,14 +2418,442 @@
 							</li>
 						</ul>
 					</div>
+					<div class="preimg" style="display:none;">
+						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
+						<span style="width: 106px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							250
+							<span>р</span>
+							<br>
+							200
+							<span>р</span>
+							<br>
+							400
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«ALPHA HOMME»</li>
+							<li>
+							Экспресс тонирование головы
+								<span>.................</span>
+							</li>
+							<li>
+								Экспресс тонирование бороды
+								<span>.................</span>
+							</li>
+							<li>
+							Экспресс тонирование головы+бороды
+								<span>.........</span>
+							</li>
+						</ul>
+					</div>
+					<div class="preimg" style="display:none;">
+						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
+						<span style="width: 106px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							300
+							<span>р</span>
+							<br>
+							250
+							<span>р</span>
+							<br>
+							500
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«ALPHA HOMME»</li>
+							<li>
+							Экспресс тонирование головы
+								<span>.................</span>
+							</li>
+							<li>
+								Экспресс тонирование бороды
+								<span>.................</span>
+							</li>
+							<li>
+							Экспресс тонирование головы+бороды
+								<span>.........</span>
+							</li>
+						</ul>
+					</div>
+					<div class="preimg" style="display:none;">
+						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
+						<span style="width: 106px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							250
+							<span>р</span>
+							<br>
+							200
+							<span>р</span>
+							<br>
+							400
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«ALPHA HOMME»</li>
+							<li>
+							Экспресс тонирование головы
+								<span>.................</span>
+							</li>
+							<li>
+								Экспресс тонирование бороды
+								<span>.................</span>
+							</li>
+							<li>
+							Экспресс тонирование головы+бороды
+								<span>.........</span>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
+			<div class="paintblock  choose_tonirovka_man" data-id="2" style="margin-top: 19px;">
+					<img src="img1/paintimg5.jpg" alt="">
+					<div class="preimg">
+						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
+						<span style="width: 106px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							250
+							<span>р</span>
+							<br>
+							200
+							<span>р</span>
+							<br>
+							400
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«ALPHA HOMME»</li>
+							<li>
+							Экспресс тонирование головы
+								<span>.................</span>
+							</li>
+							<li>
+								Экспресс тонирование бороды
+								<span>.................</span>
+							</li>
+							<li>
+							Экспресс тонирование головы+бороды
+								<span>.........</span>
+							</li>
+						</ul>
+					</div>
+					<div class="preimg" style="display:none;">
+						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
+						<span style="width: 106px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							250
+							<span>р</span>
+							<br>
+							200
+							<span>р</span>
+							<br>
+							400
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«ALPHA HOMME»</li>
+							<li>
+							Экспресс тонирование головы
+								<span>.................</span>
+							</li>
+							<li>
+								Экспресс тонирование бороды
+								<span>.................</span>
+							</li>
+							<li>
+							Экспресс тонирование головы+бороды
+								<span>.........</span>
+							</li>
+						</ul>
+					</div>
+					<div class="preimg" style="display:none;">
+						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
+						<span style="width: 106px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							300
+							<span>р</span>
+							<br>
+							250
+							<span>р</span>
+							<br>
+							500
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«ALPHA HOMME»</li>
+							<li>
+							Экспресс тонирование головы
+								<span>.................</span>
+							</li>
+							<li>
+								Экспресс тонирование бороды
+								<span>.................</span>
+							</li>
+							<li>
+							Экспресс тонирование головы+бороды
+								<span>.........</span>
+							</li>
+						</ul>
+					</div>
+					<div class="preimg" style="display:none;">
+						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
+						<span style="width: 106px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							250
+							<span>р</span>
+							<br>
+							200
+							<span>р</span>
+							<br>
+							400
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«ALPHA HOMME»</li>
+							<li>
+							Экспресс тонирование головы
+								<span>.................</span>
+							</li>
+							<li>
+								Экспресс тонирование бороды
+								<span>.................</span>
+							</li>
+							<li>
+							Экспресс тонирование головы+бороды
+								<span>.........</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			<div class="paintblock  choose_tonirovka_man" data-id="3" style="margin-top: 19px;">
+					<img src="img1/paintimg5.jpg" alt="">
+					<div class="preimg">
+						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
+						<span style="width: 106px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							300
+							<span>р</span>
+							<br>
+							250
+							<span>р</span>
+							<br>
+							500
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«ALPHA HOMME»</li>
+							<li>
+							Экспресс тонирование головы
+								<span>.................</span>
+							</li>
+							<li>
+								Экспресс тонирование бороды
+								<span>.................</span>
+							</li>
+							<li>
+							Экспресс тонирование головы+бороды
+								<span>.........</span>
+							</li>
+						</ul>
+					</div>
+					<div class="preimg" style="display:none;">
+						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
+						<span style="width: 106px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							250
+							<span>р</span>
+							<br>
+							200
+							<span>р</span>
+							<br>
+							400
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«ALPHA HOMME»</li>
+							<li>
+							Экспресс тонирование головы
+								<span>.................</span>
+							</li>
+							<li>
+								Экспресс тонирование бороды
+								<span>.................</span>
+							</li>
+							<li>
+							Экспресс тонирование головы+бороды
+								<span>.........</span>
+							</li>
+						</ul>
+					</div>
+					<div class="preimg" style="display:none;">
+						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
+						<span style="width: 106px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							300
+							<span>р</span>
+							<br>
+							250
+							<span>р</span>
+							<br>
+							500
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«ALPHA HOMME»</li>
+							<li>
+							Экспресс тонирование головы
+								<span>.................</span>
+							</li>
+							<li>
+								Экспресс тонирование бороды
+								<span>.................</span>
+							</li>
+							<li>
+							Экспресс тонирование головы+бороды
+								<span>.........</span>
+							</li>
+						</ul>
+					</div>
+					<div class="preimg" style="display:none;">
+						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
+						<span style="width: 106px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							250
+							<span>р</span>
+							<br>
+							200
+							<span>р</span>
+							<br>
+							400
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«ALPHA HOMME»</li>
+							<li>
+							Экспресс тонирование головы
+								<span>.................</span>
+							</li>
+							<li>
+								Экспресс тонирование бороды
+								<span>.................</span>
+							</li>
+							<li>
+							Экспресс тонирование головы+бороды
+								<span>.........</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			<div class="paintblock  choose_tonirovka_man" data-id="4" style="margin-top: 19px;">
+					<img src="img1/paintimg5.jpg" alt="">
+					<div class="preimg">
+						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
+						<span style="width: 106px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							250
+							<span>р</span>
+							<br>
+							200
+							<span>р</span>
+							<br>
+							400
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«ALPHA HOMME»</li>
+							<li>
+							Экспресс тонирование головы
+								<span>.................</span>
+							</li>
+							<li>
+								Экспресс тонирование бороды
+								<span>.................</span>
+							</li>
+							<li>
+							Экспресс тонирование головы+бороды
+								<span>.........</span>
+							</li>
+						</ul>
+					</div>
+					<div class="preimg" style="display:none;">
+						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
+						<span style="width: 106px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							250
+							<span>р</span>
+							<br>
+							200
+							<span>р</span>
+							<br>
+							400
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«ALPHA HOMME»</li>
+							<li>
+							Экспресс тонирование головы
+								<span>.................</span>
+							</li>
+							<li>
+								Экспресс тонирование бороды
+								<span>.................</span>
+							</li>
+							<li>
+							Экспресс тонирование головы+бороды
+								<span>.........</span>
+							</li>
+						</ul>
+					</div>
+					<div class="preimg" style="display:none;">
+						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
+						<span style="width: 106px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							300
+							<span>р</span>
+							<br>
+							250
+							<span>р</span>
+							<br>
+							500
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«ALPHA HOMME»</li>
+							<li>
+							Экспресс тонирование головы
+								<span>.................</span>
+							</li>
+							<li>
+								Экспресс тонирование бороды
+								<span>.................</span>
+							</li>
+							<li>
+							Экспресс тонирование головы+бороды
+								<span>.........</span>
+							</li>
+						</ul>
+					</div>
+					<div class="preimg" style="display:none;">
+						<p class="womlist paintl">Экспресс тонирование волос МУЖСКОЕ</p>
+						<span style="width: 106px; padding-top: 17px ! important; padding-bottom: 15px ! important; margin-top: 24px ! important;" class="wm1 paint1">
+							250
+							<span>р</span>
+							<br>
+							200
+							<span>р</span>
+							<br>
+							400
+							<span>р</span>
+						</span>
+						<ul class="wml paint">
+							<li style="padding-bottom: 12px;">«ALPHA HOMME»</li>
+							<li>
+							Экспресс тонирование головы
+								<span>.................</span>
+							</li>
+							<li>
+								Экспресс тонирование бороды
+								<span>.................</span>
+							</li>
+							<li>
+							Экспресс тонирование головы+бороды
+								<span>.........</span>
+							</li>
+						</ul>
+					</div>
+				</div>
 			<!-- <input type="button" class="ord ordbtn" value="записаться"> -->
 			<a href="#" class="ord ms_booking">Записаться</a>
 			</section>
 		<section class="makesect">
 			<h3>Ногтевая студия</h3>
-			<div class="makecont">
+			<div class="makecont choose_manik" data-id="1">
 				<div class="makeblock">
 					<img src="img1/nail1.jpg" alt="">
 					<div class="preimg">
@@ -876,8 +2892,127 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="makecont choose_manik" data-id="2" style="display:none;">
+				<div class="makeblock">
+					<img src="img1/nail1.jpg" alt="">
+					<div class="preimg">
+						<span>
+							99
+							<span>р</span>
+						</span>
+						<p style="padding-left: 17px; letter-spacing: 1px;">Экспресс маникюр</p>
+					</div>
+				</div>
+				<div class="makeblock">
+					<img src="img1/nail2.jpg" alt="">
+					<div class="preimg">
+						
+							<span class="prm">
+							650
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							399
+								<span>р</span>
+							</span>
+						<p style="padding-left: 15px; letter-spacing: 1px; font-size: 26px;">маникюр с гель-лаком</p>
+					</div>
+				</div>
+				<div class="makeblock">
+					<img src="img1/nail3.jpg" alt="">
+					<div class="preimg">
+						<span style="line-height: 24px; padding-bottom: 15px; padding-top: 13px;">
+							<span style="line-height: 0px;">от</span>
+							20
+							<span style="line-height: 0px;">р</span><br style="line-height: 0px; font-size: 0px;">
+							<span style="font-size: 22px; line-height: 0;">за ноготь</span>
+						</span>
+						<p style="padding-left: 14px; letter-spacing: 1px; padding-top: 13px;">Дизайн</p>
+					</div>
+				</div>
+			</div>
+			<div class="makecont choose_manik" data-id="3" style="display:none;">
+				<div class="makeblock">
+					<img src="img1/nail1.jpg" alt="">
+					<div class="preimg">
+						<span>
+							115
+							<span>р</span>
+						</span>
+						<p style="padding-left: 17px; letter-spacing: 1px;">Экспресс маникюр</p>
+					</div>
+				</div>
+				<div class="makeblock">
+					<img src="img1/nail2.jpg" alt="">
+					<div class="preimg">
+						
+							<span class="prm">
+							750
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							399
+								<span>р</span>
+							</span>
+						<p style="padding-left: 15px; letter-spacing: 1px; font-size: 26px;">маникюр с гель-лаком</p>
+					</div>
+				</div>
+				<div class="makeblock">
+					<img src="img1/nail3.jpg" alt="">
+					<div class="preimg">
+						<span style="line-height: 24px; padding-bottom: 15px; padding-top: 13px;">
+							<span style="line-height: 0px;">от</span>
+							25
+							<span style="line-height: 0px;">р</span><br style="line-height: 0px; font-size: 0px;">
+							<span style="font-size: 22px; line-height: 0;">за ноготь</span>
+						</span>
+						<p style="padding-left: 14px; letter-spacing: 1px; padding-top: 13px;">Дизайн</p>
+					</div>
+				</div>
+			</div>
+			<div class="makecont choose_manik" data-id="4" style="display:none;">
+				<div class="makeblock">
+					<img src="img1/nail1.jpg" alt="">
+					<div class="preimg">
+						<span>
+							99
+							<span>р</span>
+						</span>
+						<p style="padding-left: 17px; letter-spacing: 1px;">Экспресс маникюр</p>
+					</div>
+				</div>
+				<div class="makeblock">
+					<img src="img1/nail2.jpg" alt="">
+					<div class="preimg">
+						
+							<span class="prm">
+							590
+								<span>р</span>
+							</span>
+							<span class="chaik">
+							399
+								<span>р</span>
+							</span>
+						<p style="padding-left: 15px; letter-spacing: 1px; font-size: 26px;">маникюр с гель-лаком</p>
+					</div>
+				</div>
+				<div class="makeblock">
+					<img src="img1/nail3.jpg" alt="">
+					<div class="preimg">
+						<span style="line-height: 24px; padding-bottom: 15px; padding-top: 13px;">
+							<span style="line-height: 0px;">от</span>
+							10
+							<span style="line-height: 0px;">р</span><br style="line-height: 0px; font-size: 0px;">
+							<span style="font-size: 22px; line-height: 0;">за ноготь</span>
+						</span>
+						<p style="padding-left: 14px; letter-spacing: 1px; padding-top: 13px;">Дизайн</p>
+					</div>
+				</div>
+			</div>
 			<!-- <input class="ordbtn" value="записаться" type="button"> -->
-			<a href="#" class="ord ms_booking">Записаться</a></section>
+			<a href="#" class="ord ms_booking">Записаться</a>
+		</section>
 		<section class="medsect">
 			<h3>спа-процедуры для восстановления волос</h3>
 			<div class="medcont">
@@ -948,7 +3083,7 @@
 			<a href="#" class="ms_booking">Записаться</a></section>
 		<section class="incsect">
 			<h3>студия загара</h3>
-			<div class="inccont">
+			<div class="inccont choose_solar" data-id="1">
 				<div class="incblock">
 					<img src="img1/newsolar.jpg"  alt="">
 					<p>ул. Декабристов, 13</p>
@@ -981,6 +3116,38 @@
 					<img src="img1/solar5.jpg" alt="">
 					<p>ул. Уинская, 8</p>
 				</div>
+
+			</div>
+			<div class="inccont choose_solar" data-id="2" style="display:none;">
+				<div class="incblock">
+					<img src="img1/solarsovet.png"  alt="">
+					<p>ул. Советская, 22</p>
+				</div>
+				<div class="incblock">
+					<img src="img1/solarkarla.png"  alt="">
+					<p>ул. Карла Марска, 20</p>
+				</div>
+				<div class="incblock">
+					<img src="img1/solarvokzal.png" alt="">
+					<p>ул. Вокзальная, 23</p>
+				</div>
+				<div class="incblock">
+					<img src="img1/solarmagik.png" alt="">
+					<p>ул. Вокзальная 65</p>
+				</div>
+				<
+			</div>
+			<div class="inccont choose_solar" data-id="3" style="display:none;">
+				<div class="incblock">
+					<img src="img1/solosolar.png"  alt="">
+					<p>Солярий K-SAN (42x180w)</p>
+				</div>
+			</div>
+			<div class="inccont choose_solar" data-id="4" style="display:none;">
+				<div class="incblock">
+					<img src="img1/testsolar.png"  alt="">
+				</div>
+				
 
 			</div>
 			<div class="inctbwrap choose_price" data-id="1">
@@ -1435,7 +3602,6 @@
 				<div class="inconttable" style="text-align:center;">
 					<div class="rowtb row1">
 						<div class="coltb">
-							<h4>Ким’83</h4>
 							<p>
 								Солярий
 								<br>пр-во голландия</p>
@@ -1475,10 +3641,11 @@
 				
 			</div>			
 			<!-- <input type="button" class="ordbtn" value="записаться"> -->
-			<a href="#" class="ms_booking">Записаться</a></section>
+			<a href="#" class="ms_booking">Записаться</a>
+			</section>
 		<section class="compsect">
 			<h3>комплексы услуг</h3>
-			<div class="compcont">
+			<div class="compcont choose_works" data-id="1">
 				<div class="compblock">
 					<img src="img1/complimg1.jpg" height="376" width="509" alt="">
 					<div class="preimg">
@@ -1620,7 +3787,433 @@
 				</div>
 			</div>
 			<!-- <input type="button" class="ordbtn" value="записаться"> -->
-			<a href="#" class="ms_booking">Записаться</a></section>
+			<div class="compcont choose_works" data-id="2" style="display: none;">
+				<div class="compblock">
+					<img src="img1/complimg1.jpg" height="376" width="509" alt="">
+					<div class="preimg">
+						<p class="compp1">
+							стрижка
+							<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="">
+							окрашивание
+							<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="">
+							укладка
+							<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="">материалы</p>
+						<span class="sp1" >
+							799
+							<span>р</span>
+							<br>
+							1099
+							<span>р</span>
+							<br>
+							1499
+							<span>р</span>
+							<br>
+							1799
+							<span>р</span>
+						</span>
+						<ul>
+							<li>
+								короткие
+								<span>
+									......................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								средние
+								<span>
+									.......................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								длинные
+								<span>
+									......................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								очень длинные
+								<span>
+									......................
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="compblock">
+					<img src="img1/complimg2.jpg" height="376" width="509" alt="">
+					<div class="preimg">
+						<p class="compp1">
+							Окрашивание <img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt=""> спа-процедура со скидкой 50%</p>
+						<span class="sp1" >
+							790
+							<span>р</span>
+							<br>
+							1100
+							<span>р</span>
+							<br>
+							1599
+							<span>р</span>
+							<br>
+							1790
+							<span>р</span>
+						</span>
+						<ul>
+							<li>
+								короткие
+								<span>
+									......................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								средние
+								<span>
+									.......................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								длинные
+								<span>
+									......................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								очень длинные
+								<span>
+									......................
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="compblock">
+					<img src="img1/complimg3.jpg"alt="">
+					<div class="preimg">
+						
+							<span class="sp2 prm">
+							650
+								<span style="padding: 0px; float: none;">р</span>
+							</span>
+							<span class="sp2 chaik">
+							399
+								<span style="padding: 0px; float: none;">р</span>
+							</span>
+						<p class="compp2" style="font-size: 35px; line-height: 58px;">
+							Маникюр
+							<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="">
+							гель-лак</p>
+
+					</div>
+				</div>
+				<div class="compblock">
+					<img src="img1/complimg4.jpg" alt="">
+					<div class="preimg">
+						<span class="sp2 prm">
+							1599
+								<span style="padding: 0px; float: none;">р</span>
+							</span>
+							<span class="sp2 chaik">
+							999
+								<span style="padding: 0px; float: none;">р</span>
+							</span>
+						<p class="compp2" >
+							Маникюр и педикюр с<br>
+покрытием гель-лак</p>
+
+					</div>
+				</div>
+			</div>
+			<!-- <input type="button" class="ordbtn" value="записаться"> -->
+			<div class="compcont choose_works" data-id="3" style="display: none;">">
+				<div class="compblock">
+					<img src="img1/complimg1.jpg" height="376" width="509" alt="">
+					<div class="preimg">
+						<p class="compp1">
+							стрижка
+							<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="">
+							окрашивание
+							<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="">
+							укладка
+							<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="">материалы</p>
+						<span class="sp1" >
+							1000
+							<span>р</span>
+							<br>
+							1400
+							<span>р</span>
+							<br>
+							1900
+							<span>р</span>
+							<br>
+							2250
+							<span>р</span>
+						</span>
+						<ul>
+							<li>
+								короткие
+								<span>
+									....................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								средние
+								<span>
+									.....................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								длинные
+								<span>
+									.....................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								очень длинные
+								<span>
+									....................
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="compblock">
+					<img src="img1/complimg2.jpg" height="376" width="509" alt="">
+					<div class="preimg">
+						<p class="compp1">
+							Окрашивание <img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt=""> спа-процедура со скидкой 50%</p>
+						<span class="sp1" >
+							990
+							<span>р</span>
+							<br>
+							1400
+							<span>р</span>
+							<br>
+							2000
+							<span>р</span>
+							<br>
+							2250
+							<span>р</span>
+						</span>
+						<ul>
+							<li>
+								короткие
+								<span>
+									....................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								средние
+								<span>
+									.....................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								длинные
+								<span>
+									....................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								очень длинные
+								<span>
+									....................
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="compblock">
+					<img src="img1/complimg3.jpg"alt="">
+					<div class="preimg">
+						
+							<span class="sp2 prm">
+							750
+								<span style="padding: 0px; float: none;">р</span>
+							</span>
+							<span class="sp2 chaik">
+							399
+								<span style="padding: 0px; float: none;">р</span>
+							</span>
+						<p class="compp2" style="font-size: 35px; line-height: 58px;">
+							Маникюр
+							<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="">
+							гель-лак</p>
+
+					</div>
+				</div>
+				<div class="compblock">
+					<img src="img1/complimg4.jpg" alt="">
+					<div class="preimg">
+						<span class="sp2 prm">
+							1950
+								<span style="padding: 0px; float: none;">р</span>
+							</span>
+							<span class="sp2 chaik">
+							999
+								<span style="padding: 0px; float: none;">р</span>
+							</span>
+						<p class="compp2" >
+							Маникюр и педикюр с<br>
+покрытием гель-лак</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="compcont choose_works" data-id="4" style="display: none;">">
+				<div class="compblock">
+					<img src="img1/complimg1.jpg" height="376" width="509" alt="">
+					<div class="preimg">
+						<p class="compp1">
+							стрижка
+							<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="">
+							окрашивание
+							<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="">
+							укладка
+							<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="">материалы</p>
+						<span class="sp1" >
+							799
+							<span>р</span>
+							<br>
+							1099
+							<span>р</span>
+							<br>
+							1499
+							<span>р</span>
+							<br>
+							1799
+							<span>р</span>
+						</span>
+						<ul>
+							<li>
+								короткие
+								<span>
+									......................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								средние
+								<span>
+									.......................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								длинные
+								<span>
+									......................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								очень длинные
+								<span>
+									......................
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="compblock">
+					<img src="img1/complimg2.jpg" height="376" width="509" alt="">
+					<div class="preimg">
+						<p class="compp1">
+							Окрашивание <img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt=""> спа-процедура со скидкой 50%</p>
+						<span class="sp1" >
+							790
+							<span>р</span>
+							<br>
+							1100
+							<span>р</span>
+							<br>
+							1599
+							<span>р</span>
+							<br>
+							1790
+							<span>р</span>
+						</span>
+						<ul>
+							<li>
+								короткие
+								<span>
+									......................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								средние
+								<span>
+									.......................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								длинные
+								<span>
+									......................
+									<span class="dots">......</span>
+								</span>
+							</li>
+							<li>
+								очень длинные
+								<span>
+									......................
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="compblock">
+					<img src="img1/complimg3.jpg"alt="">
+					<div class="preimg">
+						
+							<span class="sp2 prm">
+							590
+								<span style="padding: 0px; float: none;">р</span>
+							</span>
+							<span class="sp2 chaik">
+							399
+								<span style="padding: 0px; float: none;">р</span>
+							</span>
+						<p class="compp2" style="font-size: 35px; line-height: 58px;">
+							Маникюр
+							<img src="img1/plus.png" style="height: 11px; vertical-align: middle;" alt="">
+							гель-лак</p>
+
+					</div>
+				</div>
+				<div class="compblock">
+					<img src="img1/complimg4.jpg" alt="">
+					<div class="preimg">
+						<span class="sp2 prm">
+							1699
+								<span style="padding: 0px; float: none;">р</span>
+							</span>
+							<span class="sp2 chaik">
+							999
+								<span style="padding: 0px; float: none;">р</span>
+							</span>
+						<p class="compp2" >
+							Маникюр и педикюр с<br>
+покрытием гель-лак</p>
+
+					</div>
+				</div>
+			</div>
+			<!-- <input type="button" class="ordbtn" value="записаться"> -->
+			<a href="#" class="ms_booking">Записаться</a>
+		</section>
 	</div>
 	<section class="asksect">
 		<p>Не нашли интересующую вас услугу?</p>
@@ -1665,97 +4258,370 @@
 	<section class="otzsect" style="">
 		<h2>отзывы</h2>
 		<hr>
-		<div class="comentblock otz1">
-			<div class="comentcont">
-				<img src="img1/otz1.jpg" alt="">
-				<div class="comenttext">
-					<h3>
-						Артём,
-						<span>клиент салона на Екатерининской, 134 г. Пермь</span>
-					</h3>
-					<p>
-						Знаю о парикмахерской с открытия. В первый раз
-						<br>
-						сходил, проверил – мне понравилось! Теперь
-						<br>
-						постоянно пользуюсь услугами вашей
-						<br>парикмахерской. Советую всем!</p>
+		<div class="chosse_otz" data-id="1">
+			<div class="comentblock otz1">
+				<div class="comentcont">
+					<img src="img1/otz1.jpg" alt="">
+					<div class="comenttext">
+						<h3>
+							Артём,
+							<span>клиент салона на Екатерининской, 134 г. Пермь</span>
+						</h3>
+						<p>
+							Знаю о парикмахерской с открытия. В первый раз
+							<br>
+							сходил, проверил – мне понравилось! Теперь
+							<br>
+							постоянно пользуюсь услугами вашей
+							<br>парикмахерской. Советую всем!</p>
+					</div>
+					<div class="clearfix"></div>
 				</div>
-				<div class="clearfix"></div>
+			</div>
+			<div class="comentblock otz2">
+				<div class="comentcont">
+					<div class="comenttext">
+						<h3>
+							Людмила,
+							<span>клиент салона на ул.Генерала Лизюкова 38 г.Воронеж</span>
+						</h3>
+						<p>
+							Спасибо парикмахерской «Стрижка за стрижкой» за
+							<br>креативную стрижку. Придем к вам еще!</p>
+					</div>
+					<img src="img1/otz2.jpg" alt="">
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<!--div class="comentblock otz3">
+				<div class="comentcont">
+					<img src="img1/otz3.jpg" alt="">
+					<div class="comenttext">
+						<h3>
+							Ярослав,
+							<span>клиент салона на Вокзальной, 23 г. Чайковский</span>
+						</h3>
+						<p style="">
+							Подстригся в «Стрижке за стрижкой». Все очень
+							<br>
+							понравилось. Хороший приветливый персонал.
+							<br>Остался доволен! Спасибо!</p>
+					</div>
+					<div  class="clearfix"></div>
+				</div>
+			</div-->
+	        <div class="comentblock otz3">
+				<div class="comentcont">
+					<img src="img1/natali.jpg" alt="">
+					<div class="comenttext">
+						<h3>
+							Татьяна,
+							<span>клиент салона Пр. Парковый 15/6Б г.Пермь</span>
+						</h3>
+						<p style="">
+							Добрый день, меня зовут Татьяна. Мне очень нравится
+							<br>
+							мастер маникюра Светлана. А парикмахер
+							<br>Елена – волшебница! Удачи вам! Процветайте!</p>
+					</div>
+					<div  class="clearfix"></div>
+				</div>
+			</div>
+			<div class="comentblock otz2">
+				<div class="comentcont">
+					<div class="comenttext">
+						<h3>
+							Мария,
+							<span>клиент салона на Советской, 22 г. Чайковский</span>
+						</h3>
+						<p>
+							Я была в салоне «Стрижка за стрижкой» на уральской на
+							<br>
+							маникюре у мастера Антонины. Мне очень все понравилось.
+							<br>
+							Я приехала из Екатеринбурга, впервые у вас. Осталась
+							<br>
+							ооочень довольна! Девочки, приходите, очень советую!
+							<br>Сама приду еще раз обязательно!</p>
+					</div>
+					<img src="img1/otz4.jpg" alt="">
+					<div class="clearfix"></div>
+				</div>
 			</div>
 		</div>
-		<div class="comentblock otz2">
-			<div class="comentcont">
-				<div class="comenttext">
-					<h3>
-						Людмила,
-						<span>клиент салона на Революции, 8 г. Пермь</span>
-					</h3>
-					<p>
-						Спасибо парикмахерской «Стрижка за стрижкой» за
-						<br>креативную стрижку. Придем к вам еще!</p>
+		<div class="chosse_otz" data-id="2" style="display:none;">
+			<div class="comentblock otz1">
+				<div class="comentcont">
+					<img src="img1/otz1.jpg" alt="">
+					<div class="comenttext">
+						<h3>
+							Артём,
+							<span>клиент салона на Екатерининской, 134 г. Пермь</span>
+						</h3>
+						<p>
+							Знаю о парикмахерской с открытия. В первый раз
+							<br>
+							сходил, проверил – мне понравилось! Теперь
+							<br>
+							постоянно пользуюсь услугами вашей
+							<br>парикмахерской. Советую всем!</p>
+					</div>
+					<div class="clearfix"></div>
 				</div>
-				<img src="img1/otz2.jpg" alt="">
-				<div class="clearfix"></div>
+			</div>
+			<div class="comentblock otz2">
+				<div class="comentcont">
+					<div class="comenttext">
+						<h3>
+							Людмила,
+							<span>клиент салона на ул.Генерала Лизюкова 38 г.Воронеж</span>
+						</h3>
+						<p>
+							Спасибо парикмахерской «Стрижка за стрижкой» за
+							<br>креативную стрижку. Придем к вам еще!</p>
+					</div>
+					<img src="img1/otz2.jpg" alt="">
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<!--div class="comentblock otz3">
+				<div class="comentcont">
+					<img src="img1/otz3.jpg" alt="">
+					<div class="comenttext">
+						<h3>
+							Ярослав,
+							<span>клиент салона на Вокзальной, 23 г. Чайковский</span>
+						</h3>
+						<p style="">
+							Подстригся в «Стрижке за стрижкой». Все очень
+							<br>
+							понравилось. Хороший приветливый персонал.
+							<br>Остался доволен! Спасибо!</p>
+					</div>
+					<div  class="clearfix"></div>
+				</div>
+			</div-->
+	        <div class="comentblock otz3">
+				<div class="comentcont">
+					<img src="img1/otz5.jpg" alt="">
+					<div class="comenttext">
+						<h3>
+							Татьяна,
+							<span>клиент салона Пр. Парковый 15/6Б г.Пермь</span>
+						</h3>
+						<p style="">
+							Добрый день, меня зовут Татьяна. Мне очень нравится
+							<br>
+							мастер маникюра Светлана. А парикмахер
+							<br>Елена – волшебница! Удачи вам! Процветайте!</p>
+					</div>
+					<div  class="clearfix"></div>
+				</div>
+			</div>
+			<div class="comentblock otz2">
+				<div class="comentcont">
+					<div class="comenttext">
+						<h3>
+							Мария,
+							<span>клиент салона на Советской, 22 г. Чайковский</span>
+						</h3>
+						<p>
+							Я была в салоне «Стрижка за стрижкой» на уральской на
+							<br>
+							маникюре у мастера Антонины. Мне очень все понравилось.
+							<br>
+							Я приехала из Екатеринбурга, впервые у вас. Осталась
+							<br>
+							ооочень довольна! Девочки, приходите, очень советую!
+							<br>Сама приду еще раз обязательно!</p>
+					</div>
+					<img src="img1/otz4.jpg" alt="">
+					<div class="clearfix"></div>
+				</div>
 			</div>
 		</div>
-		<!--div class="comentblock otz3">
-			<div class="comentcont">
-				<img src="img1/otz3.jpg" alt="">
-				<div class="comenttext">
+		<div class="chosse_otz" data-id="3" style="display:none;">
+			<div class="comentblock otz1">
+				<div class="comentcont">
+					<img src="img1/otz1.jpg" alt="">
+					<div class="comenttext">
+						<h3>
+							Артём,
+							<span>клиент салона на Екатерининской, 134 г. Пермь</span>
+						</h3>
+						<p>
+							Знаю о парикмахерской с открытия. В первый раз
+							<br>
+							сходил, проверил – мне понравилось! Теперь
+							<br>
+							постоянно пользуюсь услугами вашей
+							<br>парикмахерской. Советую всем!</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="comentblock otz2">
+				<div class="comentcont">
+					<img src="img1/karina.jpg" alt="">
+					<div class="comenttext">
 					<h3>
-						Ярослав,
-						<span>клиент салона на Вокзальной, 23 г. Чайковский</span>
+						Карина
+						<span style="font-size:16px;">клиент салона Пр. Маршала Жукова 35 корпус 3 г.Санкт-Петербург</span>
 					</h3>
 					<p style="">
-						Подстригся в «Стрижке за стрижкой». Все очень
+						Огромное спасибо салону @szs_spb,за окрашивание,это именно то что я хотела
 						<br>
-						понравилось. Хороший приветливый персонал.
-						<br>Остался доволен! Спасибо!</p>
+						Отдельно спасибо мастеру Эле за золотые ручки!Салон новый,чистый и очень красивый
+						<br>Пока сидела с окрашиванием персонал был очень внимателен,предлагали кофе.Я рада что успела на акцию)<br>Заплатила только за окрашивание,причём для моих густых волос ценник в других салона называли гораздо выше</p>
+					</div>
 				</div>
-				<div  class="clearfix"></div>
 			</div>
-		</div-->
-        <div class="comentblock otz3">
-			<div class="comentcont">
-				<img src="img1/otz5.jpg" alt="">
-				<div class="comenttext">
-					<h3>
-						Татьяна,
-						<span>клиент салона Пр. Парковый 15/6Б г.Пермь</span>
-					</h3>
-					<p style="">
-						Добрый день, меня зовут Татьяна. Мне очень нравится
-						<br>
-						мастер маникюра Светлана. А парикмахер
-						<br>Елена – волшебница! Удачи вам! Процветайте!</p>
+			<!--div class="comentblock otz3">
+				<div class="comentcont">
+					<img src="img1/otz3.jpg" alt="">
+					<div class="comenttext">
+						<h3>
+							Ярослав,
+							<span>клиент салона на Вокзальной, 23 г. Чайковский</span>
+						</h3>
+						<p style="">
+							Подстригся в «Стрижке за стрижкой». Все очень
+							<br>
+							понравилось. Хороший приветливый персонал.
+							<br>Остался доволен! Спасибо!</p>
+					</div>
+					<div  class="clearfix"></div>
 				</div>
-				<div  class="clearfix"></div>
+			</div-->
+	        <div class="comentblock otz3">
+				<div class="comentcont">
+					<img src="img1/natali.jpg" alt="">
+					<div class="comenttext">
+						<h3>
+							Наталья ,
+							<span>клиент салона Пр. Парковый 15/6Б г.Пермь</span>
+						</h3>
+						<p style="">
+							Была у мастера Алёны,все очень понравилось!
+							<br>
+							быстро,качественно,красиво!</p>
+					</div>
+					<div  class="clearfix"></div>
+				</div>
+			</div>
+			<div class="comentblock otz2">
+				<div class="comentcont">
+					<div class="comenttext">
+						<h3>
+							Мария,
+							<span>клиент салона на Советской, 22 г. Чайковский</span>
+						</h3>
+						<p>
+							Я была в салоне «Стрижка за стрижкой» на уральской на
+							<br>
+							маникюре у мастера Антонины. Мне очень все понравилось.
+							<br>
+							Я приехала из Екатеринбурга, впервые у вас. Осталась
+							<br>
+							ооочень довольна! Девочки, приходите, очень советую!
+							<br>Сама приду еще раз обязательно!</p>
+					</div>
+					<img src="img1/otz4.jpg" alt="">
+					<div class="clearfix"></div>
+				</div>
 			</div>
 		</div>
-		<div class="comentblock otz2">
-			<div class="comentcont">
-				<div class="comenttext">
-					<h3>
-						Мария,
-						<span>клиент салона на Советской, 22 г. Чайковский</span>
-					</h3>
-					<p>
-						Я была в салоне «Стрижка за стрижкой» на уральской на
-						<br>
-						маникюре у мастера Антонины. Мне очень все понравилось.
-						<br>
-						Я приехала из Екатеринбурга, впервые у вас. Осталась
-						<br>
-						ооочень довольна! Девочки, приходите, очень советую!
-						<br>Сама приду еще раз обязательно!</p>
+		<div class="chosse_otz" data-id="4" style="display: none;">
+			<div class="comentblock otz1">
+				<div class="comentcont">
+					<img src="img1/otz1.jpg" alt="">
+					<div class="comenttext">
+						<h3>
+							Артём,
+							<span>клиент салона на Екатерининской, 134 г. Пермь</span>
+						</h3>
+						<p>
+							Знаю о парикмахерской с открытия. В первый раз
+							<br>
+							сходил, проверил – мне понравилось! Теперь
+							<br>
+							постоянно пользуюсь услугами вашей
+							<br>парикмахерской. Советую всем!</p>
+					</div>
+					<div class="clearfix"></div>
 				</div>
-				<img src="img1/otz4.jpg" alt="">
-				<div class="clearfix"></div>
+			</div>
+			<div class="comentblock otz2">
+				<div class="comentcont">
+					<div class="comenttext">
+						<h3>
+							Людмила,
+							<span style="font-size: 16px;">клиент салона на ул.Генерала Лизюкова 38 г.Воронеж</span>
+						</h3>
+						<p>
+							Спасибо парикмахерской «Стрижка за стрижкой» за
+							<br>креативную стрижку. Придем к вам еще!</p>
+					</div>
+					<img src="img1/otz2.jpg" alt="">
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<!--div class="comentblock otz3">
+				<div class="comentcont">
+					<img src="img1/otz3.jpg" alt="">
+					<div class="comenttext">
+						<h3>
+							Ярослав,
+							<span>клиент салона на Вокзальной, 23 г. Чайковский</span>
+						</h3>
+						<p style="">
+							Подстригся в «Стрижке за стрижкой». Все очень
+							<br>
+							понравилось. Хороший приветливый персонал.
+							<br>Остался доволен! Спасибо!</p>
+					</div>
+					<div  class="clearfix"></div>
+				</div>
+			</div-->
+	        <div class="comentblock otz3">
+				<div class="comentcont">
+					<img src="img1/natali.jpg" alt="">
+					<div class="comenttext">
+						<h3>
+							Татьяна,
+							<span>клиент салона Пр. Парковый 15/6Б г.Пермь</span>
+						</h3>
+						<p style="">
+							Добрый день, меня зовут Татьяна. Мне очень нравится
+							<br>
+							мастер маникюра Светлана. А парикмахер
+							<br>Елена – волшебница! Удачи вам! Процветайте!</p>
+					</div>
+					<div  class="clearfix"></div>
+				</div>
+			</div>
+			<div class="comentblock otz2">
+				<div class="comentcont">
+					<div class="comenttext">
+						<h3>
+							Мария,
+							<span>клиент салона на Советской, 22 г. Чайковский</span>
+						</h3>
+						<p>
+							Я была в салоне «Стрижка за стрижкой» на уральской на
+							<br>
+							маникюре у мастера Антонины. Мне очень все понравилось.
+							<br>
+							Я приехала из Екатеринбурга, впервые у вас. Осталась
+							<br>
+							ооочень довольна! Девочки, приходите, очень советую!
+							<br>Сама приду еще раз обязательно!</p>
+					</div>
+					<img src="img1/otz4.jpg" alt="">
+					<div class="clearfix"></div>
+				</div>
 			</div>
 		</div>
-		
-
 		<div class="videoslidewrap">
 			<img src="img1/arrleft.png" class="arrleft" alt="">
 			<div class="slidewrap">
@@ -1803,8 +4669,11 @@
 			<img src="img1/arright.png" class="arrright" alt=""></div>
 	</section>
 	<section>
-		<div class="map prm" id="map" style="height:411px;"></div>
-		<div class="map2 chaik" id="map1" style="height:411px;"></div>
+		<div class="map prm choose_map" data-id="1" id="map1" style="height:411px;"></div>
+		<div class="map2 chaik choose_map" data-id="2" id="map2" style="height:411px;display:none;"></div>
+		<div class="map prm choose_map" data-id="3" id="map3" style="height:411px;display:none;"></div>
+		<div class="map2 chaik choose_map" data-id="4" id="map4" style="height:411px;display:none;"></div>
+
 	</section>
 	<section class="adrsect">
 		<p style="font-size: 23px; color: white; letter-spacing: 1.5px;">
@@ -1817,7 +4686,8 @@
 			/
 			<a href="" class="chkbtn choose_btn bot_btn" data-id="4">Воронеж</a>
 		</p>
-		<div class="addrwrap1 prm">
+		
+		<div class="addrwrap1 prm choose_adress" data-id="1">
 			<div class="addrcont">
 				<p class="adrtxt">ул. Крупской, д.40</p>
 				<p class="phonetxt">
@@ -1855,6 +4725,7 @@
 					<span style="margin-left: 7px; letter-spacing: 0.4px;">ежедневно</span>
 				</p>
 			</div>
+
 			<div class="addrcont">
 				<p class="adrtxt">ул. революции, д.8</p>
 				<p class="phonetxt">
@@ -1912,6 +4783,142 @@
 				<p class="phonetxt">
 					<span>тел.:</span>
 					<img src="img1/plus.png"  style="height: 12px; vertical-align: middle; margin-left: 5px;" alt="">7 342 204 09 55</p>
+				<p class="schedtxt">
+					<span style="letter-spacing: normal;">с</span>
+					9
+					<span style="margin-right: 5px; letter-spacing: 1px;">до</span>
+					21,
+					<span style="margin-left: 7px; letter-spacing: 0.4px;">ежедневно</span>
+				</p>
+			</div>
+		</div>
+		<div class="addrwrap1 prm choose_adress" data-id="2" style="display:none;">
+			<div class="addrcont">
+				<p class="adrtxt">ул. Крупской, д.40</p>
+				<p class="phonetxt">
+					<span>тел.:</span>
+					<img src="img1/plus.png" style="height: 12px; vertical-align: middle; margin-left: 5px;"  alt="">7 342 287 14 81</p>
+				<p class="schedtxt">
+					<span style="letter-spacing: normal;">с</span>
+					9
+					<span style="margin-right: 5px; letter-spacing: 1px;">до</span>
+					21,
+					<span style="margin-left: 7px; letter-spacing: 0.4px;">ежедневно</span>
+				</p>
+			</div>
+			<div style="margin: auto 45px;" class="addrcont">
+				<p class="adrtxt">ул. ким, д.83</p>
+				<p style="font-size: 28px; color: white; line-height: normal; letter-spacing: 1.45px;">тел.: 287 18 60</p>
+				<p class="schedtxt">
+					<span style="letter-spacing: normal;">с</span>
+					9
+					<span style="margin-right: 5px; letter-spacing: 1px;">до</span>
+					21,
+					<span style="margin-left: 7px; letter-spacing: 0.4px;">ежедневно</span>
+				</p>
+			</div>
+			<div style="margin: auto 0px auto 8px;" class="addrcont">
+				<p class="adrtxt">ул. екатеринская, д.134</p>
+				<p class="phonetxt">
+					<span>тел.:</span>
+					<img src="img1/plus.png"  style="height: 12px; vertical-align: middle; margin-left: 5px;" alt="">7 342 286 90 88</p>
+				<p class="schedtxt">
+					<span style="letter-spacing: normal;">с</span>
+					9
+					<span style="margin-right: 5px; letter-spacing: 1px;">до</span>
+					21,
+					<span style="margin-left: 7px; letter-spacing: 0.4px;">ежедневно</span>
+				</p>
+			</div>
+
+			<div class="addrcont">
+				<p class="adrtxt">ул. революции, д.8</p>
+				<p class="phonetxt">
+					<span>тел.:</span>
+					<img src="img1/plus.png" style="height: 12px; vertical-align: middle; margin-left: 5px;"  alt="">7 342 287 14 90</p>
+				<p class="schedtxt">
+					<span style="letter-spacing: normal;">с</span>
+					9
+					<span style="margin-right: 5px; letter-spacing: 1px;">до</span>
+					21,
+					<span style="margin-left: 7px; letter-spacing: 0.4px;">ежедневно</span>
+				</p>
+			</div>
+			<div class="addrcont">
+				<p class="adrtxt">пр. парковый, д.15/6б</p>
+				<p class="phonetxt">
+					<span>тел.:</span>
+					<img src="img1/plus.png" style="height: 12px; vertical-align: middle; margin-left: 5px;"  alt="">7 342 287 17 13</p>
+				<p class="schedtxt">
+					<span style="letter-spacing: normal;">с</span>
+					9
+					<span style="margin-right: 5px; letter-spacing: 1px;">до</span>
+					21,
+					<span style="margin-left: 7px; letter-spacing: 0.4px;">ежедневно</span>
+				</p>
+			</div>
+			<div class="addrcont" style="margin-right: 0;" >
+				<p class="adrtxt">ул. Глеба Успенского д.8</p>
+				<p class="phonetxt">
+					<span>тел.:</span>
+					<img src="img1/plus.png" style="height: 12px; vertical-align: middle; margin-left: 5px;"  alt="">7 342 288 46 26</p>
+				<p class="schedtxt">
+					<span style="letter-spacing: normal;">с</span>
+					9
+					<span style="margin-right: 5px; letter-spacing: 1px;">до</span>
+					21,
+					<span style="margin-left: 7px; letter-spacing: 0.4px;">ежедневно</span>
+				</p>
+			</div>
+			<div class="addrcont">
+				<p class="adrtxt">ул. Уинская, д.8</p>
+				<p class="phonetxt">
+					<span>тел.:</span>
+					<img src="img1/plus.png"  style="height: 12px; vertical-align: middle; margin-left: 5px;" alt="">7 342 287 15 01</p>
+				<p class="schedtxt">
+					<span style="letter-spacing: normal;">с</span>
+					9
+					<span style="margin-right: 5px; letter-spacing: 1px;">до</span>
+					21,
+					<span style="margin-left: 7px; letter-spacing: 0.4px;">ежедневно</span>
+				</p>
+			</div>
+			<div class="addrcont">
+				<p class="adrtxt">ул. Декабристов, д.13</p>
+				<p class="phonetxt">
+					<span>тел.:</span>
+					<img src="img1/plus.png"  style="height: 12px; vertical-align: middle; margin-left: 5px;" alt="">7 342 204 09 55</p>
+				<p class="schedtxt">
+					<span style="letter-spacing: normal;">с</span>
+					9
+					<span style="margin-right: 5px; letter-spacing: 1px;">до</span>
+					21,
+					<span style="margin-left: 7px; letter-spacing: 0.4px;">ежедневно</span>
+				</p>
+			</div>
+		</div>
+		<div class="addrwrap1 prm choose_adress" data-id="3" style="display:none;">
+			<div class="addrcont">
+				<p class="adrtxt">пр.Маршала 35 корпус 3</p>
+				<p class="phonetxt">
+					<span>тел.:</span>
+					<img src="img1/plus.png" style="height: 12px; vertical-align: middle; margin-left: 5px;"  alt="">605 95 11</p>
+				<p class="schedtxt">
+					<span style="letter-spacing: normal;">с</span>
+					9
+					<span style="margin-right: 5px; letter-spacing: 1px;">до</span>
+					21,
+					<span style="margin-left: 7px; letter-spacing: 0.4px;">ежедневно</span>
+				</p>
+			</div>
+			
+		</div>
+		<div class="addrwrap1 prm choose_adress" data-id="4" style="display:none;">
+			<div class="addrcont">
+				<p class="adrtxt">ул. Генерала Лизюкова,д.38</p>
+				<p class="phonetxt">
+					<span>тел.:</span>
+					<img src="img1/plus.png" style="height: 12px; vertical-align: middle; margin-left: 5px;"  alt="">228 69 55</p>
 				<p class="schedtxt">
 					<span style="letter-spacing: normal;">с</span>
 					9
@@ -1988,9 +4995,19 @@
 						<img src="img1/fvk.png" height="29" width="29" alt="vk"></a>
 					<a href="https://www.instagram.com/szs_perm/" target="_blank" style="margin-left: 4px; margin-right: 6px;" >
 						<img src="img1/finsta.png"  alt="ins"></a>
-					<a href="tel:+ 73422871501" class="num">
+					<a href="tel:+ 73422871501" class="num choose_fotnumb" data-id="1">
 						<img src="img1/plus.png" style="height: 15px; vertical-align: middle;" alt="">7 342 287 15 01</a>
-					<input type="button" class="phbtn" value="Заказать звонок"></div>
+
+						<a href="tel:+ 73422871501" class="num choose_fotnumb" style="display:none;" data-id="2">
+						<img src="img1/plus.png" style="height: 15px; vertical-align: middle;" alt="">7 342 287 15 01</a>
+
+						<a href="tel:+ 73422871501" class="num choose_fotnumb" style="display:none;" data-id="3">
+						<img src="img1/plus.png" style="height: 15px; vertical-align: middle;" alt="">7 812 605 95 11</a>
+
+						<a href="tel:+ 73422871501" class="num choose_fotnumb" style="display:none;" data-id="4">
+						<img src="img1/plus.png" style="height: 15px; vertical-align: middle;" alt="">7 228 69 55</a>
+					<input type="button" class="phbtn" value="Заказать звонок">
+				</div>
 			</div>
 		</div>
 		
