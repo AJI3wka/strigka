@@ -1583,7 +1583,7 @@
 				</p>
 			</div>
 			<div class="addrcont">
-				<p class="adrtxt">ул. Декабристов, д.8</p>
+				<p class="adrtxt">ул. Декабристов, д.13</p>
 				<p class="phonetxt">
 					<span>тел.:</span>
 					<img src="img1/plus.png"  style="height: 12px; vertical-align: middle; margin-left: 5px;" alt="">7 342 204 09 55</p>
