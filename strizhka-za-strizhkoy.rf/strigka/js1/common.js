@@ -300,6 +300,45 @@ $('.choose_btn').click(function(e) {
 
     $(document).ready(
     function(){
+
+        $('form').unbind('submit');
+        $('form').submit(function(e){
+            alert('wtf');
+        e.preventDefault();
+        $(this).find('input[type="text"]').trigger('blur');
+        if(!$(this).find('input[type="text"]').hasClass('error-input')){
+            var type=$(this).attr('method');
+            var url=$(this).attr('action');
+            var data=$(this).serialize();
+            var track_event=$(this).find('input[name="event"]').val();
+            $.ajax({type: type, url: url, data: data,
+                success : function(){
+                    //$.arcticmodal('close');$('#okgo').arcticmodal();
+                    //submit_track_event(track_event);
+                }
+            }); 
+        }else{
+
+            var eror_pop_text = '';
+
+            if ($(this).find('input[name="name"]').hasClass('error-input') && !$(this).find('input[name="phone"]').hasClass('error-input')) {
+                eror_pop_text = 'Пожалуйста введите имя';
+            } else
+
+            if($(this).find('input[name="phone"]').hasClass('error-input') && !$(this).find('input[name="name"]').hasClass('error-input')){
+                eror_pop_text = 'Пожалуйста введите телефон';
+            }else
+
+            if($(this).find('input[name="phone"]').hasClass('error-input') && $(this).find('input[name="name"]').hasClass('error-input')){
+                eror_pop_text = 'Пожалуйста введите имя и телефон';
+            }
+
+            $('#form-error-text').html(eror_pop_text)
+            $('#form-error-pop').arcticmodal();
+        }
+    });
+
+
         $("a.scrollto").click(function(){
             var elementClick=$(this).attr("href")
             var destination=$(elementClick).offset().top;

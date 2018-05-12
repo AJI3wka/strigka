@@ -129,28 +129,28 @@
 					<div>
 						<img src="img1/picon1.png" alt="">
 						<p>
-							7992
+							800
 							<span>р</span>
 						</p>
 					</div>
 					<div>
 						<img src="img1/picon2.png" alt="">
 						<p>
-							10992
+							1100
 							<span>р</span>
 						</p>
 					</div>
 					<div>
 						<img src="img1/picon3.png" alt="">
 						<p>
-							14992
+							1599
 							<span>р</span>
 						</p>
 					</div>
 					<div>
 						<img src="img1/picon4.png" alt="">
 						<p>
-							17992
+							1900
 							<span>р</span>
 						</p>
 					</div>
@@ -189,28 +189,28 @@
 					<div>
 						<img src="img1/picon1.png" alt="">
 						<p>
-							4799
+							900
 							<span>р</span>
 						</p>
 					</div>
 					<div>
 						<img src="img1/picon2.png" alt="">
 						<p>
-							10994
+							1100
 							<span>р</span>
 						</p>
 					</div>
 					<div>
 						<img src="img1/picon3.png" alt="">
 						<p>
-							14994
+						    1600
 							<span>р</span>
 						</p>
 					</div>
 					<div>
 						<img src="img1/picon4.png" alt="">
 						<p>
-							17994
+							1899
 							<span>р</span>
 						</p>
 					</div>
